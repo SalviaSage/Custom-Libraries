@@ -1,0 +1,108 @@
+﻿;; Hiragana Typer v1.0. A way to type in the Hiragana script with the keyboard. ;; Case Insensitive
+
+*C1OZ‖a‖SI‖En‖あ‖hiragana letter a (U+3042) - Automatic Replace
+*C1OZ‖i‖SI‖En‖い‖hiragana letter i (U+3044) - Automatic Replace
+*C1OZ‖u‖SI‖En‖う‖hiragana letter u (U+3046) - Automatic Replace
+*C1OZ‖e‖SI‖En‖え‖hiragana letter e (U+3048) - Automatic Replace
+*C1OZ‖o‖SI‖En‖お‖hiragana letter o (U+304A) - Automatic Replace
+
+*C1?OZ‖wa‖SI‖En‖わ‖hiragana letter wa (U+308F) - Automatic Replace
+*C1?OZ‖wi‖SI‖En‖ゐ‖hiragana letter wi (U+3090) - Automatic Replace
+*C1?OZ‖wu‖SI‖En‖𛄟‖hiragana letter archaic wu (U+1B11F) - Automatic Replace
+*C1?OZ‖we‖SI‖En‖ゑ‖hiragana letter we (U+3091) - Automatic Replace
+*C1?OZ‖wo‖SI‖En‖を‖hiragana letter wo (U+3092) - Automatic Replace
+
+*C1?OZ‖ya‖SI‖En‖や‖hiragana letter ya (U+3084) - Automatic Replace
+*C1?OZ‖yi‖SI‖En‖𛀆‖hentaigana letter i-1 (U+1B006) - Automatic Replace
+*C1?OZ‖yu‖SI‖En‖ゆ‖hiragana letter yu (U+3086) - Automatic Replace
+*C1?OZ‖ye‖SI‖En‖𛀁‖hiragana letter archaic ye (U+1B001) - Automatic Replace
+*C1?OZ‖yo‖SI‖En‖よ‖hiragana letter yo (U+3088) - Automatic Replace
+
+*C1?OZ‖ka‖SI‖En‖か‖hiragana letter ka (U+304B) - Automatic Replace
+*C1?OZ‖ki‖SI‖En‖き‖hiragana letter ki (U+304D) - Automatic Replace
+*C1?OZ‖ku‖SI‖En‖く‖hiragana letter ku (U+304F) - Automatic Replace
+*C1?OZ‖ke‖SI‖En‖け‖hiragana letter ke (U+3051) - Automatic Replace
+*C1?OZ‖ko‖SI‖En‖こ‖hiragana letter ko (U+3053) - Automatic Replace
+
+*C1?OZ‖sa‖SI‖En‖さ‖hiragana letter sa (U+3055) - Automatic Replace
+*C1?OZ‖si‖SI‖En‖し‖hiragana letter si (U+3057) - Automatic Replace
+*C1?OZ‖shi‖SI‖En‖し‖hiragana letter si (U+3057) - Automatic Replace
+*C1?OZ‖su‖SI‖En‖す‖hiragana letter su (U+3059) - Automatic Replace
+*C1?OZ‖se‖SI‖En‖せ‖hiragana letter se (U+305B) - Automatic Replace
+*C1?OZ‖so‖SI‖En‖そ‖hiragana letter so (U+305D) - Automatic Replace
+
+*C1?OZ‖ta‖SI‖En‖た‖hiragana letter ta (U+305F) - Automatic Replace
+*C1?OZ‖ti‖SI‖En‖ち‖hiragana letter ti (U+3061) - Automatic Replace
+*C1?OZ‖tu‖SI‖En‖つ‖hiragana letter tu (U+3064) - Automatic Replace
+*C1?OZ‖tsu‖SI‖En‖つ‖hiragana letter tu (U+3064) - Automatic Replace
+*C1?OZ‖te‖SI‖En‖て‖hiragana letter te (U+3066) - Automatic Replace
+*C1?OZ‖to‖SI‖En‖と‖hiragana letter to (U+3068) - Automatic Replace
+
+*C1?OZ‖na‖SI‖En‖な‖hiragana letter na (U+306A) - Automatic Replace
+*C1?OZ‖ni‖SI‖En‖に‖hiragana letter ni (U+306B) - Automatic Replace
+*C1?OZ‖nu‖SI‖En‖ぬ‖hiragana letter nu (U+306C) - Automatic Replace
+*C1?OZ‖ne‖SI‖En‖ね‖hiragana letter ne (U+306D) - Automatic Replace
+*C1?OZ‖no‖SI‖En‖の‖hiragana letter no (U+306E) - Automatic Replace
+
+*C1?OZ‖ha‖SI‖En‖は‖hiragana letter ha (U+306F) - Automatic Replace
+*C1?OZ‖hi‖SI‖En‖ひ‖hiragana letter hi (U+3072) - Automatic Replace
+*C1?OZ‖hu‖SI‖En‖ふ‖hiragana letter hu (U+3075) - Automatic Replace
+*C1?OZ‖hu‖SI‖En‖ふ‖hiragana letter fu (U+3075) - Automatic Replace
+*C1?OZ‖he‖SI‖En‖へ‖hiragana letter he (U+3078) - Automatic Replace
+*C1?OZ‖ho‖SI‖En‖ほ‖hiragana letter ho (U+307B) - Automatic Replace
+
+*C1?OZ‖ma‖SI‖En‖ま‖hiragana letter ma (U+307E) - Automatic Replace
+*C1?OZ‖mi‖SI‖En‖み‖hiragana letter mi (U+307F) - Automatic Replace
+*C1?OZ‖mu‖SI‖En‖む‖hiragana letter mu (U+3080) - Automatic Replace
+*C1?OZ‖me‖SI‖En‖め‖hiragana letter me (U+3081) - Automatic Replace
+*C1?OZ‖mo‖SI‖En‖も‖hiragana letter mo (U+3082) - Automatic Replace
+
+*C1?OZ‖ra‖SI‖En‖ら‖hiragana letter ra (U+3089) - Automatic Replace
+*C1?OZ‖ri‖SI‖En‖り‖hiragana letter ri (U+308A) - Automatic Replace
+*C1?OZ‖ru‖SI‖En‖る‖hiragana letter ru (U+308B) - Automatic Replace
+*C1?OZ‖re‖SI‖En‖れ‖hiragana letter re (U+308C) - Automatic Replace
+*C1?OZ‖ro‖SI‖En‖ろ‖hiragana letter ro (U+308D) - Automatic Replace
+
+
+*C1?OZ‖ga‖SI‖En‖が‖hiragana letter ga (U+304C) - Automatic Replace
+*C1?OZ‖gi‖SI‖En‖ぎ‖hiragana letter gi (U+304E) - Automatic Replace
+*C1?OZ‖gu‖SI‖En‖ぐ‖hiragana letter gu (U+3050) - Automatic Replace
+*C1?OZ‖ge‖SI‖En‖げ‖hiragana letter ge (U+3052) - Automatic Replace
+*C1?OZ‖go‖SI‖En‖ご‖hiragana letter go (U+3054) - Automatic Replace
+
+*C1?OZ‖za‖SI‖En‖ざ‖hiragana letter za (U+3056) - Automatic Replace
+*C1?OZ‖zi‖SI‖En‖じ‖hiragana letter zi (U+3058) - Automatic Replace
+*C1?OZ‖ji‖SI‖En‖じ‖hiragana letter zi (U+3058) - Automatic Replace
+*C1?OZ‖zu‖SI‖En‖ず‖hiragana letter zu (U+305A) - Automatic Replace
+*C1?OZ‖ze‖SI‖En‖ぜ‖hiragana letter ze (U+305C) - Automatic Replace
+*C1?OZ‖zo‖SI‖En‖ぞ‖hiragana letter zo (U+305E) - Automatic Replace
+*C1?OZ‖dzo‖SI‖En‖ぞ‖hiragana letter zo (U+305E) - Automatic Replace
+
+*C1?OZ‖da‖SI‖En‖だ‖hiragana letter da (U+3060) - Automatic Replace
+*C1?OZ‖di‖SI‖En‖ぢ‖hiragana letter di (U+3062) - Automatic Replace
+*C1?OZ‖du‖SI‖En‖づ‖hiragana letter du (U+3065) - Automatic Replace
+*C1?OZ‖dzu‖SI‖En‖づ‖hiragana letter du (U+3065) - Automatic Replace
+*C1?OZ‖de‖SI‖En‖で‖hiragana letter de (U+3067) - Automatic Replace
+*C1?OZ‖do‖SI‖En‖ど‖hiragana letter do (U+3069) - Automatic Replace
+
+*C1?OZ‖ba‖SI‖En‖ば‖hiragana letter ba (U+3070) - Automatic Replace
+*C1?OZ‖bi‖SI‖En‖び‖hiragana letter bi (U+3073) - Automatic Replace
+*C1?OZ‖bu‖SI‖En‖ぶ‖hiragana letter bu (U+3076) - Automatic Replace
+*C1?OZ‖be‖SI‖En‖べ‖hiragana letter be (U+3079) - Automatic Replace
+*C1?OZ‖bo‖SI‖En‖ぼ‖hiragana letter bo (U+307C) - Automatic Replace
+
+*C1?OZ‖pa‖SI‖En‖ぱ‖hiragana letter pa (U+3071) - Automatic Replace
+*C1?OZ‖pi‖SI‖En‖ぴ‖hiragana letter pi (U+3074) - Automatic Replace
+*C1?OZ‖pu‖SI‖En‖ぷ‖hiragana letter pu (U+3077) - Automatic Replace
+*C1?OZ‖pe‖SI‖En‖ぺ‖hiragana letter pe (U+307A) - Automatic Replace
+*C1?OZ‖po‖SI‖En‖ぽ‖hiragana letter po (U+307D) - Automatic Replace
+
+*C1?OZ‖l‖SI‖En‖ん‖hiragana letter n (U+3093) - Automatic Replace
+
+*C1?OZ‖x‖SI‖En‖ゃ‖hiragana letter small ya (U+3083) - Automatic Replace
+*C1?OZ‖c‖SI‖En‖ゅ‖hiragana letter small yu (U+3085) - Automatic Replace
+*C1?OZ‖v‖SI‖En‖ょ‖hiragana letter small yo (U+3087) - Automatic Replace
+
+*C1?OZ‖q‖SI‖En‖っ‖hiragana letter small tu (U+3063) - Automatic Replace
+
+*C1?OZ‖--‖SI‖En‖ー‖katakana-hiragana prolonged sound mark (U+30FC) - Automatic Replace
