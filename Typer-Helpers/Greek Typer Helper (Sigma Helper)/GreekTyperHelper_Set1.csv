@@ -1,4 +1,4 @@
-; Helps replace the word final sigma with the appropriate letter.
+; Helps replace the word final sigma with the appropriate letter.  ;; 11 definitions.
 
 *?Z‖σ ‖SI‖En‖{U+03C2} ‖final sigma automatic replace - space
 *?Z‖σ.‖SI‖En‖{U+03C2}.‖final sigma automatic replace - period
