@@ -1,4 +1,4 @@
-;; This library sends currency symbols. https://en.wikipedia.org/wiki/Currency_symbol ;; 62 definitions.
+;; This library sends currency symbols. https://en.wikipedia.org/wiki/Currency_symbol ;; 61 definitions.
 
 *C1?OZ‖^turkishlira ‖SI‖En‖{U+20BA}‖turkish lira sign - auto replace
 
@@ -82,8 +82,6 @@
 *C1?OZ‖^britishpound ‖SI‖En‖{U+00A3}‖pound sign - auto replace
 
 *C1?OZ‖^philipinepeso ‖SI‖En‖{U+20B1}‖peso sign - auto replace
-
-*C1?OZ‖^currencysign ‖SI‖En‖{U+00A4}‖currency sign - auto replace
 
 *C1?OZ‖^cambodianriel ‖SI‖En‖{U+17DB}‖khmer currency symbol riel - auto replace
 *C1?OZ‖^bangladeshitaka ‖SI‖En‖{U+09F3}‖bengali rupee sign - auto replace
