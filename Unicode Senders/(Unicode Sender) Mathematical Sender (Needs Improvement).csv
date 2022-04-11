@@ -1,4 +1,4 @@
-﻿;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 171 definitions.
+;; Sends mathematical symbols. ;; 56 definitions.
 
 *C1?OZ‖^plusminus ‖SI‖En‖{U+00B1}‖plus-minus sign (U+00B1)
 *C1?OZ‖^plusminussign ‖SI‖En‖{U+00B1}‖plus-minus sign (U+00B1)
