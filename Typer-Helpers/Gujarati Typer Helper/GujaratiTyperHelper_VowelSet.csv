@@ -1,4 +1,4 @@
-﻿;; Automatically fixes some typing mistakes related to vowel maatras. Intended to be used alongside this keyboard layout program: https://github.com/SalviaSage/Keyboard-Layouts/tree/master/Indic%20Typers/Bengali%20Typer
+;; Automatically fixes some typing mistakes related to vowel maatras when typing in the Gujarati Alphabet.
 
 *C1OZ‖ા‖SI‖En‖{U+0A85}‖gujarati letter a - Automatic Replace
 *C1OZ‖િ‖SI‖En‖{U+0A87}‖gujarati letter i - Automatic Replace
