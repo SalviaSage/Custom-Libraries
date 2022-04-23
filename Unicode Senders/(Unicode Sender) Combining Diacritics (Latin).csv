@@ -1,4 +1,4 @@
-;; Combining diacritics sender, helps type markings that go on top, below or around other letters.
+;; Combining diacritics sender, helps type markings that go on top, below or around other letters. 53 definitions.
 
 *C1?OZ‖^grave ‖SI‖En‖{U+0300}‖combining grave accent (U+0300)
 *C1?OZ‖^graveaccent ‖SI‖En‖{U+0300}‖combining grave accent (U+0300)
@@ -23,7 +23,9 @@
 *C1?OZ‖^hookabove ‖SI‖En‖{U+0309}‖combining hook above (U+0309)
 
 *C1?OZ‖^dotabove ‖SI‖En‖{U+0307}‖combining dot above (U+0307)
+*C1?OZ‖^overdot ‖SI‖En‖{U+0307}‖combining dot above (U+0307)
 *C1?OZ‖^dotbelow ‖SI‖En‖{U+0323}‖combining dot below (U+0323)
+*C1?OZ‖^underdot ‖SI‖En‖{U+0323}‖combining dot below (U+0323)
 
 *C1?OZ‖^cedilla ‖SI‖En‖{U+0327}‖combining cedilla (U+0327)
 
@@ -31,8 +33,21 @@
 
 *C1?OZ‖^sicilicus ‖SI‖En‖{U+0357}‖combining right half ring above (U+0357)
 
+
 *C1?OZ‖^breve ‖SI‖En‖{U+0306}‖combining breve (U+0306)
 *C1?OZ‖^invertedbreve ‖SI‖En‖{U+0311}‖combining inverted breve (U+0311)
+*C1?OZ‖^invertedbrevebelow ‖SI‖En‖{U+032F}‖combining inverted breve below (U+032F)
+*C1?OZ‖^doublebreve ‖SI‖En‖{U+035D}‖combining double breve (U+035D)
+*C1?OZ‖^doublebrevebelow ‖SI‖En‖{U+035C}‖combining double breve below (U+035C)
+*C1?OZ‖^tiebelow ‖SI‖En‖{U+035C}‖combining double breve below (U+035C)
+*C1?OZ‖^doubleinvertedbreve ‖SI‖En‖{U+0361}‖combining double inverted breve (U+0361)
+*C1?OZ‖^combiningtie ‖SI‖En‖{U+0361}‖combining double inverted breve (U+0361)
+*C1?OZ‖^tieabove ‖SI‖En‖{U+0361}‖combining double inverted breve (U+0361)
+*C1?OZ‖^doubleinvertedbrevebelow ‖SI‖En‖{U+1DFC}‖combining double inverted breve below (U+1DFC)
+
+*C1?Z‖^doubletie ‖SI‖En‖{U+0361}{right 1}{U+0361}‖combining double inverted breve (U+0361)
+*C1?Z‖^doubletiebelow ‖SI‖En‖{U+035C}{right 1}{U+035C}‖combining double breve below (U+035C)
+
 
 *C1?OZ‖^tilde ‖SI‖En‖{U+0303}‖combining tilde (U+0303)
 
@@ -54,3 +69,9 @@
 
 *C1?OZ‖^roughbreathing ‖SI‖En‖{U+0314}‖combining reversed comma above (U+0314)
 *C1?OZ‖^smoothbreathing ‖SI‖En‖{U+0313}‖combining comma above (U+0313)
+
+
+*C1?OZ‖^pinyintone1 ‖SI‖En‖{U+0304}‖combining macron (U+0304)
+*C1?OZ‖^pinyintone2 ‖SI‖En‖{U+0301}‖combining acute accent (U+0301)
+*C1?OZ‖^pinyintone3 ‖SI‖En‖{U+030C}‖combining caron (U+030C)
+*C1?OZ‖^pinyintone4 ‖SI‖En‖{U+0300}‖combining grave accent (U+0300)
