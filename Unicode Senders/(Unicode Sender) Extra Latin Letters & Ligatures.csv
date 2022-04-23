@@ -1,4 +1,4 @@
-﻿;; This library allows typing ligatures and extra letters that are found in languages written with the Latin alphabet. ;; ? definitions.
+;; This library allows typing ligatures and extra letters that are found in languages written with the Latin alphabet. ;; 73 definitions.
 
 *C1?OZ‖^oeligature ‖SI‖En‖{U+0153}‖latin small ligature oe (U+0153)
 *C1?OZ‖^capitaloeligature ‖SI‖En‖{U+0152}‖latin capital ligature oe (U+0152)
@@ -29,6 +29,13 @@
 
 *C1?OZ‖^enye ‖SI‖En‖{U+00F1}‖latin small letter n with tilde (U+00F1)
 *C1?OZ‖^ntilde ‖SI‖En‖{U+00F1}‖latin small letter n with tilde (U+00F1)
+
+*C1?OZ‖^elstroke ‖SI‖En‖{U+0142}‖latin small letter l with stroke (U+0142)
+*C1?OZ‖^strokedl ‖SI‖En‖{U+0142}‖latin small letter l with stroke (U+0142)
+*C1?OZ‖^strokedel ‖SI‖En‖{U+0142}‖latin small letter l with stroke (U+0142)
+*C1?OZ‖^capitalelstroke ‖SI‖En‖{U+0141}‖latin capital letter l with stroke (U+0141)
+*C1?OZ‖^capitalstrokedl ‖SI‖En‖{U+0141}‖latin capital letter l with stroke (U+0141)
+*C1?OZ‖^capitalstrokedel ‖SI‖En‖{U+0141}‖latin capital letter l with stroke (U+0141)
 
 *C1?OZ‖^scriptg ‖SI‖En‖{U+0261}‖latin small letter script g (U+0261)
 *C1?OZ‖^singlestoreyg ‖SI‖En‖{U+0261}‖latin small letter script g (U+0261)
