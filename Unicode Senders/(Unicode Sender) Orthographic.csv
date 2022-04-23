@@ -1,4 +1,4 @@
-﻿;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 165 definitions.
+;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 170 definitions.
 
 *C1?OZ‖^apostrophe ‖SI‖En‖{U+02BC}‖modifier letter apostrophe (U+02BC)
 *C1?OZ‖^okina ‖SI‖En‖{U+02BB}‖modifier letter turned comma (U+02BB)
@@ -75,12 +75,11 @@
 *C1?OZ‖^hyphen ‖SI‖En‖{U+2010}‖hyphen (U+2010)
 *C1?OZ‖^nonbreakinghyphen ‖SI‖En‖{U+2011}‖non-breaking hyphen (U+2011)
 *C1?OZ‖^non-breakinghyphen ‖SI‖En‖{U+2011}‖non-breaking hyphen (U+2011)
-
+*C1?OZ‖^horizontalbar ‖SI‖En‖{U+2015}‖horizontal bar (U+2015)
 *C1?OZ‖^endash ‖SI‖En‖{U+2013}‖en dash (U+2013)
 *C1?OZ‖^emdash ‖SI‖En‖{U+2014}‖em dash (U+2014)
 *C1?OZ‖^twoemdash ‖SI‖En‖{U+2E3A}‖two-em dash (U+2E3A)
 *C1?OZ‖^threeemdash ‖SI‖En‖{U+2E3B}‖three-em dash (U+2E3B)
-
 *C1?OZ‖^doublehyphen ‖SI‖En‖{U+2E17}‖double oblique hyphen (U+2E17)
 
 *C1?OZ‖^ditto ‖SI‖En‖{U+3003}‖ditto mark (U+3003)
@@ -118,6 +117,10 @@
 *C1?OZ‖^uparrow ‖SI‖En‖{U+2191}‖upwards arrow (U+2191)
 *C1?OZ‖^rightarrow ‖SI‖En‖{U+2192}‖rightwards arrow (U+2192)
 *C1?OZ‖^downarrow ‖SI‖En‖{U+2193}‖downwards arrow (U+2193)
+*C1?OZ‖^northwestarrow ‖SI‖En‖{U+1F854}‖north west sans-serif arrow (U+1F854)
+*C1?OZ‖^northeastarrow ‖SI‖En‖{U+1F855}‖north east sans-serif arrow (U+1F855)
+*C1?OZ‖^southeastarrow ‖SI‖En‖{U+1F856}‖south east sans-serif arrow (U+1F856)
+*C1?OZ‖^southwestarrow ‖SI‖En‖{U+1F857}‖south west sans-serif arrow (U+1F857)
 
 *C1?OZ‖^careof ‖SI‖En‖{U+2105}‖care of (U+2105)
 *C1?OZ‖^cadauna ‖SI‖En‖{U+2106}‖cada una (U+2106)
