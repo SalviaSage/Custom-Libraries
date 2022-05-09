@@ -73,6 +73,7 @@
 *C1?OZ‖^trademarksign ‖SI‖En‖{U+2122}‖trade mark sign (U+2122)
 
 *C1?OZ‖^hyphen ‖SI‖En‖{U+2010}‖hyphen (U+2010)
+*C1?OZ‖^doublehyphen ‖SI‖En‖{U+2E17}‖double oblique hyphen (U+2E17)
 *C1?OZ‖^nonbreakinghyphen ‖SI‖En‖{U+2011}‖non-breaking hyphen (U+2011)
 *C1?OZ‖^non-breakinghyphen ‖SI‖En‖{U+2011}‖non-breaking hyphen (U+2011)
 *C1?OZ‖^horizontalbar ‖SI‖En‖{U+2015}‖horizontal bar (U+2015)
@@ -80,7 +81,13 @@
 *C1?OZ‖^emdash ‖SI‖En‖{U+2014}‖em dash (U+2014)
 *C1?OZ‖^twoemdash ‖SI‖En‖{U+2E3A}‖two-em dash (U+2E3A)
 *C1?OZ‖^threeemdash ‖SI‖En‖{U+2E3B}‖three-em dash (U+2E3B)
-*C1?OZ‖^doublehyphen ‖SI‖En‖{U+2E17}‖double oblique hyphen (U+2E17)
+*C1?OZ‖^twothreeemdash ‖SI‖En‖{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
+*C1?OZ‖^twothreeemdashes ‖SI‖En‖{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
+*C1?OZ‖^threeemdash2 ‖SI‖En‖{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
+*C1?OZ‖^threethreeemdash ‖SI‖En‖{U+2E3B}{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
+*C1?OZ‖^threethreeemdashes ‖SI‖En‖{U+2E3B}{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
+*C1?OZ‖^threeemdash3 ‖SI‖En‖{U+2E3B}{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
+*C1?OZ‖^wavyline ‖SI‖En‖{U+3030}{U+3030}{U+3030}{U+3030}{U+3030}‖wavy dash (U+3030)
 
 *C1?OZ‖^ditto ‖SI‖En‖{U+3003}‖ditto mark (U+3003)
 *C1?OZ‖^dittomark ‖SI‖En‖{U+3003}‖ditto mark (U+3003)
