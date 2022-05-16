@@ -1,4 +1,4 @@
-;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 170 definitions.
+;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 183 definitions.
 
 *C1?OZ‖^apostrophe ‖SI‖En‖{U+02BC}‖modifier letter apostrophe (U+02BC)
 *C1?OZ‖^okina ‖SI‖En‖{U+02BB}‖modifier letter turned comma (U+02BB)
@@ -191,6 +191,14 @@
 *C1?OZ‖^doublequestionmark ‖SI‖En‖{U+2047}‖double question mark (U+2047)
 *C1?OZ‖^questionexclamation ‖SI‖En‖{U+2048}‖question exclamation mark (U+2048)
 *C1?OZ‖^questionexclamationmark ‖SI‖En‖{U+2048}‖question exclamation mark (U+2048)
+
+
+*C1?Z‖^spanishquestion ‖SI‖En‖¿?{left 1}‖quotation marks open-close
+*C1?Z‖^spanishquestionmark ‖SI‖En‖¿?{left 1}‖quotation marks open-close
+*C1?Z‖^spanishquestionmarks ‖SI‖En‖¿?{left 1}‖quotation marks open-close
+*C1?Z‖^spanishexclamation ‖SI‖En‖{U+00A1}{U+0021}{left 1}‖quotation marks open-close
+*C1?Z‖^spanishexclamationmark ‖SI‖En‖{U+00A1}{U+0021}{left 1}‖quotation marks open-close
+*C1?Z‖^spanishexclamationmarks ‖SI‖En‖{U+00A1}{U+0021}{left 1}‖quotation marks open-close
 
 *C1?Z‖^quotationmarks ‖SI‖En‖“”{left 1}‖quotation marks open-close
 *C1?Z‖^lowhighquotationmarks ‖SI‖En‖„“{left 1}‖low-high quotation marks open-close
