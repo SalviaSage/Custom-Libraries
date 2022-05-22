@@ -1,4 +1,4 @@
-;; Helps type computer-keys symbols. ;; 29 definitions.
+;; Helps type computer-keys symbols. ;; 33 definitions.
 
 *C1?OZ‖^commandkey ‖SI‖En‖{U+2318}‖place of interest sign (U+2318)
 *C1?OZ‖^applekey ‖SI‖En‖{U+2318}‖place of interest sign (U+2318)
@@ -14,12 +14,16 @@
 *C1?OZ‖^bskey ‖SI‖En‖{U+2190}‖leftwards arrow (U+2190)
 
 *C1?OZ‖^capslockkey ‖SI‖En‖{U+21EA}‖upwards white arrow from bar (U+21EA)
+*C1?OZ‖^capskey ‖SI‖En‖{U+21EA}‖upwards white arrow from bar (U+21EA)
 *C1?OZ‖^scrolllockkey ‖SI‖En‖{U+2913}‖downwards arrow to bar (U+2913)
+*C1?OZ‖^scrollkey ‖SI‖En‖{U+2913}‖downwards arrow to bar (U+2913)
 *C1?OZ‖^numlockkey ‖SI‖En‖{U+21ED}‖upwards white arrow on pedestal with vertical bar (U+21ED)
+*C1?OZ‖^numkey ‖SI‖En‖{U+21ED}‖upwards white arrow on pedestal with vertical bar (U+21ED)
 
 *C1?OZ‖^composekey ‖SI‖En‖{U+2384}‖composition symbol (U+2384)
 *C1?OZ‖^spacekey ‖SI‖En‖{U+2423}‖open box (U+2423)
 *C1?OZ‖^escapekey ‖SI‖En‖{U+238B}‖broken circle with northwest arrow (U+238B)
+*C1?OZ‖^esckey ‖SI‖En‖{U+238B}‖broken circle with northwest arrow (U+238B)
 
 *C1?OZ‖^homekey ‖SI‖En‖{U+21F1}‖north west arrow to corner (U+21F1)
 *C1?OZ‖^endkey ‖SI‖En‖{U+21F2}‖south east arrow to corner (U+21F2)
