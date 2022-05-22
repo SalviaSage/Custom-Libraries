@@ -1,4 +1,4 @@
-﻿;; Dates Sender ;; https://en.wikipedia.org/wiki/ISO_8601 ;; The idea is to be able to type the current time and date easily. ;; 24 Definitions.
+﻿;; Date & Time Sender ;; https://en.wikipedia.org/wiki/ISO_8601 ;; The idea is to be able to type the current time and date easily. ;; 24 Definitions.
 
 *C1?OZ‖^isodate ‖SI‖En‖A_YYYY-A_MM-A_DD‖Sends the date in the ISO 8601 format.
 *C1?OZ‖^date ‖SI‖En‖A_YYYY-A_MM-A_DD‖Sends the date in the ISO 8601 format.
