@@ -1,4 +1,4 @@
-;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 183 definitions.
+;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 192 definitions.
 
 *C1?OZ‖^apostrophe ‖SI‖En‖{U+02BC}‖modifier letter apostrophe (U+02BC)
 *C1?OZ‖^okina ‖SI‖En‖{U+02BB}‖modifier letter turned comma (U+02BB)
@@ -172,10 +172,19 @@
 *C1?OZ‖^trianglecolon ‖SI‖En‖{U+02D0}‖modifier letter triangular colon (U+02D0)
 ‍*C1?OZ‖^halftriangularcolon ‖SI‖En‖{U+02D1}‖modifier letter half triangular colon (U+02D1)
 *C1?OZ‖^halftrianglecolon ‖SI‖En‖{U+02D1}‖modifier letter half triangular colon (U+02D1)
+*C1?OZ‖^dicolon ‖SI‖En‖{U+003A}‖colon (U+003A)
 *C1?OZ‖^tricolon ‖SI‖En‖{U+205D}‖tricolon (U+205D)
 *C1?OZ‖^triplecolon ‖SI‖En‖{U+205D}‖tricolon (U+205D)
 *C1?OZ‖^quadcolon ‖SI‖En‖{U+205E}‖vertical four dots (U+205E)
 *C1?OZ‖^quadruplecolon ‖SI‖En‖{U+205E}‖vertical four dots (U+205E)
+*C1?OZ‖^armenianfullstop ‖SI‖En‖{U+0589}‖armenian full stop (U+0589)
+*C1?OZ‖^georgianparagraphseparator ‖SI‖En‖{U+10FB}‖georgian paragraph separator (U+10FB)
+*C1?OZ‖^threedotpunctuation ‖SI‖En‖{U+2056}‖three dot punctuation (U+2056)
+*C1?OZ‖^fourdotpunctuation ‖SI‖En‖{U+2058}‖four dot punctuation (U+2058)
+*C1?OZ‖^diamondcolon ‖SI‖En‖{U+2058}‖four dot punctuation (U+2058)
+*C1?OZ‖^fivedotpunctuation ‖SI‖En‖{U+2059}‖five dot punctuation (U+2059)
+*C1?OZ‖^quintuplecolon ‖SI‖En‖{U+2059}‖five dot punctuation (U+2059)
+*C1?OZ‖^greekquestionmark ‖SI‖En‖{U+037E}‖greek question mark (U+037E)
 
 *C1?OZ‖^interrobang ‖SI‖En‖{U+203D}‖interrobang (U+203D)
 *C1?OZ‖^interabang ‖SI‖En‖{U+203D}‖interrobang (U+203D)
