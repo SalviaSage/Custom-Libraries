@@ -1,4 +1,4 @@
-;; Helps type computer-keys symbols. ;; 28 definitions.
+;; Helps type computer-keys symbols. ;; 29 definitions.
 
 *C1?OZ‖^commandkey ‖SI‖En‖{U+2318}‖place of interest sign (U+2318)
 *C1?OZ‖^applekey ‖SI‖En‖{U+2318}‖place of interest sign (U+2318)
@@ -11,6 +11,7 @@
 *C1?OZ‖^shiftkey ‖SI‖En‖{U+21E7}‖upwards white arrow (U+21E7)
 *C1?OZ‖^backspacekey ‖SI‖En‖{U+2190}‖leftwards arrow (U+2190)
 *C1?OZ‖^backspacekey2 ‖SI‖En‖{U+232B}‖erase to the left (U+232B)
+*C1?OZ‖^bskey ‖SI‖En‖{U+2190}‖leftwards arrow (U+2190)
 
 *C1?OZ‖^capslockkey ‖SI‖En‖{U+21EA}‖upwards white arrow from bar (U+21EA)
 *C1?OZ‖^scrolllockkey ‖SI‖En‖{U+2913}‖downwards arrow to bar (U+2913)
