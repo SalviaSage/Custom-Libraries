@@ -1,4 +1,4 @@
-;; This library allows typing ligatures and extra letters that are found in languages written with the Latin alphabet. ;; 73 definitions.
+;; This library allows typing ligatures and extra letters that are found in languages written with the Latin alphabet. ;; 99 definitions.
 
 *C1?OZ‖^oeligature ‖SI‖En‖{U+0153}‖latin small ligature oe (U+0153)
 *C1?OZ‖^capitaloeligature ‖SI‖En‖{U+0152}‖latin capital ligature oe (U+0152)
@@ -97,3 +97,38 @@
 *C1?OZ‖^capitalæsc ‖SI‖En‖{U+00C6}‖latin capital letter ae (U+00C6)
 *C1?OZ‖^capitalash ‖SI‖En‖{U+00C6}‖latin capital letter ae (U+00C6)
 *C1?OZ‖^capitalæsh ‖SI‖En‖{U+00C6}‖latin capital letter ae (U+00C6)
+
+*C1?OZ‖^dotlessi ‖SI‖En‖{U+0131}‖latin small letter dotless i (U+0131)
+*C1?OZ‖^dotlessj ‖SI‖En‖{U+0237}‖latin small letter dotless j (U+0237)
+
+*C1?OZ‖^gbreve ‖SI‖En‖{U+011F}‖latin small letter g with breve (U+011F)
+*C1?OZ‖^gbrevecapital ‖SI‖En‖{U+011E}‖latin capital letter g with breve (U+011E)
+*C1?OZ‖^capitalgbreve ‖SI‖En‖{U+011E}‖latin capital letter g with breve (U+011E)
+
+*C1?OZ‖^oumlaut ‖SI‖En‖{U+00F6}‖latin small letter o with diaeresis (U+00F6)
+*C1?OZ‖^oumlautcapital ‖SI‖En‖{U+00D6}‖latin capital letter o with diaeresis (U+00D6)
+*C1?OZ‖^capitaloumlaut ‖SI‖En‖{U+00D6}‖latin capital letter o with diaeresis (U+00D6)
+
+*C1?OZ‖^aumlaut ‖SI‖En‖{U+00E4}‖latin small letter a with diaeresis (U+00E4)
+*C1?OZ‖^aumlautcapital ‖SI‖En‖{U+00C4}‖latin capital letter a with diaeresis (U+00C4)
+*C1?OZ‖^capitalaumlaut ‖SI‖En‖{U+00C4}‖latin capital letter a with diaeresis (U+00C4)
+
+*C1?OZ‖^uumlaut ‖SI‖En‖{U+00FC}‖latin small letter u with diaeresis (U+00FC)
+*C1?OZ‖^uumlautcapital ‖SI‖En‖{U+00DC}‖latin capital letter u with diaeresis (U+00DC)
+*C1?OZ‖^capitaluumlaut ‖SI‖En‖{U+00DC}‖latin capital letter u with diaeresis (U+00DC)
+
+*C1?OZ‖^ccedilla ‖SI‖En‖{U+00E7}‖latin small letter c with cedilla (U+00E7)
+*C1?OZ‖^ccedillacapital ‖SI‖En‖{U+00C7}‖latin capital letter c with cedilla (U+00C7)
+*C1?OZ‖^capitalccedilla ‖SI‖En‖{U+00C7}‖latin capital letter c with cedilla (U+00C7)
+
+*C1?OZ‖^scedilla ‖SI‖En‖{U+015F}‖latin small letter s with cedilla (U+015F)
+*C1?OZ‖^scedillacapital ‖SI‖En‖{U+015E}‖latin capital letter s with cedilla (U+015E)
+*C1?OZ‖^capitalscedilla ‖SI‖En‖{U+015E}‖latin capital letter s with cedilla (U+015E)
+
+*C1?OZ‖^tcomma ‖SI‖En‖{U+021B}‖latin small letter t with comma below (U+021B)
+*C1?OZ‖^tcommacapital ‖SI‖En‖{U+021A}‖latin capital letter t with comma below (U+021A)
+*C1?OZ‖^capitaltcomma ‖SI‖En‖{U+021A}‖latin capital letter t with comma below (U+021A)
+
+*C1?OZ‖^scomma ‖SI‖En‖{U+0219}‖latin small letter s with comma below (U+0219)
+*C1?OZ‖^scommacapital ‖SI‖En‖{U+0218}‖latin capital letter s with comma below (U+0218)
+*C1?OZ‖^capitalscomma ‖SI‖En‖{U+0218}‖latin capital letter s with comma below (U+0218)
