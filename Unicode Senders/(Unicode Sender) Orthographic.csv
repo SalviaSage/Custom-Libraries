@@ -1,4 +1,4 @@
-;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 192 definitions.
+;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 193 definitions.
 
 *C1?OZ‖^apostrophe ‖SI‖En‖{U+02BC}‖modifier letter apostrophe (U+02BC)
 *C1?OZ‖^okina ‖SI‖En‖{U+02BB}‖modifier letter turned comma (U+02BB)
@@ -32,6 +32,7 @@
 *C1?OZ‖^kelvin ‖SI‖En‖{U+212A}‖kelvin sign (U+212A)
 
 *C1?OZ‖^ellipsis ‖SI‖En‖{U+2026}‖horizontal ellipsis (U+2026)
+*C1?OZ‖^elipsis ‖SI‖En‖{U+2026}‖horizontal ellipsis (U+2026)
 *C1?OZ‖^hyphenationpoint ‖SI‖En‖{U+2027}‖hyphenation point (U+2027)
 *C1?OZ‖^interpunct ‖SI‖En‖{U+00B7}‖middle dot (U+00B7)
 *C1?OZ‖^interpunctus ‖SI‖En‖{U+00B7}‖middle dot (U+00B7)
