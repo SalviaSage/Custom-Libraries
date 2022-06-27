@@ -1,4 +1,4 @@
-;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 199 definitions.
+;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 200 definitions.
 
 *C1?OZ‖^apostrophe ‖SI‖En‖{U+02BC}‖modifier letter apostrophe (U+02BC)
 *C1?OZ‖^okina ‖SI‖En‖{U+02BB}‖modifier letter turned comma (U+02BB)
@@ -49,12 +49,14 @@
 *C1?OZ‖^zigzagline ‖SI‖En‖{U+299A}‖vertical zigzag line (U+299A)
 
 *C1?OZ‖^dagger ‖SI‖En‖{U+2020}‖dagger (U+2020)
-*C1?OZ‖^cross ‖SI‖En‖{U+2020}‖dagger (U+2020)
+*C1?OZ‖^cross ‖SI‖En‖{U+2020}‖latin cross (U+271D)
 *C1?OZ‖^doubledagger ‖SI‖En‖{U+2021}‖double dagger (U+2021)
 *C1?OZ‖^sectionsign ‖SI‖En‖{U+00A7}‖section sign (U+00A7)
 *C1?OZ‖^halfsectionsign ‖SI‖En‖{U+2E39}‖top half section sign (U+2E39)
 *C1?OZ‖^manicule ‖SI‖En‖{U+261E}‖white right pointing index (U+261E)
 *C1?OZ‖^maniculeblack ‖SI‖En‖{U+261B}‖black right pointing index (U+261B)
+
+*C1?OZ‖^tironianet ‖SI‖En‖{U+204A}‖tironian sign et (U+204A)
 
 *C1?OZ‖^pilcrow ‖SI‖En‖{U+00B6}‖pilcrow sign (U+00B6)
 *C1?OZ‖^paragraphsign ‖SI‖En‖{U+00B6}‖pilcrow sign (U+00B6)
