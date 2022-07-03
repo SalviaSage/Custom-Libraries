@@ -1,4 +1,4 @@
-;; Combining diacritics sender, helps type markings that go on top, below or around other letters. 61 definitions.
+;; Combining diacritics sender, helps type markings that go on top, below or around other letters. 65 definitions.
 
 *C1?OZ‖^grave ‖SI‖En‖{U+0300}‖combining grave accent (U+0300)
 *C1?OZ‖^graveaccent ‖SI‖En‖{U+0300}‖combining grave accent (U+0300)
@@ -18,6 +18,13 @@
 *C1?OZ‖^diaeresis ‖SI‖En‖{U+0308}‖combining diaeresis (U+0308)
 
 *C1?OZ‖^ogonek ‖SI‖En‖{U+0328}‖combining ogonek (U+0328)
+
+*C1?OZ‖^xbelow ‖SI‖En‖{U+0353}‖combining x below (U+0353)
+
+*C1?OZ‖^leftangleabove ‖SI‖En‖{U+031A}‖combining left angle above (U+031A)
+
+*C1?OZ‖^bridgeabove ‖SI‖En‖{U+0346}‖combining bridge above (U+0346)
+*C1?OZ‖^bridgebelow ‖SI‖En‖{U+032A}‖combining bridge below (U+032A)
 
 *C1?OZ‖^hook ‖SI‖En‖{U+0309}‖combining hook above (U+0309)
 *C1?OZ‖^hookabove ‖SI‖En‖{U+0309}‖combining hook above (U+0309)
