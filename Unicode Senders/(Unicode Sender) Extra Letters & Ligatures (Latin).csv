@@ -1,4 +1,4 @@
-;; This library allows typing ligatures and extra letters that are found in languages written with the Latin alphabet. ;; 99 definitions.
+;; This library allows typing ligatures and extra letters that are found in languages written with the Latin alphabet. ;; 105 definitions.
 
 *C1?OZ‖^oeligature ‖SI‖En‖{U+0153}‖latin small ligature oe (U+0153)
 *C1?OZ‖^capitaloeligature ‖SI‖En‖{U+0152}‖latin capital ligature oe (U+0152)
@@ -132,3 +132,11 @@
 *C1?OZ‖^scomma ‖SI‖En‖{U+0219}‖latin small letter s with comma below (U+0219)
 *C1?OZ‖^scommacapital ‖SI‖En‖{U+0218}‖latin capital letter s with comma below (U+0218)
 *C1?OZ‖^capitalscomma ‖SI‖En‖{U+0218}‖latin capital letter s with comma below (U+0218)
+
+*C1?OZ‖^tailedz ‖SI‖En‖{U+0292}‖latin small letter ezh (U+0292)
+*C1?OZ‖^tailedzcapital ‖SI‖En‖{U+01B7}‖latin capital letter ezh (U+01B7)
+*C1?OZ‖^capitaltailedz ‖SI‖En‖{U+01B7}‖latin capital letter ezh (U+01B7)
+
+*C1?OZ‖^strokedz ‖SI‖En‖{U+01B6}‖latin small letter z with stroke (U+01B6)
+*C1?OZ‖^strokedzcapital ‖SI‖En‖{U+01B5}‖latin capital letter z with stroke (U+01B5)
+*C1?OZ‖^capitalstrokedz ‖SI‖En‖{U+01B5}‖latin capital letter z with stroke (U+01B5)
