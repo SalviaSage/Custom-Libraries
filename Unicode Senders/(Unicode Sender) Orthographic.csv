@@ -1,4 +1,4 @@
-;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 200 definitions.
+;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 205 definitions.
 
 *C1?OZ‖^apostrophe ‖SI‖En‖{U+02BC}‖modifier letter apostrophe (U+02BC)
 *C1?OZ‖^okina ‖SI‖En‖{U+02BB}‖modifier letter turned comma (U+02BB)
@@ -86,6 +86,7 @@
 *C1?OZ‖^emdash ‖SI‖En‖{U+2014}‖em dash (U+2014)
 *C1?OZ‖^twoemdash ‖SI‖En‖{U+2E3A}‖two-em dash (U+2E3A)
 *C1?OZ‖^threeemdash ‖SI‖En‖{U+2E3B}‖three-em dash (U+2E3B)
+*C1?OZ‖^omissionline ‖SI‖En‖{U+2E3B}‖three-em dash (U+2E3B)
 *C1?OZ‖^twothreeemdash ‖SI‖En‖{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
 *C1?OZ‖^twothreeemdashes ‖SI‖En‖{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
 *C1?OZ‖^threeemdash2 ‖SI‖En‖{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
@@ -186,14 +187,14 @@
 *C1?OZ‖^triplecolon ‖SI‖En‖{U+205D}‖tricolon (U+205D)
 *C1?OZ‖^quadcolon ‖SI‖En‖{U+205E}‖vertical four dots (U+205E)
 *C1?OZ‖^quadruplecolon ‖SI‖En‖{U+205E}‖vertical four dots (U+205E)
-*C1?OZ‖^armenianfullstop ‖SI‖En‖{U+0589}‖armenian full stop (U+0589)
-*C1?OZ‖^georgianparagraphseparator ‖SI‖En‖{U+10FB}‖georgian paragraph separator (U+10FB)
+*C1?OZ‖^sextuplecolon ‖SI‖En‖{U+2E3D}‖vertical six dots (U+2E3D)
+*C1?OZ‖^sixcolon ‖SI‖En‖{U+2E3D}‖vertical six dots (U+2E3D)
+
 *C1?OZ‖^threedotpunctuation ‖SI‖En‖{U+2056}‖three dot punctuation (U+2056)
 *C1?OZ‖^fourdotpunctuation ‖SI‖En‖{U+2058}‖four dot punctuation (U+2058)
 *C1?OZ‖^diamondcolon ‖SI‖En‖{U+2058}‖four dot punctuation (U+2058)
 *C1?OZ‖^fivedotpunctuation ‖SI‖En‖{U+2059}‖five dot punctuation (U+2059)
-*C1?OZ‖^quintuplecolon ‖SI‖En‖{U+2059}‖five dot punctuation (U+2059)
-*C1?OZ‖^greekquestionmark ‖SI‖En‖{U+037E}‖greek question mark (U+037E)
+*C1?OZ‖^fivedotmark ‖SI‖En‖{U+2E2D}‖five dot mark (U+2E2D)
 
 *C1?OZ‖^interrobang ‖SI‖En‖{U+203D}‖interrobang (U+203D)
 *C1?OZ‖^interabang ‖SI‖En‖{U+203D}‖interrobang (U+203D)
@@ -233,7 +234,12 @@
 *C1?Z‖^guillemets ‖SI‖En‖«»{left 1}‖guillemets open-close
 *C1?Z‖^singleguillemets ‖SI‖En‖‹›{left 1}‖chevrons open-close
 *C1?Z‖^chevrons ‖SI‖En‖‹›{left 1}‖chevrons open-close
-*C1?Z‖^anglebrackets ‖SI‖En‖‹›{left 1}‖angle brackets open-close
+*C1?Z‖^anglebrackets ‖SI‖En‖⟨⟩{left 1}‖angle brackets open-close
 *C1?Z‖^angledbrackets ‖SI‖En‖⟨⟩{left 1}‖angle brackets open-close
 *C1?Z‖^doubleanglebrackets ‖SI‖En‖《》{left 1}‖double angle brackets open-close
 *C1?Z‖^doubleangledbrackets ‖SI‖En‖《》{left 1}‖double angle brackets open-close
+*C1?Z‖^curvedanglebrackets ‖SI‖En‖⧼⧽{left 1}‖curved angle brackets open-close
+*C1?Z‖^doublebrackets ‖SI‖En‖⟦⟧{left 1}‖double brackets open-close
+*C1?Z‖^lenticularbrackets ‖SI‖En‖【】{left 1}‖lenticular brackets open-close
+*C1?Z‖^sumitsuki ‖SI‖En‖【】{left 1}‖lenticular brackets open-close
+*C1?Z‖^quillbrackets ‖SI‖En‖⁅⁆{left 1}‖quill brackets open-close
