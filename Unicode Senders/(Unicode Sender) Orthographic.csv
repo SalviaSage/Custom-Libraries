@@ -1,4 +1,4 @@
-;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 205 definitions.
+;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 214 definitions.
 
 *C1?OZ‖^apostrophe ‖SI‖En‖{U+02BC}‖modifier letter apostrophe (U+02BC)
 *C1?OZ‖^okina ‖SI‖En‖{U+02BB}‖modifier letter turned comma (U+02BB)
@@ -223,6 +223,18 @@
 *C1?Z‖^lowhighquotationmarks ‖SI‖En‖„“{left 1}‖low-high quotation marks open-close
 *C1?Z‖^lowquotationmarks ‖SI‖En‖⹂„{left 1}‖low quotation marks open-close
 *C1?Z‖^singlequotationmarks ‖SI‖En‖‘’{left 1}‖single quotation marks open-close
+
+*C1?Z‖^cornerbrackets ‖SI‖En‖「」{left 1}‖corner bracket open-close
+*C1?Z‖^CJKbrackets ‖SI‖En‖「」{left 1}‖corner bracket open-close
+*C1?Z‖^doublecornerbrackets ‖SI‖En‖『』{left 1}‖white corner bracket open-close
+*C1?Z‖^doubleCJKbrackets ‖SI‖En‖『』{left 1}‖white corner bracket open-close
+*C1?Z‖^thickCJKbrackets ‖SI‖En‖『』{left 1}‖white corner bracket open-close
+*C1?Z‖^thickcornerbrackets ‖SI‖En‖『』{left 1}‖white corner bracket open-close
+
+*C1?Z‖^tortoisebrackets ‖SI‖En‖〔〕{left 1}‖tortoise bracket open-close
+*C1?Z‖^doubletortoisebrackets ‖SI‖En‖〘〙{left 1}‖white tortoise bracket open-close
+*C1?Z‖^thicktortoisebrackets ‖SI‖En‖〘〙{left 1}‖white tortoise bracket open-close
+
 *C1?Z‖^parentheses ‖SI‖En‖(){left 1}‖parentheses open-close
 *C1?Z‖^parenthesis ‖SI‖En‖(){left 1}‖parentheses open-close
 *C1?Z‖^parenthesises ‖SI‖En‖(){left 1}‖parentheses open-close
