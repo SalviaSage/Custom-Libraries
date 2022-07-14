@@ -1,0 +1,38 @@
+﻿;; IME for typing the Vietnamese Vowels. Experimental ;; 24 definitions.
+
+*C?OZ‖a‖MSI‖En‖a¦á¦à¦ả¦ã¦ạ‖Vowel letter a
+*C?OZ‖ă‖MSI‖En‖ă¦ắ¦ằ¦ẳ¦ẵ¦ặ‖Vowel letter ă
+*C?OZ‖â‖MSI‖En‖â¦ấ¦ầ¦ẩ¦ẫ¦ậ‖Vowel letter â
+
+*C?OZ‖e‖MSI‖En‖e¦é¦è¦ẻ¦ẽ¦ẹ‖Vowel letter e
+*C?OZ‖ê‖MSI‖En‖ê¦ế¦ề¦ể¦ễ¦ệ‖Vowel letter ê
+
+*C?OZ‖i‖MSI‖En‖i¦í¦ì¦ỉ¦ĩ¦ị‖Vowel letter i
+
+*C?OZ‖o‖MSI‖En‖o¦ó¦ò¦ỏ¦õ¦ọ‖Vowel letter o
+*C?OZ‖ô‖MSI‖En‖ô¦ố¦ồ¦ổ¦ỗ¦ộ‖Vowel letter ô
+*C?OZ‖ơ‖MSI‖En‖ơ¦ớ¦ờ¦ở¦ỡ¦ợ‖Vowel letter ơ
+
+*C?OZ‖u‖MSI‖En‖u¦ú¦ù¦ủ¦ũ¦ụ‖Vowel letter u
+*C?OZ‖ư‖MSI‖En‖ư¦ứ¦ừ¦ử¦ữ¦ự‖Vowel letter ư
+
+*C?OZ‖y‖MSI‖En‖y¦ý¦ỳ¦ỷ¦ỹ¦ỵ‖Vowel letter y
+
+
+*C?OZ‖A‖MSI‖En‖A¦Á¦À¦Ả¦Ã¦Ạ‖Vowel letter A
+*C?OZ‖Ă‖MSI‖En‖Ă¦Ắ¦Ằ¦Ẳ¦Ẵ¦Ặ‖Vowel letter Ă
+*C?OZ‖Â‖MSI‖En‖Â¦Ấ¦Ầ¦Ẩ¦Ẫ¦Ậ‖Vowel letter Â
+
+*C?OZ‖E‖MSI‖En‖E¦É¦È¦Ẻ¦Ẽ¦Ẹ‖Vowel letter E
+*C?OZ‖Ê‖MSI‖En‖Ê¦Ế¦Ề¦Ể¦Ễ¦Ệ‖Vowel letter Ê
+
+*C?OZ‖I‖MSI‖En‖I¦Í¦Ì¦Ỉ¦Ĩ¦Ị‖Vowel letter I
+
+*C?OZ‖O‖MSI‖En‖O¦Ó¦Ò¦Ỏ¦Õ¦Ọ‖Vowel letter O
+*C?OZ‖Ô‖MSI‖En‖Ô¦Ố¦Ồ¦Ổ¦Ỗ¦Ộ‖Vowel letter Ô
+*C?OZ‖Ơ‖MSI‖En‖Ơ¦Ớ¦Ờ¦Ở¦Ỡ¦Ợ‖Vowel letter Ơ
+
+*C?OZ‖U‖MSI‖En‖U¦Ú¦Ù¦Ủ¦Ũ¦Ụ‖Vowel letter U
+*C?OZ‖Ư‖MSI‖En‖Ư¦Ứ¦Ừ¦Ử¦Ữ¦Ự‖Vowel letter Ư
+
+*C?OZ‖Y‖MSI‖En‖Y¦Ý¦Ỳ¦Ỷ¦Ỹ¦Ỵ‖Vowel letter Y
