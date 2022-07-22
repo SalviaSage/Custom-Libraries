@@ -72,3 +72,6 @@
 *C1?OZ‖~basispoint ‖SI‖En‖{U+2031}‖per ten thousand sign (U+2031)
 
 *C1?OZ‖~fractionslash ‖SI‖En‖{U+2044}‖fraction slash (U+2044)
+
+*C1?Z‖~largeparenthesis ‖SI‖En‖{Enter}⎛⎞{Enter}⎝⎠{left 1}{up 1}‖large parentheses open-close
+
