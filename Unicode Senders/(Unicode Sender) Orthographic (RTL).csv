@@ -1,0 +1,27 @@
+﻿;; Orthographic Sender (RTL) ;; Similar to the Orthographic Sender, but with everything reversed for use with
+;; Right to Left (RTL) scripts such as Arabic and Hebrew. 19 definitions.
+
+*C1?OZ‖~rtlapostrophe ‖SI‖En‖{U+2018}‖left single quotation mark (U+2018)
+*C1?OZ‖~apostrophertl ‖SI‖En‖{U+2018}‖left single quotation mark (U+2018)
+
+*C1?OZ‖~commartl ‖SI‖En‖{U+2E41}‖reversed comma (U+2E41)
+*C1?OZ‖~rtlcomma ‖SI‖En‖{U+2E41}‖reversed comma (U+2E41)
+*C1?OZ‖~reversedcomma ‖SI‖En‖{U+2E41}‖reversed comma (U+2E41)
+
+*C1?OZ‖~semicolonrtl ‖SI‖En‖{U+204F}‖reversed semicolon (U+204F)
+*C1?OZ‖~rtlsemicolon ‖SI‖En‖{U+204F}‖reversed semicolon (U+204F)
+*C1?OZ‖~reversedsemicolon ‖SI‖En‖{U+204F}‖reversed semicolon (U+204F)
+
+*C1?OZ‖~maniculertl ‖SI‖En‖{U+261C}‖white left pointing index (U+261C)
+*C1?OZ‖~rtlmanicule ‖SI‖En‖{U+261C}‖white left pointing index (U+261C)
+*C1?OZ‖~rtlmaniculeblack ‖SI‖En‖{U+261A}‖black left pointing index (U+261A)
+*C1?OZ‖~maniculeblackrtl ‖SI‖En‖{U+261A}‖black left pointing index (U+261A)
+
+*C1?OZ‖~rtlbullet ‖SI‖En‖{U+204C}‖black leftwards bullet (U+204C)
+*C1?OZ‖~bulletrtl ‖SI‖En‖{U+204C}‖black leftwards bullet (U+204C)
+*C1?OZ‖~leftwardsbullet ‖SI‖En‖{U+204C}‖black leftwards bullet (U+204C)
+
+*C1?OZ‖~reversedquestionmark ‖SI‖En‖{U+2E2E}‖reversed question mark (U+2E2E)
+*C1?OZ‖~reversedquestion ‖SI‖En‖{U+2E2E}‖reversed question mark (U+2E2E)
+*C1?OZ‖~rtlquestion ‖SI‖En‖{U+2E2E}‖reversed question mark (U+2E2E)
+*C1?OZ‖~questionrtl ‖SI‖En‖{U+2E2E}‖reversed question mark (U+2E2E)
