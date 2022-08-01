@@ -1,4 +1,4 @@
-﻿;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 214 definitions.
+;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 215 definitions.
 
 *C1?OZ‖~apostrophe ‖SI‖En‖{U+02BC}‖modifier letter apostrophe (U+02BC)
 *C1?OZ‖~okina ‖SI‖En‖{U+02BB}‖modifier letter turned comma (U+02BB)
@@ -244,6 +244,7 @@
 *C1?Z‖~strings ‖SI‖En‖""{left 1}‖strings open-close
 *C1?Z‖~singlestrings ‖SI‖En‖''{left 1}‖strings open-close
 *C1?Z‖~guillemets ‖SI‖En‖«»{left 1}‖guillemets open-close
+*C1?Z‖~reverseguillemets ‖SI‖En‖»«{left 1}‖guillemets open-close
 *C1?Z‖~singleguillemets ‖SI‖En‖‹›{left 1}‖chevrons open-close
 *C1?Z‖~chevrons ‖SI‖En‖‹›{left 1}‖chevrons open-close
 *C1?Z‖~anglebrackets ‖SI‖En‖⟨⟩{left 1}‖angle brackets open-close
