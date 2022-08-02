@@ -1,4 +1,4 @@
-;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 215 definitions.
+;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 218 definitions.
 
 *C1?OZ‖~apostrophe ‖SI‖En‖{U+02BC}‖modifier letter apostrophe (U+02BC)
 *C1?OZ‖~okina ‖SI‖En‖{U+02BB}‖modifier letter turned comma (U+02BB)
@@ -74,6 +74,10 @@
 *C1?OZ‖~copyrightsign ‖SI‖En‖{U+00A9}‖copyright sign (U+00A9)
 *C1?OZ‖~trademark ‖SI‖En‖{U+2122}‖trade mark sign (U+2122)
 *C1?OZ‖~trademarksign ‖SI‖En‖{U+2122}‖trade mark sign (U+2122)
+
+*C1?OZ‖~prescription ‖SI‖En‖{U+211E}‖prescription take (U+211E)
+*C1?OZ‖~telephone ‖SI‖En‖{U+2121}‖telephone sign (U+2121)
+*C1?OZ‖~fax ‖SI‖En‖{U+213B}‖facsimile sign (U+213B)
 
 *C1?OZ‖~hyphen ‖SI‖En‖{U+2010}‖hyphen (U+2010)
 *C1?OZ‖~doublehyphen ‖SI‖En‖{U+2E17}‖double oblique hyphen (U+2E17)
@@ -256,3 +260,4 @@
 *C1?Z‖~lenticularbrackets ‖SI‖En‖【】{left 1}‖lenticular brackets open-close
 *C1?Z‖~sumitsuki ‖SI‖En‖【】{left 1}‖lenticular brackets open-close
 *C1?Z‖~quillbrackets ‖SI‖En‖⁅⁆{left 1}‖quill brackets open-close
+
