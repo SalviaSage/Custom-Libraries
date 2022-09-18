@@ -1,0 +1,140 @@
+﻿;; Sends mathematical symbols. ;; 115 definitions.
+
+*C1?OZ‖~plusminus ‖SI‖En‖{U+00B1}‖plus-minus sign (U+00B1)
+*C1?OZ‖~plusminussign ‖SI‖En‖{U+00B1}‖plus-minus sign (U+00B1)
+*C1?OZ‖~minusplus ‖SI‖En‖{U+2213}‖minus-or-plus sign (U+2213)
+*C1?OZ‖~minusplussign ‖SI‖En‖{U+2213}‖minus-or-plus sign (U+2213)
+*C1?OZ‖~minussign ‖SI‖En‖{U+2212}‖minus sign (U+2212)
+*C1?OZ‖~subtractionsign ‖SI‖En‖{U+2212}‖minus sign (U+2212)
+*C1?OZ‖~divisionsign ‖SI‖En‖{U+00F7}‖division sign (U+00F7)
+*C1?OZ‖~obelus ‖SI‖En‖{U+00F7}‖division sign (U+00F7)
+*C1?OZ‖~homothetic ‖SI‖En‖{U+223B}‖homothetic (U+223B)
+*C1?OZ‖~multiplicationsign ‖SI‖En‖{U+00D7}‖multiplication sign (U+00D7)
+*C1?OZ‖~largemultiplicationsign ‖SI‖En‖{U+2715}‖multiplication x (U+2715)
+*C1?OZ‖~multiplicationx ‖SI‖En‖{U+2715}‖multiplication x (U+2715)
+*C1?OZ‖~heavymultiplicationsign ‖SI‖En‖{U+2716}‖heavy multiplication x (U+2716)
+*C1?OZ‖~heavymultiplicationx ‖SI‖En‖{U+2716}‖heavy multiplication x (U+2716)
+*C1?OZ‖~notequal ‖SI‖En‖{U+2260}‖not equal to (U+2260)
+*C1?OZ‖~notequals ‖SI‖En‖{U+2260}‖not equal to (U+2260)
+*C1?OZ‖~notequalssign ‖SI‖En‖{U+2260}‖not equal to (U+2260)
+*C1?OZ‖~notequalto ‖SI‖En‖{U+2260}‖not equal to (U+2260)
+*C1?OZ‖~almostequalto ‖SI‖En‖{U+2248}‖almost equal to (U+2248)
+*C1?OZ‖~doubletilde ‖SI‖En‖{U+2248}‖almost equal to (U+2248)
+*C1?OZ‖~increment ‖SI‖En‖{U+2206}‖increment (U+2206)
+*C1?OZ‖~laplace ‖SI‖En‖{U+2206}‖increment (U+2206)
+*C1?OZ‖~nabla ‖SI‖En‖{U+2207}‖nabla (U+2207)
+*C1?OZ‖~del ‖SI‖En‖{U+2207}‖nabla (U+2207)
+*C1?OZ‖~boxsymbol ‖SI‖En‖{U+2610}‖ballot box (U+2610)
+*C1?OZ‖~ratio ‖SI‖En‖{U+2236}‖ratio (U+2236)
+
+*C1?OZ‖~emptyset ‖SI‖En‖{U+2205}‖empty set (U+2205)
+*C1?OZ‖~lessthanorequal ‖SI‖En‖{U+2264}‖less-than or equal to (U+2264)
+*C1?OZ‖~lessthanorequalto ‖SI‖En‖{U+2264}‖less-than or equal to (U+2264)
+*C1?OZ‖~greaterthanorequal ‖SI‖En‖{U+2265}‖greater-than or equal to (U+2265)
+*C1?OZ‖~greaterthanorequalto ‖SI‖En‖{U+2265}‖greater-than or equal to (U+2265)
+
+*C1?OZ‖~longdivision ‖SI‖En‖{U+27CC}‖long division (U+27CC)
+*C1?OZ‖~longdivisionsign ‖SI‖En‖{U+27CC}‖long division (U+27CC)
+*C1?OZ‖~squareroot ‖SI‖En‖{U+221A}‖square root (U+221A)
+*C1?OZ‖~infinity ‖SI‖En‖{U+221E}‖infinity (U+221E)
+*C1?OZ‖~infinitysign ‖SI‖En‖{U+221E}‖infinity (U+221E)
+*C1?OZ‖~lemniscate ‖SI‖En‖{U+221E}‖infinity (U+221E)
+
+*C1?OZ‖~angle ‖SI‖En‖{U+2221}‖measured angle (U+2221)
+*C1?OZ‖~rightangle ‖SI‖En‖{U+22BE}‖right angle with arc (U+22BE)
+
+*C1?OZ‖~perpendicular ‖SI‖En‖{U+22A5}‖up tack (U+22A5)
+*C1?OZ‖~parallel ‖SI‖En‖{U+2225}‖parallel to (U+2225)
+
+*C1?OZ‖~planckconstant ‖SI‖En‖{U+210E}‖planck constant (U+210E)
+*C1?OZ‖~eulerconstant ‖SI‖En‖{U+210E}‖euler constant (U+2107)
+*C1?OZ‖~eulersconstant ‖SI‖En‖{U+210E}‖euler constant (U+2107)
+*C1?OZ‖~goldenratio ‖SI‖En‖{U+1D711}‖mathematical italic small phi (U+1D711)
+*C1?OZ‖~goldenratioconstant ‖SI‖En‖{U+1D711}‖mathematical italic small phi (U+1D711)
+*C1?OZ‖~piconstant ‖SI‖En‖{U+1D70B}‖mathematical italic small pi (U+1D70B)
+*C1?OZ‖~econstant ‖SI‖En‖{U+1D452}‖mathematical italic small e (U+1D452)
+*C1?OZ‖~silverratio ‖SI‖En‖{U+1D6FF}{U+1D634}‖mathematical italic small delta (U+1D6FF) + mathematical sans-serif italic small s (U+1D634)
+*C1?OZ‖~silverratioconstant ‖SI‖En‖{U+1D6FF}{U+1D634}‖mathematical italic small delta (U+1D6FF) + mathematical sans-serif italic small s (U+1D634)
+*C1?OZ‖~speedoflight ‖SI‖En‖{U+1D450}‖mathematical italic small c (U+1D450)
+
+*C1?OZ‖~variablex ‖SI‖En‖{U+1D465}‖mathematical italic small x (U+1D465)
+*C1?OZ‖~variabley ‖SI‖En‖{U+1D466}‖mathematical italic small y (U+1D466)
+*C1?OZ‖~variablez ‖SI‖En‖{U+1D467}‖mathematical italic small z (U+1D467)
+
+*C1?OZ‖~squared ‖SI‖En‖{U+00B2}‖superscript two (U+00B2)
+*C1?OZ‖~cubed ‖SI‖En‖{U+00B3}‖superscript three (U+00B3)
+
+*C1?OZ‖~percentfullwidth ‖SI‖En‖{U+FF05}‖fullwidth percent sign (U+FF05)
+*C1?OZ‖~permille ‖SI‖En‖{U+2040}‖character tie (U+2040)
+*C1?OZ‖~permillesign ‖SI‖En‖{U+2030}‖per mille sign (U+2030)
+*C1?OZ‖~permyriad ‖SI‖En‖{U+2031}‖per ten thousand sign (U+2031)
+*C1?OZ‖~pertenthousand ‖SI‖En‖{U+2031}‖per ten thousand sign (U+2031)
+*C1?OZ‖~pertenthousandsign ‖SI‖En‖{U+2031}‖per ten thousand sign (U+2031)
+*C1?OZ‖~basispoint ‖SI‖En‖{U+2031}‖per ten thousand sign (U+2031)
+
+*C1?OZ‖~summation ‖SI‖En‖{U+2211}‖n-ary summation (U+2211)
+*C1?OZ‖~summationsymbol ‖SI‖En‖{U+2211}‖n-ary summation (U+2211)
+
+*C1?OZ‖~productofasequence ‖SI‖En‖{U+220F}‖n-ary product (U+220F)
+
+*C1?OZ‖~circledplus ‖SI‖En‖{U+2295}‖circled plus (U+2295)
+*C1?OZ‖~circledminus ‖SI‖En‖{U+2296}‖circled times (U+2296)
+*C1?OZ‖~circledtimes ‖SI‖En‖{U+2297}‖circled times (U+2297)
+*C1?OZ‖~tensorproduct ‖SI‖En‖{U+2297}‖circled times (U+2297)
+*C1?OZ‖~circleddash ‖SI‖En‖{U+2297}‖circled times (U+229D)
+
+*C1?OZ‖~superscript0 ‖SI‖En‖{U+2070}‖superscript zero (U+2070)
+*C1?OZ‖~superscript1 ‖SI‖En‖{U+00B9}‖superscript one (U+00B9)
+*C1?OZ‖~superscript2 ‖SI‖En‖{U+00B2}‖superscript two (U+00B2)
+*C1?OZ‖~superscript3 ‖SI‖En‖{U+00B3}‖superscript three (U+00B3)
+*C1?OZ‖~superscript4 ‖SI‖En‖{U+2074}‖superscript four (U+2074)
+*C1?OZ‖~superscript5 ‖SI‖En‖{U+2075}‖superscript five (U+2075)
+*C1?OZ‖~superscript6 ‖SI‖En‖{U+2076}‖superscript six (U+2076)
+*C1?OZ‖~superscript7 ‖SI‖En‖{U+2077}‖superscript seven (U+2077)
+*C1?OZ‖~superscript8 ‖SI‖En‖{U+2078}‖superscript eight (U+2078)
+*C1?OZ‖~superscript9 ‖SI‖En‖{U+2079}‖superscript nine (U+2079)
+
+*C1?OZ‖~superscriptplus ‖SI‖En‖{U+207A}‖superscript plus sign (U+207A)
+*C1?OZ‖~superscriptplussign ‖SI‖En‖{U+207A}‖superscript plus sign (U+207A)
+*C1?OZ‖~superscriptminus ‖SI‖En‖{U+207B}‖superscript minus (U+207B)
+*C1?OZ‖~superscriptminussign ‖SI‖En‖{U+207B}‖superscript minus (U+207B)
+*C1?OZ‖~superscriptequals ‖SI‖En‖{U+207C}‖superscript equals (U+207C)
+*C1?OZ‖~superscriptequalssign ‖SI‖En‖{U+207C}‖superscript equals (U+207C)
+
+*C1?OZ‖~superscriptslash ‖SI‖En‖{U+141F}‖canadian syllabics final acute (U+141F)
+
+*C1?OZ‖~superscriptphi ‖SI‖En‖{U+1D60}‖modifier letter small greek phi (U+1D60)
+*C1?OZ‖~superscripttheta ‖SI‖En‖{U+1DBF}‖modifier letter small theta (U+1DBF)
+
+*C1?OZ‖~subscript0 ‖SI‖En‖{U+2080}‖subscript zero (U+2080)
+*C1?OZ‖~subscript1 ‖SI‖En‖{U+2081}‖subscript one (U+2081)
+*C1?OZ‖~subscript2 ‖SI‖En‖{U+2082}‖subscript two (U+2082)
+*C1?OZ‖~subscript3 ‖SI‖En‖{U+2083}‖subscript three (U+2083)
+*C1?OZ‖~subscript4 ‖SI‖En‖{U+2084}‖subscript four (U+2084)
+*C1?OZ‖~subscript5 ‖SI‖En‖{U+2085}‖subscript five (U+2085)
+*C1?OZ‖~subscript6 ‖SI‖En‖{U+2086}‖subscript six (U+2086)
+*C1?OZ‖~subscript7 ‖SI‖En‖{U+2087}‖subscript seven (U+2087)
+*C1?OZ‖~subscript8 ‖SI‖En‖{U+2088}‖subscript eight (U+2088)
+*C1?OZ‖~subscript9 ‖SI‖En‖{U+2089}‖subscript nine (U+2089)
+
+*C1?OZ‖~subscriptequals ‖SI‖En‖{U+208C}‖subscript equals sign (U+208C)
+*C1?OZ‖~subscriptequalssign ‖SI‖En‖{U+208C}‖subscript equals sign (U+208C)
+*C1?OZ‖~subscriptplus ‖SI‖En‖{U+208A}‖subscript plus sign (U+208A)
+*C1?OZ‖~subscriptplussign ‖SI‖En‖{U+208A}‖subscript plus sign (U+208A)
+
+*C1?OZ‖~fractionslash ‖SI‖En‖{U+2044}‖fraction slash (U+2044)
+
+*C1?OZ‖~bigsolidus ‖SI‖En‖{U+29F8}‖big solidus (U+29F8)
+*C1?OZ‖~bigslash ‖SI‖En‖{U+29F8}‖big solidus (U+29F8)
+
+*C1?Z‖~bigparenthesis ‖SI‖En‖{Enter}⎛⎞{Enter}⎝⎠{left 1}{up 1}‖large parentheses open-close
+*C1?Z‖~bigparentheses ‖SI‖En‖{Enter}⎛⎞{Enter}⎝⎠{left 1}{up 1}‖large parentheses open-close
+
+*C1?Z‖~largeparenthesis ‖SI‖En‖{Enter}⎛⎞{Enter}⎝⎠{left 1}{up 1}‖large parentheses open-close
+*C1?Z‖~largeparentheses ‖SI‖En‖{Enter}⎛⎞{Enter}⎝⎠{left 1}{up 1}‖large parentheses open-close
+
+*C1?Z‖~superscriptparenthesis ‖SI‖En‖⁽⁾{left 1}‖superscript parentheses open-close
+*C1?Z‖~superscriptparentheses ‖SI‖En‖⁽⁾{left 1}‖superscript parentheses open-close
+
+*C1?Z‖~subscriptparenthesis ‖SI‖En‖₍₎{left 1}‖subscript parentheses open-close
+*C1?Z‖~subscriptparentheses ‖SI‖En‖₍₎{left 1}‖subscript parentheses open-close
