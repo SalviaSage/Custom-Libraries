@@ -1,4 +1,4 @@
-;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 218 definitions.
+;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 220 definitions.
 
 *C1?OZ‖~apostrophe ‖SI‖En‖{U+02BC}‖modifier letter apostrophe (U+02BC)
 *C1?OZ‖~okina ‖SI‖En‖{U+02BB}‖modifier letter turned comma (U+02BB)
@@ -260,4 +260,5 @@
 *C1?Z‖~lenticularbrackets ‖SI‖En‖【】{left 1}‖lenticular brackets open-close
 *C1?Z‖~sumitsuki ‖SI‖En‖【】{left 1}‖lenticular brackets open-close
 *C1?Z‖~quillbrackets ‖SI‖En‖⁅⁆{left 1}‖quill brackets open-close
-
+*C1?Z‖~floorbrackets ‖SI‖En‖⌊⌋{left 1}‖left floor (U+230A) right floor (U+230B)
+*C1?Z‖~ceilingbrackets ‖SI‖En‖⌈⌉{left 1}‖left ceiling (U+2308) right ceiling (U+2309)
