@@ -1,4 +1,4 @@
-﻿;; Sends mathematical symbols. ;; 115 definitions.
+;; Sends mathematical symbols. ;; 130 definitions.
 
 *C1?OZ‖~plusminus ‖SI‖En‖{U+00B1}‖plus-minus sign (U+00B1)
 *C1?OZ‖~plusminussign ‖SI‖En‖{U+00B1}‖plus-minus sign (U+00B1)
@@ -10,6 +10,10 @@
 *C1?OZ‖~obelus ‖SI‖En‖{U+00F7}‖division sign (U+00F7)
 *C1?OZ‖~homothetic ‖SI‖En‖{U+223B}‖homothetic (U+223B)
 *C1?OZ‖~multiplicationsign ‖SI‖En‖{U+00D7}‖multiplication sign (U+00D7)
+*C1?OZ‖~multiplicationdot ‖SI‖En‖{U+22C5}‖dot operator (U+22C5)
+*C1?OZ‖~dotoperator ‖SI‖En‖{U+22C5}‖dot operator (U+22C5)
+*C1?OZ‖~functioncomposition‖SI‖En‖{U+2218}‖ring operator (U+2218)
+*C1?OZ‖~ringoperator ‖SI‖En‖{U+2218}‖ring operator (U+2218)
 *C1?OZ‖~largemultiplicationsign ‖SI‖En‖{U+2715}‖multiplication x (U+2715)
 *C1?OZ‖~multiplicationx ‖SI‖En‖{U+2715}‖multiplication x (U+2715)
 *C1?OZ‖~heavymultiplicationsign ‖SI‖En‖{U+2716}‖heavy multiplication x (U+2716)
@@ -27,6 +31,10 @@
 *C1?OZ‖~boxsymbol ‖SI‖En‖{U+2610}‖ballot box (U+2610)
 *C1?OZ‖~ratio ‖SI‖En‖{U+2236}‖ratio (U+2236)
 
+*C1?OZ‖~integral ‖SI‖En‖{U+222B}‖integral (U+222B)
+*C1?OZ‖~doubleintegral ‖SI‖En‖{U+222C}‖double integral (U+222C)
+*C1?OZ‖~tripleintegral ‖SI‖En‖{U+222D}‖triple integral (U+222D)
+
 *C1?OZ‖~emptyset ‖SI‖En‖{U+2205}‖empty set (U+2205)
 *C1?OZ‖~lessthanorequal ‖SI‖En‖{U+2264}‖less-than or equal to (U+2264)
 *C1?OZ‖~lessthanorequalto ‖SI‖En‖{U+2264}‖less-than or equal to (U+2264)
@@ -37,8 +45,12 @@
 *C1?OZ‖~longdivisionsign ‖SI‖En‖{U+27CC}‖long division (U+27CC)
 *C1?OZ‖~squareroot ‖SI‖En‖{U+221A}‖square root (U+221A)
 *C1?OZ‖~infinity ‖SI‖En‖{U+221E}‖infinity (U+221E)
+*C1?OZ‖~proportional ‖SI‖En‖{U+221D}‖proportional to (U+221D)
+*C1?OZ‖~proportionalto ‖SI‖En‖{U+221D}‖proportional to (U+221D)
 *C1?OZ‖~infinitysign ‖SI‖En‖{U+221E}‖infinity (U+221E)
 *C1?OZ‖~lemniscate ‖SI‖En‖{U+221E}‖infinity (U+221E)
+*C1?OZ‖~therefore ‖SI‖En‖{U+2234}‖therefore (U+2234)
+*C1?OZ‖~because ‖SI‖En‖{U+2235}‖because (U+2235)
 
 *C1?OZ‖~angle ‖SI‖En‖{U+2221}‖measured angle (U+2221)
 *C1?OZ‖~rightangle ‖SI‖En‖{U+22BE}‖right angle with arc (U+22BE)
@@ -73,8 +85,10 @@
 *C1?OZ‖~basispoint ‖SI‖En‖{U+2031}‖per ten thousand sign (U+2031)
 
 *C1?OZ‖~summation ‖SI‖En‖{U+2211}‖n-ary summation (U+2211)
+*C1?OZ‖~doublesummation ‖SI‖En‖{U+2211}{U+2211}‖n-ary summation (U+2211)
 *C1?OZ‖~summationsymbol ‖SI‖En‖{U+2211}‖n-ary summation (U+2211)
 
+*C1?OZ‖~capitalpi ‖SI‖En‖{U+220F}‖n-ary product (U+220F)
 *C1?OZ‖~productofasequence ‖SI‖En‖{U+220F}‖n-ary product (U+220F)
 
 *C1?OZ‖~circledplus ‖SI‖En‖{U+2295}‖circled plus (U+2295)
@@ -138,3 +152,7 @@
 
 *C1?Z‖~subscriptparenthesis ‖SI‖En‖₍₎{left 1}‖subscript parentheses open-close
 *C1?Z‖~subscriptparentheses ‖SI‖En‖₍₎{left 1}‖subscript parentheses open-close
+
+*C1?OZ‖~xbar ‖SI‖En‖{U+0078}{U+0305}‖latin small letter x (U+0078) combining overline (U+0305)
+
+*C1?OZ‖~overline ‖SI‖En‖{U+0305}‖combining overline (U+0305)
