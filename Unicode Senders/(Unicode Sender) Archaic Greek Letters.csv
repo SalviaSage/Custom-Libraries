@@ -1,14 +1,22 @@
-﻿;; This library allows typing archaic Greek letters by typing their names in English. ;; 16 definitions.
+;; This library allows typing archaic Greek letters by typing their names in English. ;; 32 definitions.
 
 *C1?OZ‖~digamma ‖SI‖En‖{U+03DD}‖greek small letter digamma (U+03DD)
 *C1?OZ‖~capitaldigamma ‖SI‖En‖{U+03DC}‖greek letter digamma (U+03DC)
 *C1?OZ‖~wau ‖SI‖En‖{U+03DD}‖greek small letter digamma (U+03DD)
 *C1?OZ‖~capitalwau ‖SI‖En‖{U+03DC}‖greek letter digamma (U+03DC)
 
+*C1?OZ‖~pamphyliandigamma ‖SI‖En‖{U+0377}‖greek small letter pamphylian digamma (U+0377)
+*C1?OZ‖~capitalpamphyliandigamma ‖SI‖En‖{U+0376}‖greek capital letter pamphylian digamma (U+0376)
+
 *C1?OZ‖~koppa ‖SI‖En‖{U+03D9}‖greek small letter archaic koppa (U+03D9)
 *C1?OZ‖~capitalkoppa ‖SI‖En‖{U+03D8}‖greek letter archaic koppa (U+03D8)
 *C1?OZ‖~qoppa ‖SI‖En‖{U+03D9}‖greek small letter archaic koppa (U+03D9)
 *C1?OZ‖~capitalqoppa ‖SI‖En‖{U+03D8}‖greek letter archaic koppa (U+03D8)
+
+*C1?OZ‖~modernkoppa ‖SI‖En‖{U+03DF}‖greek small letter koppa (U+03DF)
+*C1?OZ‖~capitalmodernkoppa ‖SI‖En‖{U+03DE}‖greek letter koppa (U+03DE)
+*C1?OZ‖~modernqoppa ‖SI‖En‖{U+03DF}‖greek small letter koppa (U+03DF)
+*C1?OZ‖~capitalmodernqoppa ‖SI‖En‖{U+03DE}‖greek letter koppa (U+03DE)
 
 *C1?OZ‖~sampi ‖SI‖En‖{U+0373}‖greek small letter archaic sampi (U+0373)
 *C1?OZ‖~capitalsampi ‖SI‖En‖{U+0372}‖greek capital letter archaic sampi (U+0372)
@@ -21,3 +29,17 @@
 
 *C1?OZ‖~heta ‖SI‖En‖{U+0371}‖greek small letter heta (U+0371)
 *C1?OZ‖~capitalheta ‖SI‖En‖{U+0370}‖greek capital letter heta (U+0370)
+*C1?OZ‖~tackheta ‖SI‖En‖{U+0371}‖greek small letter heta (U+0371)
+*C1?OZ‖~capitaltackheta ‖SI‖En‖{U+0370}‖greek capital letter heta (U+0370)
+
+*C1?OZ‖~stigma ‖SI‖En‖{U+03DB}‖greek small letter stigma (U+03DB)
+*C1?OZ‖~capitalstigma ‖SI‖En‖{U+03DA}‖greek letter stigma (U+03DA)
+
+*C1?OZ‖~lunatesigma ‖SI‖En‖{U+03F2}‖greek lunate sigma symbol (U+03F2)
+*C1?OZ‖~capitallunatesigma ‖SI‖En‖{U+03F9}‖greek capital lunate sigma symbol (U+03F9)
+
+*C1?OZ‖~jot ‖SI‖En‖{U+03F3}‖greek letter yot (U+03F3)
+*C1?OZ‖~capitaljot ‖SI‖En‖{U+037F}‖greek capital letter yot (U+037F)
+
+*C1?OZ‖~sho ‖SI‖En‖{U+03F8}‖greek small letter sho (U+03F8)
+*C1?OZ‖~capitalsho ‖SI‖En‖{U+03F7}‖greek capital letter sho (U+03F7)
