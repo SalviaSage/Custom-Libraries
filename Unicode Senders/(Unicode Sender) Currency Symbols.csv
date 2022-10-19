@@ -1,4 +1,4 @@
-﻿;; This library sends currency symbols. https://en.wikipedia.org/wiki/Currency_symbol ;; 61 definitions.
+;; This library sends currency symbols. https://en.wikipedia.org/wiki/Currency_symbol ;; 62 definitions.
 
 *C1?OZ‖~turkishlira ‖SI‖En‖{U+20BA}‖turkish lira sign - auto replace
 
@@ -76,6 +76,8 @@
 *C1?OZ‖~armeniandram ‖SI‖En‖{U+058F}‖armenian dram sign - auto replace
 
 *C1?OZ‖~euro ‖SI‖En‖{U+20AC}‖euro sign - auto replace
+
+*C1?OZ‖~afghani ‖SI‖En‖{U+060B}‖afghani sign sign - auto replace
 
 *C1?OZ‖~pound ‖SI‖En‖{U+00A3}‖pound sign - auto replace
 *C1?OZ‖~sterling ‖SI‖En‖{U+00A3}‖pound sign - auto replace
