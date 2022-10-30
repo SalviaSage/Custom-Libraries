@@ -1,4 +1,4 @@
-﻿;; Sends geometric shapes. ;; 20 definitions.
+;; Sends geometric shapes. ;; 22 definitions.
 
 *C1?OZ‖~rectangle ‖SI‖En‖{U+25AD}‖white rectangle (U+25AD)
 *C1?OZ‖~verticalrectangle ‖SI‖En‖{U+25AF}‖white vertical rectangle (U+25AF)
@@ -9,6 +9,8 @@
 *C1?OZ‖~diamond ‖SI‖En‖{U+25C7}‖white diamond (U+25C7)
 *C1?OZ‖~parallelogram ‖SI‖En‖{U+25B1}‖white parallelogram (U+25B1)
 *C1?OZ‖~hexagon ‖SI‖En‖{U+2B21}‖white hexagon (U+2B21)
+*C1?OZ‖~ellipse ‖SI‖En‖{U+2B2D}‖white horizontal ellipse (U+2B2D)
+*C1?OZ‖~verticalellipse ‖SI‖En‖{U+2B2F}‖white vertical ellipse (U+2B2F)
 *C1?OZ‖~square ‖SI‖En‖{U+25FB}‖white medium square (U+25FB)
 *C1?OZ‖~roundedsquare ‖SI‖En‖{U+25A2}‖white square with rounded corners (U+25A2)
 *C1?OZ‖~circle ‖SI‖En‖{U+25CB}‖white circle (U+25CB)
