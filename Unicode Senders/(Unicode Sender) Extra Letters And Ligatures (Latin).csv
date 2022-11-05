@@ -1,0 +1,144 @@
+﻿;; This library allows typing ligatures and extra letters that are found in languages written with the Latin alphabet. ;; 107 definitions.
+
+*C1?OZ‖~oeligature ‖SI‖En‖{U+0153}‖latin small ligature oe (U+0153)
+*C1?OZ‖~capitaloeligature ‖SI‖En‖{U+0152}‖latin capital ligature oe (U+0152)
+*C1?OZ‖~oeligaturecapital ‖SI‖En‖{U+0152}‖latin capital ligature oe (U+0152)
+
+*C1?OZ‖~aeligature ‖SI‖En‖{U+00E6}‖latin small letter ae (U+00E6)
+*C1?OZ‖~capitalaeligature ‖SI‖En‖{U+00C6}‖latin capital letter ae (U+00C6)
+*C1?OZ‖~aeligaturecapital ‖SI‖En‖{U+00C6}‖latin capital letter ae (U+00C6)
+
+
+*C1?OZ‖~eth ‖SI‖En‖{U+00F0}‖latin small letter eth (U+00F0)
+*C1?OZ‖~capitaleth ‖SI‖En‖{U+00D0}‖latin capital letter eth (U+00D0)
+
+*C1?OZ‖~thorn ‖SI‖En‖{U+00FE}‖latin small letter thorn (U+00FE)
+*C1?OZ‖~capitalthorn ‖SI‖En‖{U+00DE}‖latin capital letter thorn (U+00DE)
+
+*C1?OZ‖~wynn ‖SI‖En‖{U+01BF}‖latin letter wynn (U+01BF)
+*C1?OZ‖~capitalwynn ‖SI‖En‖{U+01F7}‖latin capital letter wynn (U+01F7)
+
+*C1?OZ‖~yogh ‖SI‖En‖{U+021D}‖latin small letter yogh (U+021D)
+*C1?OZ‖~capitalyogh ‖SI‖En‖{U+021C}‖latin capital letter yogh (U+021C)
+
+*C1?OZ‖~schwa ‖SI‖En‖{U+021D}‖latin small letter schwa (U+0259)
+*C1?OZ‖~capitalschwa ‖SI‖En‖{U+018F}‖latin capital letter schwa (U+018F)
+
+*C1?OZ‖~eng ‖SI‖En‖{U+014B}‖latin small letter eng (U+014B)
+*C1?OZ‖~capitaleng ‖SI‖En‖{U+014A}‖latin capital letter eng (U+014A)
+
+*C1?OZ‖~enye ‖SI‖En‖{U+00F1}‖latin small letter n with tilde (U+00F1)
+*C1?OZ‖~ntilde ‖SI‖En‖{U+00F1}‖latin small letter n with tilde (U+00F1)
+
+*C1?OZ‖~elstroke ‖SI‖En‖{U+0142}‖latin small letter l with stroke (U+0142)
+*C1?OZ‖~strokedl ‖SI‖En‖{U+0142}‖latin small letter l with stroke (U+0142)
+*C1?OZ‖~strokedel ‖SI‖En‖{U+0142}‖latin small letter l with stroke (U+0142)
+*C1?OZ‖~capitalelstroke ‖SI‖En‖{U+0141}‖latin capital letter l with stroke (U+0141)
+*C1?OZ‖~capitalstrokedl ‖SI‖En‖{U+0141}‖latin capital letter l with stroke (U+0141)
+*C1?OZ‖~capitalstrokedel ‖SI‖En‖{U+0141}‖latin capital letter l with stroke (U+0141)
+
+*C1?OZ‖~scriptg ‖SI‖En‖{U+0261}‖latin small letter script g (U+0261)
+*C1?OZ‖~singlestoreyg ‖SI‖En‖{U+0261}‖latin small letter script g (U+0261)
+*C1?OZ‖~single-storeyg ‖SI‖En‖{U+0261}‖latin small letter script g (U+0261)
+*C1?OZ‖~scripta ‖SI‖En‖{U+0251}‖latin small letter alpha (U+0251)
+
+*C1?OZ‖~palatalnasal ‖SI‖En‖{U+0272}‖latin small letter n with left hook (U+0272)
+*C1?OZ‖~capitalpalatalnasal ‖SI‖En‖{U+019D}‖latin capital letter n with left hook (U+019D)
+
+*C1?OZ‖~opene ‖SI‖En‖{U+025B}‖latin small letter open e (U+025B)
+*C1?OZ‖~capitalopene ‖SI‖En‖{U+0190}‖latin capital letter open e (U+0190)
+
+*C1?OZ‖~openo ‖SI‖En‖{U+0254}‖latin small letter open o (U+0254)
+*C1?OZ‖~capitalopeno ‖SI‖En‖{U+0186}‖latin capital letter open o (U+0186)
+
+*C1?OZ‖~glottalstop ‖SI‖En‖{U+0294}‖latin letter glottal stop (U+0294)
+*C1?OZ‖~capitalglottalstop ‖SI‖En‖{U+0241}‖latin capital letter glottal stop (U+0241)
+
+*C1?OZ‖~longess ‖SI‖En‖{U+017F}‖latin small letter long s (U+017F)
+*C1?OZ‖~longi ‖SI‖En‖{U+A7FE}‖latin epigraphic letter i longa (U+A7FE)
+*C1?OZ‖~ilonga ‖SI‖En‖{U+A7FE}‖latin epigraphic letter i longa (U+A7FE)
+
+*C1?OZ‖~turnedm ‖SI‖En‖{U+026F}‖latin small letter turned m (U+026F)
+*C1?OZ‖~doubleu ‖SI‖En‖{U+026F}‖latin small letter turned m (U+026F)
+*C1?OZ‖~capitalturnedm ‖SI‖En‖{U+019C}‖latin capital letter turned m (U+019C)
+*C1?OZ‖~capitaldoubleu ‖SI‖En‖{U+019C}‖latin capital letter turned m (U+019C)
+
+*C1?OZ‖~sharpess ‖SI‖En‖{U+00DF}‖latin small letter sharp s (U+00DF)
+*C1?OZ‖~capitalsharpess ‖SI‖En‖{U+1E9E}‖latin capital letter sharp s (U+1E9E)
+
+*C1?OZ‖~esh ‖SI‖En‖{U+0283}‖latin small letter esh (U+0283)
+*C1?OZ‖~capitalesh ‖SI‖En‖{U+01A9}‖latin capital letter esh (U+01A9)
+
+*C1?OZ‖~ohorn ‖SI‖En‖{U+01A1}‖latin small letter o with horn (U+01A1)
+*C1?OZ‖~horno ‖SI‖En‖{U+01A1}‖latin small letter o with horn (U+01A1)
+*C1?OZ‖~hornedo ‖SI‖En‖{U+01A1}‖latin small letter o with horn (U+01A1)
+*C1?OZ‖~capitalohorn ‖SI‖En‖{U+01A0}‖latin capital letter o with horn (U+01A0)
+*C1?OZ‖~capitalhorno ‖SI‖En‖{U+01A0}‖latin capital letter o with horn (U+01A0)
+*C1?OZ‖~capitalhornedo ‖SI‖En‖{U+01A0}‖latin capital letter o with horn (U+01A0)
+
+*C1?OZ‖~uhorn ‖SI‖En‖{U+01B0}‖latin small letter u with horn (U+01B0)
+*C1?OZ‖~hornu ‖SI‖En‖{U+01B0}‖latin small letter u with horn (U+01B0)
+*C1?OZ‖~hornedu ‖SI‖En‖{U+01B0}‖latin small letter u with horn (U+01B0)
+*C1?OZ‖~capitaluhorn ‖SI‖En‖{U+01AF}‖latin capital letter u with horn (U+01AF)
+*C1?OZ‖~capitalhornu ‖SI‖En‖{U+01AF}‖latin capital letter u with horn (U+01AF)
+*C1?OZ‖~capitalhornedu ‖SI‖En‖{U+01AF}‖latin capital letter u with horn (U+01AF)
+
+*C1?OZ‖~dstroke ‖SI‖En‖{U+0111}‖latin small letter d with stroke (U+0111)
+*C1?OZ‖~strokedd ‖SI‖En‖{U+0111}‖latin small letter d with stroke (U+0111)
+*C1?OZ‖~capitaldstroke ‖SI‖En‖{U+0110}‖latin capital letter d with stroke (U+0110)
+*C1?OZ‖~capitalstrokedd ‖SI‖En‖{U+0110}‖latin capital letter d with stroke (U+0110)
+
+*C1?OZ‖~ezh ‖SI‖En‖{U+0292}‖latin small letter ezh (U+0292)
+*C1?OZ‖~capitalezh ‖SI‖En‖{U+01B7}‖latin capital letter ezh (U+01B7)
+
+*C1?OZ‖~aesc ‖SI‖En‖{U+00E6}‖latin small letter ae (U+00E6)
+*C1?OZ‖~æsc ‖SI‖En‖{U+00E6}‖latin small letter ae (U+00E6)
+*C1?OZ‖~ash ‖SI‖En‖{U+00E6}‖latin small letter ae (U+00E6)
+*C1?OZ‖~æsh ‖SI‖En‖{U+00E6}‖latin small letter ae (U+00E6)
+*C1?OZ‖~capitalaesc ‖SI‖En‖{U+00C6}‖latin capital letter ae (U+00C6)
+*C1?OZ‖~capitalæsc ‖SI‖En‖{U+00C6}‖latin capital letter ae (U+00C6)
+*C1?OZ‖~capitalash ‖SI‖En‖{U+00C6}‖latin capital letter ae (U+00C6)
+*C1?OZ‖~capitalæsh ‖SI‖En‖{U+00C6}‖latin capital letter ae (U+00C6)
+
+*C1?OZ‖~dotlessi ‖SI‖En‖{U+0131}‖latin small letter dotless i (U+0131)
+*C1?OZ‖~dotlessj ‖SI‖En‖{U+0237}‖latin small letter dotless j (U+0237)
+
+*C1?OZ‖~gbreve ‖SI‖En‖{U+011F}‖latin small letter g with breve (U+011F)
+*C1?OZ‖~gbrevecapital ‖SI‖En‖{U+011E}‖latin capital letter g with breve (U+011E)
+*C1?OZ‖~capitalgbreve ‖SI‖En‖{U+011E}‖latin capital letter g with breve (U+011E)
+
+*C1?OZ‖~oumlaut ‖SI‖En‖{U+00F6}‖latin small letter o with diaeresis (U+00F6)
+*C1?OZ‖~oumlautcapital ‖SI‖En‖{U+00D6}‖latin capital letter o with diaeresis (U+00D6)
+*C1?OZ‖~capitaloumlaut ‖SI‖En‖{U+00D6}‖latin capital letter o with diaeresis (U+00D6)
+
+*C1?OZ‖~aumlaut ‖SI‖En‖{U+00E4}‖latin small letter a with diaeresis (U+00E4)
+*C1?OZ‖~aumlautcapital ‖SI‖En‖{U+00C4}‖latin capital letter a with diaeresis (U+00C4)
+*C1?OZ‖~capitalaumlaut ‖SI‖En‖{U+00C4}‖latin capital letter a with diaeresis (U+00C4)
+
+*C1?OZ‖~uumlaut ‖SI‖En‖{U+00FC}‖latin small letter u with diaeresis (U+00FC)
+*C1?OZ‖~uumlautcapital ‖SI‖En‖{U+00DC}‖latin capital letter u with diaeresis (U+00DC)
+*C1?OZ‖~capitaluumlaut ‖SI‖En‖{U+00DC}‖latin capital letter u with diaeresis (U+00DC)
+
+*C1?OZ‖~ccedilla ‖SI‖En‖{U+00E7}‖latin small letter c with cedilla (U+00E7)
+*C1?OZ‖~ccedillacapital ‖SI‖En‖{U+00C7}‖latin capital letter c with cedilla (U+00C7)
+*C1?OZ‖~capitalccedilla ‖SI‖En‖{U+00C7}‖latin capital letter c with cedilla (U+00C7)
+
+*C1?OZ‖~scedilla ‖SI‖En‖{U+015F}‖latin small letter s with cedilla (U+015F)
+*C1?OZ‖~scedillacapital ‖SI‖En‖{U+015E}‖latin capital letter s with cedilla (U+015E)
+*C1?OZ‖~capitalscedilla ‖SI‖En‖{U+015E}‖latin capital letter s with cedilla (U+015E)
+
+*C1?OZ‖~tcomma ‖SI‖En‖{U+021B}‖latin small letter t with comma below (U+021B)
+*C1?OZ‖~tcommacapital ‖SI‖En‖{U+021A}‖latin capital letter t with comma below (U+021A)
+*C1?OZ‖~capitaltcomma ‖SI‖En‖{U+021A}‖latin capital letter t with comma below (U+021A)
+
+*C1?OZ‖~scomma ‖SI‖En‖{U+0219}‖latin small letter s with comma below (U+0219)
+*C1?OZ‖~scommacapital ‖SI‖En‖{U+0218}‖latin capital letter s with comma below (U+0218)
+*C1?OZ‖~capitalscomma ‖SI‖En‖{U+0218}‖latin capital letter s with comma below (U+0218)
+
+*C1?OZ‖~tailedz ‖SI‖En‖{U+0292}‖latin small letter ezh (U+0292)
+*C1?OZ‖~tailedzcapital ‖SI‖En‖{U+01B7}‖latin capital letter ezh (U+01B7)
+*C1?OZ‖~capitaltailedz ‖SI‖En‖{U+01B7}‖latin capital letter ezh (U+01B7)
+
+*C1?OZ‖~strokedz ‖SI‖En‖{U+01B6}‖latin small letter z with stroke (U+01B6)
+*C1?OZ‖~strokedzcapital ‖SI‖En‖{U+01B5}‖latin capital letter z with stroke (U+01B5)
+*C1?OZ‖~capitalstrokedz ‖SI‖En‖{U+01B5}‖latin capital letter z with stroke (U+01B5)
