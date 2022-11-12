@@ -99,8 +99,8 @@
 *C1?OZ‖~threeemdash3 ‖SI‖En‖{U+2E3B}{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
 *C1?OZ‖~wavyline ‖SI‖En‖{U+3030}{U+3030}{U+3030}{U+3030}{U+3030}‖wavy dash (U+3030)
 
-*C1?OZ‖~ditto ‖SI‖En‖{U+3003}‖ditto mark (U+3003)
-*C1?OZ‖~dittomark ‖SI‖En‖{U+3003}‖ditto mark (U+3003)
+*C1?OZ‖~ditto ‖SI‖En‖{U+2033}‖double prime (U+2033)
+*C1?OZ‖~dittomark ‖SI‖En‖{U+2033}‖double prime (U+2033)
 
 *C1?OZ‖~micro ‖SI‖En‖{U+00B5}‖micro sign (U+00B5)
 *C1?OZ‖~microsign ‖SI‖En‖{U+00B5}‖micro sign (U+00B5)
