@@ -1,4 +1,4 @@
-;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 227 definitions.
+;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 229 definitions.
 
 *C1?OZ‖~apostrophe ‖SI‖En‖{U+02BC}‖modifier letter apostrophe (U+02BC)
 *C1?OZ‖~okina ‖SI‖En‖{U+02BB}‖modifier letter turned comma (U+02BB)
@@ -13,6 +13,8 @@
 *C1?OZ‖~tripleprime ‖SI‖En‖{U+2034}‖triple prime (U+2034)
 *C1?OZ‖~quadrupleprime ‖SI‖En‖{U+2057}‖quadruple prime (U+2057)
 
+*C1?OZ‖~dinkus ‖SI‖En‖{U+26B9}{U+26B9}{U+26B9}‖sextile (U+26B9)
+*C1?OZ‖~sextile ‖SI‖En‖{U+26B9}‖sextile (U+26B9)
 *C1?OZ‖~asterism ‖SI‖En‖{U+2042}‖asterism (U+2042)
 *C1?OZ‖~lowasterisk ‖SI‖En‖{U+204E}‖low asterisk (U+204E)
 *C1?OZ‖~doubleasterisk ‖SI‖En‖{U+2051}‖two asterisks aligned vertically (U+2051)
