@@ -1,12 +1,9 @@
-;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 229 definitions.
+;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 202 definitions.
 
 *C1?OZ‖~apostrophe ‖SI‖En‖{U+02BC}‖modifier letter apostrophe (U+02BC)
 *C1?OZ‖~okina ‖SI‖En‖{U+02BB}‖modifier letter turned comma (U+02BB)
 *C1?OZ‖~saltillo ‖SI‖En‖{U+A78C}‖latin small letter saltillo (U+A78C)
 *C1?OZ‖~capitalsaltillo ‖SI‖En‖{U+A78B}‖latin capital letter saltillo (U+A78B)
-
-*C1?OZ‖~glottalstop ‖SI‖En‖{U+0294}‖latin letter glottal stop (U+0294)
-*C1?OZ‖~capitalglottalstop ‖SI‖En‖{U+0241}‖latin capital letter glottal stop (U+0241)
 
 *C1?OZ‖~prime ‖SI‖En‖{U+2032}‖prime (U+2032)
 *C1?OZ‖~doubleprime ‖SI‖En‖{U+2033}‖double prime (U+2033)
@@ -43,6 +40,7 @@
 *C1?OZ‖~centerdot ‖SI‖En‖{U+00B7}‖middle dot (U+00B7)
 *C1?OZ‖~centereddot ‖SI‖En‖{U+00B7}‖middle dot (U+00B7)
 *C1?OZ‖~doubleperiod ‖SI‖En‖{U+2025}‖two dot leader (U+2025)
+*C1?OZ‖~twodots ‖SI‖En‖{U+2025}‖two dot leader (U+2025)
 
 *C1?OZ‖~doubleverticalline ‖SI‖En‖{U+2016}‖double vertical line (U+2016)
 *C1?OZ‖~mediumverticalbar ‖SI‖En‖{U+2759}‖medium vertical bar (U+2759)
@@ -107,6 +105,8 @@
 *C1?OZ‖~threethreeemdash ‖SI‖En‖{U+2E3B}{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
 *C1?OZ‖~threethreeemdashes ‖SI‖En‖{U+2E3B}{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
 *C1?OZ‖~threeemdash3 ‖SI‖En‖{U+2E3B}{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
+
+*C1?OZ‖~straightline ‖SI‖En‖{U+2E3B}{U+2E3B}{U+2E3B}‖three-em dash (U+2E3B)
 *C1?OZ‖~wavyline ‖SI‖En‖{U+3030}{U+3030}{U+3030}{U+3030}{U+3030}‖wavy dash (U+3030)
 
 *C1?OZ‖~ditto ‖SI‖En‖{U+2033}‖double prime (U+2033)
@@ -140,6 +140,7 @@
 *C1?OZ‖~triangularbullet ‖SI‖En‖{U+2023}‖triangular bullet (U+2023)
 *C1?OZ‖~trianglebullet ‖SI‖En‖{U+2023}‖triangular bullet (U+2023)
 
+*C1?OZ‖~arrow ‖SI‖En‖{U+2192}‖rightwards arrow (U+2192)
 *C1?OZ‖~leftarrow ‖SI‖En‖{U+2190}‖leftwards arrow (U+2190)
 *C1?OZ‖~uparrow ‖SI‖En‖{U+2191}‖upwards arrow (U+2191)
 *C1?OZ‖~rightarrow ‖SI‖En‖{U+2192}‖rightwards arrow (U+2192)
@@ -178,10 +179,6 @@
 *C1?OZ‖~dottedcross ‖SI‖En‖{U+205C}‖dotted cross (U+205C)
 
 *C1?OZ‖~currencysign ‖SI‖En‖{U+203B}‖currency sign (U+00A4)
-*C1?OZ‖~centsign ‖SI‖En‖{U+00A2}‖cent sign (U+00A2)
-*C1?OZ‖~poundsign ‖SI‖En‖{U+00A3}‖pound sign (U+00A3)
-*C1?OZ‖~yensign ‖SI‖En‖{U+00A5}‖yen sign (U+00A5)
-*C1?OZ‖~eurosign ‖SI‖En‖{U+20AC}‖euro sign (U+20AC)
 
 *C1?OZ‖~nobreakspace ‖SI‖En‖{U+00A0}‖no-break space (U+00A0)
 *C1?OZ‖~nonbreakingspace ‖SI‖En‖{U+00A0}‖no-break space (U+00A0)
@@ -206,11 +203,22 @@
 *C1?OZ‖~sextuplecolon ‖SI‖En‖{U+2E3D}‖vertical six dots (U+2E3D)
 *C1?OZ‖~sixcolon ‖SI‖En‖{U+2E3D}‖vertical six dots (U+2E3D)
 
+*C1?OZ‖~midlineellipsis ‖SI‖En‖{U+22EF}‖midline horizontal ellipsis (U+22EF)
+*C1?OZ‖~raisedellipsis ‖SI‖En‖{U+22EF}‖midline horizontal ellipsis (U+22EF)
+*C1?OZ‖~verticalellipsis ‖SI‖En‖{U+22EE}‖vertical ellipsis (U+22EE)
+
 *C1?OZ‖~threedotpunctuation ‖SI‖En‖{U+2056}‖three dot punctuation (U+2056)
 *C1?OZ‖~fourdotpunctuation ‖SI‖En‖{U+2058}‖four dot punctuation (U+2058)
 *C1?OZ‖~diamondcolon ‖SI‖En‖{U+2058}‖four dot punctuation (U+2058)
 *C1?OZ‖~fivedotpunctuation ‖SI‖En‖{U+2059}‖five dot punctuation (U+2059)
 *C1?OZ‖~fivedotmark ‖SI‖En‖{U+2E2D}‖five dot mark (U+2E2D)
+
+*C1?OZ‖~verymuchgreaterthan ‖SI‖En‖{U+22D9}‖very much greater-than (U+22D9)
+*C1?OZ‖~muchgreaterthan ‖SI‖En‖{U+22D9}‖very much greater-than (U+22D9)
+*C1?OZ‖~verymuchlessthan ‖SI‖En‖{U+22D8}‖very much less-than (U+22D8)
+*C1?OZ‖~muchlessthan ‖SI‖En‖{U+22D8}‖very much less-than (U+22D8)
+
+*C1?OZ‖~CJKditto ‖SI‖En‖{U+3003}‖ditto mark (U+3003)
 
 *C1?OZ‖~interrobang ‖SI‖En‖{U+203D}‖interrobang (U+203D)
 *C1?OZ‖~interabang ‖SI‖En‖{U+203D}‖interrobang (U+203D)
@@ -239,38 +247,3 @@
 *C1?Z‖~lowhighquotationmarks ‖SI‖En‖„“{left 1}‖low-high quotation marks open-close
 *C1?Z‖~lowquotationmarks ‖SI‖En‖⹂„{left 1}‖low quotation marks open-close
 *C1?Z‖~singlequotationmarks ‖SI‖En‖‘’{left 1}‖single quotation marks open-close
-
-*C1?Z‖~cornerbrackets ‖SI‖En‖「」{left 1}‖corner bracket open-close
-*C1?Z‖~CJKbrackets ‖SI‖En‖「」{left 1}‖corner bracket open-close
-*C1?Z‖~doublecornerbrackets ‖SI‖En‖『』{left 1}‖white corner bracket open-close
-*C1?Z‖~doubleCJKbrackets ‖SI‖En‖『』{left 1}‖white corner bracket open-close
-*C1?Z‖~thickCJKbrackets ‖SI‖En‖『』{left 1}‖white corner bracket open-close
-*C1?Z‖~thickcornerbrackets ‖SI‖En‖『』{left 1}‖white corner bracket open-close
-
-*C1?Z‖~tortoisebrackets ‖SI‖En‖〔〕{left 1}‖tortoise bracket open-close
-*C1?Z‖~doubletortoisebrackets ‖SI‖En‖〘〙{left 1}‖white tortoise bracket open-close
-*C1?Z‖~thicktortoisebrackets ‖SI‖En‖〘〙{left 1}‖white tortoise bracket open-close
-
-*C1?Z‖~parentheses ‖SI‖En‖(){left 1}‖parentheses open-close
-*C1?Z‖~parenthesis ‖SI‖En‖(){left 1}‖parentheses open-close
-*C1?Z‖~parenthesises ‖SI‖En‖(){left 1}‖parentheses open-close
-*C1?Z‖~roundbrackets ‖SI‖En‖(){left 1}‖parentheses open-close
-*C1?Z‖~brackets ‖SI‖En‖[]{left 1}‖brackets open-close
-*C1?Z‖~curlybrackets ‖SI‖En‖{}{left 1}‖curly brackets open-close
-*C1?Z‖~strings ‖SI‖En‖""{left 1}‖strings open-close
-*C1?Z‖~singlestrings ‖SI‖En‖''{left 1}‖strings open-close
-*C1?Z‖~guillemets ‖SI‖En‖«»{left 1}‖guillemets open-close
-*C1?Z‖~reverseguillemets ‖SI‖En‖»«{left 1}‖guillemets open-close
-*C1?Z‖~singleguillemets ‖SI‖En‖‹›{left 1}‖chevrons open-close
-*C1?Z‖~chevrons ‖SI‖En‖‹›{left 1}‖chevrons open-close
-*C1?Z‖~anglebrackets ‖SI‖En‖⟨⟩{left 1}‖angle brackets open-close
-*C1?Z‖~angledbrackets ‖SI‖En‖⟨⟩{left 1}‖angle brackets open-close
-*C1?Z‖~doubleanglebrackets ‖SI‖En‖《》{left 1}‖double angle brackets open-close
-*C1?Z‖~doubleangledbrackets ‖SI‖En‖《》{left 1}‖double angle brackets open-close
-*C1?Z‖~curvedanglebrackets ‖SI‖En‖⧼⧽{left 1}‖curved angle brackets open-close
-*C1?Z‖~doublebrackets ‖SI‖En‖⟦⟧{left 1}‖double brackets open-close
-*C1?Z‖~lenticularbrackets ‖SI‖En‖【】{left 1}‖lenticular brackets open-close
-*C1?Z‖~sumitsuki ‖SI‖En‖【】{left 1}‖lenticular brackets open-close
-*C1?Z‖~quillbrackets ‖SI‖En‖⁅⁆{left 1}‖quill brackets open-close
-*C1?Z‖~floorbrackets ‖SI‖En‖⌊⌋{left 1}‖left floor (U+230A) right floor (U+230B)
-*C1?Z‖~ceilingbrackets ‖SI‖En‖⌈⌉{left 1}‖left ceiling (U+2308) right ceiling (U+2309)
