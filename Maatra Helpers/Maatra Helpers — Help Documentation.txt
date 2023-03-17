@@ -1,22 +1,40 @@
-Maatra Typers — Help Documentation:
+Maatra Helpers — Help Documentation;
 
-I created these Hotstrings.exe libraries to tackle an issue with typing vowels in the Devanagari script
-and in other Indic scripts.
+I created these Hotstrings.exe libraries to tackle an issue with typing vowels in Indic scripts.
 
 In the Devanagari alphabet, vowels can be written in 2 ways. The independent vowel forms and the maatra forms.
 (https://en.wiktionary.org/wiki/matra)
+This creates a challenge when it comes to typing Indic scripts because it means we have to make some 4 separate key assignments.
+(maatra, vowel, long maatra, long vowel)
 
-In the computer programs I created to type Indic scripts, I assigned the vowel keys to type the maatra forms while pressing caps lock + vowel keys give us the independent vowel forms.
-While pressing shift + vowel keys give us long maatra forms.
+In the computer programs I created to type Indic scripts, the vowel keys give us the maatra forms while pressing caps lock + vowel keys give us the independent vowel forms.
+Pressing shift + vowel keys give us long maatra forms and pressing caps lock + shift + vowel keys give us independent long vowel forms.
 
-This seemed like a good idea since Indic scripts are caseless, which give us the ability to use the caps lock key as an extra modifier key.
-However, this makes it so that the maatras are also typed at the start of words where the independent vowel forms would be.
-For example, you wanted to type उत्तर , but you got ुत्तार instead. This mistake would never be done if writing with a pen and paper.
+This seemed like a good idea because Indic scripts are caseless so I figured out a method for using the Caps Lock key as an extra modifier key.
+
+I created this computer program to facilitate this matter:
+https://github.com/SalviaSage/Autohotkey-Scripts-Repository/tree/master/Typing%20Scripts/Holdable%20Caps%20Lock
+
+This program makes the caps lock key behave just like the shift key, but it does not it make it a shift key programmatically.
+Which is good, because we still need the shift key as a separate modifier key.
+
+However, this makes it so that the maatras are typed at the start of words where the independent vowel forms would be.
+For example, the typist would want to type उत्तर (uttar) , but would get ुत्तार instead.
+This mistake would never be done if writing with a pen and paper.
+
 In this scenario, this is done intentionally since the maatra and the independent vowels are treated as different letters by the computer.
-And the computer has no way of telling where the start of words are to automate this matter. At the start of words, the maatras would never be used.
+And the computer has no way of telling where the start of words are and therefore, can not automate this matter. 
+
+The typist would then have to press separate keys or press shift+key as described above in order to type independent vowel letters.
+That itself is good in the sense that it gives us a manual way of typing whichever maatra or vowel letter that we want to type.
+However, it indroduces the aforementioned problem where the maatra is used where it can not be used, most typically, being the first letter of a word.
+
+I had the idea to address this issue in my mind for months and thought it could be automated.
+However, It could not be a reality until I found out about the computer program Hotstrings.exe
+
 So, what this custom library does is that it automatically detects and deletes the starting maatras and replaces them with their independent vowel forms.
 
-There are twenty-three definitions here for tackling this problem in the Devanagari script and I like to think that it is an indispensable program for typing with the Devanagari script and other Indic scripts that are affected by this problem.
+There are twenty-three definitions in the Devanagari script and I like to think that it is an indispensable program for typing with Devanagari and other Indic scripts.
 
 This custom library is based on the program found here: https://github.com/mslonik/Hotstrings
 I am not the author of this program and that program is in active development as of writing this.
