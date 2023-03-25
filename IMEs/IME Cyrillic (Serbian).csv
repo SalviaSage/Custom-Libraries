@@ -1,0 +1,27 @@
+﻿;; IME for typing Serbian Cyrillic. EXPERIMENTAL and WIP
+
+;; Immediate execute (*) should not be used with IMEs.
+;; They have to be case sensitive (C) with separate case definitions.
+;; There is a bug where space is sent before the characters starting from the tenth entry.
+
+;; VOWELS
+
+C?OZ‖і‖SI‖En‖ј‖і
+C?OZ‖І‖SI‖En‖Ј‖І
+
+C?OZ‖и‖SI‖En‖ј‖и
+C?OZ‖И‖SI‖En‖Ј‖И
+
+;; CONSONANTS
+
+C?OZ‖т‖MSI‖En‖ћ¦ђ‖т
+C?OZ‖Т‖MSI‖En‖Ћ¦Ђ‖Т
+
+C?OZ‖л‖SI‖En‖љ‖л
+C?OZ‖Л‖SI‖En‖Љ‖Л
+
+C?OZ‖н‖SI‖En‖њ‖н
+C?OZ‖Н‖SI‖En‖Њ‖Н
+
+C?OZ‖ч‖SI‖En‖џ‖ч
+C?OZ‖Ч‖SI‖En‖Џ‖Ч
