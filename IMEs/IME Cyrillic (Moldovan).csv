@@ -1,0 +1,10 @@
+﻿;; IME for typing Moldovan Cyrillic. EXPERIMENTAL and WIP
+
+;; Immediate execute (*) should not be used with IMEs.
+;; They have to be case sensitive (C) with separate case definitions.
+;; There is a bug where space is sent before the characters starting from the tenth entry.
+
+;; CONSONANTS
+
+C?OZ‖ж‖SI‖En‖ӂ‖ӂ
+C?OZ‖Ж‖SI‖En‖Ӂ‖Ӂ
