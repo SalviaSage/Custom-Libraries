@@ -1,30 +1,33 @@
-﻿;; IME for typing the Vietnamese Vowels. EXPERIMENTAL
+;; IME for typing Vietnamese. ;; EXPERIMENTAL
 
 ;; Immediate execute (*) should not be used with IMEs.
 ;; They have to be case sensitive (C) with separate case definitions.
 ;; There is a bug where space is sent before the characters starting from the tenth entry.
+;; The correct syntax for fixing this bug is the character followed by the {Left 2}{BS}{Right} syntax.
 
-C?OZ‖a‖MSI‖En‖a¦á¦à¦ả¦ã¦ạ¦-¦ă¦ắ¦ằ¦ẳ¦ẵ¦ặ¦-¦â¦ấ¦ầ¦ẩ¦ẫ¦ậ‖Vowel a
+;; Mouse select from the menu only, the number keys do not work.
+;; Best used alongside the program "Typer Helper (Vietnamese)".
 
-C?OZ‖e‖MSI‖En‖e¦é¦è¦ẻ¦ẽ¦ẹ¦-¦ê¦ế¦ề¦ể¦ễ¦ệ‖Vowel e
+;; VOWELS
+C?OZ‖a‖MSI‖En‖a¦á¦à¦ả¦ã¦ạ¦¦â {BS 2}{U+00EA}¦ấ {BS 2}{U+1EA5}¦ầ {Left 2}{BS}{Right}¦ẩ {Left 2}{BS}{Right}¦ẫ {Left 2}{BS}{Right}¦ậ {Left 2}{BS}{Right}¦¦ă {Left 2}{BS}{Right}¦ắ {Left 2}{BS}{Right}¦ằ {Left 2}{BS}{Right}¦ẳ {Left 2}{BS}{Right}¦ẵ {Left 2}{BS}{Right}¦ặ {Left 2}{BS}{Right}‖VOWEL LETTER a
+C?OZ‖e‖MSI‖En‖e¦é¦è¦ẻ¦ẽ¦ẹ¦¦ê {BS 2}{U+00EA}¦ế {BS 2}{U+1EBF}¦ề {Left 2}{BS}{Right}¦ể {Left 2}{BS}{Right}¦ễ {Left 2}{BS}{Right}¦ệ {Left 2}{BS}{Right}‖VOWEL LETTER e
+C?OZ‖i‖MSI‖En‖i¦í¦ì¦ỉ¦ĩ¦ị¦¦i̇́ {BS 4}{U+0069}{U+0307}{U+0301}¦i̇̀ {BS 4}{U+0069}{U+0307}{U+0300}¦i̇̉ {Left 2}{BS}{Right}¦i̇̃ {Left 2}{BS}{Right}‖VOWEL LETTER i
+C?OZ‖o‖MSI‖En‖o¦ó¦ò¦ỏ¦õ¦ọ¦¦ô {BS 2}{U+00F4}¦ố {BS 2}{U+1ED1}¦ồ {Left 2}{BS}{Right}¦ổ {Left 2}{BS}{Right}¦ỗ {Left 2}{BS}{Right}¦ộ {Left 2}{BS}{Right}¦¦ơ {Left 2}{BS}{Right}¦ớ {Left 2}{BS}{Right}¦ờ {Left 2}{BS}{Right}¦ở {Left 2}{BS}{Right}¦ỡ {Left 2}{BS}{Right}¦ợ {Left 2}{BS}{Right}‖VOWEL LETTER o
+C?OZ‖u‖MSI‖En‖u¦ú¦ù¦ủ¦ũ¦ụ¦¦ư {BS 2}{U+01B0}¦ứ {BS 2}{U+1EE9}¦ừ {Left 2}{BS}{Right}¦ử {Left 2}{BS}{Right}¦ữ {Left 2}{BS}{Right}¦ự {Left 2}{BS}{Right}‖VOWEL LETTER u
+C?OZ‖y‖MSI‖En‖y¦ý¦ỳ¦ỷ¦ỹ¦ỵ‖VOWEL LETTER y
 
-C?OZ‖i‖MSI‖En‖i¦í¦ì¦ỉ¦ĩ¦ị¦-¦i̇́¦i̇̀¦i̇̉¦i̇̃¦-¦ï¦ı¦ı̣‖Vowel i
+C?OZ‖A‖MSI‖En‖A¦Á¦À¦Ả¦Ã¦Ạ¦¦Â {BS 2}{U+00C2}¦Ấ {BS 2}{U+1EA4}¦Ầ {Left 2}{BS}{Right}¦Ẩ {Left 2}{BS}{Right}¦Ẫ {Left 2}{BS}{Right}¦Ậ {Left 2}{BS}{Right}¦¦Ă {Left 2}{BS}{Right}¦Ắ {Left 2}{BS}{Right}¦Ằ {Left 2}{BS}{Right}¦Ẳ {Left 2}{BS}{Right}¦Ẵ {Left 2}{BS}{Right}¦Ặ {Left 2}{BS}{Right}‖VOWEL LETTER A
+C?OZ‖E‖MSI‖En‖E¦É¦È¦Ẻ¦Ẽ¦Ẹ¦¦Ê {BS 2}{U+00CA}¦Ế {BS 2}{U+1EBE}¦Ề {Left 2}{BS}{Right}¦Ể {Left 2}{BS}{Right}¦Ễ {Left 2}{BS}{Right}¦Ệ {Left 2}{BS}{Right}‖VOWEL LETTER E
+C?OZ‖I‖MSI‖En‖I¦Í¦Ì¦Ỉ¦Ĩ¦Ị‖VOWEL LETTER I
+C?OZ‖O‖MSI‖En‖O¦Ó¦Ò¦Ỏ¦Õ¦Ọ¦¦Ô {BS 2}{U+00D4}¦Ố {BS 2}{U+1ED0}¦Ồ {Left 2}{BS}{Right}¦Ổ {Left 2}{BS}{Right}¦Ỗ {Left 2}{BS}{Right}¦Ộ {Left 2}{BS}{Right}¦¦Ơ {Left 2}{BS}{Right}¦Ớ {Left 2}{BS}{Right}¦Ờ {Left 2}{BS}{Right}¦Ở {Left 2}{BS}{Right}¦Ỡ {Left 2}{BS}{Right}¦Ợ {Left 2}{BS}{Right}‖VOWEL LETTER O
+C?OZ‖U‖MSI‖En‖U¦Ú¦Ù¦Ủ¦Ũ¦Ụ¦¦Ư {BS 2}{U+01AF}¦Ứ {BS 2}{U+1EE8}¦Ừ {Left 2}{BS}{Right}¦Ử {Left 2}{BS}{Right}¦Ữ {Left 2}{BS}{Right}¦Ự {Left 2}{BS}{Right}‖VOWEL LETTER U
+C?OZ‖Y‖MSI‖En‖Y¦Ý¦Ỳ¦Ỷ¦Ỹ¦Ỵ‖VOWEL LETTER Y
 
-C?OZ‖o‖MSI‖En‖o¦ó¦ò¦ỏ¦õ¦ọ¦-¦ô¦ố¦ồ¦ổ¦ỗ¦ộ¦-¦ơ¦ớ¦ờ¦ở¦ỡ¦ợ‖Vowel o
+;; CONSONANTS
+C?OZ‖d‖SI‖En‖đ‖CONSONANT LETTER d
+C?OZ‖D‖SI‖En‖Đ‖CONSONANT LETTER D
+C?OZ‖b‖SI‖En‖ƀ‖CONSONANT LETTER b
+C?OZ‖B‖SI‖En‖Ƀ‖CONSONANT LETTER B
 
-C?OZ‖u‖MSI‖En‖u¦ú¦ù¦ủ¦ũ¦ụ¦-¦ư¦ứ¦ừ¦ử¦ữ¦ự‖Vowel u
-
-C?OZ‖y‖MSI‖En‖y¦ý¦ỳ¦ỷ¦ỹ¦ỵ‖Vowel y
-
-
-C?OZ‖A‖MSI‖En‖A¦Á¦À¦Ả¦Ã¦Ạ¦-¦Ă¦Ắ¦Ằ¦Ẳ¦Ẵ¦Ặ¦-¦Â¦Ấ¦Ầ¦Ẩ¦Ẫ¦Ậ‖Vowel A
-
-C?OZ‖E‖MSI‖En‖E¦É¦È¦Ẻ¦Ẽ¦Ẹ¦-¦Ê¦Ế¦Ề¦Ể¦Ễ¦Ệ‖Vowel E
-
-C?OZ‖I‖MSI‖En‖I¦Í¦Ì¦Ỉ¦Ĩ¦Ị¦-¦Ï‖Vowel I
-
-C?OZ‖O‖MSI‖En‖O¦Ó¦Ò¦Ỏ¦Õ¦Ọ¦-¦Ô¦Ố¦Ồ¦Ổ¦Ỗ¦Ộ¦-¦Ơ¦Ớ¦Ờ¦Ở¦Ỡ¦Ợ‖Vowel O
-
-C?OZ‖U‖MSI‖En‖U¦Ú¦Ù¦Ủ¦Ũ¦Ụ¦-¦Ư¦Ứ¦Ừ¦Ử¦Ữ¦Ự‖Vowel U
-
-C?OZ‖Y‖MSI‖En‖Y¦Ý¦Ỳ¦Ỷ¦Ỹ¦Ỵ‖Vowel Y
+;; CURRENCY SIGN
+C?OZ‖$‖SI‖En‖₫‖CURRENCY SIGN DONG
