@@ -1,11 +1,11 @@
-﻿;; IME for typing Kazakh Cyrillic. EXPERIMENTAL and WIP
+;; IME for typing Kazakh Cyrillic. EXPERIMENTAL and WIP
 
 ;; Immediate execute (*) should not be used with IMEs.
 ;; They have to be case sensitive (C) with separate case definitions.
 ;; There is a bug where space is sent before the characters starting from the tenth entry.
+;; The correct syntax for fixing this bug is the character followed by the {Left 2}{BS}{Right} syntax.
 
 ;; VOWELS
-
 C?OZ‖е‖SI‖En‖ә‖е
 C?OZ‖Е‖SI‖En‖Ә‖Е
 
@@ -19,7 +19,6 @@ C?OZ‖у‖MSI‖En‖ү¦ұ‖у
 C?OZ‖У‖MSI‖En‖Ү¦Ұ‖У
 
 ;; CONSONANTS
-
 C?OZ‖к‖SI‖En‖қ‖к
 C?OZ‖К‖SI‖En‖Қ‖К
 
