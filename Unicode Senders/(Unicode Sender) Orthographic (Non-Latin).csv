@@ -1,0 +1,5 @@
+﻿;; Orthographic Sender (Non-Latin): Helps type some orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 3 definitions.
+
+*C1?OZ‖~armenianfullstop‖SI‖En‖{U+0589}‖armenian full stop (U+0589)
+*C1?OZ‖~georgianparagraphseparator‖SI‖En‖{U+10FB}‖georgian paragraph separator (U+10FB)
+*C1?OZ‖~greekquestionmark‖SI‖En‖{U+037E}‖greek question mark (U+037E)

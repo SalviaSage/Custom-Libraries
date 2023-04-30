@@ -1,0 +1,106 @@
+﻿;; This library allows typing the Greek letters by typing their names in English. ;; 73 definitions.
+
+*C1?OZ‖~alpha‖SI‖En‖{U+03B1}‖greek small letter alpha (U+03B1)
+*C1?OZ‖~capitalalpha‖SI‖En‖{U+0391}‖greek capital letter alpha (U+0391)
+
+*C1?OZ‖~beta‖SI‖En‖{U+03B2}‖greek small letter beta (U+03B2)
+*C1?OZ‖~capitalbeta‖SI‖En‖{U+0392}‖greek capital letter beta (U+0392)
+
+*C1?OZ‖~gamma‖SI‖En‖{U+03B3}‖greek small letter gamma (U+03B3)
+*C1?OZ‖~capitalgamma‖SI‖En‖{U+0393}‖greek capital letter gamma (U+0393)
+
+*C1?OZ‖~delta‖SI‖En‖{U+03B4}‖greek small letter delta (U+03B4)
+*C1?OZ‖~capitaldelta‖SI‖En‖{U+0394}‖greek capital letter delta (U+0394)
+
+*C1?OZ‖~epsilon‖SI‖En‖{U+03B5}‖greek small letter epsilon (U+03B5)
+*C1?OZ‖~capitalepsilon‖SI‖En‖{U+0395}‖greek capital letter epsilon (U+0395)
+
+*C1?OZ‖~zeta‖SI‖En‖{U+03B6}‖greek small letter zeta (U+03B6)
+*C1?OZ‖~capitalzeta‖SI‖En‖{U+0396}‖greek capital letter zeta (U+0396)
+
+*C1?OZ‖~eta‖SI‖En‖{U+03B7}‖greek small letter eta (U+03B7)
+*C1?OZ‖~capitaleta‖SI‖En‖{U+0397}‖greek capital letter eta (U+0397)
+
+*C1?OZ‖~theta‖SI‖En‖{U+03B8}‖greek small letter theta (U+03B8)
+*C1?OZ‖~capitaltheta‖SI‖En‖{U+0398}‖greek capital letter theta (U+0398)
+
+*C1?OZ‖~iota‖SI‖En‖{U+03B9}‖greek small letter iota (U+03B9)
+*C1?OZ‖~capitaliota‖SI‖En‖{U+0399}‖greek capital letter iota (U+0399)
+
+*C1?OZ‖~kappa‖SI‖En‖{U+03BA}‖greek small letter kappa (U+03BA)
+*C1?OZ‖~capitalkappa‖SI‖En‖{U+039A}‖greek capital letter kappa (U+039A)
+
+*C1?OZ‖~lambda‖SI‖En‖{U+03BB}‖greek small letter lamda (U+03BB)
+*C1?OZ‖~lamda‖SI‖En‖{U+03BB}‖greek small letter lamda (U+03BB)
+*C1?OZ‖~capitallambda‖SI‖En‖{U+039B}‖greek capital letter lamda (U+039B)
+*C1?OZ‖~capitallamda‖SI‖En‖{U+039B}‖greek capital letter lamda (U+039B)
+
+*C1?OZ‖~mu‖SI‖En‖{U+03BC}‖greek small letter mu (U+03BC)
+*C1?OZ‖~capitalmu‖SI‖En‖{U+039C}‖greek capital letter mu (U+039C)
+
+*C1?OZ‖~nu‖SI‖En‖{U+03BD}‖greek small letter nu (U+03BD)
+*C1?OZ‖~capitalnu‖SI‖En‖{U+039D}‖greek capital letter nu (U+039D)
+
+*C1?OZ‖~xi‖SI‖En‖{U+03BE}‖greek small letter xi (U+03BE)
+*C1?OZ‖~ksi‖SI‖En‖{U+03BE}‖greek small letter xi (U+03BE)
+*C1?OZ‖~capitalxi‖SI‖En‖{U+039E}‖greek capital letter xi (U+039E)
+*C1?OZ‖~capitalksi‖SI‖En‖{U+039E}‖greek capital letter xi (U+039E)
+
+*C1?OZ‖~omicron‖SI‖En‖{U+03BF}‖greek small letter omicron (U+03BF)
+*C1?OZ‖~capitalomicron‖SI‖En‖{U+039F}‖greek capital letter omicron (U+039F)
+
+*C1?OZ‖~pi‖SI‖En‖{U+03C0}‖greek small letter pi (U+03C0)
+*C1?OZ‖~capitalpi‖SI‖En‖{U+03A0}‖greek capital letter pi (U+03A0)
+
+*C1?OZ‖~rho‖SI‖En‖{U+03C1}‖greek small letter rho (U+03C1)
+*C1?OZ‖~capitalrho‖SI‖En‖{U+03A1}‖greek capital letter rho (U+03A1)
+
+*C1?OZ‖~sigma‖SI‖En‖{U+03C3}‖greek small letter sigma (U+03C3)
+*C1?OZ‖~capitalsigma‖SI‖En‖{U+03A3}‖greek capital letter sigma (U+03A3)
+*C1?OZ‖~finalsigma‖SI‖En‖{U+03C2}‖greek small letter final sigma (U+03C2)
+*C1?OZ‖~lunatesigma‖SI‖En‖{U+03F2}‖greek lunate sigma symbol (U+03F2)
+*C1?OZ‖~capitallunatesigma‖SI‖En‖{U+03F9}‖greek capital lunate sigma symbol (U+03F9)
+
+*C1?OZ‖~stigma‖SI‖En‖{U+03DB}‖greek small letter stigma (U+03DB)
+*C1?OZ‖~capitalstigma‖SI‖En‖{U+03DA}‖greek letter stigma (U+03DA)
+
+*C1?OZ‖~tau‖SI‖En‖{U+03C4}‖greek small letter tau (U+03C4)
+*C1?OZ‖~capitaltau‖SI‖En‖{U+03A4}‖greek capital letter tau (U+03A4)
+
+*C1?OZ‖~upsilon‖SI‖En‖{U+03C5}‖greek small letter upsilon (U+03C5)
+*C1?OZ‖~capitalupsilon‖SI‖En‖{U+03A5}‖greek capital letter upsilon (U+03A5)
+
+*C1?OZ‖~phi‖SI‖En‖{U+03C6}‖greek small letter phi (U+03C6)
+*C1?OZ‖~capitalphi‖SI‖En‖{U+03A6}‖greek capital letter phi (U+03A6)
+
+*C1?OZ‖~chi‖SI‖En‖{U+03C7}‖greek small letter chi (U+03C7)
+*C1?OZ‖~capitalchi‖SI‖En‖{U+03A7}‖greek capital letter chi (U+03A7)
+
+*C1?OZ‖~psi‖SI‖En‖{U+03C8}‖greek small letter psi (U+03C8)
+*C1?OZ‖~capitalpsi‖SI‖En‖{U+03A8}‖greek capital letter psi (U+03A8)
+
+*C1?OZ‖~omega‖SI‖En‖{U+03C9}‖greek small letter omega (U+03C9)
+*C1?OZ‖~capitalomega‖SI‖En‖{U+03A9}‖greek capital letter omega (U+03A9)
+
+
+*C1?OZ‖~digamma‖SI‖En‖{U+03DD}‖greek small letter digamma (U+03DD)
+*C1?OZ‖~capitaldigamma‖SI‖En‖{U+03DC}‖greek letter digamma (U+03DC)
+*C1?OZ‖~wau‖SI‖En‖{U+03DD}‖greek small letter digamma (U+03DD)
+*C1?OZ‖~capitalwau‖SI‖En‖{U+03DC}‖greek letter digamma (U+03DC)
+
+*C1?OZ‖~koppa‖SI‖En‖{U+03D9}‖greek small letter archaic koppa (U+03D9)
+*C1?OZ‖~capitalkoppa‖SI‖En‖{U+03D8}‖greek letter archaic koppa (U+03D8)
+*C1?OZ‖~qoppa‖SI‖En‖{U+03D9}‖greek small letter archaic koppa (U+03D9)
+*C1?OZ‖~capitalqoppa‖SI‖En‖{U+03D8}‖greek letter archaic koppa (U+03D8)
+
+*C1?OZ‖~sampi‖SI‖En‖{U+0373}‖greek small letter archaic sampi (U+0373)
+*C1?OZ‖~capitalsampi‖SI‖En‖{U+0372}‖greek capital letter archaic sampi (U+0372)
+
+*C1?OZ‖~modernsampi‖SI‖En‖{U+03E1}‖greek small letter sampi (U+03E1)
+*C1?OZ‖~capitalmodernsampi‖SI‖En‖{U+03E0}‖greek letter sampi (U+03E0)
+
+*C1?OZ‖~san‖SI‖En‖{U+03FB}‖greek small letter san (U+03FB)
+*C1?OZ‖~capitalsan‖SI‖En‖{U+03FA}‖greek capital letter san (U+03FA)
+
+*C1?OZ‖~heta‖SI‖En‖{U+0371}‖greek small letter heta (U+0371)
+*C1?OZ‖~capitalheta‖SI‖En‖{U+0370}‖greek capital letter heta (U+0370)
