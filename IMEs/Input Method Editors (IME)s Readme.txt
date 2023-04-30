@@ -1,4 +1,4 @@
-Input Method Editors (IME)s — Help Documentation; 
+Input Method Editors (IME)s — Help Documentation;
 
 These libraries give us IMEs. (Input Method Editors)
 They are menus that pop up under the caret which allow us to choose extra letters and characters.
@@ -18,6 +18,7 @@ for example hitting (3) will delete the (a) that we wrote and will type (ả).
 We can also select the entry from the list with the mouse.
 
 However, there are some bugs related to spacing and you may see spaces appear before or after the inserted letters.
+This problem can be overcome by using the {Left 2}{BS}{Right} syntax. - 2023-04-30
 There is also a bug where we can not enter or type the characters from the keyboard, the mouse selection works better at the moment.
 
 For characters where there is only 1 entry in the menu, the menu should be canceled altogether in favor of automatic conversion upon pressing the tab key.
