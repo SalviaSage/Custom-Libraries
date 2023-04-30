@@ -1,11 +1,10 @@
-﻿;; IME for typing Armenian extra letters. EXPERIMENTAL
+;; IME for typing Armenian extra letters. EXPERIMENTAL
 
 ;; Immediate execute (*) should not be used with IMEs.
 ;; They have to be case sensitive (C) with separate case definitions.
 ;; There is a bug where space is sent before the characters starting from the tenth entry.
+;; The correct syntax for fixing this bug is the character followed by the {Left 2}{BS}{Right} syntax.
 
 ;; VOWELS
-
 C?OZ‖յ‖SI‖En‖ֈ‖յ
-
 C?OZ‖ա‖SI‖En‖ՠ‖ա
