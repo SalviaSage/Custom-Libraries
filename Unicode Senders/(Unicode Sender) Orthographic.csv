@@ -1,4 +1,4 @@
-﻿;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 202 definitions.
+;; Orthographic Sender: Helps type some common orthographical marks without copy pasting. This library tries to avoid symbols and pictograms. ;; 214 definitions.
 
 *C1?OZ‖~apostrophe‖SI‖En‖{U+02BC}‖modifier letter apostrophe (U+02BC)
 *C1?OZ‖~okina‖SI‖En‖{U+02BB}‖modifier letter turned comma (U+02BB)
@@ -180,16 +180,32 @@
 
 *C1?OZ‖~currencysign‖SI‖En‖{U+203B}‖currency sign (U+00A4)
 
+*C1?OZ‖~blanksymbol‖SI‖En‖{U+2422}‖blank symbol (U+2422)
+
 *C1?OZ‖~nobreakspace‖SI‖En‖{U+00A0}‖no-break space (U+00A0)
 *C1?OZ‖~nonbreakingspace‖SI‖En‖{U+00A0}‖no-break space (U+00A0)
 *C1?OZ‖~non-breakingspace‖SI‖En‖{U+00A0}‖no-break space (U+00A0)
+*C1?OZ‖~nobreakhairspace‖SI‖En‖{U+FEFF}{U+200A}‖zero width no-break space (U+FEFF) + hair space (U+200A)
+*C1?OZ‖~nonbreakinghairspace‖SI‖En‖{U+FEFF}{U+200A}‖zero width no-break space (U+FEFF) + hair space (U+200A)
+*C1?OZ‖~non-breakinghairspace‖SI‖En‖{U+FEFF}{U+200A}‖zero width no-break space (U+FEFF) + hair space (U+200A)
+*C1?OZ‖~nobreakthinspace‖SI‖En‖{U+202F}‖narrow no-break space (U+202F)
+*C1?OZ‖~nonbreakingthinspace‖SI‖En‖{U+202F}‖narrow no-break space (U+202F)
+*C1?OZ‖~non-breakingthinspace‖SI‖En‖{U+202F}‖narrow no-break space (U+202F)
+
+*C1?OZ‖~nbspace‖SI‖En‖{U+00A0}‖no-break space (U+00A0)
+*C1?OZ‖~nbhairspace‖SI‖En‖{U+FEFF}{U+200A}‖zero width no-break space (U+FEFF) + hair space (U+200A)
+*C1?OZ‖~nbthinspace‖SI‖En‖{U+202F}‖narrow no-break space (U+202F)
+
 *C1?OZ‖~hairspace‖SI‖En‖{U+200A}‖hair space (U+200A)
 *C1?OZ‖~thinspace‖SI‖En‖{U+2009}‖thin space (U+2009)
+*C1?OZ‖~narrowspace‖SI‖En‖{U+2009}‖thin space (U+2009)
+*C1?OZ‖~figurespace‖SI‖En‖{U+2007}‖figure space (U+2007)
 *C1?OZ‖~enspace‖SI‖En‖{U+2002}‖en space (U+2002)
 *C1?OZ‖~emspace‖SI‖En‖{U+2003}‖em space (U+2003)
 *C1?OZ‖~tab‖SI‖En‖{U+0009}‖character tabulation (U+0009)
 *C1?OZ‖~tabulation‖SI‖En‖{U+0009}‖character tabulation (U+0009)
 *C1?OZ‖~paragraphstart‖SI‖En‖{U+0009}‖character tabulation (U+0009)
+*C1?OZ‖~paragraphspace‖SI‖En‖{U+0009}‖character tabulation (U+0009)
 
 *C1?OZ‖~triangularcolon‖SI‖En‖{U+02D0}‖modifier letter triangular colon (U+02D0)
 *C1?OZ‖~trianglecolon‖SI‖En‖{U+02D0}‖modifier letter triangular colon (U+02D0)
@@ -217,8 +233,6 @@
 *C1?OZ‖~muchgreaterthan‖SI‖En‖{U+22D9}‖very much greater-than (U+22D9)
 *C1?OZ‖~verymuchlessthan‖SI‖En‖{U+22D8}‖very much less-than (U+22D8)
 *C1?OZ‖~muchlessthan‖SI‖En‖{U+22D8}‖very much less-than (U+22D8)
-
-*C1?OZ‖~CJKditto‖SI‖En‖{U+3003}‖ditto mark (U+3003)
 
 *C1?OZ‖~interrobang‖SI‖En‖{U+203D}‖interrobang (U+203D)
 *C1?OZ‖~interabang‖SI‖En‖{U+203D}‖interrobang (U+203D)
