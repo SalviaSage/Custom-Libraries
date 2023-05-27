@@ -1,4 +1,4 @@
-﻿;; Sends mathematical symbols. ;; 130 definitions.
+;; Sends mathematical symbols. ;; 132 definitions.
 ;; Works quite well in programs like Typora where typing math formulas are supported.
 
 *C1?OZ‖~plusminus‖SI‖En‖{U+00B1}‖plus-minus sign (U+00B1)
@@ -157,3 +157,6 @@
 *C1?OZ‖~xbar‖SI‖En‖{U+0078}{U+0305}‖latin small letter x (U+0078) combining overline (U+0305)
 
 *C1?OZ‖~overline‖SI‖En‖{U+0305}‖combining overline (U+0305)
+
+*C1?OZ‖~mathspace‖SI‖En‖{U+205F}‖medium mathematical space (U+205F)
+*C1?OZ‖~mathematicalspace‖SI‖En‖{U+205F}‖medium mathematical space (U+205F)
