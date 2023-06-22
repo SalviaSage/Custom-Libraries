@@ -1,0 +1,39 @@
+﻿;; IME for typing the Translingual Phonetic Alphabet. EXPERIMENTAL and WIP
+
+;; Immediate execute (*) should not be used with IMEs.
+;; They have to be case sensitive (C) with separate case definitions.
+;; There is a bug where space is sent before the characters starting from the tenth entry.
+
+;; VOWELS
+
+C?OZ‖a‖MSI‖En‖ᴀ¦æ¦ᴁ‖a
+C?OZ‖e‖MSI‖En‖ᴇ¦ə‖e
+C?OZ‖i‖MSI‖En‖ɪ¦ᵻ¦ᴕ‖i
+C?OZ‖o‖MSI‖En‖ɔ¦ø¦œ¦ɶ¦ꬿ‖o
+C?OZ‖u‖MSI‖En‖ʊ¦ʉ¦ᵿ¦ɥ‖u
+
+;; CONSONANTS
+
+C?OZ‖b‖MSI‖En‖β¦ƀ¦ȸ¦ʙ¦ƃ¦ʘ bilabial click‖b
+C?OZ‖c‖MSI‖En‖ɕ¦ç¦ȼ‖c
+C?OZ‖d‖MSI‖En‖ᴅ¦ð¦ƌ¦ᶁ¦ȡ¦đ‖d
+C?OZ‖f‖MSI‖En‖ɸ¦ⱷ¦ᶂ¦ꜰ‖f
+C?OZ‖g‖MSI‖En‖ɡ¦ɣ¦ɢ¦𝼂 voiced pharyngeal plosive‖g
+C?OZ‖h‖MSI‖En‖ħ¦ʜ‖h
+C?OZ‖j‖MSI‖En‖ȷ voiced palatal plosive¦ɟ voiced palatal affricate¦ʄ¦⨎¦ǂ palatal click¦⨎ bilateral palatal click‖j
+C?OZ‖k‖MSI‖En‖ꝁ voiceless velar affricate¦ʞ velar click‖k
+C?OZ‖l‖MSI‖En‖ʟ dental lateral¦ł velarized lateral¦λ palatal lateral¦ᶅ retroflex lateral¦ɫ¦ȴ‖l
+C?OZ‖m‖MSI‖En‖ɱ labiodental nasal‖m
+C?OZ‖n‖MSI‖En‖ɴ¦ŋ¦ɲ¦ᶇ¦ȵ¦ꬻ¦ꬼ‖n
+C?OZ‖p‖MSI‖En‖ꝑ¦ȹ¦ꝕ voiceless sublabial trill‖p
+C?OZ‖q‖MSI‖En‖ᴛ¦θ¦ſ¦ƫ¦ȶ¦ꝙ uvular click‖q
+C?OZ‖r‖MSI‖En‖ɹ¦ɻ¦ɾ¦ɿ¦ʀ¦ꝶ¦ᴙ¦ɍ‖r
+C?OZ‖s‖MSI‖En‖ş¦ꞩ¦ſ¦ʂ¦ᶊ¦ʆ voiceless palatal affricate‖s
+C?OZ‖t‖MSI‖En‖ᴛ¦θ¦ſ¦ƫ¦ȶ¦ⱦ‖t
+C?OZ‖v‖MSI‖En‖ᶌ¦ꝟ‖v
+C?OZ‖w‖MSI‖En‖ɯ¦ɰ‖w
+C?OZ‖x‖MSI‖En‖χ¦ꝶ‖x
+C?OZ‖y‖MSI‖En‖ỿ‖y
+C?OZ‖z‖MSI‖En‖ʒ¦ʓ¦ƶ¦ᶎ¦ʑ‖z
+
+C?OZ‖?‖MSI‖En‖ʔ¦ɂ¦ʖ¦ʕ¦ʢ‖ʔ
