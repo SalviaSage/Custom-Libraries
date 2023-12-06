@@ -1,0 +1,16 @@
+﻿;; IME for typing Mongolian Cyrillic. EXPERIMENTAL and WIP
+
+;; Immediate execute (*) should not be used with IMEs.
+;; They have to be case sensitive (C) with separate case definitions.
+;; There is a bug where space is sent before the characters starting from the tenth entry.
+;; The correct syntax for fixing this bug is the character followed by the {Left 2}{BS}{Right} syntax.
+
+;; VOWELS
+C?OZ‖о‖SI‖En‖ө‖о
+C?OZ‖О‖SI‖En‖Ө‖О
+
+C?OZ‖е‖SI‖En‖ё‖е
+C?OZ‖Е‖SI‖En‖Ё‖Е
+
+C?OZ‖у‖SI‖En‖ү‖у
+C?OZ‖У‖SI‖En‖Ү‖У
