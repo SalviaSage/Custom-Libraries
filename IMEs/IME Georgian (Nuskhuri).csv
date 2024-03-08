@@ -1,0 +1,28 @@
+﻿;; IME for typing the Georgian Nuskhuri alphabet. EXPERIMENTAL and WIP
+;; It mainly helps in typing ejective letters by first writing the non-ejective letter and pressing the trigger key. (for example, tab key)
+
+;; Immediate execute (*) should not be used with IMEs.
+;; They have to be case sensitive (C) with separate case definitions.
+;; There is a bug where space is sent before the characters starting from the tenth entry.
+;; The correct syntax for fixing this bug is the character followed by the {Left 2}{BS}{Right} syntax.
+
+;; VOWELS
+
+;; CONSONANTS
+C?OZ‖Ⴕ‖SI‖En‖Ⴉ‖K
+C?OZ‖ⴕ‖SI‖En‖ⴉ‖k
+
+C?OZ‖Ⴤ‖SI‖En‖Ⴗ‖Q
+C?OZ‖ⴤ‖SI‖En‖ⴗ‖q
+
+C?OZ‖Ⴚ‖SI‖En‖Ⴜ‖TS
+C?OZ‖ⴚ‖SI‖En‖ⴜ‖ts
+
+C?OZ‖Ⴙ‖SI‖En‖Ⴝ‖CH
+C?OZ‖ⴙ‖SI‖En‖ⴝ‖ch
+
+C?OZ‖Ⴔ‖SI‖En‖Ⴎ‖P
+C?OZ‖ⴔ‖SI‖En‖ⴎ‖p
+
+C?OZ‖Ⴇ‖SI‖En‖Ⴒ‖T
+C?OZ‖ⴇ‖SI‖En‖ⴒ‖t

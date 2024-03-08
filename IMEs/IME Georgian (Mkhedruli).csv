@@ -1,0 +1,28 @@
+﻿;; IME for typing the Georgian Mkhedruli alphabet. EXPERIMENTAL and WIP
+;; It mainly helps in typing ejective letters by first writing the non-ejective letter and pressing the trigger key. (for example, tab key)
+
+;; Immediate execute (*) should not be used with IMEs.
+;; They have to be case sensitive (C) with separate case definitions.
+;; There is a bug where space is sent before the characters starting from the tenth entry.
+;; The correct syntax for fixing this bug is the character followed by the {Left 2}{BS}{Right} syntax.
+
+;; VOWELS
+
+;; CONSONANTS
+C?OZ‖Ქ‖SI‖En‖Კ‖K
+C?OZ‖ქ‖SI‖En‖კ‖k
+
+C?OZ‖Ჴ‖SI‖En‖Ყ‖Q
+C?OZ‖ჴ‖SI‖En‖ყ‖q
+
+C?OZ‖Ც‖SI‖En‖Წ‖TS
+C?OZ‖ც‖SI‖En‖წ‖ts
+
+C?OZ‖Ჩ‖SI‖En‖Ჭ‖CH
+C?OZ‖ჩ‖SI‖En‖ჭ‖ch
+
+C?OZ‖Ფ‖SI‖En‖Პ‖P
+C?OZ‖ფ‖SI‖En‖პ‖p
+
+C?OZ‖Თ‖SI‖En‖Ტ‖T
+C?OZ‖თ‖SI‖En‖ტ‖t
