@@ -1,0 +1,22 @@
+﻿;; Kannada Maatra Helper
+
+;; Automatically fixes some typing mistakes related to vowel maatras.
+;; Intended to be used alongside this keyboard layout program:
+;; !!!!!!
+;; 15 Definitions.
+
+*C1OZ‖ಾ‖SI‖En‖{U+0C85}‖kannada letter a - Automatic Replace
+*C1OZ‖ಿ‖SI‖En‖{U+0C87}‖kannada letter i - Automatic Replace
+*C1OZ‖ೀ‖SI‖En‖{U+0C88}‖kannada letter ii - Automatic Replace
+*C1OZ‖ು‖SI‖En‖{U+0C89}‖kannada letter u - Automatic Replace
+*C1OZ‖ೂ‖SI‖En‖{U+0C8A}‖kannada letter uu - Automatic Replace
+*C1OZ‖ೆ‖SI‖En‖{U+0C8E}‖kannada letter e - Automatic Replace
+*C1OZ‖ೇ‖SI‖En‖{U+0C8F}‖kannada letter ee - Automatic Replace
+*C1OZ‖ೈ‖SI‖En‖{U+0C90}‖kannada letter ai - Automatic Replace
+*C1OZ‖ೊ‖SI‖En‖{U+0C92}‖kannada letter o - Automatic Replace
+*C1OZ‖ೋ‖SI‖En‖{U+0C93}‖kannada letter oo - Automatic Replace
+*C1OZ‖ೌ‖SI‖En‖{U+0C94}‖kannada letter au - Automatic Replace
+*C1OZ‖ೃ‖SI‖En‖{U+0C8B}‖kannada letter vocalic r - Automatic Replace
+*C1OZ‖ೄ‖SI‖En‖{U+0CE0}‖kannada letter vocalic rr - Automatic Replace
+*C1OZ‖ೢ‖SI‖En‖{U+0C8C}‖kannada letter vocalic l - Automatic Replace
+*C1OZ‖ೣ‖SI‖En‖{U+0CE1}‖kannada letter vocalic ll - Automatic Replace
