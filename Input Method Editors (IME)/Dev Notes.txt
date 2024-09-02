@@ -1,0 +1,12 @@
+IMEs are an important part of developing systems for typing Indic scripts fast and efficiently.
+Making good progress for the IME for Devanagari.
+Making this paves the path for making more IMEs for Indic scripts such as Thai.
+The large character count in Thai will likely necessitate the development of such an IME aside from the keyboard layout.
+Vowels have to be used with {u+codes}.
+
+** Bug regarding the wrong consonant being sent when sending conjunct clusters, likely related to the caps lock settings.
+
+Making comments inside the IME is possible as such;
+
+*?OZ‖'	‖MSI‖En‖ʼ¦{U+035C}{double breve}‖'
+Only the character {U+035C} will be sent by the IME, the typist will be able to see what it says in the curly brackets.
