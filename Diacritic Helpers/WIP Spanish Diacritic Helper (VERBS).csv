@@ -1,0 +1,110 @@
+﻿;; Spanish Diacritic Helper (VERBS)
+
+;; https://gchq.github.io/CyberChef/#recipe=Remove_Diacritics() ( Diacritic Remover )
+;; https://www.somacon.com/p568.php ( Duplicate Line Counter )
+
+;; Tries to correctly add the diacritical marks on words that are supposed to have them.
+;; Can not work with words that are in the dictionary as separate words such as 'se' and 'sé', 'el' and 'él'.
+;; Capitalises proper nouns except if they are separate words uncapitalised. For example, 'chile (pepper)' or 'Chile (country)'.
+;; Places the diaeresis on words that are supposed to have them such as typing 'pinguino' results in 'pingüino'.
+
+;; Does not correct spelling mistakes.
+
+;; ‖CL‖ method is superior than ‖SI‖ in preventing the user from typing during the replacement of text.
+;; ‖CL‖ and ‖MCL‖ are similar methods whereby ‖MCL‖ calls a menu, this is useful for gender designations and other peculiarities.
+;; Auto-execute (*) should be used with automatic correcters.
+;; No EndChar (O) should not be used with automatic correcters because it omits the punctuation marks that the user types.
+;; Has to be case insensitive. That is, the syntaxes (C) or (C1) must not be used.
+
+;; The spelling of the word has to match on the left and the right sides of ‖CL‖En‖
+
+;; Reset Recognizer (Z) has to be used for proper differentiation between words.
+;; Triggerstrings can be made case sensitive by using the syntax (CZ). Only to be used with proper nouns.
+
+;; TO DO:
+;; https://www.spanishdict.com/guide/the-100-most-common-spanish-verbs
+
+;; -ábamos words
+;; -ácea words
+;; -áis words
+;; -aré words
+;; -é words
+;; -éis words
+;; -eré words
+;; -eréis words
+;; -íais words
+;; -íamos words
+;; -ían words
+;; -ías words
+;; -ió words
+;; -iré words
+;; -iréis words
+;; -ís words
+;; -ó words
+
+;; Verbs
+;;==============================
+;;;; estar (done)
+*Z‖estais	‖CL‖En‖estáis‖
+*Z‖estan	‖CL‖En‖están‖
+*Z‖estabamos	‖CL‖En‖estábamos‖
+*Z‖estare	‖CL‖En‖estaré‖
+*Z‖estaras	‖CL‖En‖estarás‖
+*Z‖estara	‖CL‖En‖estará‖
+*Z‖estareis	‖CL‖En‖estaréis‖
+*Z‖estaran	‖CL‖En‖estarán‖
+*Z‖estaria	‖CL‖En‖estaría‖
+*Z‖estarias	‖CL‖En‖estarías‖
+*Z‖estariamos	‖CL‖En‖estaríamos‖
+*Z‖estariais	‖CL‖En‖estaríais‖
+*Z‖estarian	‖CL‖En‖estarían‖
+*Z‖esteis	‖CL‖En‖estéis‖
+*Z‖esten	‖CL‖En‖estén‖
+*Z‖estuvieramos	‖CL‖En‖estuviéramos‖
+*Z‖estuvieremos	‖CL‖En‖estuviéremos‖
+*Z‖estuviesemos	‖CL‖En‖estuviésemos‖
+
+*Z‖estemoste	‖CL‖En‖estémoste‖
+*Z‖estemosle	‖CL‖En‖estémosle‖
+*Z‖estemosles	‖CL‖En‖estémosles‖
+*Z‖estemoslo	‖CL‖En‖estémoslo‖
+*Z‖estemosla	‖CL‖En‖estémosla‖
+*Z‖estemonos	‖CL‖En‖estémonos‖
+*Z‖estemoos	‖CL‖En‖estémoos‖
+*Z‖estemosles	‖CL‖En‖estémosles‖
+*Z‖estemoslos	‖CL‖En‖estémoslos‖
+*Z‖estemoslas	‖CL‖En‖estémoslas‖
+
+*Z‖estandome	‖CL‖En‖estándome‖
+*Z‖estandote	‖CL‖En‖estándote‖
+*Z‖estandose	‖CL‖En‖estándose‖
+*Z‖estandonos	‖CL‖En‖estándonos‖
+*Z‖estandoos	‖CL‖En‖estándoos‖
+*Z‖estandole	‖CL‖En‖estándole‖
+*Z‖estandoles	‖CL‖En‖estándoles‖
+*Z‖estandolo	‖CL‖En‖estándolo‖
+*Z‖estandolos	‖CL‖En‖estándolos‖
+*Z‖estandola	‖CL‖En‖estándola‖
+*Z‖estandolas	‖CL‖En‖estándolas‖
+
+;;;; ser
+*Z‖eramos	‖CL‖En‖éramos‖
+*Z‖sere	‖CL‖En‖seré‖
+*Z‖seras	‖CL‖En‖serás‖
+*Z‖sera	‖CL‖En‖será‖
+*Z‖sereis	‖CL‖En‖seréis‖
+*Z‖seran	‖CL‖En‖serán‖
+*Z‖seriamos	‖CL‖En‖seríamos‖
+*Z‖seriais	‖CL‖En‖seríais‖
+*Z‖seais	‖CL‖En‖seáis‖
+*Z‖fueramos	‖CL‖En‖fuéramos‖
+*Z‖fuesemos	‖CL‖En‖fuésemos‖
+*Z‖fueremos	‖CL‖En‖fuéremos‖
+
+;;;; seriar
+
+
+;;;; abrir
+*Z‖abris	‖CL‖En‖abrís‖voseo
+
+;;;; callar

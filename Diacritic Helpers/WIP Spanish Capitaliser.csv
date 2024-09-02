@@ -1,0 +1,24 @@
+﻿;; Spanish Capitaliser ;; ?? Entries
+
+;; https://gchq.github.io/CyberChef/#recipe=Remove_Diacritics() (Diacritic Remover)
+;; https://www.somacon.com/p568.php (Duplicate Line Counter)
+
+;; Capitalises proper nouns unless they are separate words uncapitalised. For example, 'chile (pepper)' or 'Chile (country)'.
+;; Does not correct spelling mistakes.
+
+;; ‖CL‖ method is superior than ‖SI‖ in preventing the user from typing during the replacement of text.
+;; ‖CL‖ and ‖MCL‖ are similar methods whereby ‖MCL‖ calls a menu, this is useful for gender designations and other peculiarities.
+
+;; Auto-execute (*) should not be used with automatic correcters. It causes too many misfires.
+;; No EndChar (O) should not be used with automatic correcters because it omits the punctuation marks that the user types.
+;; Has to be case insensitive. That is, the syntax (C) must not be used. Triggerstrings can be made case sensitive by using the (C) syntax.
+;; Reset Recognizer (Z) has to be used for proper differentiation between words (CZ).
+
+;; TO DO:
+
+
+
+;; Proper Nouns ;; Geographical ;; Countries
+;;==============================
+*Z‖afganistan	‖CL‖En‖Afganistán‖
+*Z‖afganistán	‖CL‖En‖Afganistán‖

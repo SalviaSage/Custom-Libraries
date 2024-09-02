@@ -1,0 +1,2699 @@
+﻿;; Spanish Diacritic Helper
+
+;; https://gchq.github.io/CyberChef/#recipe=Remove_Diacritics() (Diacritic Remover)
+;; https://www.somacon.com/p568.php (Duplicate Line Counter)
+
+;; Tries to correctly add the diacritical marks on words that are supposed to have them.
+;; Can not work with words that are in the dictionary as separate words such as 'se' and 'sé', 'el' and 'él'.
+;; Places the diaeresis on words that are supposed to have them. For example, typing 'pinguino' results in 'pingüino'.
+
+;; Does not correct spelling mistakes.
+
+;; ‖CL‖ method is superior than ‖SI‖ in preventing the user from typing during the replacement of text.
+;; ‖CL‖ and ‖MCL‖ are similar methods whereby ‖MCL‖ calls a menu, this is useful for gender designations and other peculiarities.
+;; Auto-execute (*) should be used with automatic correcters.
+;; No EndChar (O) should not be used with automatic correcters because it omits the punctuation marks that the user types.
+;; Has to be case insensitive. That is, the syntaxes (C) or (C1) must not be used.
+
+;; The spelling of the word has to match on the left and the right sides of ‖CL‖En‖
+
+;; Reset Recognizer (Z) has to be used for proper differentiation between words.
+;; Triggerstrings can be made case sensitive by using the syntax (CZ). Only to be used with proper nouns.
+
+;; Adjectives have to be in 2 separate forms as masculine ending in (-o) and feminine ending in (-a).
+;; They have 4 forms if we also add the plural variations.
+
+;; TO DO:
+;; -eño, -eña ONLY DONE THE LETTER A, HAVE TO DO THE REST OF THE LETTERS FROM WIKTIONARY.
+;; WORDS CONTAINING DIAERESIS (ü), HAVE TO DO MORE OF THESE BECAUSE IT IS REALLY LACKING AT THE MOMENT.
+;; ADDITION OF PLURALS FOR NOUNS AND ADJECTIVES.
+;; WORDS CONTAINING TILDE (ñ)
+
+
+;;====================
+;; WORDS CONTAINING DIAERESIS (ü)
+;;====================
+;;;; -ingue
+*Z‖antiguedad	‖CL‖En‖antigüedad‖
+*Z‖antiguedades	‖CL‖En‖antigüedades‖
+
+*Z‖ciguena	‖CL‖En‖cigüeña‖
+*Z‖ciguenas	‖CL‖En‖cigüeñas‖
+*Z‖cigüena	‖CL‖En‖cigüeña‖
+*Z‖cigüenas	‖CL‖En‖cigüeñas‖
+*Z‖cigueña	‖CL‖En‖cigüeña‖
+*Z‖cigueñas	‖CL‖En‖cigüeñas‖
+*Z‖guera	‖CL‖En‖güera‖
+*Z‖gueras	‖CL‖En‖güeras‖
+*Z‖guero	‖CL‖En‖güero‖
+*Z‖gueros	‖CL‖En‖güeros‖
+*Z‖pinguino	‖CL‖En‖pingüino‖
+*Z‖pinguinos	‖CL‖En‖pingüinos‖
+*Z‖pinguina	‖CL‖En‖pingüina‖
+*Z‖pinguinas	‖CL‖En‖pingüinas‖
+*Z‖verguenza	‖CL‖En‖vergüenza‖
+*Z‖verguenzas	‖CL‖En‖vergüenzas‖
+*Z‖zarigueya	‖CL‖En‖zarigüeya‖
+*Z‖zarigueyas	‖CL‖En‖zarigüeyas‖
+
+*Z‖bilingue	‖CL‖En‖bilingüe‖
+*Z‖bilingues	‖CL‖En‖bilingües‖
+*Z‖bilinguismo	‖CL‖En‖bilingüismo‖
+*Z‖cuatrilingue	‖CL‖En‖cuatrilingüe‖
+*Z‖cuatrilingues	‖CL‖En‖cuatrilingües‖
+*Z‖cuatrilinguismo	‖CL‖En‖cuatrilingüismo‖
+*Z‖linguista	‖CL‖En‖lingüísta‖
+*Z‖linguistas	‖CL‖En‖lingüístas‖
+
+*Z‖linguisticamente	‖CL‖En‖lingüísticamente‖
+*Z‖lingüisticamente	‖CL‖En‖lingüísticamente‖
+*Z‖linguísticamente	‖CL‖En‖lingüísticamente‖
+
+*Z‖linguistica	‖CL‖En‖lingüística‖
+*Z‖lingüistica	‖CL‖En‖lingüística‖
+*Z‖linguística	‖CL‖En‖lingüística‖
+*Z‖linguisticas	‖CL‖En‖lingüísticas‖
+*Z‖lingüisticas	‖CL‖En‖lingüísticas‖
+*Z‖linguísticas	‖CL‖En‖lingüísticas‖
+
+*Z‖linguistico	‖CL‖En‖lingüístico‖
+*Z‖lingüistico	‖CL‖En‖lingüístico‖
+*Z‖linguístico	‖CL‖En‖lingüístico‖
+*Z‖linguisticos	‖CL‖En‖lingüísticos‖
+*Z‖lingüisticos	‖CL‖En‖lingüísticos‖
+*Z‖linguísticos	‖CL‖En‖lingüísticos‖
+
+*Z‖monolingue	‖CL‖En‖monolingüe‖
+*Z‖monolingues	‖CL‖En‖monolingües‖
+*Z‖monolinguismo	‖CL‖En‖monolingüismo‖
+*Z‖monolinguismos	‖CL‖En‖monolingüismos‖
+*Z‖multilingue	‖CL‖En‖multilingüe‖
+*Z‖multilingues	‖CL‖En‖multilingües‖
+*Z‖multilinguismo	‖CL‖En‖multilingüismo‖
+*Z‖multilinguismos	‖CL‖En‖multilingüismos‖
+*Z‖plurilingue	‖CL‖En‖plurilingüe‖
+*Z‖plurilingues	‖CL‖En‖plurilingües‖
+*Z‖plurilinguismo	‖CL‖En‖plurilingüismo‖
+*Z‖plurilinguismos	‖CL‖En‖plurilingüismos‖
+*Z‖trilingue	‖CL‖En‖trilingüe‖
+*Z‖trilingues	‖CL‖En‖trilingües‖
+*Z‖trilinguismo	‖CL‖En‖trilingüismo‖
+*Z‖trilinguismos	‖CL‖En‖trilingüismos‖
+
+;;====================
+;; PRONOUNS
+;;====================
+*Z‖mias	‖CL‖En‖mías‖
+*Z‖mia	‖CL‖En‖mía‖
+*Z‖mios	‖CL‖En‖míos‖
+*Z‖mio	‖CL‖En‖mío‖
+
+;;====================
+;; NUMBERS (CARDINAL NUMBERS) (https://en.wiktionary.org/wiki/Appendix:Spanish_numerals)
+;;====================
+*Z‖billon	‖CL‖En‖billón‖
+*Z‖cincuenta y un	‖CL‖En‖cincuenta y ún‖
+*Z‖cincuentiun	‖CL‖En‖cincuentiún‖
+*Z‖cuarenta y un	‖CL‖En‖cuarenta y ún‖
+*Z‖cuarentiun	‖CL‖En‖cuarentiún‖
+*Z‖cuatrillon	‖CL‖En‖cuatrillón‖
+*Z‖cuatrodecillon	‖CL‖En‖cuatrodecillón‖
+*Z‖decillon	‖CL‖En‖decillón‖
+*Z‖dieciseis	‖CL‖En‖dieciséis‖
+*Z‖duodecillon	‖CL‖En‖duodecillón‖
+*Z‖millon	‖CL‖En‖millón‖
+*Z‖nonillon	‖CL‖En‖nonillón‖
+*Z‖novendecillon	‖CL‖En‖novendecillón‖
+*Z‖noventa y un	‖CL‖En‖noventa y ún‖
+*Z‖noventiun	‖CL‖En‖noventiún‖
+*Z‖ochenta y un	‖CL‖En‖ochenta y ún‖
+*Z‖ochentiun	‖CL‖En‖ochentiún‖
+*Z‖octillon	‖CL‖En‖octillón‖
+*Z‖octodecillon	‖CL‖En‖octodecillón‖
+*Z‖quindecillon	‖CL‖En‖quindecillón‖
+*Z‖quintillon	‖CL‖En‖quintillón‖
+*Z‖septendecillon	‖CL‖En‖septendecillón‖
+*Z‖septillon	‖CL‖En‖septillón‖
+*Z‖sesenta y un	‖CL‖En‖sesenta y ún‖
+*Z‖sesentiun	‖CL‖En‖sesentiún‖
+*Z‖setenta y un	‖CL‖En‖setenta y ún‖
+*Z‖setentiun	‖CL‖En‖setentiún‖
+*Z‖sexdecillon	‖CL‖En‖sexdecillón‖
+*Z‖sextillon	‖CL‖En‖sextillón‖
+*Z‖tredecillon	‖CL‖En‖tredecillón‖
+*Z‖treinta y un	‖CL‖En‖treinta y ún‖
+*Z‖treintiun	‖CL‖En‖treintiún‖
+*Z‖trillon	‖CL‖En‖trillón‖
+*Z‖undecillon	‖CL‖En‖undecillón‖
+*Z‖veintidos	‖CL‖En‖veintidós‖
+*Z‖veintiseis	‖CL‖En‖veintiséis‖
+*Z‖veintitres	‖CL‖En‖veintitrés‖
+*Z‖veintiun	‖CL‖En‖veintiún‖
+*Z‖vigintillon	‖CL‖En‖vigintillón‖
+
+;;====================
+;; NUMBERS (ORDINAL NUMBERS) (-ésimo, -ésima)
+;;====================
+*Z‖billonesima	‖CL‖En‖billonésima‖
+*Z‖billonesimo	‖CL‖En‖billonésimo‖
+*Z‖centesima	‖CL‖En‖centésima‖
+*Z‖centesimo	‖CL‖En‖centésimo‖
+*Z‖ceroesima	‖CL‖En‖ceroésima‖
+*Z‖ceroesimo	‖CL‖En‖ceroésimo‖
+*Z‖cienmilesima	‖CL‖En‖cienmilésima‖
+*Z‖cienmilesimo	‖CL‖En‖cienmilésimo‖
+*Z‖cienmillonesima	‖CL‖En‖cienmillonésima‖
+*Z‖cienmillonesimo	‖CL‖En‖cienmillonésimo‖
+*Z‖cincomilesima	‖CL‖En‖cincomilésima‖
+*Z‖cincomilesimo	‖CL‖En‖cincomilésimo‖
+*Z‖cuadragesima	‖CL‖En‖cuadragésima‖
+*Z‖cuadragesimo	‖CL‖En‖cuadragésimo‖
+*Z‖cuadringentesima	‖CL‖En‖cuadringentésima‖
+*Z‖cuadringentesimo	‖CL‖En‖cuadringentésimo‖
+*Z‖cuatrillonesima	‖CL‖En‖cuatrillonésima‖
+*Z‖cuatrillonesimo	‖CL‖En‖cuatrillonésimo‖
+*Z‖cuatrodecillonesima	‖CL‖En‖cuatrodecillonésima‖
+*Z‖cuatrodecillonesimo	‖CL‖En‖cuatrodecillonésimo‖
+*Z‖cuatromilesima	‖CL‖En‖cuatromilésima‖
+*Z‖cuatromilesimo	‖CL‖En‖cuatromilésimo‖
+*Z‖decillonesima	‖CL‖En‖decillonésima‖
+*Z‖decillonesimo	‖CL‖En‖decillonésimo‖
+*Z‖decima	‖CL‖En‖décima‖
+*Z‖decimoseptima	‖CL‖En‖decimoséptima‖
+*Z‖decimoseptimo	‖CL‖En‖decimoséptimo‖
+*Z‖decimosetima	‖CL‖En‖decimosétima‖
+*Z‖decimosetimo	‖CL‖En‖decimosétimo‖
+*Z‖decimo	‖CL‖En‖décimo‖
+*Z‖diezmilesima	‖CL‖En‖diezmilésima‖
+*Z‖diezmilesimo	‖CL‖En‖diezmilésimo‖
+*Z‖diezmillonesima	‖CL‖En‖diezmillonésima‖
+*Z‖diezmillonesimo	‖CL‖En‖diezmillonésimo‖
+*Z‖doscientosmilesima	‖CL‖En‖doscientosmilésima‖
+*Z‖doscientosmilesimo	‖CL‖En‖doscientosmilésimo‖
+*Z‖dosmilesima	‖CL‖En‖dosmilésima‖
+*Z‖dosmilesimo	‖CL‖En‖dosmilésimo‖
+*Z‖dosmillonesima	‖CL‖En‖dosmillonésima‖
+*Z‖dosmillonesimo	‖CL‖En‖dosmillonésimo‖
+*Z‖ducentesima	‖CL‖En‖ducentésima‖
+*Z‖ducentesimo	‖CL‖En‖ducentésimo‖
+*Z‖duodecillonesima	‖CL‖En‖duodecillonésima‖
+*Z‖duodecillonesimo	‖CL‖En‖duodecillonésimo‖
+*Z‖duodecima	‖CL‖En‖duodécima‖
+*Z‖duodecimo	‖CL‖En‖duodécimo‖
+*Z‖milesima	‖CL‖En‖milésima‖
+*Z‖milesimo	‖CL‖En‖milésimo‖
+*Z‖millardesima	‖CL‖En‖millardésima‖
+*Z‖millardesimo	‖CL‖En‖millardésimo‖
+*Z‖millonesima	‖CL‖En‖millonésima‖
+*Z‖millonesimo	‖CL‖En‖millonésimo‖
+*Z‖milmillonesima	‖CL‖En‖milmillonésima‖
+*Z‖milmillonesimo	‖CL‖En‖milmillonésimo‖
+*Z‖nonagesima	‖CL‖En‖nonagésima‖
+*Z‖nonagesimo	‖CL‖En‖nonagésimo‖
+*Z‖nonillonesima	‖CL‖En‖nonillonésima‖
+*Z‖nonillonesimo	‖CL‖En‖nonillonésimo‖
+*Z‖noningentesima	‖CL‖En‖noningentésima‖
+*Z‖noningentesimo	‖CL‖En‖noningentésimo‖
+*Z‖novendecillonesima	‖CL‖En‖novendecillonésima‖
+*Z‖novendecillonesimo	‖CL‖En‖novendecillonésimo‖
+*Z‖nuevemilesima	‖CL‖En‖nuevemilésima‖
+*Z‖nuevemilesimo	‖CL‖En‖nuevemilésimo‖
+*Z‖ochomilesima	‖CL‖En‖ochomilésima‖
+*Z‖ochomilesimo	‖CL‖En‖ochomilésimo‖
+*Z‖octillonesima	‖CL‖En‖octillonésima‖
+*Z‖octillonesimo	‖CL‖En‖octillonésimo‖
+*Z‖octingentesima	‖CL‖En‖octingentésima‖
+*Z‖octingentesimo	‖CL‖En‖octingentésimo‖
+*Z‖octodecillonesima	‖CL‖En‖octodecillonésima‖
+*Z‖octodecillonesimo	‖CL‖En‖octodecillonésimo‖
+*Z‖octogesima	‖CL‖En‖octogésima‖
+*Z‖octogesimo	‖CL‖En‖octogésimo‖
+*Z‖quincuagesima	‖CL‖En‖quincuagésima‖
+*Z‖quincuagesimo	‖CL‖En‖quincuagésimo‖
+*Z‖quindecillonesima	‖CL‖En‖quindecillonésima‖
+*Z‖quindecillonesimo	‖CL‖En‖quindecillonésimo‖
+*Z‖quingentesima	‖CL‖En‖quingentésima‖
+*Z‖quingentesimo	‖CL‖En‖quingentésimo‖
+*Z‖quintillonesima	‖CL‖En‖quintillonésima‖
+*Z‖quintillonesimo	‖CL‖En‖quintillonésimo‖
+*Z‖seismilesima	‖CL‖En‖seismilésima‖
+*Z‖seismilesimo	‖CL‖En‖seismilésimo‖
+*Z‖septendecillonesima	‖CL‖En‖septendecillonésima‖
+*Z‖septendecillonesimo	‖CL‖En‖septendecillonésimo‖
+*Z‖septillonesima	‖CL‖En‖septillonésima‖
+*Z‖septillonesimo	‖CL‖En‖septillonésimo‖
+*Z‖septima	‖CL‖En‖séptima‖
+*Z‖septimo	‖CL‖En‖séptimo‖
+*Z‖septingentesima	‖CL‖En‖septingentésima‖
+*Z‖septingentesimo	‖CL‖En‖septingentésimo‖
+*Z‖septuagesima	‖CL‖En‖septuagésima‖
+*Z‖septuagesimo	‖CL‖En‖septuagésimo‖
+*Z‖setima	‖CL‖En‖sétima‖
+*Z‖setimo	‖CL‖En‖sétimo‖
+*Z‖sexagesima	‖CL‖En‖sexagésima‖
+*Z‖sexagesimo	‖CL‖En‖sexagésimo‖
+*Z‖sexcentesima	‖CL‖En‖sexcentésima‖
+*Z‖sexcentesimo	‖CL‖En‖sexcentésimo‖
+*Z‖sexdecillonesima	‖CL‖En‖sexdecillonésima‖
+*Z‖sexdecillonesimo	‖CL‖En‖sexdecillonésimo‖
+*Z‖sextillonesima	‖CL‖En‖sextillonésima‖
+*Z‖sextillonesimo	‖CL‖En‖sextillonésimo‖
+*Z‖sietemilesima	‖CL‖En‖sietemilésima‖
+*Z‖sietemilesimo	‖CL‖En‖sietemilésimo‖
+*Z‖trecesima	‖CL‖En‖trecésima‖
+*Z‖trecesimo	‖CL‖En‖trecésimo‖
+*Z‖tredecillonesima	‖CL‖En‖tredecillonésima‖
+*Z‖tredecillonesimo	‖CL‖En‖tredecillonésimo‖
+*Z‖tresmilesima	‖CL‖En‖tresmilésima‖
+*Z‖tresmilesimo	‖CL‖En‖tresmilésimo‖
+*Z‖tricentesima	‖CL‖En‖tricentésima‖
+*Z‖tricentesimo	‖CL‖En‖tricentésimo‖
+*Z‖tricesima	‖CL‖En‖tricésima‖
+*Z‖tricesimo	‖CL‖En‖tricésimo‖
+*Z‖trigesima	‖CL‖En‖trigésima‖
+*Z‖trigesimo	‖CL‖En‖trigésimo‖
+*Z‖trillonesima	‖CL‖En‖trillonésima‖
+*Z‖trillonesimo	‖CL‖En‖trillonésimo‖
+*Z‖undecillonesima	‖CL‖En‖undecillonésima‖
+*Z‖undecillonesimo	‖CL‖En‖undecillonésimo‖
+*Z‖undecima	‖CL‖En‖undécima‖
+*Z‖undecimo	‖CL‖En‖undécimo‖
+*Z‖veintemilesima	‖CL‖En‖veintemilésima‖
+*Z‖veintemilesimo	‖CL‖En‖veintemilésimo‖
+*Z‖veintiunmilesima	‖CL‖En‖veintiunmilésima‖
+*Z‖veintiunmilesimo	‖CL‖En‖veintiunmilésimo‖
+*Z‖vigesima	‖CL‖En‖vigésima‖
+*Z‖vigesimo	‖CL‖En‖vigésimo‖
+*Z‖vigintillonesima	‖CL‖En‖vigintillonésima‖
+*Z‖vigintillonesimo	‖CL‖En‖vigintillonésimo‖
+
+;;====================
+;; NUMBERS (MULTIPLIER NUMBERS) (-uplo, -uple, -upla)
+;;====================
+*Z‖cuadrupla	‖CL‖En‖cuádrupla‖
+*Z‖cuadruple	‖CL‖En‖cuádruple‖
+*Z‖cuadruplo	‖CL‖En‖cuádruplo‖
+*Z‖decupla	‖CL‖En‖décupla‖
+*Z‖decuplo	‖CL‖En‖décuplo‖
+*Z‖duodecupla	‖CL‖En‖duodécupla‖
+*Z‖duodecuplo	‖CL‖En‖duodécuplo‖
+*Z‖nonupla	‖CL‖En‖nónupla‖
+*Z‖nonuple	‖CL‖En‖nónuple‖
+*Z‖nonuplo	‖CL‖En‖nónuplo‖
+*Z‖octupla	‖CL‖En‖óctupla‖
+*Z‖octuple	‖CL‖En‖óctuple‖
+*Z‖octuplo	‖CL‖En‖óctuplo‖
+*Z‖quintupla	‖CL‖En‖quíntupla‖
+*Z‖quintuple	‖CL‖En‖quíntuple‖
+*Z‖quintuplo	‖CL‖En‖quíntuplo‖
+*Z‖septupla	‖CL‖En‖séptupla‖
+*Z‖septuple	‖CL‖En‖séptuple‖
+*Z‖septuplo	‖CL‖En‖séptuplo‖
+*Z‖sextupla	‖CL‖En‖séxtupla‖
+*Z‖sextuple	‖CL‖En‖séxtuple‖
+*Z‖sextuplo	‖CL‖En‖séxtuplo‖
+*Z‖undecupla	‖CL‖En‖undécupla‖
+*Z‖undecuplo	‖CL‖En‖undécuplo‖
+
+;;====================
+;; NOUNS
+;;====================
+;;;; NO SUFFIX
+*Z‖amigdalas	‖CL‖En‖amígdalas‖
+*Z‖amigdala	‖CL‖En‖amígdala‖
+
+*Z‖boligrafo	‖CL‖En‖bolígrafo‖
+
+*Z‖capitulo	‖CL‖En‖capítulo‖
+*Z‖centimo	‖CL‖En‖céntimo‖
+*Z‖charlatan	‖CL‖En‖charlatán‖
+*Z‖comezon	‖CL‖En‖comezón‖
+*Z‖corazon	‖CL‖En‖corazón‖
+
+*Z‖dia	‖CL‖En‖día‖
+*Z‖dias	‖CL‖En‖días‖
+*Z‖dieresis	‖CL‖En‖diéresis‖
+*Z‖dolar	‖CL‖En‖dólar‖
+
+*Z‖eleccion	‖CL‖En‖elección‖
+*Z‖empatia	‖CL‖En‖empatía‖
+*Z‖encia	‖CL‖En‖encía‖
+*Z‖encias	‖CL‖En‖encías‖
+*Z‖ermitano	‖CL‖En‖ermitaño‖
+*Z‖espiritu	‖CL‖En‖espíritu‖
+*Z‖estereofonia	‖CL‖En‖estereofonía‖
+*Z‖estomago	‖CL‖En‖estómago‖
+
+*Z‖futbol	‖CL‖En‖fútbol‖
+
+*Z‖gluteos	‖CL‖En‖glúteos‖
+*Z‖gluteo	‖CL‖En‖glúteo‖
+*Z‖guapeton	‖CL‖En‖guapetón‖
+
+*Z‖heterocromia	‖CL‖En‖heterocromía‖
+*Z‖higado	‖CL‖En‖hígado‖
+*Z‖hiperempatia	‖CL‖En‖hiperempatía‖
+
+*Z‖jamon	‖CL‖En‖jamón‖
+*Z‖jamones	‖CL‖En‖jamónes‖
+*Z‖jardin	‖CL‖En‖jardín‖
+*Z‖jardines	‖CL‖En‖jardínes‖
+
+*Z‖lagrima	‖CL‖En‖lágrima‖
+*Z‖lagrimas	‖CL‖En‖lágrimas‖
+*Z‖lapi*Z	‖CL‖En‖lápi*Z‖
+*Z‖lapices	‖CL‖En‖lápices‖
+*Z‖leccion	‖CL‖En‖lección‖
+*Z‖lecciones	‖CL‖En‖lecciónes‖
+
+*Z‖matematicas	‖CL‖En‖matemáticas‖
+*Z‖matematica	‖CL‖En‖matemática‖
+*Z‖matematico	‖CL‖En‖matemático‖
+*Z‖matematicos	‖CL‖En‖matemáticos‖
+*Z‖mediodias	‖CL‖En‖mediodías‖
+*Z‖mediodia	‖CL‖En‖mediodía‖
+*Z‖menton	‖CL‖En‖mentón‖
+*Z‖miercoles	‖CL‖En‖miércoles‖
+
+*Z‖oceano	‖CL‖En‖océano‖
+*Z‖oido	‖CL‖En‖oído‖
+*Z‖ortografa	‖CL‖En‖ortógrafa‖
+*Z‖ortografo	‖CL‖En‖ortógrafo‖
+
+*Z‖perdidas	‖CL‖En‖pérdidas‖
+*Z‖perdida	‖CL‖En‖pérdida‖
+*Z‖perdon	‖CL‖En‖perdón‖
+*Z‖peloton	‖CL‖En‖pelotón‖
+*Z‖pezon	‖CL‖En‖pezón‖
+*Z‖prologo	‖CL‖En‖prólogo‖
+*Z‖prostata	‖CL‖En‖próstata‖
+*Z‖pulmon	‖CL‖En‖pulmón‖
+
+*Z‖raton	‖CL‖En‖ratón‖
+*Z‖razon	‖CL‖En‖razón‖
+*Z‖reticulo	‖CL‖En‖retículo‖
+*Z‖riñon	‖CL‖En‖riñón‖
+
+*Z‖sabado	‖CL‖En‖sábado‖
+*Z‖sintomas	‖CL‖En‖síntomas‖
+*Z‖sintoma	‖CL‖En‖síntoma‖
+*Z‖sotano	‖CL‖En‖sótano‖
+
+*Z‖talon	‖CL‖En‖talón‖
+*Z‖tecnologo	‖CL‖En‖tecnólogo‖
+*Z‖testiculo	‖CL‖En‖testículo‖
+*Z‖tias	‖CL‖En‖tías‖
+*Z‖tia	‖CL‖En‖tía‖
+*Z‖timpano	‖CL‖En‖tímpano‖
+*Z‖tios	‖CL‖En‖tíos‖
+*Z‖tio	‖CL‖En‖tío‖
+
+*Z‖utero	‖CL‖En‖útero‖
+
+*Z‖vesicula	‖CL‖En‖vesícula‖
+
+*Z‖xilofago	‖CL‖En‖xilófago‖
+*Z‖xilofono	‖CL‖En‖xilófono‖
+
+*Z‖ñandus	‖CL‖En‖ñandús‖
+*Z‖ñandu	‖CL‖En‖ñandú‖
+*Z‖ñangaras	‖CL‖En‖ñángaras‖
+*Z‖ñangara	‖CL‖En‖ñángara‖
+*Z‖ñoñeria	‖CL‖En‖ñoñería‖
+
+;;;; -ería
+*Z‖abaceria	‖CL‖En‖abacería‖
+*Z‖abarroteria	‖CL‖En‖abarrotería‖
+*Z‖aceria	‖CL‖En‖acería‖
+*Z‖albañileria	‖CL‖En‖albañilería‖
+*Z‖alcahueteria	‖CL‖En‖alcahuetería‖
+*Z‖alfareria	‖CL‖En‖alfarería‖
+*Z‖almidoneria	‖CL‖En‖almidonería‖
+*Z‖altaneria	‖CL‖En‖altanería‖
+*Z‖ancoreria	‖CL‖En‖ancorería‖
+*Z‖andeneria	‖CL‖En‖andenería‖
+*Z‖anticucheria	‖CL‖En‖anticuchería‖
+*Z‖aparceria	‖CL‖En‖aparcería‖
+*Z‖armeria	‖CL‖En‖armería‖
+*Z‖arqueria	‖CL‖En‖arquería‖
+*Z‖arrieria	‖CL‖En‖arriería‖
+*Z‖arroceria	‖CL‖En‖arrocería‖
+*Z‖arteria	‖CL‖En‖artería‖
+*Z‖azulejeria	‖CL‖En‖azulejería‖
+
+*Z‖balconeria	‖CL‖En‖balconería‖
+*Z‖barberia	‖CL‖En‖barbería‖
+*Z‖beateria	‖CL‖En‖beatería‖
+*Z‖beberia	‖CL‖En‖bebería‖
+*Z‖bellaqueria	‖CL‖En‖bellaquería‖
+*Z‖boberia	‖CL‖En‖bobería‖
+*Z‖bocadilleria	‖CL‖En‖bocadillería‖
+*Z‖bocateria	‖CL‖En‖bocatería‖
+*Z‖boleteria	‖CL‖En‖boletería‖
+*Z‖bolleria	‖CL‖En‖bollería‖
+*Z‖bomboneria	‖CL‖En‖bombonería‖
+*Z‖borracheria	‖CL‖En‖borrachería‖
+*Z‖botilleria	‖CL‖En‖botillería‖
+*Z‖brujeria	‖CL‖En‖brujería‖
+*Z‖burgueseria	‖CL‖En‖burguesería‖
+
+*Z‖cabezoneria	‖CL‖En‖cabezonería‖
+*Z‖cabuyeria	‖CL‖En‖cabuyería‖
+*Z‖caceria	‖CL‖En‖cacería‖
+*Z‖cafeteria	‖CL‖En‖cafetería‖
+*Z‖camaraderia	‖CL‖En‖camaradería‖
+*Z‖camiseria	‖CL‖En‖camisería‖
+*Z‖cancilleria	‖CL‖En‖cancillería‖
+*Z‖caneria	‖CL‖En‖cañería‖
+*Z‖carinderia	‖CL‖En‖carindería‖
+*Z‖carniceria	‖CL‖En‖carnicería‖
+*Z‖carpinteria	‖CL‖En‖carpintería‖
+*Z‖cañeria	‖CL‖En‖cañería‖
+*Z‖cebicheria	‖CL‖En‖cebichería‖
+*Z‖cerveceria	‖CL‖En‖cervecería‖
+*Z‖cesteria	‖CL‖En‖cestería‖
+*Z‖chabacaneria	‖CL‖En‖chabacanería‖
+*Z‖charlataneria	‖CL‖En‖charlatanería‖
+*Z‖chatarreria	‖CL‖En‖chatarrería‖
+*Z‖chavaleria	‖CL‖En‖chavalería‖
+*Z‖chinchorreria	‖CL‖En‖chinchorrería‖
+*Z‖chingoneria	‖CL‖En‖chingonería‖
+*Z‖chiquilleria	‖CL‖En‖chiquillería‖
+*Z‖chiviteria	‖CL‖En‖chivitería‖
+*Z‖chocolateria	‖CL‖En‖chocolatería‖
+*Z‖chucheria	‖CL‖En‖chuchería‖
+*Z‖chuleria	‖CL‖En‖chulería‖
+*Z‖chuleteria	‖CL‖En‖chuletería‖
+*Z‖churreria	‖CL‖En‖churrería‖
+*Z‖circuiteria	‖CL‖En‖circuitería‖
+*Z‖cockteleria	‖CL‖En‖cocktelería‖
+*Z‖cocteleria	‖CL‖En‖coctelería‖
+*Z‖coheteria	‖CL‖En‖cohetería‖
+*Z‖conserjeria	‖CL‖En‖conserjería‖
+*Z‖copisteria	‖CL‖En‖copistería‖
+*Z‖cordeleria	‖CL‖En‖cordelería‖
+*Z‖cresteria	‖CL‖En‖crestería‖
+*Z‖cristaleria	‖CL‖En‖cristalería‖
+*Z‖cruceria	‖CL‖En‖crucería‖
+*Z‖cuberteria	‖CL‖En‖cubertería‖
+*Z‖cuqueria	‖CL‖En‖cuquería‖
+*Z‖cursileria	‖CL‖En‖cursilería‖
+
+*Z‖destileria	‖CL‖En‖destilería‖
+*Z‖drogueria	‖CL‖En‖droguería‖
+
+*Z‖escuderia	‖CL‖En‖escudería‖
+*Z‖estanteria	‖CL‖En‖estantería‖
+
+*Z‖faisaneria	‖CL‖En‖faisanería‖
+*Z‖ferreteria	‖CL‖En‖ferretería‖
+*Z‖fiambreria	‖CL‖En‖fiambrería‖
+*Z‖floreria	‖CL‖En‖florería‖
+*Z‖floristeria	‖CL‖En‖floristería‖
+*Z‖fruteria	‖CL‖En‖frutería‖
+*Z‖funderia	‖CL‖En‖fundería‖
+
+*Z‖galanteria	‖CL‖En‖galantería‖
+*Z‖galleteria	‖CL‖En‖galletería‖
+*Z‖ganaderia	‖CL‖En‖ganadería‖
+*Z‖garroteria	‖CL‖En‖garrotería‖
+*Z‖gasolineria	‖CL‖En‖gasolinería‖
+*Z‖gazmoneria	‖CL‖En‖gazmoñería‖
+*Z‖gazmoñeria	‖CL‖En‖gazmoñería‖
+*Z‖gelateria	‖CL‖En‖gelatería‖
+*Z‖glotoneria	‖CL‖En‖glotonería‖
+*Z‖griteria	‖CL‖En‖gritería‖
+*Z‖guarderia	‖CL‖En‖guardería‖
+*Z‖guerreria	‖CL‖En‖guerrería‖
+*Z‖guisqueria	‖CL‖En‖güisquería‖
+*Z‖güisqueria	‖CL‖En‖güisquería‖
+
+*Z‖hamburgueseria	‖CL‖En‖hamburguesería‖
+*Z‖haraganeria	‖CL‖En‖haraganería‖
+*Z‖hechiceria	‖CL‖En‖hechicería‖
+*Z‖heladeria	‖CL‖En‖heladería‖
+*Z‖herreria	‖CL‖En‖herrería‖
+*Z‖hilanderia	‖CL‖En‖hilandería‖
+*Z‖holgazaneria	‖CL‖En‖holgazanería‖
+*Z‖horchateria	‖CL‖En‖horchatería‖
+*Z‖hosteleria	‖CL‖En‖hostelería‖
+*Z‖hueveria	‖CL‖En‖huevería‖
+
+*Z‖jaboneria	‖CL‖En‖jabonería‖
+*Z‖jardineria	‖CL‖En‖jardinería‖
+*Z‖jorguineria	‖CL‖En‖jorguinería‖
+*Z‖joteria	‖CL‖En‖jotería‖
+*Z‖joyeria	‖CL‖En‖joyería‖
+*Z‖jugueria	‖CL‖En‖juguería‖
+*Z‖jugueteria	‖CL‖En‖juguetería‖
+
+*Z‖lecheria	‖CL‖En‖lechería‖
+*Z‖libreria	‖CL‖En‖librería‖
+*Z‖lloreria	‖CL‖En‖llorería‖
+*Z‖loncheria	‖CL‖En‖lonchería‖
+
+*Z‖malsineria	‖CL‖En‖malsinería‖
+*Z‖mariconeria	‖CL‖En‖mariconería‖
+*Z‖marisqueria	‖CL‖En‖marisquería‖
+*Z‖matoneria	‖CL‖En‖matonería‖
+*Z‖medianeria	‖CL‖En‖medianería‖
+*Z‖mensajeria	‖CL‖En‖mensajería‖
+*Z‖metalisteria	‖CL‖En‖metalistería‖
+*Z‖mezcaleria	‖CL‖En‖mezcalería‖
+*Z‖mojigateria	‖CL‖En‖mojigatería‖
+*Z‖moneria	‖CL‖En‖monería‖
+*Z‖monjeria	‖CL‖En‖monjería‖
+*Z‖monteria	‖CL‖En‖montería‖
+
+*Z‖naderia	‖CL‖En‖nadería‖
+*Z‖neveria	‖CL‖En‖nevería‖
+
+*Z‖orfebreria	‖CL‖En‖orfebrería‖
+*Z‖ostioneria	‖CL‖En‖ostionería‖
+*Z‖ostreria	‖CL‖En‖ostrería‖
+
+*Z‖palabreria	‖CL‖En‖palabrería‖
+*Z‖panaderia	‖CL‖En‖panadería‖
+*Z‖pancheria	‖CL‖En‖panchería‖
+*Z‖panciteria	‖CL‖En‖pancitería‖
+*Z‖paneleria	‖CL‖En‖panelería‖
+*Z‖panoleria	‖CL‖En‖pañolería‖
+*Z‖panquequeria	‖CL‖En‖panquequería‖
+*Z‖papeleria	‖CL‖En‖papelería‖
+*Z‖pasteleria	‖CL‖En‖pastelería‖
+*Z‖pañoleria	‖CL‖En‖pañolería‖
+*Z‖pedigueneria	‖CL‖En‖pedigüeñería‖
+*Z‖pedigueñeria	‖CL‖En‖pedigüeñería‖
+*Z‖pedigüeneria	‖CL‖En‖pedigüeñería‖
+*Z‖pedigüeñeria	‖CL‖En‖pedigüeñería‖
+*Z‖peluqueria	‖CL‖En‖peluquería‖
+*Z‖perfumeria	‖CL‖En‖perfumería‖
+*Z‖personeria	‖CL‖En‖personería‖
+*Z‖pescaderia	‖CL‖En‖pescadería‖
+*Z‖picanteria	‖CL‖En‖picantería‖
+*Z‖pijeria	‖CL‖En‖pijería‖
+*Z‖pilleria	‖CL‖En‖pillería‖
+*Z‖pirateria	‖CL‖En‖piratería‖
+*Z‖pizzeria	‖CL‖En‖pizzería‖
+*Z‖polleria	‖CL‖En‖pollería‖
+*Z‖porqueria	‖CL‖En‖porquería‖
+*Z‖pozoleria	‖CL‖En‖pozolería‖
+*Z‖prenderia	‖CL‖En‖prendería‖
+*Z‖pulperia	‖CL‖En‖pulpería‖
+*Z‖pulqueria	‖CL‖En‖pulquería‖
+
+*Z‖queseria	‖CL‖En‖quesería‖
+*Z‖quijoteria	‖CL‖En‖quijotería‖
+*Z‖quincalleria	‖CL‖En‖quincallería‖
+
+*Z‖rancheria	‖CL‖En‖ranchería‖
+*Z‖refineria	‖CL‖En‖refinería‖
+*Z‖rejeria	‖CL‖En‖rejería‖
+*Z‖relojeria	‖CL‖En‖relojería‖
+
+*Z‖saladeria	‖CL‖En‖saladería‖
+*Z‖salchichoneria	‖CL‖En‖salchichonería‖
+*Z‖sandvicheria	‖CL‖En‖sandvichería‖
+*Z‖sandwicheria	‖CL‖En‖sandwichería‖
+*Z‖santurroneria	‖CL‖En‖santurronería‖
+*Z‖sastreria	‖CL‖En‖sastrería‖
+*Z‖semilleria	‖CL‖En‖semillería‖
+*Z‖sensibleria	‖CL‖En‖sensiblería‖
+*Z‖serreria	‖CL‖En‖serrería‖
+*Z‖sidreria	‖CL‖En‖sidrería‖
+*Z‖sinvergonzoneria	‖CL‖En‖sinvergonzonería‖
+*Z‖sinverguenceria	‖CL‖En‖sinvergüencería‖
+*Z‖sinvergüenceria	‖CL‖En‖sinvergüencería‖
+*Z‖socarroneria	‖CL‖En‖socarronería‖
+*Z‖soleria	‖CL‖En‖solería‖
+*Z‖sombrereria	‖CL‖En‖sombrerería‖
+*Z‖sorbeteria	‖CL‖En‖sorbetería‖
+
+*Z‖tabaqueria	‖CL‖En‖tabaquería‖
+*Z‖tableria	‖CL‖En‖tablería‖
+*Z‖tacaneria	‖CL‖En‖tacañería‖
+*Z‖tacañeria	‖CL‖En‖tacañería‖
+*Z‖tamaleria	‖CL‖En‖tamalería‖
+*Z‖tapiceria	‖CL‖En‖tapicería‖
+*Z‖taqueria	‖CL‖En‖taquería‖
+*Z‖tejeria	‖CL‖En‖tejería‖
+*Z‖tequileria	‖CL‖En‖tequilería‖
+*Z‖tesoreria	‖CL‖En‖tesorería‖
+*Z‖teteria	‖CL‖En‖tetería‖
+*Z‖tinajeria	‖CL‖En‖tinajería‖
+*Z‖tintoreria	‖CL‖En‖tintorería‖
+*Z‖tiperia	‖CL‖En‖tipería‖
+*Z‖tlapaleria	‖CL‖En‖tlapalería‖
+*Z‖tocineria	‖CL‖En‖tocinería‖
+*Z‖toleteria	‖CL‖En‖toletería‖
+*Z‖toneleria	‖CL‖En‖tonelería‖
+*Z‖tonteria	‖CL‖En‖tontería‖
+*Z‖torteria	‖CL‖En‖tortería‖
+*Z‖tortilleria	‖CL‖En‖tortillería‖
+*Z‖totoposteria	‖CL‖En‖totopostería‖
+*Z‖tramposeria	‖CL‖En‖tramposería‖
+
+*Z‖utileria	‖CL‖En‖utilería‖
+
+*Z‖vaqueria	‖CL‖En‖vaquería‖
+*Z‖vidrieria	‖CL‖En‖vidriería‖
+*Z‖vigueria	‖CL‖En‖viguería‖
+
+*Z‖vhiskeria	‖CL‖En‖vhiskería‖
+*Z‖whiskeria	‖CL‖En‖whiskería‖
+
+*Z‖yeseria	‖CL‖En‖yesería‖
+*Z‖yogureria	‖CL‖En‖yogurería‖
+*Z‖yogurteria	‖CL‖En‖yogurtería‖
+
+*Z‖zalameria	‖CL‖En‖zalamería‖
+*Z‖zapateria	‖CL‖En‖zapatería‖
+
+;;;; -ía
+*Z‖albardonería	‖CL‖En‖albardonería‖
+*Z‖alcaldía	‖CL‖En‖alcaldía‖
+*Z‖alegría	‖CL‖En‖alegría‖
+*Z‖alevosía	‖CL‖En‖alevosía‖
+*Z‖artesanía	‖CL‖En‖artesanía‖
+*Z‖asesoría	‖CL‖En‖asesoría‖
+*Z‖auditoría	‖CL‖En‖auditoría‖
+*Z‖autoría	‖CL‖En‖autoría‖
+*Z‖ayudantía	‖CL‖En‖ayudantía‖
+
+*Z‖barquia	‖CL‖En‖barquía‖
+
+*Z‖caballeria	‖CL‖En‖caballería‖
+*Z‖canteria	‖CL‖En‖cantería‖
+*Z‖capellania	‖CL‖En‖capellanía‖
+*Z‖capitania	‖CL‖En‖capitanía‖
+*Z‖celiaquia	‖CL‖En‖celiaquía‖
+*Z‖cercania	‖CL‖En‖cercanía‖
+*Z‖cesantia	‖CL‖En‖cesantía‖
+*Z‖chapuceria	‖CL‖En‖chapucería‖
+*Z‖cinematografia	‖CL‖En‖cinematografía‖
+*Z‖ciudadania	‖CL‖En‖ciudadanía‖
+*Z‖cobardia	‖CL‖En‖cobardía‖
+*Z‖cofradia	‖CL‖En‖cofradía‖
+*Z‖colostomia	‖CL‖En‖colostomía‖
+*Z‖compania	‖CL‖En‖compañía‖
+*Z‖compañia	‖CL‖En‖compañía‖
+*Z‖concejalia	‖CL‖En‖concejalía‖
+*Z‖confiteria	‖CL‖En‖confitería‖
+*Z‖contraloria	‖CL‖En‖contraloría‖
+*Z‖cortesania	‖CL‖En‖cortesanía‖
+*Z‖cortesia	‖CL‖En‖cortesía‖
+*Z‖cuantia	‖CL‖En‖cuantía‖
+*Z‖curaduria	‖CL‖En‖curaduría‖
+*Z‖curtiduria	‖CL‖En‖curtiduría‖
+
+*Z‖demasia	‖CL‖En‖demasía‖
+*Z‖descortesia	‖CL‖En‖descortesía‖
+*Z‖diploidia	‖CL‖En‖diploidía‖
+*Z‖dulceria	‖CL‖En‖dulcería‖
+
+*Z‖epigrafia	‖CL‖En‖epigrafía‖
+*Z‖escolania	‖CL‖En‖escolanía‖
+*Z‖escribania	‖CL‖En‖escribanía‖
+*Z‖etimologia	‖CL‖En‖etimología‖
+
+*Z‖fiscalia	‖CL‖En‖fiscalía‖
+
+*Z‖ganania	‖CL‖En‖gañanía‖
+*Z‖gañania	‖CL‖En‖gañanía‖
+*Z‖groseria	‖CL‖En‖grosería‖
+*Z‖guardiania	‖CL‖En‖guardianía‖
+
+*Z‖habladuria	‖CL‖En‖habladuría‖
+*Z‖haploidia	‖CL‖En‖haploidía‖
+*Z‖hemeralopia	‖CL‖En‖hemeralopía‖
+*Z‖hidalguia	‖CL‖En‖hidalguía‖
+*Z‖hidroponia	‖CL‖En‖hidroponía‖
+*Z‖hipocondria	‖CL‖En‖hipocondría‖
+*Z‖hipsometria	‖CL‖En‖hipsometría‖
+
+*Z‖lectoria	‖CL‖En‖lectoría‖
+
+*Z‖maestria	‖CL‖En‖maestría‖
+*Z‖majaderia	‖CL‖En‖majadería‖
+*Z‖marineria	‖CL‖En‖marinería‖
+*Z‖mayordomia	‖CL‖En‖mayordomía‖
+*Z‖mayoria	‖CL‖En‖mayoría‖
+*Z‖mediania	‖CL‖En‖medianía‖
+*Z‖mejoria	‖CL‖En‖mejoría‖
+*Z‖mercaderia	‖CL‖En‖mercadería‖
+*Z‖membresia	‖CL‖En‖membresía‖
+
+*Z‖osadia	‖CL‖En‖osadía‖
+
+*Z‖pasantia	‖CL‖En‖pasantía‖
+*Z‖penitenciaria	‖CL‖En‖penitenciaría‖
+*Z‖picardia	‖CL‖En‖picardía‖
+*Z‖poliploidia	‖CL‖En‖poliploidía‖
+*Z‖pornografia	‖CL‖En‖pornografía‖
+*Z‖portavocia	‖CL‖En‖portavocía‖
+*Z‖procuraduria	‖CL‖En‖procuraduría‖
+*Z‖protectoria	‖CL‖En‖protectoría‖
+*Z‖putaneria	‖CL‖En‖putañería‖
+*Z‖putañeria	‖CL‖En‖putañería‖
+
+*Z‖rateria	‖CL‖En‖ratería‖
+*Z‖rebeldia	‖CL‖En‖rebeldía‖
+*Z‖rectoria	‖CL‖En‖rectoría‖
+*Z‖romeria	‖CL‖En‖romería‖
+
+*Z‖sabiduria	‖CL‖En‖sabiduría‖
+*Z‖sangria	‖CL‖En‖sangría‖
+*Z‖santeria	‖CL‖En‖santería‖
+*Z‖secretaria	‖CL‖En‖secretaría‖
+*Z‖senoria	‖CL‖En‖señoría‖
+*Z‖serrania	‖CL‖En‖serranía‖
+*Z‖señoria	‖CL‖En‖señoría‖
+*Z‖soberania	‖CL‖En‖soberanía‖
+*Z‖solteria	‖CL‖En‖soltería‖
+*Z‖subprocuraduria	‖CL‖En‖subprocuraduría‖
+
+*Z‖tejeduria	‖CL‖En‖tejeduría‖
+*Z‖telefonia	‖CL‖En‖telefonía‖
+*Z‖tirania	‖CL‖En‖tiranía‖
+*Z‖tutoria	‖CL‖En‖tutoría‖
+
+*Z‖valentia	‖CL‖En‖valentía‖
+*Z‖valia	‖CL‖En‖valía‖
+*Z‖villania	‖CL‖En‖villanía‖
+*Z‖vocalia	‖CL‖En‖vocalía‖
+
+*Z‖geriatria	‖CL‖En‖geriatría‖
+*Z‖pediatria	‖CL‖En‖pediatría‖
+*Z‖psiquiatria	‖CL‖En‖psiquiatría‖
+
+;;;; -ón
+*Z‖abejarron	‖CL‖En‖abejarrón‖
+*Z‖abejon	‖CL‖En‖abejón‖
+*Z‖aborton	‖CL‖En‖abortón‖
+*Z‖aceleron	‖CL‖En‖acelerón‖
+*Z‖achuchon	‖CL‖En‖achuchón‖
+*Z‖actrizon	‖CL‖En‖actrizón‖
+*Z‖adulon	‖CL‖En‖adulón‖
+*Z‖agarron	‖CL‖En‖agarrón‖
+*Z‖aguilon	‖CL‖En‖aguilón‖
+*Z‖agujon	‖CL‖En‖agujón‖
+*Z‖albardon	‖CL‖En‖albardón‖
+*Z‖alcedon	‖CL‖En‖alcedón‖
+*Z‖aldabon	‖CL‖En‖aldabón‖
+*Z‖alegron	‖CL‖En‖alegrón‖
+*Z‖almendron	‖CL‖En‖almendrón‖
+*Z‖almohadon	‖CL‖En‖almohadón‖
+*Z‖alverjon	‖CL‖En‖alverjón‖
+*Z‖antanon	‖CL‖En‖antañón‖
+*Z‖apagon	‖CL‖En‖apagón‖
+*Z‖apreton	‖CL‖En‖apretón‖
+*Z‖apretujon	‖CL‖En‖apretujón‖
+*Z‖aprovechon	‖CL‖En‖aprovechón‖
+*Z‖aranon	‖CL‖En‖arañón‖
+*Z‖arañon	‖CL‖En‖arañón‖
+*Z‖arcon	‖CL‖En‖arcón‖
+*Z‖argon	‖CL‖En‖argón‖
+*Z‖arrancon	‖CL‖En‖arrancón‖
+*Z‖arreon	‖CL‖En‖arreón‖
+*Z‖arvejon	‖CL‖En‖arvejón‖
+*Z‖asnejon	‖CL‖En‖asnejón‖
+*Z‖asperon	‖CL‖En‖asperón‖
+*Z‖atracon	‖CL‖En‖atracón‖
+*Z‖aventon	‖CL‖En‖aventón‖
+*Z‖avispon	‖CL‖En‖avispón‖
+*Z‖azadon	‖CL‖En‖azadón‖
+
+*Z‖bailon	‖CL‖En‖bailón‖
+*Z‖bajon	‖CL‖En‖bajón‖
+*Z‖balon	‖CL‖En‖balón‖
+*Z‖bandejon	‖CL‖En‖bandejón‖
+*Z‖banderon	‖CL‖En‖banderón‖
+*Z‖barbon	‖CL‖En‖barbón‖
+*Z‖barracon	‖CL‖En‖barracón‖
+*Z‖barrigon	‖CL‖En‖barrigón‖
+*Z‖barron	‖CL‖En‖barrón‖
+*Z‖baton	‖CL‖En‖batón‖
+*Z‖beberron	‖CL‖En‖beberrón‖
+*Z‖bellezon	‖CL‖En‖bellezón‖
+*Z‖bestion	‖CL‖En‖bestión‖
+*Z‖bigoton	‖CL‖En‖bigotón‖
+*Z‖bluson	‖CL‖En‖blusón‖
+*Z‖bobalicon	‖CL‖En‖bobalicón‖
+*Z‖bocon	‖CL‖En‖bocón‖
+*Z‖bodegon	‖CL‖En‖bodegón‖
+*Z‖bofeton	‖CL‖En‖bofetón‖
+*Z‖bolson	‖CL‖En‖bolsón‖
+*Z‖borlon	‖CL‖En‖borlón‖
+*Z‖borrachon	‖CL‖En‖borrachón‖
+*Z‖borron	‖CL‖En‖borrón‖
+*Z‖botellon	‖CL‖En‖botellón‖
+*Z‖bravucon	‖CL‖En‖bravucón‖
+*Z‖bribon	‖CL‖En‖bribón‖
+*Z‖bridon	‖CL‖En‖bridón‖
+*Z‖buchon	‖CL‖En‖buchón‖
+*Z‖buenon	‖CL‖En‖buenón‖
+*Z‖buitron	‖CL‖En‖buitrón‖
+*Z‖burlon	‖CL‖En‖burlón‖
+*Z‖buscon	‖CL‖En‖buscón‖
+*Z‖butacon	‖CL‖En‖butacón‖
+
+*Z‖cabezon	‖CL‖En‖cabezón‖
+*Z‖cacheton	‖CL‖En‖cachetón‖
+*Z‖cagon	‖CL‖En‖cagón‖
+*Z‖cajon	‖CL‖En‖cajón‖
+*Z‖calderon	‖CL‖En‖calderón‖
+*Z‖calenton	‖CL‖En‖calentón‖
+*Z‖callejon	‖CL‖En‖callejón‖
+*Z‖camellon	‖CL‖En‖camellón‖
+*Z‖camison	‖CL‖En‖camisón‖
+*Z‖canalon	‖CL‖En‖canalón‖
+*Z‖canchon	‖CL‖En‖canchón‖
+*Z‖canson	‖CL‖En‖cansón‖
+*Z‖canton	‖CL‖En‖cantón‖
+*Z‖caparazon	‖CL‖En‖caparazón‖
+*Z‖caparron	‖CL‖En‖caparrón‖
+*Z‖capuchon	‖CL‖En‖capuchón‖
+*Z‖carreron	‖CL‖En‖carrerón‖
+*Z‖cartelon	‖CL‖En‖cartelón‖
+*Z‖carton	‖CL‖En‖cartón‖
+*Z‖cascaron	‖CL‖En‖cascarón‖
+*Z‖cason	‖CL‖En‖casón‖
+*Z‖casoplon	‖CL‖En‖casoplón‖
+*Z‖cazon	‖CL‖En‖cazón‖
+*Z‖cañamon	‖CL‖En‖cañamón‖
+*Z‖cañon	‖CL‖En‖cañón‖
+*Z‖cedron	‖CL‖En‖cedrón‖
+*Z‖cejon	‖CL‖En‖cejón‖
+*Z‖ceston	‖CL‖En‖cestón‖
+*Z‖chambon	‖CL‖En‖chambón‖
+*Z‖chancon	‖CL‖En‖chancón‖
+*Z‖chapon	‖CL‖En‖chapón‖
+*Z‖chaqueton	‖CL‖En‖chaquetón‖
+*Z‖charangon	‖CL‖En‖charangón‖
+*Z‖chicharron	‖CL‖En‖chicharrón‖
+*Z‖chillon	‖CL‖En‖chillón‖
+*Z‖chingon	‖CL‖En‖chingón‖
+*Z‖chirrion	‖CL‖En‖chirrión‖
+*Z‖choloton	‖CL‖En‖cholotón‖
+*Z‖chuleton	‖CL‖En‖chuletón‖
+*Z‖chupeton	‖CL‖En‖chupetón‖
+*Z‖chupon	‖CL‖En‖chupón‖
+*Z‖cincuenton	‖CL‖En‖cincuentón‖
+*Z‖cinturon	‖CL‖En‖cinturón‖
+*Z‖cobardon	‖CL‖En‖cobardón‖
+*Z‖cocheron	‖CL‖En‖cocherón‖
+*Z‖coheton	‖CL‖En‖cohetón‖
+*Z‖colchon	‖CL‖En‖colchón‖
+*Z‖coleron	‖CL‖En‖colerón‖
+*Z‖colmadon	‖CL‖En‖colmadón‖
+*Z‖colocon	‖CL‖En‖colocón‖
+*Z‖comadron	‖CL‖En‖comadrón‖
+*Z‖conon	‖CL‖En‖coñón‖
+*Z‖coñon	‖CL‖En‖coñón‖
+*Z‖copion	‖CL‖En‖copión‖
+*Z‖copon	‖CL‖En‖copón‖
+*Z‖corpachon	‖CL‖En‖corpachón‖
+*Z‖corralon	‖CL‖En‖corralón‖
+*Z‖cortinon	‖CL‖En‖cortinón‖
+*Z‖criticon	‖CL‖En‖criticón‖
+*Z‖cronicon	‖CL‖En‖cronicón‖
+*Z‖cuarenton	‖CL‖En‖cuarentón‖
+*Z‖cuarteron	‖CL‖En‖cuarterón‖
+*Z‖cucarachon	‖CL‖En‖cucarachón‖
+*Z‖cucharon	‖CL‖En‖cucharón‖
+*Z‖cuchillon	‖CL‖En‖cuchillón‖
+*Z‖culebron	‖CL‖En‖culebrón‖
+*Z‖culon	‖CL‖En‖culón‖
+*Z‖cursilon	‖CL‖En‖cursilón‖
+*Z‖curvon	‖CL‖En‖curvón‖
+*Z‖cutron	‖CL‖En‖cutrón‖
+
+*Z‖danzon	‖CL‖En‖danzón‖
+*Z‖destrozon	‖CL‖En‖destrozón‖
+*Z‖discotecon	‖CL‖En‖discotecón‖
+*Z‖dramon	‖CL‖En‖dramón‖
+*Z‖dulzon	‖CL‖En‖dulzón‖
+
+*Z‖embrollon	‖CL‖En‖embrollón‖
+*Z‖empellon	‖CL‖En‖empellón‖
+*Z‖empollon	‖CL‖En‖empollón‖
+*Z‖empujon	‖CL‖En‖empujón‖
+*Z‖encontron	‖CL‖En‖encontrón‖
+*Z‖enganchon	‖CL‖En‖enganchón‖
+*Z‖envion	‖CL‖En‖envión‖
+*Z‖equipon	‖CL‖En‖equipón‖
+*Z‖escalon	‖CL‖En‖escalón‖
+*Z‖escobon	‖CL‖En‖escobón‖
+*Z‖escuadron	‖CL‖En‖escuadrón‖
+*Z‖espadon	‖CL‖En‖espadón‖
+*Z‖espaldon	‖CL‖En‖espaldón‖
+*Z‖espigon	‖CL‖En‖espigón‖
+*Z‖espolon	‖CL‖En‖espolón‖
+*Z‖esquilon	‖CL‖En‖esquilón‖
+*Z‖estacon	‖CL‖En‖estacón‖
+*Z‖estrellon	‖CL‖En‖estrellón‖
+*Z‖estremezon	‖CL‖En‖estremezón‖
+*Z‖estrujon	‖CL‖En‖estrujón‖
+
+*Z‖facilon	‖CL‖En‖facilón‖
+*Z‖facon	‖CL‖En‖facón‖
+*Z‖faldon	‖CL‖En‖faldón‖
+*Z‖falton	‖CL‖En‖faltón‖
+*Z‖fantasmon	‖CL‖En‖fantasmón‖
+*Z‖fardon	‖CL‖En‖fardón‖
+*Z‖fieston	‖CL‖En‖fiestón‖
+*Z‖figuron	‖CL‖En‖figurón‖
+*Z‖fisgon	‖CL‖En‖fisgón‖
+*Z‖fortachon	‖CL‖En‖fortachón‖
+*Z‖foton	‖CL‖En‖fotón‖
+*Z‖fregon	‖CL‖En‖fregón‖
+*Z‖freson	‖CL‖En‖fresón‖
+*Z‖fronton	‖CL‖En‖frontón‖
+*Z‖fumon	‖CL‖En‖fumón‖
+
+*Z‖galeron	‖CL‖En‖galerón‖
+*Z‖gambon	‖CL‖En‖gambón‖
+*Z‖gariton	‖CL‖En‖garitón‖
+*Z‖garrafon	‖CL‖En‖garrafón‖
+*Z‖gazapon	‖CL‖En‖gazapón‖
+*Z‖giganton	‖CL‖En‖gigantón‖
+*Z‖gorron	‖CL‖En‖gorrón‖
+*Z‖goteron	‖CL‖En‖goterón‖
+*Z‖grandon	‖CL‖En‖grandón‖
+*Z‖grandullon	‖CL‖En‖grandullón‖
+*Z‖griton	‖CL‖En‖gritón‖
+*Z‖gruñon	‖CL‖En‖gruñón‖
+*Z‖guarron	‖CL‖En‖guarrón‖
+*Z‖guason	‖CL‖En‖guasón‖
+*Z‖guaton	‖CL‖En‖guatón‖
+*Z‖guitarron	‖CL‖En‖guitarrón‖
+
+*Z‖habon	‖CL‖En‖habón‖
+*Z‖hachon	‖CL‖En‖hachón‖
+*Z‖hadron	‖CL‖En‖hadrón‖
+*Z‖hampon	‖CL‖En‖hampón‖
+*Z‖hocicon	‖CL‖En‖hocicón‖
+*Z‖hombreton	‖CL‖En‖hombretón‖
+*Z‖hombron	‖CL‖En‖hombrón‖
+*Z‖hondon	‖CL‖En‖hondón‖
+*Z‖horcon	‖CL‖En‖horcón‖
+*Z‖hormigon	‖CL‖En‖hormigón‖
+*Z‖huevon	‖CL‖En‖huevón‖
+*Z‖hurgon	‖CL‖En‖hurgón‖
+
+*Z‖inocenton	‖CL‖En‖inocentón‖
+
+*Z‖jalon	‖CL‖En‖jalón‖
+*Z‖jaqueton	‖CL‖En‖jaquetón‖
+*Z‖jarron	‖CL‖En‖jarrón‖
+*Z‖jergon	‖CL‖En‖jergón‖
+*Z‖jodon	‖CL‖En‖jodón‖
+*Z‖judion	‖CL‖En‖judión‖
+*Z‖jugon	‖CL‖En‖jugón‖
+
+*Z‖lacon	‖CL‖En‖lacón‖
+*Z‖lagarton	‖CL‖En‖lagartón‖
+*Z‖lagrimon	‖CL‖En‖lagrimón‖
+*Z‖lambon	‖CL‖En‖lambón‖
+*Z‖lamparon	‖CL‖En‖lamparón‖
+*Z‖lanchon	‖CL‖En‖lanchón‖
+*Z‖lanzon	‖CL‖En‖lanzón‖
+*Z‖lebraston	‖CL‖En‖lebrastón‖
+*Z‖lechon	‖CL‖En‖lechón‖
+*Z‖ligon	‖CL‖En‖ligón‖
+*Z‖linon	‖CL‖En‖linón‖
+*Z‖liston	‖CL‖En‖listón‖
+*Z‖lloron	‖CL‖En‖llorón‖
+*Z‖locuron	‖CL‖En‖locurón‖
+
+*Z‖macarron	‖CL‖En‖macarrón‖
+*Z‖machacon	‖CL‖En‖machacón‖
+*Z‖machon	‖CL‖En‖machón‖
+*Z‖machucon	‖CL‖En‖machucón‖
+*Z‖mamanton	‖CL‖En‖mamantón‖
+*Z‖mamon	‖CL‖En‖mamón‖
+*Z‖manchon	‖CL‖En‖manchón‖
+*Z‖mandon	‖CL‖En‖mandón‖
+*Z‖manoton	‖CL‖En‖manotón‖
+*Z‖manton	‖CL‖En‖mantón‖
+*Z‖maranon	‖CL‖En‖marañón‖
+*Z‖marañon	‖CL‖En‖marañón‖
+*Z‖maricon	‖CL‖En‖maricón‖
+*Z‖mariposon	‖CL‖En‖mariposón‖
+*Z‖mascaron	‖CL‖En‖mascarón‖
+*Z‖maton	‖CL‖En‖matón‖
+*Z‖mechon	‖CL‖En‖mechón‖
+*Z‖medallon	‖CL‖En‖medallón‖
+*Z‖meon	‖CL‖En‖meón‖
+*Z‖meson	‖CL‖En‖mesón‖
+*Z‖migajon	‖CL‖En‖migajón‖
+*Z‖miron	‖CL‖En‖mirón‖
+*Z‖molon	‖CL‖En‖molón‖
+*Z‖monton	‖CL‖En‖montón‖
+*Z‖moraton	‖CL‖En‖moratón‖
+*Z‖morcillon	‖CL‖En‖morcillón‖
+*Z‖mordiscon	‖CL‖En‖mordiscón‖
+*Z‖morron	‖CL‖En‖morrón‖
+*Z‖moscardon	‖CL‖En‖moscardón‖
+*Z‖moscon	‖CL‖En‖moscón‖
+*Z‖mosqueton	‖CL‖En‖mosquetón‖
+*Z‖muchachon	‖CL‖En‖muchachón‖
+*Z‖mujeron	‖CL‖En‖mujerón‖
+*Z‖murallon	‖CL‖En‖murallón‖
+*Z‖murgon	‖CL‖En‖murgón‖
+
+*Z‖nalgon	‖CL‖En‖nalgón‖
+*Z‖narizon	‖CL‖En‖narizón‖
+*Z‖neon	‖CL‖En‖neón‖
+*Z‖novelon	‖CL‖En‖novelón‖
+*Z‖nubarron	‖CL‖En‖nubarrón‖
+
+*Z‖oferton	‖CL‖En‖ofertón‖
+*Z‖ojon	‖CL‖En‖ojón‖
+*Z‖orejon	‖CL‖En‖orejón‖
+
+*Z‖pachucon	‖CL‖En‖pachucón‖
+*Z‖padron	‖CL‖En‖padrón‖
+*Z‖paleton	‖CL‖En‖paletón‖
+*Z‖palizon	‖CL‖En‖palizón‖
+*Z‖panolon	‖CL‖En‖pañolón‖
+*Z‖panzon	‖CL‖En‖panzón‖
+*Z‖papelon	‖CL‖En‖papelón‖
+*Z‖paqueton	‖CL‖En‖paquetón‖
+*Z‖paradon	‖CL‖En‖paradón‖
+*Z‖paration	‖CL‖En‖paratión‖
+*Z‖paredon	‖CL‖En‖paredón‖
+*Z‖paron	‖CL‖En‖parón‖
+*Z‖paston	‖CL‖En‖pastón‖
+*Z‖patacon	‖CL‖En‖patacón‖
+*Z‖patadon	‖CL‖En‖patadón‖
+*Z‖paton	‖CL‖En‖patón‖
+*Z‖pañolon	‖CL‖En‖pañolón‖
+*Z‖pechugon	‖CL‖En‖pechugón‖
+*Z‖peleon	‖CL‖En‖peleón‖
+*Z‖peliculon	‖CL‖En‖peliculón‖
+*Z‖pelon	‖CL‖En‖pelón‖
+*Z‖pelucon	‖CL‖En‖pelucón‖
+*Z‖pendejon	‖CL‖En‖pendejón‖
+*Z‖penon	‖CL‖En‖peñón‖
+*Z‖perdigon	‖CL‖En‖perdigón‖
+*Z‖pescozon	‖CL‖En‖pescozón‖
+*Z‖peñon	‖CL‖En‖peñón‖
+*Z‖pibon	‖CL‖En‖pibón‖
+*Z‖picaron	‖CL‖En‖picarón‖
+*Z‖piernon	‖CL‖En‖piernón‖
+*Z‖pillastron	‖CL‖En‖pillastrón‖
+*Z‖pilon	‖CL‖En‖pilón‖
+*Z‖pimenton	‖CL‖En‖pimentón‖
+*Z‖pinon	‖CL‖En‖piñón‖
+*Z‖pinzon	‖CL‖En‖pinzón‖
+*Z‖pipon	‖CL‖En‖pipón‖
+*Z‖pisoton	‖CL‖En‖pisotón‖
+*Z‖pizarron	‖CL‖En‖pizarrón‖
+*Z‖piñon	‖CL‖En‖piñón‖
+*Z‖planillon	‖CL‖En‖planillón‖
+*Z‖platicon	‖CL‖En‖platicón‖
+*Z‖platon	‖CL‖En‖platón‖
+*Z‖playon	‖CL‖En‖playón‖
+*Z‖plumon	‖CL‖En‖plumón‖
+*Z‖pobreton	‖CL‖En‖pobretón‖
+*Z‖pollon	‖CL‖En‖pollón‖
+*Z‖polvoron	‖CL‖En‖polvorón‖
+*Z‖portalon	‖CL‖En‖portalón‖
+*Z‖pregunton	‖CL‖En‖preguntón‖
+*Z‖problemon	‖CL‖En‖problemón‖
+*Z‖programon	‖CL‖En‖programón‖
+*Z‖puton	‖CL‖En‖putón‖
+
+*Z‖querendon	‖CL‖En‖querendón‖
+
+*Z‖rabon	‖CL‖En‖rabón‖
+*Z‖ramon	‖CL‖En‖ramón‖
+*Z‖rasgon	‖CL‖En‖rasgón‖
+*Z‖raspon	‖CL‖En‖raspón‖
+*Z‖reclamon	‖CL‖En‖reclamón‖
+*Z‖refunfunon	‖CL‖En‖refunfuñón‖
+*Z‖refunfuñon	‖CL‖En‖refunfuñón‖
+*Z‖regalon	‖CL‖En‖regalón‖
+*Z‖reganon	‖CL‖En‖regañón‖
+*Z‖regaton	‖CL‖En‖regatón‖
+*Z‖regañon	‖CL‖En‖regañón‖
+*Z‖reggaeton	‖CL‖En‖reggaeton‖
+*Z‖reglon	‖CL‖En‖reglón‖
+*Z‖rejon	‖CL‖En‖rejón‖
+*Z‖remezon	‖CL‖En‖remezón‖
+*Z‖renegon	‖CL‖En‖renegón‖
+*Z‖reparon	‖CL‖En‖reparón‖
+*Z‖requeson	‖CL‖En‖requesón‖
+*Z‖resacon	‖CL‖En‖resacón‖
+*Z‖resbalon	‖CL‖En‖resbalón‖
+*Z‖respingon	‖CL‖En‖respingón‖
+*Z‖respondon	‖CL‖En‖respondón‖
+*Z‖resulton	‖CL‖En‖resultón‖
+*Z‖retortijon	‖CL‖En‖retortijón‖
+*Z‖reventon	‖CL‖En‖reventón‖
+*Z‖revolcon	‖CL‖En‖revolcón‖
+*Z‖ricachon	‖CL‖En‖ricachón‖
+*Z‖rodrigon	‖CL‖En‖rodrigón‖
+*Z‖romanticon	‖CL‖En‖romanticón‖
+*Z‖ropon	‖CL‖En‖ropón‖
+*Z‖roseton	‖CL‖En‖rosetón‖
+*Z‖rumbon	‖CL‖En‖rumbón‖
+
+*Z‖sacudon	‖CL‖En‖sacudón‖
+*Z‖salon	‖CL‖En‖salón‖
+*Z‖salpicon	‖CL‖En‖salpicón‖
+*Z‖salton	‖CL‖En‖saltón‖
+*Z‖santon	‖CL‖En‖santón‖
+*Z‖sargenton	‖CL‖En‖sargentón‖
+*Z‖senoron	‖CL‖En‖señorón‖
+*Z‖seron	‖CL‖En‖serón‖
+*Z‖sesenton	‖CL‖En‖sesentón‖
+*Z‖setenton	‖CL‖En‖setentón‖
+*Z‖señoron	‖CL‖En‖señorón‖
+*Z‖sillon	‖CL‖En‖sillón‖
+*Z‖simpaticon	‖CL‖En‖simpaticón‖
+*Z‖simplon	‖CL‖En‖simplón‖
+*Z‖sinvergonzon	‖CL‖En‖sinvergonzón‖
+*Z‖socavon	‖CL‖En‖socavón‖
+*Z‖sofocon	‖CL‖En‖sofocón‖
+*Z‖solteron	‖CL‖En‖solterón‖
+*Z‖sombreron	‖CL‖En‖sombrerón‖
+*Z‖sonrizon	‖CL‖En‖sonrizón‖
+*Z‖soplon	‖CL‖En‖soplón‖
+*Z‖sopon	‖CL‖En‖sopón‖
+*Z‖subidon	‖CL‖En‖subidón‖
+
+*Z‖tablon	‖CL‖En‖tablón‖
+*Z‖tacon	‖CL‖En‖tacón‖
+*Z‖tapon	‖CL‖En‖tapón‖
+*Z‖tardon	‖CL‖En‖tardón‖
+*Z‖tarjeton	‖CL‖En‖tarjetón‖
+*Z‖tazon	‖CL‖En‖tazón‖
+*Z‖tejon	‖CL‖En‖tejón‖
+*Z‖telon	‖CL‖En‖telón‖
+*Z‖temblon	‖CL‖En‖temblón‖
+*Z‖terron	‖CL‖En‖terrón‖
+*Z‖teton	‖CL‖En‖tetón‖
+*Z‖tinajon	‖CL‖En‖tinajón‖
+*Z‖tiron	‖CL‖En‖tirón‖
+*Z‖tiznon	‖CL‖En‖tiznón‖
+*Z‖tonton	‖CL‖En‖tontón‖
+*Z‖tormenton	‖CL‖En‖tormentón‖
+*Z‖torpon	‖CL‖En‖torpón‖
+*Z‖torreon	‖CL‖En‖torreón‖
+*Z‖tragon	‖CL‖En‖tragón‖
+*Z‖trallon	‖CL‖En‖trallón‖
+*Z‖trenton	‖CL‖En‖trentón‖
+*Z‖trincon	‖CL‖En‖trincón‖
+*Z‖tripon	‖CL‖En‖tripón‖
+*Z‖triston	‖CL‖En‖tristón‖
+*Z‖triton	‖CL‖En‖tritón‖
+*Z‖trompicon	‖CL‖En‖trompicón‖
+*Z‖tropezon	‖CL‖En‖tropezón‖
+*Z‖tumbon	‖CL‖En‖tumbón‖
+
+*Z‖vacilon	‖CL‖En‖vacilón‖
+*Z‖valenton	‖CL‖En‖valentón‖
+*Z‖velon	‖CL‖En‖velón‖
+*Z‖verdugon	‖CL‖En‖verdugón‖
+*Z‖vergon	‖CL‖En‖vergón‖
+*Z‖vinagron	‖CL‖En‖vinagrón‖
+
+*Z‖xenon	‖CL‖En‖xenón‖
+
+*Z‖zampon	‖CL‖En‖zampón‖
+*Z‖zanjon	‖CL‖En‖zanjón‖
+*Z‖zorron	‖CL‖En‖zorrón‖
+*Z‖zumbon	‖CL‖En‖zumbón‖
+
+;;;; -ción
+*Z‖abanacion	‖CL‖En‖abanación‖
+*Z‖abdicacion	‖CL‖En‖abdicación‖
+*Z‖abnegacion	‖CL‖En‖abnegación‖
+*Z‖abolicion	‖CL‖En‖abolición‖
+*Z‖aceptacion	‖CL‖En‖aceptación‖
+*Z‖acidificacion	‖CL‖En‖acidificación‖
+*Z‖aclaracion	‖CL‖En‖aclaración‖
+*Z‖aclimatacion	‖CL‖En‖aclimatación‖
+*Z‖acotacion	‖CL‖En‖acotación‖
+*Z‖acreditacion	‖CL‖En‖acreditación‖
+*Z‖actualizacion	‖CL‖En‖actualización‖
+*Z‖aculturacion	‖CL‖En‖aculturación‖
+*Z‖acunacion	‖CL‖En‖acuñación‖
+*Z‖acuñacion	‖CL‖En‖acuñación‖
+*Z‖adjetivacion	‖CL‖En‖adjetivación‖
+*Z‖afeminacion	‖CL‖En‖afeminación‖
+*Z‖afinacion	‖CL‖En‖afinación‖
+*Z‖africanizacion	‖CL‖En‖africanización‖
+*Z‖agilizacion	‖CL‖En‖agilización‖
+*Z‖aglomeracion	‖CL‖En‖aglomeración‖
+*Z‖aglutinacion	‖CL‖En‖aglutinación‖
+*Z‖agremiacion	‖CL‖En‖agremiación‖
+*Z‖agrupacion	‖CL‖En‖agrupación‖
+*Z‖agudizacion	‖CL‖En‖agudización‖
+*Z‖aireacion	‖CL‖En‖aireación‖
+*Z‖aislacion	‖CL‖En‖aislación‖
+*Z‖alcalinizacion	‖CL‖En‖alcalinización‖
+*Z‖aleatorizacion	‖CL‖En‖aleatorización‖
+*Z‖alfabetizacion	‖CL‖En‖alfabetización‖
+*Z‖alimentacion	‖CL‖En‖alimentación‖
+*Z‖alineacion	‖CL‖En‖alineación‖
+*Z‖amalgamacion	‖CL‖En‖amalgamación‖
+*Z‖ambientacion	‖CL‖En‖ambientación‖
+*Z‖americanizacion	‖CL‖En‖americanización‖
+*Z‖aminoracion	‖CL‖En‖aminoración‖
+*Z‖amonedacion	‖CL‖En‖amonedación‖
+*Z‖amonestacion	‖CL‖En‖amonestación‖
+*Z‖amortiguacion	‖CL‖En‖amortiguación‖
+*Z‖amortizacion	‖CL‖En‖amortización‖
+*Z‖amputacion	‖CL‖En‖amputación‖
+*Z‖anegacion	‖CL‖En‖anegación‖
+*Z‖angulacion	‖CL‖En‖angulación‖
+*Z‖anidacion	‖CL‖En‖anidación‖
+*Z‖anillacion	‖CL‖En‖anillación‖
+*Z‖animalizacion	‖CL‖En‖animalización‖
+*Z‖aniquilacion	‖CL‖En‖aniquilación‖
+*Z‖anonimizacion	‖CL‖En‖anonimización‖
+*Z‖antropomorfizacion	‖CL‖En‖antropomorfización‖
+*Z‖anulacion	‖CL‖En‖anulación‖
+*Z‖aproximacion	‖CL‖En‖aproximación‖
+*Z‖apuntacion	‖CL‖En‖apuntación‖
+*Z‖arabizacion	‖CL‖En‖arabización‖
+*Z‖araucanizacion	‖CL‖En‖araucanización‖
+*Z‖arborizacion	‖CL‖En‖arborización‖
+*Z‖armonizacion	‖CL‖En‖armonización‖
+*Z‖aromatizacion	‖CL‖En‖aromatización‖
+*Z‖arrabalizacion	‖CL‖En‖aseguración‖
+*Z‖aseguracion	‖CL‖En‖arrabalización‖
+*Z‖asociacion	‖CL‖En‖asociación‖
+*Z‖atemorizacion	‖CL‖En‖atemorización‖
+*Z‖atomizacion	‖CL‖En‖atomización‖
+*Z‖autenticacion	‖CL‖En‖autenticación‖
+*Z‖autentificacion	‖CL‖En‖autentificación‖
+*Z‖automatizacion	‖CL‖En‖automatización‖
+*Z‖autonomizacion	‖CL‖En‖autonomización‖
+*Z‖autorizacion	‖CL‖En‖autorización‖
+*Z‖averiguacion	‖CL‖En‖averiguación‖
+*Z‖axiomatizacion	‖CL‖En‖axiomatización‖
+
+*Z‖balcanizacion	‖CL‖En‖balcanización‖
+*Z‖bifurcacion	‖CL‖En‖bifurcación‖
+*Z‖bonificacion	‖CL‖En‖bonificación‖
+*Z‖braquiacion	‖CL‖En‖braquiación‖
+*Z‖burilacion	‖CL‖En‖burilación‖
+
+*Z‖calcificacion	‖CL‖En‖calcificación‖
+*Z‖calcinacion	‖CL‖En‖calcinación‖
+*Z‖calibracion	‖CL‖En‖calibración‖
+*Z‖cancelacion	‖CL‖En‖cancelación‖
+*Z‖cancion	‖CL‖En‖canción‖
+*Z‖canonizacion	‖CL‖En‖canonización‖
+*Z‖capacitacion	‖CL‖En‖capacitación‖
+*Z‖capitalizacion	‖CL‖En‖capitalización‖
+*Z‖caracterizacion	‖CL‖En‖caracterización‖
+*Z‖carbonizacion	‖CL‖En‖carbonización‖
+*Z‖categorizacion	‖CL‖En‖categorización‖
+*Z‖cauterizacion	‖CL‖En‖cauterización‖
+*Z‖centralizacion	‖CL‖En‖centralización‖
+*Z‖centrifugacion	‖CL‖En‖centrifugación‖
+*Z‖certificacion	‖CL‖En‖certificación‖
+*Z‖cicatrizacion	‖CL‖En‖cicatrización‖
+*Z‖cimentacion	‖CL‖En‖cimentación‖
+*Z‖circunvalacion	‖CL‖En‖circunvalación‖
+*Z‖civilizacion	‖CL‖En‖civilización‖
+*Z‖clasificacion	‖CL‖En‖clasificación‖
+*Z‖climatizacion	‖CL‖En‖climatización‖
+*Z‖colaboracion	‖CL‖En‖colaboración‖
+*Z‖colectivizacion	‖CL‖En‖colectivización‖
+*Z‖colonizacion	‖CL‖En‖colonización‖
+*Z‖comercializacion	‖CL‖En‖comercialización‖
+*Z‖compenetracion	‖CL‖En‖compenetración‖
+*Z‖completacion	‖CL‖En‖completación‖
+*Z‖concentracion	‖CL‖En‖concentración‖
+*Z‖conceptualizacion	‖CL‖En‖conceptualización‖
+*Z‖concienciacion	‖CL‖En‖concienciación‖
+*Z‖concientizacion	‖CL‖En‖concientización‖
+*Z‖conciliacion	‖CL‖En‖conciliación‖
+*Z‖concretizacion	‖CL‖En‖concretización‖
+*Z‖conculcacion	‖CL‖En‖conculcación‖
+*Z‖condecoracion	‖CL‖En‖condecoración‖
+*Z‖confederacion	‖CL‖En‖confederación‖
+*Z‖conglomeracion	‖CL‖En‖conglomeración‖
+*Z‖conmemoracion	‖CL‖En‖conmemoración‖
+*Z‖consagracion	‖CL‖En‖consagración‖
+*Z‖constitucionalizacion	‖CL‖En‖constitucionalización‖
+*Z‖consumicion	‖CL‖En‖consumición‖
+*Z‖contencion	‖CL‖En‖contención‖
+*Z‖contextualizacion	‖CL‖En‖contextualización‖
+*Z‖continuacion	‖CL‖En‖continuación‖
+*Z‖contradiccion	‖CL‖En‖contradicción‖
+*Z‖contraindicacion	‖CL‖En‖contraindicación‖
+*Z‖contratacion	‖CL‖En‖contratación‖
+*Z‖convalidacion	‖CL‖En‖convalidación‖
+*Z‖convidacion	‖CL‖En‖convidación‖
+*Z‖cosificacion	‖CL‖En‖cosificación‖
+*Z‖cotizacion	‖CL‖En‖cotización‖
+*Z‖criminalizacion	‖CL‖En‖criminalización‖
+*Z‖cristalizacion	‖CL‖En‖cristalización‖
+*Z‖cristianizacion	‖CL‖En‖cristianización‖
+*Z‖cuantificacion	‖CL‖En‖cuantificación‖
+*Z‖cuantizacion	‖CL‖En‖cuantización‖
+*Z‖culminacion	‖CL‖En‖culminación‖
+
+*Z‖decantacion	‖CL‖En‖decantación‖
+*Z‖decapitacion	‖CL‖En‖decapitación‖
+*Z‖deceleracion	‖CL‖En‖deceleración‖
+*Z‖decimalizacion	‖CL‖En‖decimalización‖
+*Z‖deforestacion	‖CL‖En‖deforestación‖
+*Z‖defraudacion	‖CL‖En‖defraudación‖
+*Z‖degeneracion	‖CL‖En‖degeneración‖
+*Z‖deliberacion	‖CL‖En‖deliberación‖
+*Z‖demarcacion	‖CL‖En‖demarcación‖
+*Z‖democratizacion	‖CL‖En‖democratización‖
+*Z‖demonizacion	‖CL‖En‖demonización‖
+*Z‖denigracion	‖CL‖En‖denigración‖
+*Z‖depilacion	‖CL‖En‖depilación‖
+*Z‖deportacion	‖CL‖En‖deportación‖
+*Z‖depreciacion	‖CL‖En‖depreciación‖
+*Z‖depuracion	‖CL‖En‖depuración‖
+*Z‖derechizacion	‖CL‖En‖derechización‖
+*Z‖desaceleracion	‖CL‖En‖desaceleración‖
+*Z‖desalinizacion	‖CL‖En‖desalinización‖
+*Z‖desaparicion	‖CL‖En‖desaparición‖
+*Z‖desaprobacion	‖CL‖En‖desaprobación‖
+*Z‖descalificacion	‖CL‖En‖descalificación‖
+*Z‖descarbonizacion	‖CL‖En‖descarbonización‖
+*Z‖descentralizacion	‖CL‖En‖descentralización‖
+*Z‖descerebracion	‖CL‖En‖descerebración‖
+*Z‖descodificacion	‖CL‖En‖descodificación‖
+*Z‖descolonizacion	‖CL‖En‖descolonización‖
+*Z‖descongelacion	‖CL‖En‖descongelación‖
+*Z‖descontextualizacion	‖CL‖En‖descontextualización‖
+*Z‖descriminalizacion	‖CL‖En‖descriminalización‖
+*Z‖desertificacion	‖CL‖En‖desertificación‖
+*Z‖desertizacion	‖CL‖En‖desertización‖
+*Z‖desesperacion	‖CL‖En‖desesperación‖
+*Z‖desestabilizacion	‖CL‖En‖desestabilización‖
+*Z‖desestacionalizacion	‖CL‖En‖desestacionalización‖
+*Z‖desestructuracion	‖CL‖En‖desestructuración‖
+*Z‖desfiguracion	‖CL‖En‖desfiguración‖
+*Z‖desfragmentacion	‖CL‖En‖desfragmentación‖
+*Z‖deshidratacion	‖CL‖En‖deshidratación‖
+*Z‖deshumanizacion	‖CL‖En‖deshumanización‖
+*Z‖deshumidificacion	‖CL‖En‖deshumidificación‖
+*Z‖desindustrializacion	‖CL‖En‖desindustrialización‖
+*Z‖desinformacion	‖CL‖En‖desinformación‖
+*Z‖desinstalacion	‖CL‖En‖desinstalación‖
+*Z‖desintegracion	‖CL‖En‖desintegración‖
+*Z‖desintoxicacion	‖CL‖En‖desintoxicación‖
+*Z‖desjudicializacion	‖CL‖En‖desjudicialización‖
+*Z‖deslocalizacion	‖CL‖En‖deslocalización‖
+*Z‖desmantelacion	‖CL‖En‖desmantelación‖
+*Z‖desmembracion	‖CL‖En‖desmembración‖
+*Z‖desmilitarizacion	‖CL‖En‖desmilitarización‖
+*Z‖desmineralizacion	‖CL‖En‖desmineralización‖
+*Z‖desmonetizacion	‖CL‖En‖desmonetización‖
+*Z‖desmoralizacion	‖CL‖En‖desmoralización‖
+*Z‖desmovilizacion	‖CL‖En‖desmovilización‖
+*Z‖desnaturalizacion	‖CL‖En‖desnaturalización‖
+*Z‖desnuclearizacion	‖CL‖En‖desnuclearización‖
+*Z‖desorientacion	‖CL‖En‖desorientación‖
+*Z‖despenalizacion	‖CL‖En‖despenalización‖
+*Z‖despersonalizacion	‖CL‖En‖despersonalización‖
+*Z‖despolarizacion	‖CL‖En‖despolarización‖
+*Z‖despolitizacion	‖CL‖En‖despolitización‖
+*Z‖despreocupacion	‖CL‖En‖despreocupación‖
+*Z‖despresurizacion	‖CL‖En‖despresurización‖
+*Z‖desprivatizacion	‖CL‖En‖desprivatización‖
+*Z‖desregulacion	‖CL‖En‖desregulación‖
+*Z‖desregularizacion	‖CL‖En‖desregularización‖
+*Z‖destruccion	‖CL‖En‖destrucción‖
+*Z‖desvalorizacion	‖CL‖En‖desvalorización‖
+*Z‖deteccion	‖CL‖En‖detección‖
+*Z‖detencion	‖CL‖En‖detención‖
+*Z‖detonacion	‖CL‖En‖detonación‖
+*Z‖devastacion	‖CL‖En‖devastación‖
+*Z‖diferenciacion	‖CL‖En‖diferenciación‖
+*Z‖digitalizacion	‖CL‖En‖digitalización‖
+*Z‖dignificacion	‖CL‖En‖dignificación‖
+*Z‖dimerizacion	‖CL‖En‖dimerización‖
+*Z‖disminucion	‖CL‖En‖disminución‖
+*Z‖disociacion	‖CL‖En‖disociación‖
+*Z‖distanciacion	‖CL‖En‖distanciación‖
+*Z‖diversificacion	‖CL‖En‖diversificación‖
+*Z‖divinizacion	‖CL‖En‖divinización‖
+*Z‖documentacion	‖CL‖En‖documentación‖
+*Z‖dolarizacion	‖CL‖En‖dolarización‖
+*Z‖donacion	‖CL‖En‖donación‖
+*Z‖dosificacion	‖CL‖En‖dosificación‖
+*Z‖dramatizacion	‖CL‖En‖dramatización‖
+
+*Z‖ecualizacion	‖CL‖En‖ecualización‖
+*Z‖educacion	‖CL‖En‖educación‖
+*Z‖ejemplificacion	‖CL‖En‖ejemplificación‖
+*Z‖electrificacion	‖CL‖En‖electrificación‖
+*Z‖electrizacion	‖CL‖En‖electrización‖
+*Z‖eliminacion	‖CL‖En‖eliminación‖
+*Z‖elucubracion	‖CL‖En‖elucubración‖
+*Z‖emasculacion	‖CL‖En‖emasculación‖
+*Z‖embarcacion	‖CL‖En‖embarcación‖
+*Z‖embolizacion	‖CL‖En‖embolización‖
+*Z‖emigracion	‖CL‖En‖emigración‖
+*Z‖emprenacion	‖CL‖En‖empreñación‖
+*Z‖empreñacion	‖CL‖En‖empreñación‖
+*Z‖enajenacion	‖CL‖En‖enajenación‖
+*Z‖encapsulacion	‖CL‖En‖encapsulación‖
+*Z‖encarnacion	‖CL‖En‖encarnación‖
+*Z‖encriptacion	‖CL‖En‖encriptación‖
+*Z‖encuadernacion	‖CL‖En‖encuadernación‖
+*Z‖enfatizacion	‖CL‖En‖enfatización‖
+*Z‖entonacion	‖CL‖En‖entonación‖
+*Z‖entretencion	‖CL‖En‖entretención‖
+*Z‖entronizacion	‖CL‖En‖entronización‖
+*Z‖equiparacion	‖CL‖En‖equiparación‖
+*Z‖erotizacion	‖CL‖En‖erotización‖
+*Z‖erradicacion	‖CL‖En‖erradicación‖
+*Z‖esclavizacion	‖CL‖En‖esclavización‖
+*Z‖escolarizacion	‖CL‖En‖escolarización‖
+*Z‖espanolizacion	‖CL‖En‖españolización‖
+*Z‖españolizacion	‖CL‖En‖españolización‖
+*Z‖especializacion	‖CL‖En‖especialización‖
+*Z‖especificacion	‖CL‖En‖especificación‖
+*Z‖espiracion	‖CL‖En‖espiración‖
+*Z‖espiritualizacion	‖CL‖En‖espiritualización‖
+*Z‖esquematizacion	‖CL‖En‖esquematización‖
+*Z‖estabilizacion	‖CL‖En‖estabilización‖
+*Z‖estadificacion	‖CL‖En‖estadificación‖
+*Z‖estandarizacion	‖CL‖En‖estandarización‖
+*Z‖estatizacion	‖CL‖En‖estatización‖
+*Z‖esterilizacion	‖CL‖En‖esterilización‖
+*Z‖estigmatizacion	‖CL‖En‖estigmatización‖
+*Z‖estilizacion	‖CL‖En‖estilización‖
+*Z‖estructuracion	‖CL‖En‖estructuración‖
+*Z‖europeizacion	‖CL‖En‖europeización‖
+*Z‖euskaldunizacion	‖CL‖En‖euskaldunización‖
+*Z‖evaluacion	‖CL‖En‖evaluación‖
+*Z‖evangelizacion	‖CL‖En‖evangelización‖
+*Z‖eventracion	‖CL‖En‖eventración‖
+*Z‖evisceracion	‖CL‖En‖evisceración‖
+*Z‖exacerbacion	‖CL‖En‖exacerbación‖
+*Z‖exasperacion	‖CL‖En‖exasperación‖
+*Z‖exhumacion	‖CL‖En‖exhumación‖
+*Z‖expatriacion	‖CL‖En‖expatriación‖
+*Z‖expectacion	‖CL‖En‖expectación‖
+*Z‖expectoracion	‖CL‖En‖expectoración‖
+*Z‖explotacion	‖CL‖En‖explotación‖
+*Z‖expoliacion	‖CL‖En‖expoliación‖
+*Z‖exportacion	‖CL‖En‖exportación‖
+*Z‖exteriorizacion	‖CL‖En‖exteriorización‖
+*Z‖externalizacion	‖CL‖En‖externalización‖
+*Z‖extralimitacion	‖CL‖En‖extralimitación‖
+*Z‖extranjerizacion	‖CL‖En‖extranjerización‖
+*Z‖extrapolacion	‖CL‖En‖extrapolación‖
+*Z‖extubacion	‖CL‖En‖extubación‖
+*Z‖eyaculacion	‖CL‖En‖eyaculación‖
+
+*Z‖factorizacion	‖CL‖En‖factorización‖
+*Z‖facturacion	‖CL‖En‖facturación‖
+*Z‖falsacion	‖CL‖En‖falsación‖
+*Z‖familiarizacion	‖CL‖En‖familiarización‖
+*Z‖fecundacion	‖CL‖En‖fecundación‖
+*Z‖federalizacion	‖CL‖En‖federalización‖
+*Z‖felicitacion	‖CL‖En‖felicitación‖
+*Z‖feminizacion	‖CL‖En‖feminización‖
+*Z‖fertilizacion	‖CL‖En‖fertilización‖
+*Z‖fijacion	‖CL‖En‖fijación‖
+*Z‖filmacion	‖CL‖En‖filmación‖
+*Z‖filtracion	‖CL‖En‖filtración‖
+*Z‖finalizacion	‖CL‖En‖finalización‖
+*Z‖financiacion	‖CL‖En‖financiación‖
+*Z‖fiscalizacion	‖CL‖En‖fiscalización‖
+*Z‖flexibilizacion	‖CL‖En‖flexibilización‖
+*Z‖floracion	‖CL‖En‖floración‖
+*Z‖focalizacion	‖CL‖En‖focalización‖
+*Z‖forestacion	‖CL‖En‖forestación‖
+*Z‖formalizacion	‖CL‖En‖formalización‖
+*Z‖formulacion	‖CL‖En‖formulación‖
+*Z‖fosforilacion	‖CL‖En‖fosforilación‖
+*Z‖fosilizacion	‖CL‖En‖fosilización‖
+*Z‖fracturacion	‖CL‖En‖fracturación‖
+*Z‖fragmentacion	‖CL‖En‖fragmentación‖
+*Z‖fundacion	‖CL‖En‖fundación‖
+*Z‖fundamentacion	‖CL‖En‖fundamentación‖
+
+*Z‖galvanizacion	‖CL‖En‖galvanización‖
+*Z‖gasificacion	‖CL‖En‖gasificación‖
+*Z‖generalizacion	‖CL‖En‖generalización‖
+*Z‖geolocalizacion	‖CL‖En‖geolocalización‖
+*Z‖germanizacion	‖CL‖En‖germanización‖
+*Z‖globalizacion	‖CL‖En‖globalización‖
+*Z‖gobernacion	‖CL‖En‖gobernación‖
+*Z‖grabacion	‖CL‖En‖grabación‖
+*Z‖graduacion	‖CL‖En‖graduación‖
+*Z‖gravitacion	‖CL‖En‖gravitación‖
+
+*Z‖habitacion	‖CL‖En‖habitación‖
+*Z‖habituacion	‖CL‖En‖habituación‖
+*Z‖halogenacion	‖CL‖En‖halogenación‖
+*Z‖helenizacion	‖CL‖En‖helenización‖
+*Z‖herborizacion	‖CL‖En‖herborización‖
+*Z‖herniacion	‖CL‖En‖herniación‖
+*Z‖hibernacion	‖CL‖En‖hibernación‖
+*Z‖hidratacion	‖CL‖En‖hidratación‖
+*Z‖homogeneizacion	‖CL‖En‖homogeneización‖
+*Z‖homogenizacion	‖CL‖En‖homogenización‖
+*Z‖homosexualizacion	‖CL‖En‖homosexualización‖
+*Z‖hospitalizacion	‖CL‖En‖hospitalización‖
+*Z‖humanizacion	‖CL‖En‖humanización‖
+*Z‖humidificacion	‖CL‖En‖humidificación‖
+
+*Z‖ideacion	‖CL‖En‖ideación‖
+*Z‖idealizacion	‖CL‖En‖idealización‖
+*Z‖identificacion	‖CL‖En‖identificación‖
+*Z‖ideologizacion	‖CL‖En‖ideologización‖
+*Z‖ilegalizacion	‖CL‖En‖ilegalización‖
+*Z‖impermeabilizacion	‖CL‖En‖impermeabilización‖
+*Z‖importacion	‖CL‖En‖importación‖
+*Z‖imprimacion	‖CL‖En‖imprimación‖
+*Z‖improvisacion	‖CL‖En‖improvisación‖
+*Z‖incapacitacion	‖CL‖En‖incapacitación‖
+*Z‖incardinacion	‖CL‖En‖incardinación‖
+*Z‖incautacion	‖CL‖En‖incautación‖
+*Z‖incensacion	‖CL‖En‖incensación‖
+*Z‖indagacion	‖CL‖En‖indagación‖
+*Z‖indemnizacion	‖CL‖En‖indemnización‖
+*Z‖indexacion	‖CL‖En‖indexación‖
+*Z‖indizacion	‖CL‖En‖indización‖
+*Z‖industrializacion	‖CL‖En‖industrialización‖
+*Z‖infantilizacion	‖CL‖En‖infantilización‖
+*Z‖infatuacion	‖CL‖En‖infatuación‖
+*Z‖infiltracion	‖CL‖En‖infiltración‖
+*Z‖inflacion	‖CL‖En‖inflación‖
+*Z‖informatizacion	‖CL‖En‖informatización‖
+*Z‖infrautilizacion	‖CL‖En‖infrautilización‖
+*Z‖inmovilizacion	‖CL‖En‖inmovilización‖
+*Z‖inmunizacion	‖CL‖En‖inmunización‖
+*Z‖inseminacion	‖CL‖En‖inseminación‖
+*Z‖insonorizacion	‖CL‖En‖insonorización‖
+*Z‖instalacion	‖CL‖En‖instalación‖
+*Z‖institucionalizacion	‖CL‖En‖institucionalización‖
+*Z‖instrumentalizacion	‖CL‖En‖instrumentalización‖
+*Z‖integracion	‖CL‖En‖integración‖
+*Z‖intensificacion	‖CL‖En‖intensificación‖
+*Z‖intermediacion	‖CL‖En‖intermediación‖
+*Z‖internacionalizacion	‖CL‖En‖internacionalización‖
+*Z‖internalizacion	‖CL‖En‖internalización‖
+*Z‖interpelacion	‖CL‖En‖interpelación‖
+*Z‖interpretacion	‖CL‖En‖interpretación‖
+*Z‖intimidacion	‖CL‖En‖intimidación‖
+*Z‖intoxicacion	‖CL‖En‖intoxicación‖
+*Z‖invaginacion	‖CL‖En‖invaginación‖
+*Z‖invalidacion	‖CL‖En‖invalidación‖
+*Z‖invisibilizacion	‖CL‖En‖invisibilización‖
+*Z‖invitacion	‖CL‖En‖invitación‖
+*Z‖involucracion	‖CL‖En‖involucración‖
+*Z‖ionizacion	‖CL‖En‖ionización‖
+*Z‖islamizacion	‖CL‖En‖islamización‖
+
+*Z‖jerarquizacion	‖CL‖En‖jerarquización‖
+*Z‖jibarizacion	‖CL‖En‖jibarización‖
+*Z‖judaizacion	‖CL‖En‖judaización‖
+*Z‖judicializacion	‖CL‖En‖judicialización‖
+*Z‖justificacion	‖CL‖En‖justificación‖
+
+*Z‖laicizacion	‖CL‖En‖laicización‖
+*Z‖latinizacion	‖CL‖En‖latinización‖
+*Z‖legalizacion	‖CL‖En‖legalización‖
+*Z‖legislacion	‖CL‖En‖legislación‖
+*Z‖legitimacion	‖CL‖En‖legitimación‖
+*Z‖levitacion	‖CL‖En‖levitación‖
+*Z‖liberacion	‖CL‖En‖liberación‖
+*Z‖liberalizacion	‖CL‖En‖liberalización‖
+*Z‖ligacion	‖CL‖En‖ligación‖
+*Z‖liquidacion	‖CL‖En‖liquidación‖
+*Z‖lobotomizacion	‖CL‖En‖lobotomización‖
+*Z‖localizacion	‖CL‖En‖localización‖
+*Z‖lotificacion	‖CL‖En‖lotificación‖
+*Z‖lotizacion	‖CL‖En‖lotización‖
+*Z‖lubricacion	‖CL‖En‖lubricación‖
+*Z‖lubrificacion	‖CL‖En‖lubrificación‖
+
+*Z‖magnetizacion	‖CL‖En‖magnetización‖
+*Z‖malinterpretacion	‖CL‖En‖malinterpretación‖
+*Z‖manipulacion	‖CL‖En‖manipulación‖
+*Z‖marginacion	‖CL‖En‖marginación‖
+*Z‖marginalizacion	‖CL‖En‖marginalización‖
+*Z‖masculinizacion	‖CL‖En‖masculinización‖
+*Z‖masificacion	‖CL‖En‖masificación‖
+*Z‖masturbacion	‖CL‖En‖masturbación‖
+*Z‖matematizacion	‖CL‖En‖matematización‖
+*Z‖materializacion	‖CL‖En‖materialización‖
+*Z‖matizacion	‖CL‖En‖matización‖
+*Z‖matriculacion	‖CL‖En‖matriculación‖
+*Z‖maximizacion	‖CL‖En‖maximización‖
+*Z‖mecanizacion	‖CL‖En‖mecanización‖
+*Z‖mediatizacion	‖CL‖En‖mediatización‖
+*Z‖medicacion	‖CL‖En‖medicación‖
+*Z‖medicion	‖CL‖En‖medición‖
+*Z‖memorizacion	‖CL‖En‖memorización‖
+*Z‖menstruacion	‖CL‖En‖menstruación‖
+*Z‖mentalizacion	‖CL‖En‖mentalización‖
+*Z‖mercantilizacion	‖CL‖En‖mercantilización‖
+*Z‖metabolizacion	‖CL‖En‖metabolización‖
+*Z‖mexicanizacion	‖CL‖En‖mexicanización‖
+*Z‖militarizacion	‖CL‖En‖militarización‖
+*Z‖miniaturizacion	‖CL‖En‖miniaturización‖
+*Z‖minimizacion	‖CL‖En‖minimización‖
+*Z‖minorizacion	‖CL‖En‖minorización‖
+*Z‖mitificacion	‖CL‖En‖mitificación‖
+*Z‖modernizacion	‖CL‖En‖modernización‖
+*Z‖molduracion	‖CL‖En‖molduración‖
+*Z‖momificacion	‖CL‖En‖momificación‖
+*Z‖monetizacion	‖CL‖En‖monetización‖
+*Z‖monitorizacion	‖CL‖En‖monitorización‖
+*Z‖monopolizacion	‖CL‖En‖monopolización‖
+*Z‖moralizacion	‖CL‖En‖moralización‖
+*Z‖motorizacion	‖CL‖En‖motorización‖
+*Z‖movilizacion	‖CL‖En‖movilización‖
+*Z‖mundializacion	‖CL‖En‖mundialización‖
+*Z‖musculacion	‖CL‖En‖musculación‖
+*Z‖musicalizacion	‖CL‖En‖musicalización‖
+
+*Z‖nacionalizacion	‖CL‖En‖nacionalización‖
+*Z‖narcotizacion	‖CL‖En‖narcotización‖
+*Z‖nasalizacion	‖CL‖En‖nasalización‖
+*Z‖naturalizacion	‖CL‖En‖naturalización‖
+*Z‖navegacion	‖CL‖En‖navegación‖
+*Z‖nebulizacion	‖CL‖En‖nebulización‖
+*Z‖neutralizacion	‖CL‖En‖neutralización‖
+*Z‖nivelacion	‖CL‖En‖nivelación‖
+*Z‖nixtamalizacion	‖CL‖En‖nixtamalización‖
+*Z‖nominalizacion	‖CL‖En‖nominalización‖
+*Z‖normalizacion	‖CL‖En‖normalización‖
+*Z‖normativizacion	‖CL‖En‖normativización‖
+
+*Z‖objetivacion	‖CL‖En‖objetivación‖
+*Z‖obnubilacion	‖CL‖En‖obnubilación‖
+*Z‖observacion	‖CL‖En‖observación‖
+*Z‖obstaculizacion	‖CL‖En‖obstaculización‖
+*Z‖occidentalizacion	‖CL‖En‖occidentalización‖
+*Z‖oficializacion	‖CL‖En‖oficialización‖
+*Z‖ondulacion	‖CL‖En‖ondulación‖
+*Z‖operativizacion	‖CL‖En‖operativización‖
+*Z‖optimizacion	‖CL‖En‖optimización‖
+*Z‖oralizacion	‖CL‖En‖oralización‖
+*Z‖organizacion	‖CL‖En‖organización‖
+*Z‖osificacion	‖CL‖En‖osificación‖
+*Z‖oxidacion	‖CL‖En‖oxidación‖
+
+*Z‖palatalizacion	‖CL‖En‖palatalización‖
+*Z‖panificacion	‖CL‖En‖panificación‖
+*Z‖paralizacion	‖CL‖En‖paralización‖
+*Z‖parametrizacion	‖CL‖En‖parametrización‖
+*Z‖parasitacion	‖CL‖En‖parasitación‖
+*Z‖particularizacion	‖CL‖En‖particularización‖
+*Z‖patrimonializacion	‖CL‖En‖patrimonialización‖
+*Z‖pauperizacion	‖CL‖En‖pauperización‖
+*Z‖pavimentacion	‖CL‖En‖pavimentación‖
+*Z‖peatonalizacion	‖CL‖En‖peatonalización‖
+*Z‖penalizacion	‖CL‖En‖penalización‖
+*Z‖periodizacion	‖CL‖En‖periodización‖
+*Z‖pernoctacion	‖CL‖En‖pernoctación‖
+*Z‖perpetuacion	‖CL‖En‖perpetuación‖
+*Z‖personalizacion	‖CL‖En‖personalización‖
+*Z‖personificacion	‖CL‖En‖personificación‖
+*Z‖perturbacion	‖CL‖En‖perturbación‖
+*Z‖planificacion	‖CL‖En‖planificación‖
+*Z‖poblacion	‖CL‖En‖población‖
+*Z‖podemizacion	‖CL‖En‖podemización‖
+*Z‖polarizacion	‖CL‖En‖polarización‖
+*Z‖polinizacion	‖CL‖En‖polinización‖
+*Z‖politizacion	‖CL‖En‖politización‖
+*Z‖popularizacion	‖CL‖En‖popularización‖
+*Z‖postergacion	‖CL‖En‖postergación‖
+*Z‖potabilizacion	‖CL‖En‖potabilización‖
+*Z‖potenciacion	‖CL‖En‖potenciación‖
+*Z‖potencializacion	‖CL‖En‖potencialización‖
+*Z‖precarizacion	‖CL‖En‖precarización‖
+*Z‖prefijacion	‖CL‖En‖prefijación‖
+*Z‖premiacion	‖CL‖En‖premiación‖
+*Z‖preocupacion	‖CL‖En‖preocupación‖
+*Z‖presentacion	‖CL‖En‖presentación‖
+*Z‖preservacion	‖CL‖En‖preservación‖
+*Z‖prestacion	‖CL‖En‖prestación‖
+*Z‖presurizacion	‖CL‖En‖presurización‖
+*Z‖previsualizacion	‖CL‖En‖previsualización‖
+*Z‖privatizacion	‖CL‖En‖privatización‖
+*Z‖profesionalizacion	‖CL‖En‖profesionalización‖
+*Z‖profundizacion	‖CL‖En‖profundización‖
+*Z‖proletarizacion	‖CL‖En‖proletarización‖
+*Z‖proliferacion	‖CL‖En‖proliferación‖
+*Z‖protocolizacion	‖CL‖En‖protocolización‖
+*Z‖provincializacion	‖CL‖En‖provincialización‖
+*Z‖pulverizacion	‖CL‖En‖pulverización‖
+*Z‖puntuacion	‖CL‖En‖puntuación‖
+*Z‖puntualizacion	‖CL‖En‖puntualización‖
+
+*Z‖racionalizacion	‖CL‖En‖racionalización‖
+*Z‖radicalizacion	‖CL‖En‖radicalización‖
+*Z‖ralentizacion	‖CL‖En‖ralentización‖
+*Z‖reagrupacion	‖CL‖En‖reagrupación‖
+*Z‖realizacion	‖CL‖En‖realización‖
+*Z‖reanimacion	‖CL‖En‖reanimación‖
+*Z‖recapacitacion	‖CL‖En‖recapacitación‖
+*Z‖recapitulacion	‖CL‖En‖recapitulación‖
+*Z‖recaudacion	‖CL‖En‖recaudación‖
+*Z‖recentralizacion	‖CL‖En‖recentralización‖
+*Z‖recomendacion	‖CL‖En‖recomendación‖
+*Z‖reconsideracion	‖CL‖En‖reconsideración‖
+*Z‖reconstitucion	‖CL‖En‖reconstitución‖
+*Z‖recopilacion	‖CL‖En‖recopilación‖
+*Z‖redefinicion	‖CL‖En‖redefinición‖
+*Z‖redistribucion	‖CL‖En‖redistribución‖
+*Z‖reeducacion	‖CL‖En‖reeducación‖
+*Z‖reencarnacion	‖CL‖En‖reencarnación‖
+*Z‖reestructuracion	‖CL‖En‖reestructuración‖
+*Z‖refinacion	‖CL‖En‖refinación‖
+*Z‖reflotacion	‖CL‖En‖reflotación‖
+*Z‖reformulacion	‖CL‖En‖reformulación‖
+*Z‖refundacion	‖CL‖En‖refundación‖
+*Z‖regasificacion	‖CL‖En‖regasificación‖
+*Z‖registracion	‖CL‖En‖registración‖
+*Z‖regulacion	‖CL‖En‖regulación‖
+*Z‖regularizacion	‖CL‖En‖regularización‖
+*Z‖regurgitacion	‖CL‖En‖regurgitación‖
+*Z‖rehabilitacion	‖CL‖En‖rehabilitación‖
+*Z‖reincorporacion	‖CL‖En‖reincorporación‖
+*Z‖reindustrializacion	‖CL‖En‖reindustrialización‖
+*Z‖reinstalacion	‖CL‖En‖reinstalación‖
+*Z‖relativizacion	‖CL‖En‖relativización‖
+*Z‖remasterizacion	‖CL‖En‖remasterización‖
+*Z‖renegociacion	‖CL‖En‖renegociación‖
+*Z‖renovacion	‖CL‖En‖renovación‖
+*Z‖rentabilizacion	‖CL‖En‖rentabilización‖
+*Z‖reorganizacion	‖CL‖En‖reorganización‖
+*Z‖reorientacion	‖CL‖En‖reorientación‖
+*Z‖reparacion	‖CL‖En‖reparación‖
+*Z‖reparticion	‖CL‖En‖repartición‖
+*Z‖repatriacion	‖CL‖En‖repatriación‖
+*Z‖repeticion	‖CL‖En‖repetición‖
+*Z‖repoblacion	‖CL‖En‖repoblación‖
+*Z‖reproduccion	‖CL‖En‖reproducción‖
+*Z‖reputacion	‖CL‖En‖reputación‖
+*Z‖resignacion	‖CL‖En‖resignación‖
+*Z‖responsabilizacion	‖CL‖En‖responsabilización‖
+*Z‖restauracion	‖CL‖En‖restauración‖
+*Z‖reubicacion	‖CL‖En‖reubicación‖
+*Z‖reunificacion	‖CL‖En‖reunificación‖
+*Z‖reutilizacion	‖CL‖En‖reutilización‖
+*Z‖revalorizacion	‖CL‖En‖revalorización‖
+*Z‖revitalizacion	‖CL‖En‖revitalización‖
+*Z‖robotizacion	‖CL‖En‖robotización‖
+*Z‖romanizacion	‖CL‖En‖romanización‖
+*Z‖rotulacion	‖CL‖En‖rotulación‖
+*Z‖ruralizacion	‖CL‖En‖ruralización‖
+
+*Z‖sacralizacion	‖CL‖En‖sacralización‖
+*Z‖salinizacion	‖CL‖En‖salinización‖
+*Z‖saponificacion	‖CL‖En‖saponificación‖
+*Z‖secuenciacion	‖CL‖En‖secuenciación‖
+*Z‖secularizacion	‖CL‖En‖secularización‖
+*Z‖segmentacion	‖CL‖En‖segmentación‖
+*Z‖segregacion	‖CL‖En‖segregación‖
+*Z‖senalizacion	‖CL‖En‖señalización‖
+*Z‖sensibilizacion	‖CL‖En‖sensibilización‖
+*Z‖sexualizacion	‖CL‖En‖sexualización‖
+*Z‖señalizacion	‖CL‖En‖señalización‖
+*Z‖simbolizacion	‖CL‖En‖simbolización‖
+*Z‖sincronizacion	‖CL‖En‖sincronización‖
+*Z‖sistematizacion	‖CL‖En‖sistematización‖
+*Z‖situacion	‖CL‖En‖situación‖
+*Z‖socavacion	‖CL‖En‖socavación‖
+*Z‖sociabilizacion	‖CL‖En‖sociabilización‖
+*Z‖socializacion	‖CL‖En‖socialización‖
+*Z‖suavizacion	‖CL‖En‖suavización‖
+*Z‖subestimacion	‖CL‖En‖subestimación‖
+*Z‖substantivacion	‖CL‖En‖substantivación‖
+*Z‖subtitulacion	‖CL‖En‖subtitulación‖
+*Z‖sufijacion	‖CL‖En‖sufijación‖
+*Z‖superacion	‖CL‖En‖superación‖
+*Z‖sustantivacion	‖CL‖En‖sustantivación‖
+
+*Z‖tarificacion	‖CL‖En‖tarificación‖
+*Z‖tecnologizacion	‖CL‖En‖tecnologización‖
+*Z‖teleportacion	‖CL‖En‖teleportación‖
+*Z‖teletransportacion	‖CL‖En‖teletransportación‖
+*Z‖tematizacion	‖CL‖En‖tematización‖
+*Z‖teorizacion	‖CL‖En‖teorización‖
+*Z‖tergiversacion	‖CL‖En‖tergiversación‖
+*Z‖terraformacion	‖CL‖En‖terraformación‖
+*Z‖territorializacion	‖CL‖En‖territorialización‖
+*Z‖titulizacion	‖CL‖En‖titulización‖
+*Z‖tonificacion	‖CL‖En‖tonificación‖
+*Z‖tostacion	‖CL‖En‖tostación‖
+*Z‖trasplantacion	‖CL‖En‖trasplantación‖
+*Z‖tribulacion	‖CL‖En‖tribulación‖
+*Z‖trivializacion	‖CL‖En‖trivialización‖
+
+*Z‖uberizacion	‖CL‖En‖uberización‖
+*Z‖unificacion	‖CL‖En‖unificación‖
+*Z‖urbanizacion	‖CL‖En‖urbanización‖
+*Z‖utilizacion	‖CL‖En‖utilización‖
+
+*Z‖vacunacion	‖CL‖En‖vacunación‖
+*Z‖validacion	‖CL‖En‖validación‖
+*Z‖valoracion	‖CL‖En‖valoración‖
+*Z‖valuacion	‖CL‖En‖valuación‖
+*Z‖vaporizacion	‖CL‖En‖vaporización‖
+*Z‖vectorizacion	‖CL‖En‖vectorización‖
+*Z‖verbalizacion	‖CL‖En‖verbalización‖
+*Z‖verificacion	‖CL‖En‖verificación‖
+*Z‖victimizacion	‖CL‖En‖victimización‖
+*Z‖vinificacion	‖CL‖En‖vinificación‖
+*Z‖violacion	‖CL‖En‖violación‖
+*Z‖visitacion	‖CL‖En‖visitación‖
+*Z‖visualizacion	‖CL‖En‖visualización‖
+*Z‖vocalizacion	‖CL‖En‖vocalización‖
+*Z‖volatilizacion	‖CL‖En‖volatilización‖
+*Z‖votacion	‖CL‖En‖votación‖
+*Z‖vulcanizacion	‖CL‖En‖vulcanización‖
+
+*Z‖zonificacion	‖CL‖En‖zonificación‖
+
+;;;; -sión
+*Z‖abrasion	‖CL‖En‖abrasión‖
+*Z‖desilusion	‖CL‖En‖desilusión‖
+*Z‖ilusion	‖CL‖En‖ilusión‖
+
+;;;; -xión
+*Z‖reflexion	‖CL‖En‖reflexión‖
+
+;;;; -ectomía
+*Z‖adenoidectomia	‖CL‖En‖adenoidectomía‖
+*Z‖adrenalectomia	‖CL‖En‖adrenalectomía‖
+*Z‖amigdalectomia	‖CL‖En‖amigdalectomía‖
+*Z‖apendicectomia	‖CL‖En‖apendicectomía‖
+*Z‖apicectomia	‖CL‖En‖apicectomía‖
+*Z‖bullectomia	‖CL‖En‖bullectomía‖
+*Z‖clitoridectomia	‖CL‖En‖clitoridectomía‖
+*Z‖clitorectomia	‖CL‖En‖clitorectomía‖
+*Z‖colecistectomia	‖CL‖En‖colecistectomía‖
+*Z‖colectomia	‖CL‖En‖colectomía‖
+*Z‖craniectomia	‖CL‖En‖craniectomía‖
+*Z‖esofaguectomia	‖CL‖En‖esofaguectomía‖
+*Z‖gastrectomia	‖CL‖En‖gastrectomía‖
+*Z‖histerectomia	‖CL‖En‖histerectomía‖
+*Z‖laminectomia	‖CL‖En‖laminectomía‖
+*Z‖nefrectomia	‖CL‖En‖nefrectomía‖
+*Z‖orquiectomia	‖CL‖En‖orquiectomía‖
+*Z‖salpingectomia	‖CL‖En‖salpingectomía‖
+*Z‖tiroidectomia	‖CL‖En‖tiroidectomía‖
+*Z‖trombectomia	‖CL‖En‖trombectomía‖
+*Z‖vasectomia	‖CL‖En‖vasectomía‖
+*Z‖vitrectomia	‖CL‖En‖vitrectomía‖
+
+;;;; -logía
+*Z‖adenología	‖CL‖En‖adenología‖
+*Z‖aerologia	‖CL‖En‖aerología‖
+*Z‖agrologia	‖CL‖En‖agrología‖
+*Z‖alergologia	‖CL‖En‖alergología‖
+*Z‖algologia	‖CL‖En‖algología‖
+*Z‖andrologia	‖CL‖En‖andrología‖
+*Z‖anestesiologia	‖CL‖En‖anestesiología‖
+*Z‖angelologia	‖CL‖En‖angelología‖
+*Z‖angiologia	‖CL‖En‖angiología‖
+*Z‖aparatologia	‖CL‖En‖aparatología‖
+*Z‖audiologia	‖CL‖En‖audiología‖
+
+*Z‖bacteriologia	‖CL‖En‖bacteriología‖
+*Z‖bibliotecologia	‖CL‖En‖bibliotecología‖
+*Z‖biologia	‖CL‖En‖biología‖
+*Z‖biotecnologia	‖CL‖En‖biotecnología‖
+*Z‖braquilogia	‖CL‖En‖braquilogía‖
+*Z‖bromatologia	‖CL‖En‖bromatología‖
+
+*Z‖cardiologia	‖CL‖En‖cardiología‖
+*Z‖cienciologia	‖CL‖En‖cienciología‖
+*Z‖citologia	‖CL‖En‖citología‖
+*Z‖conquiliologia	‖CL‖En‖conquiliología‖
+*Z‖craneologia	‖CL‖En‖craneología‖
+*Z‖cronologia	‖CL‖En‖cronología‖
+
+*Z‖dendrologia	‖CL‖En‖dendrología‖
+*Z‖deontologia	‖CL‖En‖deontología‖
+
+*Z‖ecologia	‖CL‖En‖ecología‖
+*Z‖edafologia	‖CL‖En‖edafología‖
+*Z‖egiptologia	‖CL‖En‖egiptología‖
+*Z‖endocrinologia	‖CL‖En‖endocrinología‖
+*Z‖enologia	‖CL‖En‖enología‖
+*Z‖entomologia	‖CL‖En‖entomología‖
+*Z‖epidemiologia	‖CL‖En‖epidemiología‖
+*Z‖escatologia	‖CL‖En‖escatología‖
+*Z‖esjatologia	‖CL‖En‖esjatología‖
+*Z‖espeleologia	‖CL‖En‖espeleología‖
+*Z‖etnologia	‖CL‖En‖etnología‖
+
+*Z‖feminologia	‖CL‖En‖feminología‖
+*Z‖fenologia	‖CL‖En‖fenología‖
+*Z‖fonologia	‖CL‖En‖fonología‖
+*Z‖futurologia	‖CL‖En‖futurología‖
+
+*Z‖gastroenterologia	‖CL‖En‖gastroenterología‖
+*Z‖geologia	‖CL‖En‖geología‖
+*Z‖gerontologia	‖CL‖En‖gerontología‖
+*Z‖ginecologia	‖CL‖En‖ginecología‖
+*Z‖grafologia	‖CL‖En‖grafología‖
+
+*Z‖hematologia	‖CL‖En‖hematología‖
+*Z‖herpetologia	‖CL‖En‖herpetología‖
+*Z‖hidrologia	‖CL‖En‖hidrología‖
+*Z‖histologia	‖CL‖En‖histología‖
+
+*Z‖ictiologia	‖CL‖En‖ictiología‖
+*Z‖ideologia	‖CL‖En‖ideología‖
+*Z‖inmunologia	‖CL‖En‖inmunología‖
+
+*Z‖laringologia	‖CL‖En‖laringología‖
+
+*Z‖meteorologia	‖CL‖En‖meteorología‖
+*Z‖metrologia	‖CL‖En‖metrología‖
+*Z‖microbiologia	‖CL‖En‖microbiología‖
+*Z‖mineralogia	‖CL‖En‖mineralogía‖
+*Z‖museologia	‖CL‖En‖museología‖
+*Z‖musicologia	‖CL‖En‖musicología‖
+
+*Z‖nefrologia	‖CL‖En‖nefrología‖
+*Z‖neonatologia	‖CL‖En‖neonatología‖
+*Z‖neumologia	‖CL‖En‖neumología‖
+*Z‖neurologia	‖CL‖En‖neurología‖
+
+*Z‖oceanologia	‖CL‖En‖oceanología‖
+*Z‖odontologia	‖CL‖En‖odontología‖
+*Z‖oftalmologia	‖CL‖En‖oftalmología‖
+*Z‖oncologia	‖CL‖En‖oncología‖
+*Z‖ontologia	‖CL‖En‖ontología‖
+*Z‖ornitologia	‖CL‖En‖ornitología‖
+*Z‖otorrinolaringologia	‖CL‖En‖otorrinolaringología‖
+
+*Z‖parasitologia	‖CL‖En‖parasitología‖
+*Z‖podologia	‖CL‖En‖podología‖
+
+*Z‖radiologia	‖CL‖En‖radiología‖
+*Z‖reumatologia	‖CL‖En‖reumatología‖
+*Z‖runologia	‖CL‖En‖runología‖
+
+*Z‖semiologia	‖CL‖En‖semiología‖
+*Z‖serologia	‖CL‖En‖serología‖
+*Z‖sexologia	‖CL‖En‖sexología‖
+*Z‖simbologia	‖CL‖En‖simbología‖
+*Z‖sinologia	‖CL‖En‖sinología‖
+*Z‖sismologia	‖CL‖En‖sismología‖
+*Z‖somatologia	‖CL‖En‖somatología‖
+
+*Z‖tecnologia	‖CL‖En‖tecnología‖
+*Z‖teologia	‖CL‖En‖teología‖
+*Z‖terminologia	‖CL‖En‖terminología‖
+*Z‖tipologia	‖CL‖En‖tipología‖
+*Z‖traumatologia	‖CL‖En‖traumatología‖
+*Z‖tribologia	‖CL‖En‖tribología‖
+
+*Z‖ufologia	‖CL‖En‖ufología‖
+
+*Z‖volcanologia	‖CL‖En‖volcanología‖
+*Z‖vulcanologia	‖CL‖En‖vulcanología‖
+
+*Z‖zoologia	‖CL‖En‖zoología‖
+
+;;;; -manía
+*Z‖anglomania	‖CL‖En‖anglomanía‖
+*Z‖cleptomania	‖CL‖En‖cleptomanía‖
+*Z‖cocainomania	‖CL‖En‖cocainomanía‖
+*Z‖empleomania	‖CL‖En‖empleomanía‖
+*Z‖grafomania	‖CL‖En‖grafomanía‖
+*Z‖hipomania	‖CL‖En‖hipomanía‖
+*Z‖megalomania	‖CL‖En‖megalomanía‖
+*Z‖melomania	‖CL‖En‖melomanía‖
+*Z‖mitomania	‖CL‖En‖mitomanía‖
+*Z‖piromania	‖CL‖En‖piromanía‖
+
+;;;; -nomía
+*Z‖ergonomia	‖CL‖En‖ergonomía‖
+
+;;;; -ónimo
+*Z‖acronimo	‖CL‖En‖acrónimo‖
+*Z‖antroponimo	‖CL‖En‖antropónimo‖
+*Z‖endonimo	‖CL‖En‖endónimo‖
+*Z‖exonimo	‖CL‖En‖exónimo‖
+*Z‖heteronimo	‖CL‖En‖heterónimo‖
+*Z‖hidronimo	‖CL‖En‖hidrónimo‖
+*Z‖hiperonimo	‖CL‖En‖hiperónimo‖
+*Z‖hiponimo	‖CL‖En‖hipónimo‖
+*Z‖holonimo	‖CL‖En‖holónimo‖
+*Z‖homonimo	‖CL‖En‖homónimo‖
+*Z‖seudonimo	‖CL‖En‖seudónimo‖
+*Z‖sinonimo	‖CL‖En‖sinónimo‖
+*Z‖toponimo	‖CL‖En‖topónimo‖
+
+;;;; -óptero
+*Z‖chupoptera	‖CL‖En‖chupóptera‖
+*Z‖chupoptero	‖CL‖En‖chupóptero‖
+
+;;;; -zón
+*Z‖apretazon	‖CL‖En‖apretazón‖
+*Z‖hinchazon	‖CL‖En‖hinchazón‖
+*Z‖ligazon	‖CL‖En‖ligazón‖
+*Z‖picazon	‖CL‖En‖picazón‖
+*Z‖quejazon	‖CL‖En‖quejazón‖
+*Z‖quemazon	‖CL‖En‖quemazón‖
+*Z‖ramazon	‖CL‖En‖ramazón‖
+
+;;;; -tomía
+*Z‖anatomia	‖CL‖En‖anatomía‖
+*Z‖autotomia	‖CL‖En‖autotomía‖
+*Z‖cordotomia	‖CL‖En‖cordotomía‖
+*Z‖craneotomia	‖CL‖En‖craneotomía‖
+*Z‖episiotomia	‖CL‖En‖episiotomía‖
+*Z‖esternotomia	‖CL‖En‖esternotomía‖
+*Z‖fasciotomia	‖CL‖En‖fasciotomía‖
+*Z‖fitotomia	‖CL‖En‖fitotomía‖
+*Z‖laparotomia	‖CL‖En‖laparotomía‖
+*Z‖leucotomia	‖CL‖En‖leucotomía‖
+*Z‖lobotomia	‖CL‖En‖lobotomía‖
+*Z‖tenotomia	‖CL‖En‖tenotomía‖
+*Z‖toracotomia	‖CL‖En‖toracotomía‖
+*Z‖traqueotomia	‖CL‖En‖traqueotomía‖
+
+;;;; -grafía
+*Z‖aerografia	‖CL‖En‖aerografía‖
+*Z‖angiografia	‖CL‖En‖angiografía‖
+*Z‖bibliografia	‖CL‖En‖bibliografía‖
+*Z‖cacografia	‖CL‖En‖cacografía‖
+*Z‖colangiopancreatografia	‖CL‖En‖colangiopancreatografía‖
+*Z‖corografia	‖CL‖En‖corografía‖
+*Z‖cromatografia	‖CL‖En‖cromatografía‖
+*Z‖dactilografia	‖CL‖En‖dactilografía‖
+*Z‖estratigrafia	‖CL‖En‖estratigrafía‖
+*Z‖fitografia	‖CL‖En‖fitografía‖
+*Z‖fotografia	‖CL‖En‖fotografía‖
+*Z‖hidrografia	‖CL‖En‖hidrografía‖
+*Z‖litografia	‖CL‖En‖litografía‖
+*Z‖mamografia	‖CL‖En‖mamografía‖
+*Z‖mecanografia	‖CL‖En‖mecanografía‖
+*Z‖monografia	‖CL‖En‖monografía‖
+*Z‖museografia	‖CL‖En‖museografía‖
+*Z‖oceanografia	‖CL‖En‖oceanografía‖
+*Z‖organografia	‖CL‖En‖organografía‖
+*Z‖orografia	‖CL‖En‖orografía‖
+*Z‖ortografia	‖CL‖En‖ortografía‖
+*Z‖pictografia	‖CL‖En‖pictografía‖
+*Z‖radiografia	‖CL‖En‖radiografía‖
+*Z‖serigrafia	‖CL‖En‖serigrafía‖
+*Z‖taquigrafia	‖CL‖En‖taquigrafía‖
+*Z‖topografia	‖CL‖En‖topografía‖
+*Z‖urografia	‖CL‖En‖urografía‖
+*Z‖xerografia	‖CL‖En‖xerografía‖
+*Z‖xilografia	‖CL‖En‖xilografía‖
+*Z‖zoografia	‖CL‖En‖zoografía‖
+
+;;;; -patía
+*Z‖adenopatia	‖CL‖En‖adenopatía‖
+*Z‖alelopatia	‖CL‖En‖alelopatía‖
+*Z‖angiopatia	‖CL‖En‖angiopatía‖
+*Z‖antipatia	‖CL‖En‖antipatía‖
+*Z‖artropatia	‖CL‖En‖artropatía‖
+*Z‖encefalopatia	‖CL‖En‖encefalopatía‖
+*Z‖hepatopatia	‖CL‖En‖hepatopatía‖
+*Z‖hidropatia	‖CL‖En‖hidropatía‖
+*Z‖homeopatia	‖CL‖En‖homeopatía‖
+*Z‖ludopatia	‖CL‖En‖ludopatía‖
+*Z‖mielopatia	‖CL‖En‖mielopatía‖
+*Z‖miopatia	‖CL‖En‖miopatía‖
+*Z‖nefropatia	‖CL‖En‖nefropatía‖
+*Z‖neumopatia	‖CL‖En‖neumopatía‖
+*Z‖neuropatia	‖CL‖En‖neuropatía‖
+*Z‖oftalmopatia	‖CL‖En‖oftalmopatía‖
+*Z‖osteopatia	‖CL‖En‖osteopatía‖
+*Z‖polineuropatia	‖CL‖En‖polineuropatía‖
+*Z‖radiculopatia	‖CL‖En‖radiculopatía‖
+*Z‖retinopatia	‖CL‖En‖retinopatía‖
+*Z‖sexopatia	‖CL‖En‖sexopatía‖
+*Z‖telepatia	‖CL‖En‖telepatía‖
+*Z‖tubulopatia	‖CL‖En‖tubulopatía‖
+
+;;;; -ostomía
+*Z‖ileostomia	‖CL‖En‖ileostomía‖
+*Z‖traqueostomia	‖CL‖En‖traqueostomía‖
+*Z‖yeyunostomia	‖CL‖En‖yeyunostomía‖
+
+;;;; -ín
+*Z‖andarin	‖CL‖En‖andarín‖
+*Z‖arreglin	‖CL‖En‖arreglín‖
+*Z‖azquelin	‖CL‖En‖azquelín‖
+
+*Z‖balancin	‖CL‖En‖balancín‖
+*Z‖baldosin	‖CL‖En‖baldosín‖
+*Z‖balin	‖CL‖En‖balín‖
+*Z‖banderin	‖CL‖En‖banderín‖
+*Z‖batin	‖CL‖En‖batín‖
+*Z‖boletin	‖CL‖En‖boletín‖
+*Z‖borrachin	‖CL‖En‖borrachín‖
+*Z‖botiquin	‖CL‖En‖botiquín‖
+
+*Z‖cafetin	‖CL‖En‖cafetín‖
+*Z‖calabacin	‖CL‖En‖calabacín‖
+*Z‖calcetin	‖CL‖En‖calcetín‖
+*Z‖calesin	‖CL‖En‖calesín‖
+*Z‖camarin	‖CL‖En‖camarín‖
+*Z‖cantarin	‖CL‖En‖cantarín‖
+*Z‖chiquitin	‖CL‖En‖chiquitín‖
+*Z‖chochin	‖CL‖En‖chochín‖
+*Z‖chocolatin	‖CL‖En‖chocolatín‖
+*Z‖chupetin	‖CL‖En‖chupetín‖
+*Z‖clarin	‖CL‖En‖clarín‖
+*Z‖cofin	‖CL‖En‖cofín‖
+*Z‖colin	‖CL‖En‖colín‖
+*Z‖collarin	‖CL‖En‖collarín‖
+*Z‖colorin	‖CL‖En‖colorín‖
+*Z‖comodin	‖CL‖En‖comodín‖
+*Z‖corbatin	‖CL‖En‖corbatín‖
+*Z‖cornetin	‖CL‖En‖cornetín‖
+
+*Z‖danzarin	‖CL‖En‖danzarín‖
+
+*Z‖escalopin	‖CL‖En‖escalopín‖
+*Z‖espadin	‖CL‖En‖espadín‖
+
+*Z‖fajin	‖CL‖En‖fajín‖
+*Z‖folletin	‖CL‖En‖folletín‖
+*Z‖fortin	‖CL‖En‖fortín‖
+*Z‖futbolin	‖CL‖En‖futbolín‖
+
+*Z‖guapin	‖CL‖En‖guapín‖
+
+*Z‖lavastin	‖CL‖En‖lavastín‖
+
+*Z‖maletin	‖CL‖En‖maletín‖
+
+*Z‖pelin	‖CL‖En‖pelín‖
+*Z‖peluquin	‖CL‖En‖peluquín‖
+*Z‖pequenin	‖CL‖En‖pequeñín‖
+*Z‖pequeñin	‖CL‖En‖pequeñín‖
+*Z‖pillin	‖CL‖En‖pillín‖
+*Z‖pitagorin	‖CL‖En‖pitagorín‖
+*Z‖poquitin	‖CL‖En‖poquitín‖
+
+*Z‖segundin	‖CL‖En‖segundín‖
+*Z‖serpentin	‖CL‖En‖serpentín‖
+*Z‖sillin	‖CL‖En‖sillín‖
+
+*Z‖tallarin	‖CL‖En‖tallarín‖
+*Z‖tamborin	‖CL‖En‖tamborín‖
+
+*Z‖yogurin	‖CL‖En‖yogurín‖
+
+;;====================
+;; ADJECTIVES
+;;====================
+;;;; NO SUFFIX
+*Z‖jovenes	‖CL‖En‖jóvenes‖
+*Z‖unicas	‖CL‖En‖únicas‖
+*Z‖unica	‖CL‖En‖única‖
+*Z‖unicos	‖CL‖En‖únicos‖
+*Z‖unico	‖CL‖En‖único‖
+*Z‖anfifilico	‖CL‖En‖anfifílica‖
+*Z‖anfifilico	‖CL‖En‖anfifílico‖
+*Z‖antartico	‖CL‖En‖antártico‖
+*Z‖asintomatica	‖CL‖En‖asintomática‖
+*Z‖asintomatico	‖CL‖En‖asintomático‖
+*Z‖baricentrica	‖CL‖En‖baricéntrica‖
+*Z‖baricentrico	‖CL‖En‖baricéntrico‖
+*Z‖bicentrica	‖CL‖En‖bicéntrica‖
+*Z‖bicentrico	‖CL‖En‖bicéntrico‖
+*Z‖creible	‖CL‖En‖creíble‖
+*Z‖dicigotica	‖CL‖En‖dicigótica‖
+*Z‖dicigotico	‖CL‖En‖dicigótico‖
+*Z‖dificil	‖CL‖En‖difícil‖
+*Z‖egocentrica	‖CL‖En‖egocéntrica‖
+*Z‖egocentrico	‖CL‖En‖egocéntrico‖
+*Z‖facil	‖CL‖En‖fácil‖
+*Z‖fantastica	‖CL‖En‖fantástica‖
+*Z‖fantastico	‖CL‖En‖fantástico‖
+*Z‖heterocigotica	‖CL‖En‖heterocigótica‖
+*Z‖heterocigotico	‖CL‖En‖heterocigótico‖
+*Z‖homocigotica	‖CL‖En‖homocigótica‖
+*Z‖homocigotico	‖CL‖En‖homocigótico‖
+*Z‖increible	‖CL‖En‖increíble‖
+*Z‖macrocefala	‖CL‖En‖macrocéfala‖
+*Z‖macrocefalo	‖CL‖En‖macrocéfalo‖
+*Z‖multicentrica	‖CL‖En‖multicéntrica‖
+*Z‖multicentrico	‖CL‖En‖multicéntrico‖
+*Z‖ortografica	‖CL‖En‖ortográfica‖
+*Z‖ortografico	‖CL‖En‖ortográfico‖
+*Z‖petrografica	‖CL‖En‖petrográfica‖
+*Z‖petrografico	‖CL‖En‖petrográfico‖
+*Z‖rapida	‖CL‖En‖rápida‖
+*Z‖rapido	‖CL‖En‖rápido‖
+*Z‖sanguinea	‖CL‖En‖sanguínea‖
+*Z‖sanguineo	‖CL‖En‖sanguíneo‖
+*Z‖simpatica	‖CL‖En‖simpática‖
+*Z‖simpatico	‖CL‖En‖simpático‖
+*Z‖sintomatica	‖CL‖En‖sintomática‖
+*Z‖sintomatico	‖CL‖En‖sintomático‖
+*Z‖tecnologica	‖CL‖En‖tecnológica‖
+*Z‖tecnologico	‖CL‖En‖tecnológico‖
+*Z‖ñañigo	‖CL‖En‖ñáñigo‖
+*Z‖guarani	‖CL‖En‖guaraní‖
+
+;;;; -añero, -añera
+*Z‖quinceanera	‖CL‖En‖quinceañera‖
+*Z‖quinceanero	‖CL‖En‖quinceañero‖
+
+;;;; -eño, -eña
+*Z‖abajeno	‖CL‖En‖abajeño‖
+*Z‖abangareno	‖CL‖En‖abangareño‖
+*Z‖abrileno	‖CL‖En‖abrileño‖
+*Z‖acapulqueno	‖CL‖En‖acapulqueño‖
+*Z‖achacacheno	‖CL‖En‖achacacheño‖
+*Z‖agosteno	‖CL‖En‖agosteño‖
+*Z‖aguileno	‖CL‖En‖aguileño‖
+*Z‖alaskeno	‖CL‖En‖alaskeño‖
+*Z‖albaceteno	‖CL‖En‖albaceteño‖
+*Z‖alcarreno	‖CL‖En‖alcarreño‖
+*Z‖algecireno	‖CL‖En‖algecireño‖
+*Z‖almizcleno	‖CL‖En‖almizcleño‖
+*Z‖alpujarreno	‖CL‖En‖alpujarreño‖
+*Z‖alquizareno	‖CL‖En‖alquizareño‖
+*Z‖alteno	‖CL‖En‖alteño‖
+*Z‖alvaradeno	‖CL‖En‖alvaradeño‖
+*Z‖ambateno	‖CL‖En‖ambateño‖
+*Z‖angoleno	‖CL‖En‖angoleño‖
+*Z‖antigueno	‖CL‖En‖antigüeño‖
+*Z‖antigueño	‖CL‖En‖antigüeño‖
+*Z‖antigüeno	‖CL‖En‖antigüeño‖
+*Z‖apureno	‖CL‖En‖apureño‖
+*Z‖apurimeno	‖CL‖En‖apurimeño‖
+*Z‖aragueno	‖CL‖En‖aragüeño‖
+*Z‖aragueño	‖CL‖En‖aragüeño‖
+*Z‖aragüeno	‖CL‖En‖aragüeño‖
+*Z‖arequipeno	‖CL‖En‖arequipeño‖
+*Z‖ariqueno	‖CL‖En‖ariqueño‖
+*Z‖arraijaneno	‖CL‖En‖arraijaneño‖
+*Z‖arribeno	‖CL‖En‖arribeño‖
+*Z‖artemiseno	‖CL‖En‖artemiseño‖
+*Z‖arubeno	‖CL‖En‖arubeño‖
+*Z‖asunceno	‖CL‖En‖asunceño‖
+*Z‖atacameno	‖CL‖En‖atacameño‖
+*Z‖atyreno	‖CL‖En‖atyreño‖
+*Z‖augusteno	‖CL‖En‖augusteño‖
+*Z‖avileno	‖CL‖En‖avileño‖
+*Z‖azogueno	‖CL‖En‖azogueño‖
+*Z‖azuleno	‖CL‖En‖azuleño‖
+
+;;;; ísimo (https://en.wiktionary.org/wiki/Category:Spanish_terms_suffixed_with_-%C3%ADsimo)
+*Z‖jovencisimas	‖CL‖En‖jovencísimas‖
+*Z‖jovencisima	‖CL‖En‖jovencísima‖
+*Z‖jovencisimos	‖CL‖En‖jovencísimos‖
+*Z‖jovencisimo	‖CL‖En‖jovencísimo‖
+
+;;;; -ático
+*Z‖aneurismatico	‖CL‖En‖aneurismático‖
+*Z‖aromatico	‖CL‖En‖aromático‖
+*Z‖cigomatico	‖CL‖En‖cigomático‖
+*Z‖enzimatico	‖CL‖En‖enzimático‖
+*Z‖exantematico	‖CL‖En‖exantemático‖
+*Z‖flematico	‖CL‖En‖flemático‖
+*Z‖linfatico	‖CL‖En‖linfático‖
+*Z‖mediatico	‖CL‖En‖mediático‖
+*Z‖meristematico	‖CL‖En‖meristemático‖
+*Z‖plasmatico	‖CL‖En‖plasmático‖
+*Z‖supraquiasmatico	‖CL‖En‖supraquiasmático‖
+
+;;;; -áceo
+*Z‖acantaceo	‖CL‖En‖acantáceo‖
+*Z‖aliaceo	‖CL‖En‖aliáceo‖
+*Z‖cactaceo	‖CL‖En‖cactáceo‖
+*Z‖carbonaceo	‖CL‖En‖carbonáceo‖
+*Z‖grisaceo	‖CL‖En‖grisáceo‖
+*Z‖opiaceo	‖CL‖En‖opiáceo‖
+*Z‖orquidaceo	‖CL‖En‖orquidáceo‖
+*Z‖vitaceo	‖CL‖En‖vitáceo‖
+
+;;;; -fóbico
+*Z‖agorafobica	‖CL‖En‖agorafóbica‖
+*Z‖agorafobico	‖CL‖En‖agorafóbico‖
+*Z‖anglofobica	‖CL‖En‖anglofóbica‖
+*Z‖anglofobico	‖CL‖En‖anglofóbico‖
+*Z‖transfobica	‖CL‖En‖transfóbica‖
+*Z‖transfobico	‖CL‖En‖transfóbico‖
+*Z‖xenofobica	‖CL‖En‖xenofóbica‖
+*Z‖xenofobico	‖CL‖En‖xenofóbico‖
+
+;;;; -génico
+*Z‖antropogenica	‖CL‖En‖antropogénica‖
+*Z‖antropogenico	‖CL‖En‖antropogénico‖
+*Z‖biogenica	‖CL‖En‖biogénica‖
+*Z‖biogenico	‖CL‖En‖biogénico‖
+*Z‖cardiogenica	‖CL‖En‖cardiogénica‖
+*Z‖cardiogenico	‖CL‖En‖cardiogénico‖
+*Z‖fitogenica	‖CL‖En‖fitogénica‖
+*Z‖fitogenico	‖CL‖En‖fitogénico‖
+*Z‖inmunogenica	‖CL‖En‖inmunogénica‖
+*Z‖inmunogenico	‖CL‖En‖inmunogénico‖
+*Z‖mutagenica	‖CL‖En‖mutagénica‖
+*Z‖mutagenico	‖CL‖En‖mutagénico‖
+*Z‖patogenica	‖CL‖En‖patogénica‖
+*Z‖patogenico	‖CL‖En‖patogénico‖
+*Z‖poligenica	‖CL‖En‖poligénica‖
+*Z‖poligenico	‖CL‖En‖poligénico‖
+*Z‖radiogenica	‖CL‖En‖radiogénica‖
+*Z‖radiogenico	‖CL‖En‖radiogénico‖
+*Z‖sismogenica	‖CL‖En‖sismogénica‖
+*Z‖sismogenico	‖CL‖En‖sismogénico‖
+*Z‖teratogenica	‖CL‖En‖teratogénica‖
+*Z‖teratogenico	‖CL‖En‖teratogénico‖
+
+;;;; -lítico
+*Z‖etnologica	‖CL‖En‖etnológica‖
+*Z‖etnologico	‖CL‖En‖etnológico‖
+*Z‖oncolitica	‖CL‖En‖oncolítica‖
+*Z‖oncolitico	‖CL‖En‖oncolítico‖
+*Z‖organoleptica	‖CL‖En‖organoléptica‖
+*Z‖organoleptico	‖CL‖En‖organoléptico‖
+*Z‖paleolitica	‖CL‖En‖paleolítica‖
+*Z‖paleolitico	‖CL‖En‖paleolítico‖
+
+;;;; -métrico
+*Z‖barometrica	‖CL‖En‖barométrica‖
+*Z‖barometrico	‖CL‖En‖barométrico‖
+*Z‖batimetrica	‖CL‖En‖batimétrica‖
+*Z‖batimetrico	‖CL‖En‖batimétrico‖
+*Z‖bibliometrica	‖CL‖En‖bibliométrica‖
+*Z‖bibliometrico	‖CL‖En‖bibliométrico‖
+*Z‖cronometrica	‖CL‖En‖cronométrica‖
+*Z‖cronometrico	‖CL‖En‖cronométrico‖
+*Z‖radiometrica	‖CL‖En‖radiométrica‖
+*Z‖radiometrico	‖CL‖En‖radiométrico‖
+*Z‖termometrica	‖CL‖En‖termométrica‖
+*Z‖termometrico	‖CL‖En‖termométrico‖
+*Z‖volumetrica	‖CL‖En‖volumétrica‖
+*Z‖volumetrico	‖CL‖En‖volumétrico‖
+
+;;;; -mórfico
+*Z‖anamorfica	‖CL‖En‖anamórfica‖
+*Z‖anamorfico	‖CL‖En‖anamórfico‖
+*Z‖dimorfica	‖CL‖En‖dimórfica‖
+*Z‖dimorfico	‖CL‖En‖dimórfico‖
+*Z‖isomorfica	‖CL‖En‖isomórfica‖
+*Z‖isomorfico	‖CL‖En‖isomórfico‖
+
+;;;; -trópico
+*Z‖anisotropica	‖CL‖En‖anisotrópica‖
+*Z‖anisotropico	‖CL‖En‖anisotrópico‖
+*Z‖inotropica	‖CL‖En‖inotrópica‖
+*Z‖inotropico	‖CL‖En‖inotrópico‖
+*Z‖linfotropica	‖CL‖En‖linfotrópica‖
+*Z‖linfotropico	‖CL‖En‖linfotrópico‖
+*Z‖neurotropica	‖CL‖En‖neurotrópica‖
+*Z‖neurotropico	‖CL‖En‖neurotrópico‖
+
+;;;; -stático
+*Z‖aerostatica	‖CL‖En‖aerostática‖
+*Z‖aerostatico	‖CL‖En‖aerostático‖
+*Z‖bacteriostatica	‖CL‖En‖bacteriostática‖
+*Z‖bacteriostatico	‖CL‖En‖bacteriostático‖
+*Z‖citostatica	‖CL‖En‖citostática‖
+*Z‖citostatico	‖CL‖En‖citostático‖
+*Z‖electrostatica	‖CL‖En‖electrostática‖
+*Z‖electrostatico	‖CL‖En‖electrostático‖
+*Z‖hemostatica	‖CL‖En‖hemostática‖
+*Z‖hemostatico	‖CL‖En‖hemostático‖
+*Z‖homeostatico	‖CL‖En‖homeostático‖
+*Z‖homeostática	‖CL‖En‖homeostática‖
+*Z‖ortostatica	‖CL‖En‖ortostática‖
+*Z‖ortostatico	‖CL‖En‖ortostático‖
+
+;;;; -scópico
+*Z‖endoscopica	‖CL‖En‖endoscópica‖
+*Z‖endoscopico	‖CL‖En‖endoscópico‖
+*Z‖giroscopica	‖CL‖En‖giroscópica‖
+*Z‖giroscopico	‖CL‖En‖giroscópico‖
+*Z‖laparoscopica	‖CL‖En‖laparoscópica‖
+*Z‖laparoscopico	‖CL‖En‖laparoscópico‖
+*Z‖macroscopica	‖CL‖En‖macroscópica‖
+*Z‖macroscopico	‖CL‖En‖macroscópico‖
+*Z‖microscopica	‖CL‖En‖microscópica‖
+*Z‖microscopico	‖CL‖En‖microscópico‖
+*Z‖nanoscopica	‖CL‖En‖nanoscópica‖
+*Z‖nanoscopico	‖CL‖En‖nanoscópico‖
+*Z‖telescopica	‖CL‖En‖telescópica‖
+*Z‖telescopico	‖CL‖En‖telescópico‖
+
+;;;; -pático
+*Z‖anfipatica	‖CL‖En‖anfipática‖
+*Z‖anfipatico	‖CL‖En‖anfipático‖
+*Z‖homeopatica	‖CL‖En‖homeopática‖
+*Z‖homeopatico	‖CL‖En‖homeopático‖
+*Z‖idiopatica	‖CL‖En‖idiopática‖
+*Z‖idiopatico	‖CL‖En‖idiopático‖
+*Z‖miopatica	‖CL‖En‖miopática‖
+*Z‖miopatico	‖CL‖En‖miopático‖
+*Z‖osteopatica	‖CL‖En‖osteopática‖
+*Z‖osteopatico	‖CL‖En‖osteopático‖
+*Z‖psicopatica	‖CL‖En‖psicopática‖
+*Z‖psicopatico	‖CL‖En‖psicopático‖
+
+;;;; -í
+*Z‖andalusi	‖CL‖En‖andalusí‖
+*Z‖azavadi	‖CL‖En‖azavadí‖
+*Z‖azawadi	‖CL‖En‖azawadí‖
+*Z‖azeri	‖CL‖En‖azerí‖
+*Z‖bahreini	‖CL‖En‖bahreiní‖
+*Z‖bangladesi	‖CL‖En‖bangladesí‖
+*Z‖beiruti	‖CL‖En‖beirutí‖
+*Z‖catari	‖CL‖En‖catarí‖
+*Z‖ceuti	‖CL‖En‖ceutí‖
+*Z‖daguestani	‖CL‖En‖daguestaní‖
+*Z‖estambuli	‖CL‖En‖estambulí‖
+*Z‖gazati	‖CL‖En‖gazatí‖
+*Z‖irani	‖CL‖En‖iraní‖
+*Z‖iraqui	‖CL‖En‖iraquí‖
+*Z‖israeli	‖CL‖En‖israelí‖
+*Z‖kuvaiti	‖CL‖En‖kuvaití‖
+*Z‖kuwaiti	‖CL‖En‖kuwaití‖
+*Z‖malaui	‖CL‖En‖malauí‖
+*Z‖marbelli	‖CL‖En‖marbellí‖
+*Z‖nepali	‖CL‖En‖nepalí‖
+*Z‖pakistani	‖CL‖En‖pakistaní‖
+*Z‖paquistani	‖CL‖En‖paquistaní‖
+*Z‖perukistani	‖CL‖En‖perukistaní‖
+*Z‖tuneci	‖CL‖En‖tunecí‖
+
+;;;; -ífero
+*Z‖arsenifera	‖CL‖En‖arsenífera‖
+*Z‖arsenifero	‖CL‖En‖arsenífero‖
+*Z‖diamantifera	‖CL‖En‖diamantífera‖
+*Z‖diamantifero	‖CL‖En‖diamantífero‖
+*Z‖fosilifera	‖CL‖En‖fosilífera‖
+*Z‖fosilifero	‖CL‖En‖fosilífero‖
+*Z‖plumifera	‖CL‖En‖plumífera‖
+*Z‖plumifero	‖CL‖En‖plumífero‖
+
+;;;; -ífico
+*Z‖terrorifico	‖CL‖En‖terrorífico‖
+
+;;;; -és
+*Z‖abiyanes	‖CL‖En‖abiyanés‖
+*Z‖alaves	‖CL‖En‖alavés‖
+*Z‖albanes	‖CL‖En‖albanés‖
+*Z‖algueres	‖CL‖En‖alguerés‖
+*Z‖ampurdanes	‖CL‖En‖ampurdanés‖
+*Z‖amsterdames	‖CL‖En‖amsterdamés‖
+*Z‖annobones	‖CL‖En‖annobonés‖
+*Z‖aragones	‖CL‖En‖aragonés‖
+*Z‖aranes	‖CL‖En‖aranés‖
+*Z‖atlantes	‖CL‖En‖atlantés‖
+*Z‖austines	‖CL‖En‖austinés‖
+*Z‖auvernes	‖CL‖En‖auvernés‖
+*Z‖aviles	‖CL‖En‖avilés‖
+
+*Z‖badalones	‖CL‖En‖badalonés‖
+*Z‖bahames	‖CL‖En‖bahamés‖
+*Z‖balines	‖CL‖En‖balinés‖
+*Z‖baracaldes	‖CL‖En‖baracaldés‖
+*Z‖barcelones	‖CL‖En‖barcelonés‖
+*Z‖barines	‖CL‖En‖barinés‖
+*Z‖bayames	‖CL‖En‖bayamés‖
+*Z‖benines	‖CL‖En‖beninés‖
+*Z‖berlines	‖CL‖En‖berlinés‖
+*Z‖bernes	‖CL‖En‖bernés‖
+*Z‖bismarques	‖CL‖En‖bismarqués‖
+*Z‖botsvanes	‖CL‖En‖botsvanés‖
+*Z‖botswanes	‖CL‖En‖botswanés‖
+*Z‖burkines	‖CL‖En‖burkinés‖
+*Z‖burundes	‖CL‖En‖burundés‖
+*Z‖butanes	‖CL‖En‖butanés‖
+
+*Z‖calabres	‖CL‖En‖calabrés‖
+*Z‖calanes	‖CL‖En‖calañés‖
+*Z‖calañes	‖CL‖En‖calañés‖
+*Z‖camerunes	‖CL‖En‖camerunés‖
+*Z‖casablanques	‖CL‖En‖casablanqués‖
+*Z‖ceilanes	‖CL‖En‖ceilanés‖
+*Z‖copenhagues	‖CL‖En‖copenhagués‖
+*Z‖cordobes	‖CL‖En‖cordobés‖
+*Z‖corunes	‖CL‖En‖coruñés‖
+*Z‖coruñes	‖CL‖En‖coruñés‖
+*Z‖cundinamarques	‖CL‖En‖cundinamarqués‖
+
+*Z‖dinamarques	‖CL‖En‖dinamarqués‖
+*Z‖dominiques	‖CL‖En‖dominiqués‖
+*Z‖dublines	‖CL‖En‖dublinés‖
+*Z‖durbanes	‖CL‖En‖durbanés‖
+*Z‖dusambes	‖CL‖En‖dusambés‖
+
+*Z‖edimburgues	‖CL‖En‖edimburgués‖
+*Z‖eibarres	‖CL‖En‖eibarrés‖
+*Z‖erevanes	‖CL‖En‖erevanés‖
+*Z‖escoces	‖CL‖En‖escocés‖
+*Z‖esrilanques	‖CL‖En‖esrilanqués‖
+
+*Z‖finlandes	‖CL‖En‖finlandés‖
+*Z‖frances	‖CL‖En‖francés‖
+
+*Z‖gabones	‖CL‖En‖gabonés‖
+*Z‖gales	‖CL‖En‖galés‖
+*Z‖genoves	‖CL‖En‖genovés‖
+*Z‖ghanes	‖CL‖En‖ghanés‖
+*Z‖gijones	‖CL‖En‖gijonés‖
+*Z‖ginebres	‖CL‖En‖ginebrés‖
+*Z‖gotemburgues	‖CL‖En‖gotemburgués‖
+*Z‖groenlandes	‖CL‖En‖groenlandés‖
+*Z‖guayanes	‖CL‖En‖guayanés‖
+*Z‖guyanes	‖CL‖En‖guyanés‖
+*Z‖hamburgues	‖CL‖En‖hamburgués‖
+*Z‖holandes	‖CL‖En‖holandés‖
+
+*Z‖irlandes	‖CL‖En‖irlandés‖
+*Z‖irunes	‖CL‖En‖irunés‖
+*Z‖islandes	‖CL‖En‖islandés‖
+
+*Z‖jaenes	‖CL‖En‖jaenés‖
+*Z‖japones	‖CL‖En‖japonés‖
+*Z‖johannesburgues	‖CL‖En‖johannesburgués‖
+
+*Z‖kines	‖CL‖En‖kinés‖
+
+*Z‖leones	‖CL‖En‖leonés‖
+*Z‖libanes	‖CL‖En‖libanés‖
+*Z‖limburgues	‖CL‖En‖limburgués‖
+*Z‖logrones	‖CL‖En‖logroñés‖
+*Z‖logroñes	‖CL‖En‖logroñés‖
+*Z‖luandes	‖CL‖En‖luandés‖
+*Z‖lugues	‖CL‖En‖lugués‖
+*Z‖luxemburgues	‖CL‖En‖luxemburgués‖
+
+*Z‖mahones	‖CL‖En‖mahonés‖
+*Z‖maines	‖CL‖En‖mainés‖
+*Z‖maltes	‖CL‖En‖maltés‖
+*Z‖marilandes	‖CL‖En‖marilandés‖
+*Z‖marselles	‖CL‖En‖marsellés‖
+*Z‖marshales	‖CL‖En‖marshalés‖
+*Z‖martiniques	‖CL‖En‖martiniqués‖
+*Z‖milanes	‖CL‖En‖milanés‖
+*Z‖montanes	‖CL‖En‖montanés‖
+*Z‖montañes	‖CL‖En‖montañés‖
+*Z‖montes	‖CL‖En‖montés‖
+*Z‖montreales	‖CL‖En‖montrealés‖
+*Z‖mundaques	‖CL‖En‖mundaqués‖
+*Z‖muniques	‖CL‖En‖muniqués‖
+
+*Z‖neoleones	‖CL‖En‖neoleonés‖
+*Z‖nepales	‖CL‖En‖nepalés‖
+*Z‖nuevoleones	‖CL‖En‖nuevoleonés‖
+
+*Z‖oregones	‖CL‖En‖oregonés‖
+*Z‖otaues	‖CL‖En‖otaués‖
+
+*Z‖pamplones	‖CL‖En‖pamplonés‖
+*Z‖pekines	‖CL‖En‖pekinés‖
+*Z‖petersburgues	‖CL‖En‖petersburgués‖
+*Z‖piamontes	‖CL‖En‖piamontés‖
+*Z‖politiques	‖CL‖En‖politiqués‖
+*Z‖pontevedres	‖CL‖En‖pontevedrés‖
+*Z‖pulles	‖CL‖En‖pullés‖
+
+*Z‖quebeques	‖CL‖En‖quebequés‖
+
+*Z‖rigues	‖CL‖En‖rigués‖
+*Z‖ruandes	‖CL‖En‖ruandés‖
+
+*Z‖salzburgues	‖CL‖En‖salzburgués‖
+*Z‖sanabres	‖CL‖En‖sanabrés‖
+*Z‖santiagues	‖CL‖En‖santiagués‖
+*Z‖sarajeves	‖CL‖En‖sarajevés‖
+*Z‖sayagues	‖CL‖En‖sayagués‖
+*Z‖selandes	‖CL‖En‖selandés‖
+*Z‖senegales	‖CL‖En‖senegalés‖
+*Z‖siames	‖CL‖En‖siamés‖
+*Z‖sidneyes	‖CL‖En‖sidneyés‖
+*Z‖sierraleones	‖CL‖En‖sierraleonés‖
+*Z‖sudanes	‖CL‖En‖sudanés‖
+*Z‖surinames	‖CL‖En‖surinamés‖
+
+*Z‖tailandes	‖CL‖En‖tailandés‖
+*Z‖taivanes	‖CL‖En‖taivanés‖
+*Z‖taiwanes	‖CL‖En‖taiwanés‖
+*Z‖tallines	‖CL‖En‖tallinés‖
+*Z‖tiroles	‖CL‖En‖tirolés‖
+*Z‖togoles	‖CL‖En‖togolés‖
+*Z‖turines	‖CL‖En‖turinés‖
+
+*Z‖ugandes	‖CL‖En‖ugandés‖
+
+*Z‖vermontes	‖CL‖En‖vermontés‖
+*Z‖verones	‖CL‖En‖veronés‖
+*Z‖vienes	‖CL‖En‖vienés‖
+*Z‖vigues	‖CL‖En‖vigués‖
+*Z‖villalbes	‖CL‖En‖villalbés‖
+*Z‖vilnes	‖CL‖En‖vilnés‖
+
+*Z‖zelandes	‖CL‖En‖zelandés‖
+
+;;====================
+;; ADVERBS
+;;====================
+;;;; NO SUFFIX
+*Z‖aca	‖CL‖En‖acá‖
+*Z‖ademas	‖CL‖En‖además‖
+*Z‖ahi	‖CL‖En‖ahí‖
+*Z‖alla	‖CL‖En‖allá‖
+*Z‖alli	‖CL‖En‖allí‖
+*Z‖aqui	‖CL‖En‖aquí‖
+*Z‖asi	‖CL‖En‖así‖
+*Z‖demas	‖CL‖En‖demás‖
+*Z‖despues	‖CL‖En‖después‖
+*Z‖detras	‖CL‖En‖detrás‖
+*Z‖mas	‖CL‖En‖más‖*
+*Z‖nomas	‖CL‖En‖nomás‖
+*Z‖quizas	‖CL‖En‖quizás‖
+*Z‖tambien	‖CL‖En‖también‖
+
+;;;; -mente
+*Z‖asintomaticamente	‖CL‖En‖asintomáticamente‖
+*Z‖creiblemente	‖CL‖En‖creíblemente‖
+*Z‖matematicamente	‖CL‖En‖matemáticamente‖
+*Z‖sintomaticamente	‖CL‖En‖sintomáticamente‖
+*Z‖unicamente	‖CL‖En‖únicamente‖
+
+;;====================
+;; INTERJECTIONS
+;;====================
+*Z‖adios	‖CL‖En‖adiós‖
+*Z‖idem	‖CL‖En‖ídem‖
+
+;;====================
+;; PREPOSITIONS
+;;====================
+*Z‖segun	‖CL‖En‖según‖

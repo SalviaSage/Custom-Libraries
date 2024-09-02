@@ -1,0 +1,271 @@
+﻿;; Spanish Diacritic Helper (PROPER NOUNS)
+
+;; https://gchq.github.io/CyberChef/#recipe=Remove_Diacritics() ( Diacritic Remover )
+;; https://www.somacon.com/p568.php ( Duplicate Line Counter )
+
+;; Tries to correctly add the diacritical marks on words that are supposed to have them.
+;; Can not work with words that are in the dictionary as separate words such as 'se' and 'sé', 'el' and 'él'.
+;; Capitalises proper nouns except if they are separate words uncapitalised. For example, 'chile (pepper)' or 'Chile (country)'.
+;; Places the diaeresis on words that are supposed to have them such as typing 'pinguino' results in 'pingüino'.
+
+;; Does not correct spelling mistakes.
+
+;; ‖CL‖ method is superior than ‖SI‖ in preventing the user from typing during the replacement of text.
+;; ‖CL‖ and ‖MCL‖ are similar methods whereby ‖MCL‖ calls a menu, this is useful for gender designations and other peculiarities.
+;; Auto-execute (*) should be used with automatic correcters.
+;; No EndChar (O) should not be used with automatic correcters because it omits the punctuation marks that the user types.
+;; Has to be case insensitive. That is, the syntaxes (C) or (C1) must not be used.
+
+;; The spelling of the word has to match on the left and the right sides of ‖CL‖En‖
+
+;; Reset Recognizer (Z) has to be used for proper differentiation between words.
+;; Triggerstrings can be made case sensitive by using the syntax (CZ). Only to be used with proper nouns.
+
+;;====================
+;; PROPER NOUNS (GIVEN NAMES)
+;;====================
+*CZ‖Aaron	‖CL‖En‖Aarón‖
+*CZ‖Abdias	‖CL‖En‖Abdías‖
+*CZ‖Abdon	‖CL‖En‖Abdón‖
+*CZ‖Abigail	‖CL‖En‖Abigaíl‖
+*CZ‖Abrahan	‖CL‖En‖Abrahán‖
+*CZ‖Absalon	‖CL‖En‖Absalón‖
+*CZ‖Adan	‖CL‖En‖Adán‖
+*CZ‖Adrian	‖CL‖En‖Adrián‖
+*CZ‖Agueda	‖CL‖En‖Águeda‖
+*CZ‖Agustin	‖CL‖En‖Agustín‖
+*CZ‖Aida	‖CL‖En‖Aída‖
+*CZ‖Alan	‖CL‖En‖Alán‖
+*CZ‖Alex	‖CL‖En‖Álex‖
+*CZ‖Alvara	‖CL‖En‖Álvara‖
+*CZ‖Alvarez	‖CL‖En‖Álvarez‖
+*CZ‖Alvaro	‖CL‖En‖Álvaro‖
+*CZ‖Americo	‖CL‖En‖Américo‖
+*CZ‖Amilcar	‖CL‖En‖Amílcar‖
+*CZ‖Andres	‖CL‖En‖Andrés‖
+*CZ‖Andre	‖CL‖En‖André‖
+*CZ‖Andromaca	‖CL‖En‖Andrómaca‖
+*CZ‖Angela	‖CL‖En‖Ángela‖
+*CZ‖Angelica	‖CL‖En‖Angélica‖
+*CZ‖Angelina	‖CL‖En‖Angélina‖
+*CZ‖Angel	‖CL‖En‖Ángel‖
+*CZ‖Anibal	‖CL‖En‖Aníbal‖
+*CZ‖Anton	‖CL‖En‖Antón‖
+*CZ‖Aristoteles	‖CL‖En‖Aristóteles‖
+*CZ‖Ascension	‖CL‖En‖Ascensión‖
+*CZ‖Asdrubal	‖CL‖En‖Asdrúbal‖
+*CZ‖Asuncion	‖CL‖En‖Asunción‖
+*CZ‖Augustin	‖CL‖En‖Augustín‖
+*CZ‖Barbara	‖CL‖En‖Bárbara‖
+*CZ‖Bartolome	‖CL‖En‖Bartolomé‖
+*CZ‖Beltran	‖CL‖En‖Beltrán‖
+*CZ‖Benjamin	‖CL‖En‖Benjamín‖
+*CZ‖Bermudez	‖CL‖En‖Bermúdez‖
+*CZ‖Bernabe	‖CL‖En‖Bernabé‖
+*CZ‖Bernardez	‖CL‖En‖Bernárdez‖
+*CZ‖Bertran	‖CL‖En‖Bertrán‖
+*CZ‖Brigido	‖CL‖En‖Brígido‖
+*CZ‖Crisostomo	‖CL‖En‖Crisóstomo‖
+*CZ‖Cristián	‖CL‖En‖Cristian‖
+*CZ‖Cristobal	‖CL‖En‖Cristóbal‖
+*CZ‖Damian	‖CL‖En‖Damián‖
+*CZ‖Debora	‖CL‖En‖Débora‖
+*CZ‖Edgar	‖CL‖En‖Édgar‖
+*CZ‖Efrain	‖CL‖En‖Efraín‖
+*CZ‖Elias	‖CL‖En‖Elías‖
+*CZ‖Enriquez	‖CL‖En‖Enríquez‖
+*CZ‖Ernandez	‖CL‖En‖Ernández‖
+*CZ‖Escalon	‖CL‖En‖Escalón‖
+*CZ‖Estefania	‖CL‖En‖Estefanía‖
+*CZ‖Fabian	‖CL‖En‖Fabián‖
+*CZ‖Fatima	‖CL‖En‖Fátima‖
+*CZ‖Felix	‖CL‖En‖Félix‖
+*CZ‖Fernandez	‖CL‖En‖Fernández‖
+*CZ‖Froilan	‖CL‖En‖Froilán‖
+*CZ‖Garcia	‖CL‖En‖García‖
+*CZ‖German	‖CL‖En‖Germán‖
+*CZ‖Gimenez	‖CL‖En‖Giménez‖
+*CZ‖Gomez	‖CL‖En‖Gómez‖
+*CZ‖Gonzalez	‖CL‖En‖González‖
+*CZ‖Gutierrez	‖CL‖En‖Gutiérrez‖
+*CZ‖Hector	‖CL‖En‖Héctor‖
+*CZ‖Henriquez	‖CL‖En‖Henríquez‖
+*CZ‖Hernandez	‖CL‖En‖Hernández‖
+*CZ‖Hernan	‖CL‖En‖Hernán‖
+*CZ‖Isaias	‖CL‖En‖Isaías‖
+*CZ‖Isai	‖CL‖En‖Isaí‖
+*CZ‖Ivan	‖CL‖En‖Iván‖
+*CZ‖Iñigo	‖CL‖En‖Íñigo‖
+*CZ‖Jeronima	‖CL‖En‖Jerónima‖
+*CZ‖Jeronimo	‖CL‖En‖Jerónimo‖
+*CZ‖Jesus	‖CL‖En‖Jesús‖
+*CZ‖Jimenez	‖CL‖En‖Jiménez‖
+*CZ‖Joaquin	‖CL‖En‖Joaquín‖
+*CZ‖Jonatan	‖CL‖En‖Jonatán‖
+*CZ‖Jose	‖CL‖En‖José‖
+*CZ‖Josue	‖CL‖En‖Josué‖
+*CZ‖Julian	‖CL‖En‖Julián‖
+*CZ‖Justin	‖CL‖En‖Justín‖
+*CZ‖Lazaro	‖CL‖En‖Lázaro‖
+*CZ‖Leon	‖CL‖En‖León‖
+*CZ‖Lia	‖CL‖En‖Lía‖
+*CZ‖Lopez	‖CL‖En‖López‖
+*CZ‖Lucia	‖CL‖En‖Lucía‖
+*CZ‖Maria	‖CL‖En‖María‖
+*CZ‖Martin	‖CL‖En‖Martín‖
+*CZ‖Matias	‖CL‖En‖Matías‖
+*CZ‖Moises	‖CL‖En‖Moisés‖
+*CZ‖Monica	‖CL‖En‖Mónica‖
+*CZ‖Máximo	‖CL‖En‖Máximo‖
+*CZ‖Natan	‖CL‖En‖Natán‖
+*CZ‖Neftali	‖CL‖En‖Neftalí‖
+*CZ‖Nehemias	‖CL‖En‖Nehemías‖
+*CZ‖Nestor	‖CL‖En‖Néstor‖
+*CZ‖Nicolas	‖CL‖En‖Nicolás‖
+*CZ‖Noe	‖CL‖En‖Noé‖
+*CZ‖Oscar	‖CL‖En‖Óscar‖
+*CZ‖Quintin	‖CL‖En‖Quintín‖
+*CZ‖Ramon	‖CL‖En‖Ramón‖
+*CZ‖Raul	‖CL‖En‖Raúl‖
+*CZ‖Rene	‖CL‖En‖René‖
+*CZ‖Rocio	‖CL‖En‖Rocío‖
+*CZ‖Roman	‖CL‖En‖Román‖
+*CZ‖Romulo	‖CL‖En‖Rómulo‖
+*CZ‖Rosalia	‖CL‖En‖Rosalía‖
+*CZ‖Ruben	‖CL‖En‖Rubén‖
+*CZ‖Salomon	‖CL‖En‖Salomón‖
+*CZ‖Sanchez	‖CL‖En‖Sánchez‖
+*CZ‖Sanson	‖CL‖En‖Sansón‖
+*CZ‖Saul	‖CL‖En‖Saúl‖
+*CZ‖Sebastian	‖CL‖En‖Sebastián‖
+*CZ‖Simeon	‖CL‖En‖Simeón‖
+*CZ‖Simon	‖CL‖En‖Simón‖
+*CZ‖Socrates	‖CL‖En‖Sócrates‖
+*CZ‖Sofia	‖CL‖En‖Sofía‖
+*CZ‖Timon	‖CL‖En‖Timón‖
+*CZ‖Tobias	‖CL‖En‖Tobías‖
+*CZ‖Tomas	‖CL‖En‖Tomás‖
+*CZ‖Tristan	‖CL‖En‖Tristán‖
+*CZ‖Ursula	‖CL‖En‖Úrsula‖
+*CZ‖Valentin	‖CL‖En‖Valentín‖
+*CZ‖Veronica	‖CL‖En‖Verónica‖
+*CZ‖Ximenez	‖CL‖En‖Ximénez‖
+*CZ‖Zacarias	‖CL‖En‖Zacarías‖
+
+;;====================
+;; PROPER NOUNS (SURNAMES)
+;;====================
+*CZ‖Arguelles	‖CL‖En‖Argüelles‖
+*CZ‖Buendia	‖CL‖En‖Buendía‖
+*CZ‖Calderon	‖CL‖En‖Calderón‖
+*CZ‖Castillon	‖CL‖En‖Castillón‖
+*CZ‖Chavez	‖CL‖En‖Chávez‖
+*CZ‖Cortazar	‖CL‖En‖Cortázar‖
+*CZ‖Diaz	‖CL‖En‖Díaz‖
+*CZ‖Dieguez	‖CL‖En‖Diéguez‖
+*CZ‖Duran	‖CL‖En‖Durán‖
+*CZ‖Estevez	‖CL‖En‖Estévez‖
+*CZ‖Gabaldon	‖CL‖En‖Gabaldón‖
+*CZ‖Galindez	‖CL‖En‖Galíndez‖
+*CZ‖Galvez	‖CL‖En‖Gálvez‖
+*CZ‖Gascon	‖CL‖En‖Gascón‖
+*CZ‖Gaston	‖CL‖En‖Gastón‖
+*CZ‖Gavaldon	‖CL‖En‖Gavaldón‖
+*CZ‖Guzman	‖CL‖En‖Guzmán‖
+*CZ‖Ibañez	‖CL‖En‖Ibáñez‖
+*CZ‖Irazabal	‖CL‖En‖Irazábal‖
+*CZ‖Iñiguez	‖CL‖En‖Íñiguez‖
+*CZ‖Juarez	‖CL‖En‖Juárez‖
+*CZ‖Ladron	‖CL‖En‖Ladrón‖
+*CZ‖Lardizabal	‖CL‖En‖Lardizábal‖
+*CZ‖Marquez	‖CL‖En‖Márquez‖
+*CZ‖Mendez	‖CL‖En‖Méndez‖
+*CZ‖Mendizabal	‖CL‖En‖Mendizábal‖
+*CZ‖Menendez	‖CL‖En‖Menéndez‖
+*CZ‖Mirelez	‖CL‖En‖Mirélez‖
+*CZ‖Nuñez	‖CL‖En‖Núñez‖
+*CZ‖Olazabal	‖CL‖En‖Olazábal‖
+*CZ‖Ordoñez	‖CL‖En‖Ordóñez‖
+*CZ‖Perez	‖CL‖En‖Pérez‖
+*CZ‖Ramirez	‖CL‖En‖Ramírez‖
+*CZ‖Rodriguez	‖CL‖En‖Rodríguez‖
+*CZ‖Suarez	‖CL‖En‖Suárez‖
+*CZ‖Urquidez	‖CL‖En‖Urquídez‖
+*CZ‖Vasquez	‖CL‖En‖Vásquez‖
+*CZ‖Vazquez	‖CL‖En‖Vázquez‖
+*CZ‖Velasquez	‖CL‖En‖Velásquez‖
+*CZ‖Velazquez	‖CL‖En‖Velázquez‖
+*CZ‖Velez	‖CL‖En‖Vélez‖
+*CZ‖Xuarez	‖CL‖En‖Xuárez‖
+*CZ‖Ybañez	‖CL‖En‖Ybáñez‖
+
+;;====================
+;; PROPER NOUNS (GEOGRAPHICAL) (COUNTRIES)
+;;====================
+*CZ‖Afganistan	‖CL‖En‖Afganistán‖
+*CZ‖Arabia Saudi	‖CL‖En‖Arabia Saudí‖
+*CZ‖Azerbaiyan	‖CL‖En‖Azerbaiyán‖
+*CZ‖Belgica	‖CL‖En‖Bélgica‖
+*CZ‖Benin	‖CL‖En‖Benín‖
+*CZ‖Butan	‖CL‖En‖Bután‖
+*CZ‖Camerun	‖CL‖En‖Camerún‖
+*CZ‖Canada	‖CL‖En‖Canadá‖
+*CZ‖Emiratos Arabes Unidos	‖CL‖En‖Emiratos Árabes Unidos‖
+*CZ‖Etiopia	‖CL‖En‖Etiopía‖
+*CZ‖Gabon	‖CL‖En‖Gabón‖
+*CZ‖Haiti	‖CL‖En‖Haití‖
+*CZ‖Hungria	‖CL‖En‖Hungría‖
+*CZ‖Iran	‖CL‖En‖Irán‖
+*CZ‖Islas Caiman	‖CL‖En‖Islas Caimán‖
+*CZ‖Islas Salomon	‖CL‖En‖Islas Salomón‖
+*CZ‖Japon	‖CL‖En‖Japón‖
+*CZ‖Kazajstan	‖CL‖En‖Kazajstán‖
+*CZ‖Kirguistan	‖CL‖En‖Kirguistán‖
+*CZ‖Kirguizistan	‖CL‖En‖Kirguizistán‖
+*CZ‖Libano	‖CL‖En‖Líbano‖
+*CZ‖Mali	‖CL‖En‖Malí‖
+*CZ‖Mexico	‖CL‖En‖México‖
+*CZ‖Monaco	‖CL‖En‖Mónaco‖
+*CZ‖Oman	‖CL‖En‖Omán‖
+*CZ‖Pakistan	‖CL‖En‖Pakistán‖
+*CZ‖Panamá	‖CL‖En‖Panamá‖
+*CZ‖Papua Nueva Guinea	‖CL‖En‖Papúa Nueva Guinea‖
+*CZ‖Papua-Nueva Guinea	‖CL‖En‖Papúa-Nueva Guinea‖
+*CZ‖Peru	‖CL‖En‖Perú‖
+*CZ‖Republica Centroafricana	‖CL‖En‖República Centroafricana‖
+*CZ‖Republica Checa	‖CL‖En‖República Checa‖
+*CZ‖Republica Democratica del Congo	‖CL‖En‖República Democrática del Congo‖
+*CZ‖Republica Dominicana	‖CL‖En‖República Dominicana‖
+*CZ‖Republica Guinea	‖CL‖En‖República Guinea‖
+*CZ‖Republica del Congo	‖CL‖En‖República del Congo‖
+*CZ‖Rumania	‖CL‖En‖Rumanía‖
+*CZ‖Santo Tome y Principe	‖CL‖En‖Santo Tomé y Príncipe‖
+*CZ‖Sudafrica	‖CL‖En‖Sudáfrica‖
+*CZ‖Sudan	‖CL‖En‖Sudán‖
+*CZ‖Taiwan	‖CL‖En‖Taiwán‖
+*CZ‖Tunez	‖CL‖En‖Túnez‖
+*CZ‖Turkmenistan	‖CL‖En‖Turkmenistán‖
+*CZ‖Turquia	‖CL‖En‖Turquía‖
+*CZ‖Uiguristan	‖CL‖En‖Uiguristán‖
+*CZ‖Uzbekistan	‖CL‖En‖Uzbekistán‖
+
+;;====================
+;; PROPER NOUNS (GEOGRAPHICAL) (REGIONS)
+;;====================
+*CZ‖Africa	‖CL‖En‖África‖
+*CZ‖America	‖CL‖En‖América‖
+*CZ‖Antartica	‖CL‖En‖Antártica‖
+*CZ‖Antartida	‖CL‖En‖Antártida‖
+*CZ‖Araucanía	‖CL‖En‖Araucanía‖
+*CZ‖Caucaso	‖CL‖En‖Cáucaso‖
+*CZ‖Jorasan	‖CL‖En‖Jorasán‖
+*CZ‖Turkistan	‖CL‖En‖Turkistán‖
+
+;;====================
+;; GEOGRAPHICAL (MEXICO)
+;;====================
+*CZ‖Michoacan	‖CL‖En‖Michoacán‖
+*CZ‖Nuevo Leon	‖CL‖En‖Nuevo León‖
+*CZ‖Queretaro	‖CL‖En‖Querétaro‖
+*CZ‖San Luis Potosi	‖CL‖En‖San Luis Potosí‖
+*CZ‖Yucatan	‖CL‖En‖Yucatán‖
