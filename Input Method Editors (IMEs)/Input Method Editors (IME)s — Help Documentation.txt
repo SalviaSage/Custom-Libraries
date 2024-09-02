@@ -1,0 +1,32 @@
+Input Method Editors (IME)s — Help Documentation;
+
+These libraries give us IMEs (Input Method Editors). 
+They are menus that pop up under the caret which allow us to choose extra letters and characters.
+They are necessary for languages and writing systems with too many different characters and diacritics.
+For example, the Ethiopian writing system has over four hundred and fifty characters, each with a different Unicode codepoint.
+That makes it impossible to type them all directly from the keyboard.
+
+So for example, in Vietnamese IME, we type (a) then hit the pre-defined trigger key, which I set to the (TAB) key.
+
+Then we see a menu which lists:
+	1. á
+	2. à
+	3. ả
+	4. ã
+	5. ạ
+Then, we hit the number key on the keyboard;
+for example, hitting (3) will delete the (a) that we wrote and will type (ả).
+This keyboard selection only works for the top row number keys, does not work with the numpad, and only works up to key (7).
+We can also select the entry from the list with the mouse click.
+Up to 20 entries are supported without support for page tabbing.
+
+However, there is a bug related to spacing and you will see extra space being typed along with the character that we want to send.
+This problem affects the tenth entry from the list going up to the last entry on the list.
+This problem can be overcome by using the {Left 2}{BS}{Right} syntax.
+— 2023-04-30
+
+For triggers where there is only one entry in the menu, the menu can be cancelled altogether in favour of automatic conversion upon pressing the trigger key.
+This is achieved by changing the 'MSI' syntax to 'SI' syntax in the library file.
+
+The correct syntax for IMEs: '*?OZ' the entered characters have to be followed by the character tabulation character.
+It is '*C?OZ' for making case-sensitive triggers.

@@ -1,0 +1,42 @@
+﻿;; IME for typing Vietnamese. ;; EXPERIMENTAL
+
+;; Immediate execute (*) should be used with IMEs.
+;; They have to be case sensitive (C) with separate case definitions.
+;; There is a bug where space is sent before the characters starting from the tenth entry.
+;; {Left 2}{BS}{Right} ;; syntax to be added starting from the tenth entry.
+
+;; VOWELS
+*C?OZ‖a	‖MSI‖En‖a¦á¦à¦ả¦ã¦ạ‖VOWEL LETTER a
+*C?OZ‖ă	‖MSI‖En‖ă¦ắ¦ằ¦ẳ¦ẵ¦ặ‖VOWEL LETTER ă
+*C?OZ‖â	‖MSI‖En‖â¦ấ¦ầ¦ẩ¦ẫ¦ậ‖VOWEL LETTER â
+*C?OZ‖e	‖MSI‖En‖e¦é¦è¦ẻ¦ẽ¦ẹ‖VOWEL LETTER e
+*C?OZ‖ê	‖MSI‖En‖ê¦ế¦ề¦ể¦ễ¦ệ‖VOWEL LETTER ê
+*C?OZ‖i	‖MSI‖En‖i¦í¦ì¦ỉ¦ĩ¦ị‖VOWEL LETTER i
+*C?OZ‖o	‖MSI‖En‖o¦ó¦ò¦ỏ¦õ¦ọ‖VOWEL LETTER o
+*C?OZ‖ô	‖MSI‖En‖ô¦ố¦ồ¦ổ¦ỗ¦ộ‖VOWEL LETTER ô
+*C?OZ‖ơ	‖MSI‖En‖ơ¦ớ¦ờ¦ở¦ỡ¦ợ‖VOWEL LETTER ơ
+*C?OZ‖u	‖MSI‖En‖u¦ú¦ù¦ủ¦ũ¦ụ‖VOWEL LETTER u
+*C?OZ‖ư	‖MSI‖En‖ư¦ứ¦ừ¦ử¦ữ¦ự‖VOWEL LETTER ư
+*C?OZ‖y	‖MSI‖En‖y¦ý¦ỳ¦ỷ¦ỹ¦ỵ‖VOWEL LETTER y
+
+*C?OZ‖A	‖MSI‖En‖A¦Á¦À¦Ả¦Ã¦Ạ‖VOWEL LETTER A
+*C?OZ‖Ă	‖MSI‖En‖Ă¦Ắ¦Ằ¦Ẳ¦Ẵ¦Ặ‖VOWEL LETTER Ă
+*C?OZ‖Â	‖MSI‖En‖Â¦Ấ¦Ầ¦Ẩ¦Ẫ¦Ậ‖VOWEL LETTER Â
+*C?OZ‖E	‖MSI‖En‖E¦É¦È¦Ẻ¦Ẽ¦Ẹ‖VOWEL LETTER E
+*C?OZ‖Ê	‖MSI‖En‖Ê¦Ế¦Ề¦Ể¦Ễ¦Ệ‖VOWEL LETTER Ê
+*C?OZ‖I	‖MSI‖En‖I¦Í¦Ì¦Ỉ¦Ĩ¦Ị‖VOWEL LETTER I
+*C?OZ‖O	‖MSI‖En‖O¦Ó¦Ò¦Ỏ¦Õ¦Ọ‖VOWEL LETTER O
+*C?OZ‖Ô	‖MSI‖En‖Ô¦Ố¦Ồ¦Ổ¦Ỗ¦Ộ‖VOWEL LETTER Ô
+*C?OZ‖Ơ	‖MSI‖En‖Ơ¦Ớ¦Ờ¦Ở¦Ỡ¦Ợ‖VOWEL LETTER Ơ
+*C?OZ‖U	‖MSI‖En‖U¦Ú¦Ù¦Ủ¦Ũ¦Ụ‖VOWEL LETTER U
+*C?OZ‖Ư	‖MSI‖En‖Ư¦Ứ¦Ừ¦Ử¦Ữ¦Ự‖VOWEL LETTER Ư
+*C?OZ‖Y	‖MSI‖En‖Y¦Ý¦Ỳ¦Ỷ¦Ỹ¦Ỵ‖VOWEL LETTER Y
+
+;; CONSONANTS
+*C?OZ‖b	‖SI‖En‖ƀ‖CONSONANT LETTER b
+*C?OZ‖B	‖SI‖En‖Ƀ‖CONSONANT LETTER B
+*C?OZ‖d	‖SI‖En‖đ‖CONSONANT LETTER d
+*C?OZ‖D	‖SI‖En‖Đ‖CONSONANT LETTER D
+
+;; CURRENCY SIGN
+*?OZ‖$	‖SI‖En‖₫‖CURRENCY SIGN DONG

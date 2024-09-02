@@ -1,0 +1,74 @@
+﻿;; IME Devanagari. ;; EXPERIMENTAL
+
+;; Immediate execute (*) should be used with IMEs.
+;; Should not be case sensitive because there is no case in Devanagari.
+
+;; There is a bug where space is sent before the characters starting from the tenth entry.
+;; {Left 2}{BS}{Right} ;; syntax to be added starting from the tenth entry.
+
+;; Certain issues with vowels and maatras, vowels have to be used with {u+codes}.
+
+;; If there is only one entry in the IME pop-up menu, the MSI syntax should be replaced with the SI syntax.
+;; This ensures that the character will be modified upon pressing the endchar key (tab) without the pop-up menu.
+
+;; DEVANAGARI IME SECTION:
+;; 1 Geminates
+;; 2 Reph after
+;; 3 Reph before
+;; 4 Eyelash Reph before
+;; 5 Geminate Reph after
+;; 6 Geminate Reph before
+;; 7 Geminate Eyelash Reph before
+;; 8 Conjuncts
+;; 9 Syllables
+
+;; IME LIST
+*?OZ‖आ	‖MSI‖En‖अं¦अः¦ऄ¦ॲ¦ऑ¦ओ¦औ¦ऒ¦ॵ¦ऍ {Left 2}{BS}{Right}¦ऎ {Left 2}{BS}{Right}¦ॐ {Left 2}{BS}{Right}‖VOWEL LETTER A
+*?OZ‖क	‖MSI‖En‖क्क¦क्र¦र्क¦र्‍क¦क्क्र¦र्क्क¦र्‍क्क¦क्ष¦क्ष्र¦र्क्ष {Left 2}{BS}{Right}¦र्‍क्ष {Left 2}{BS}{Right}‖CONSONANT LETTER KA
+*?OZ‖क़	‖MSI‖En‖क़्क़¦क़्र¦र्क़¦र्‍क़¦क़्क़्र¦र्क़्क़¦र्‍क़्क़‖devanagari letter qa (U+0958)
+*?OZ‖ख	‖MSI‖En‖ख्ख¦ख्र¦र्ख¦र्‍ख¦ख्ख्र¦र्ख्ख¦र्‍ख्ख‖CONSONANT LETTER KHA
+*?OZ‖ख़	‖MSI‖En‖ख़्ख़¦ख़्र¦र्ख़¦र्‍ख़¦ख़्ख़्र¦र्ख़्ख़¦र्‍ख़्ख़‖CONSONANT LETTER KHA
+*?OZ‖ग	‖MSI‖En‖ग्ग¦ग्र¦र्ग¦र्‍ग¦ग्ग्र¦र्ग्ग¦र्‍ग्ग¦ग्न¦ग्ज¦ॻ {Left 2}{BS}{Right}‖CONSONANT LETTER GA
+*?OZ‖ग़	‖MSI‖En‖ग़्ग़¦ग़्र¦र्ग़¦र्‍ग़¦ग़्ग़्र¦र्ग़्ग़¦र्‍ग़्ग़‖devanagari letter ghha (U+095A)
+*?OZ‖घ	‖MSI‖En‖घ्घ¦घ्र¦र्घ¦र्‍घ¦घ्घ्र¦र्घ्घ¦र्‍घ्घ‖CONSONANT LETTER GHA
+*?OZ‖च	‖MSI‖En‖च्च¦च्र¦र्च¦र्‍च¦च्च्र¦र्च्च¦र्‍च्च‖CONSONANT LETTER CA
+*?OZ‖छ	‖MSI‖En‖छ्छ¦छ्र¦र्छ¦र्‍छ¦छ्छ्र¦र्छ्छ¦र्‍छ्छ‖CONSONANT LETTER CHA
+*?OZ‖ज	‖MSI‖En‖ज्ज¦ज्र¦र्ज¦र्‍ज¦ज्ज्र¦र्ज्ज¦र्‍ज्ज¦ज्ञ¦ज्ञ्र¦र्ज्ञ {Left 2}{BS}{Right}¦र्‍ज्ञ {Left 2}{BS}{Right}¦ॹ {Left 2}{BS}{Right}¦ॼ {Left 2}{BS}{Right}‖CONSONANT LETTER JA
+*?OZ‖ज़	‖MSI‖En‖ज़्ज़¦ज़्र¦र्ज़¦र्‍ज़¦ज़्ज़्र¦र्ज़्ज़¦र्‍ज़‖CONSONANT LETTER ZA
+*?OZ‖ॹ	‖MSI‖En‖ॹ्ॹ¦ॹ्र¦र्ॹ¦र्‍ॹ¦ॹ्ॹ्र¦र्ॹ्ॹ¦र्‍ॹ्ॹ‖devanagari letter zha (U+0979)
+*?OZ‖झ	‖MSI‖En‖झ्झ¦झ्र¦र्झ¦र्‍झ¦झ्झ्र¦र्झ्झ¦र्‍झ्झ¦झ़¦झ़्र¦र्झ़ {Left 2}{BS}{Right}¦र्‍झ़ {Left 2}{BS}{Right}‖CONSONANT LETTER JHA
+*?OZ‖ञ	‖MSI‖En‖ञ्ञ¦ञ्र¦र्ञ¦र्‍ञ¦ञ्ञ्र¦र्ञ्ञ¦र्‍ञ्ञ¦ञ्च‖CONSONANT LETTER ÑA
+*?OZ‖ट	‖MSI‖En‖ट्ट¦ट्र¦र्ट¦र्‍ट¦ट्ट्र¦र्ट्ट¦र्‍ट्ट¦ट्ठ‖CONSONANT LETTER ṬA
+*?OZ‖ठ	‖MSI‖En‖ठ्ठ¦ठ्र¦र्ठ¦र्‍ठ¦ठ्ठ्र¦र्ठ्ठ¦र्‍ठ्ठ‖CONSONANT LETTER ṬHA
+*?OZ‖ड	‖MSI‖En‖ड्ड¦ड्र¦र्ड¦र्‍ड¦ड्ड्र¦र्ड्ड¦र्‍ड्ड¦ड़¦ङ¦ॾ {Left 2}{BS}{Right}‖CONSONANT LETTER ḌA
+*?OZ‖ड़	‖MSI‖En‖ड़्र¦र्ड़¦र्‍ड़‖devanagari letter dddha
+*?OZ‖ङ	‖MSI‖En‖ङ्ङ¦ङ्र¦र्ङ¦र्‍ङ¦ङ्ङ्र¦र्ङ्ङ¦र्‍ङ्ङ¦ङ्ग¦ङ्क¦ङ्म {Left 2}{BS}{Right}¦ङ्क्ष {Left 2}{BS}{Right}¦ङ्घ {Left 2}{BS}{Right}¦ङ्य {Left 2}{BS}{Right}‖CONSONANT LETTER ṄA
+*?OZ‖ढ	‖MSI‖En‖ढ्ढ¦ढ्र¦र्ढ¦र्‍ढ¦ढ्ढ्र¦र्ढ्ढ¦र्‍ढ्ढ‖CONSONANT LETTER ḌHA
+*?OZ‖ढ़	‖MSI‖En‖ढ्ढ‍़¦ढ़्र¦र्ढ़¦र्‍ढ़¦ढ्ढ‍़्र¦र्ढ्ढ‍़¦र्‍ढ्ढ‍़‖devanagari letter rha
+*?OZ‖ण	‖MSI‖En‖ण्ण¦ण्र¦र्ण¦र्‍ण¦ण्ण्र¦र्ण्ण¦र्‍ण्ण‖CONSONANT LETTER ṆA
+*?OZ‖त	‖MSI‖En‖त्त¦त्र¦र्त¦र्‍त¦त्त्र¦र्त्त¦र्‍त्त¦त्न‖CONSONANT LETTER TA
+*?OZ‖थ	‖MSI‖En‖थ्थ¦थ्र¦र्थ¦र्‍थ¦थ्थ्र¦र्थ्थ¦र्‍थ्थ¦थ्न‖CONSONANT LETTER THA
+*?OZ‖द	‖MSI‖En‖द्द¦द्र¦र्द¦र्‍द¦द्द्र¦र्द्द¦र्‍द्द¦द्भ¦द्व¦द्ब {Left 2}{BS}{Right}¦द्ध {Left 2}{BS}{Right}¦द्ग {Left 2}{BS}{Right}¦द्न {Left 2}{BS}{Right}¦द्य {Left 2}{BS}{Right}¦द्म {Left 2}{BS}{Right}‖CONSONANT LETTER DA
+*?OZ‖ॸ	‖MSI‖En‖ॸ्र¦र्ॸ¦र्‍ॸ‖CONSONANT LETTER MARWARI DDA
+*?OZ‖ध	‖MSI‖En‖ध्ध¦ध्र¦र्ध¦र्‍ध¦ध्ध्र¦र्ध्ध¦र्‍ध्ध‖CONSONANT LETTER DHA
+*?OZ‖न	‖MSI‖En‖न्‍न¦न्र¦र्न¦र्‍न¦न्‍न्र¦र्न्न¦र्‍न्न‖CONSONANT LETTER NA
+*?OZ‖ऩ	‖MSI‖En‖ऩ्ऩ¦ऩ्र¦र्ऩ¦र्‍ऩ¦ऩ्ऩ्र¦र्ऩ्ऩ¦र्‍ऩ्ऩ‖CONSONANT LETTER NNNA
+*?OZ‖प	‖MSI‖En‖प्प¦प्र¦र्प¦र्‍प¦प्प्र¦र्प्प¦र्‍प्प¦प्न¦प्ट‖CONSONANT LETTER PA
+*?OZ‖फ	‖MSI‖En‖फ्फ¦फ्र¦र्फ¦र्‍फ¦फ्फ्र¦र्फ्फ¦र्‍फ्फ‖CONSONANT LETTER PHA
+*?OZ‖फ़	‖MSI‖En‖फ़्फ़¦फ़्र¦र्फ़¦र्‍फ़¦फ़्फ़्र¦र्फ़्फ़¦र्‍फ़्फ़‖CONSONANT LETTER PHA
+*?OZ‖ब	‖MSI‖En‖ब्ब¦ब्र¦र्ब¦र्‍ब¦ब्ब्र¦र्ब्ब¦र्‍ब्ब¦ॿ‖CONSONANT LETTER BA
+*?OZ‖भ	‖MSI‖En‖भ्भ¦भ्र¦र्भ¦र्‍भ¦भ्भ्र¦र्भ्भ¦र्‍भ्भ‖CONSONANT LETTER BHA
+*?OZ‖म	‖MSI‖En‖म्म¦म्र¦र्म¦र्‍म¦म्म्र¦र्म्म¦र्‍म्म¦‖CONSONANT LETTER MA
+*?OZ‖य	‖MSI‖En‖य्य¦य्र¦र्य¦र्‍य¦य्य्र¦र्य्य¦र्‍य्य‖CONSONANT LETTER YA
+*?OZ‖ॺ	‖MSI‖En‖ॺ्ॺ¦ॺ्र¦र्ॺ¦र्‍ॺ¦ॺ्ॺ्र¦र्ॺ्ॺ¦र्‍ॺ्ॺ‖CONSONANT LETTER HEAVY YA
+*?OZ‖य़	‖MSI‖En‖य़्य़¦य़्र¦र्य़¦र्‍य़¦य़्य़्र¦र्य़्य़¦र्‍य़्य़‖devanagari letter yya
+*?OZ‖र	‖MSI‖En‖र्र¦र्‍र¦रु¦रू¦र‍ु¦र‍ू‖CONSONANT LETTER RA
+*?OZ‖ऱ	‖MSI‖En‖र्ऱ¦र्‍ऱ‖devanagari letter rra (U+0931)
+*?OZ‖ल	‖MSI‖En‖ल्ल¦ल्र¦र्ल¦र्‍ल¦ल्ल्र¦र्ल्ल¦र्‍ल्ल‖CONSONANT LETTER LA
+*?OZ‖ळ	‖MSI‖En‖ळ्ळ¦ळ्र¦र्ळ¦र्‍ळ¦ळ्ळ्र¦र्ळ्ळ¦र्‍ळ्ळ‖CONSONANT LETTER LLA
+*?OZ‖ऴ	‖MSI‖En‖ऴ्ऴ¦ऴ्र¦र्ऴ¦र्‍ऴ¦ऴ्ऴ्र¦र्ऴ्ऴ¦र्‍ऴ्ऴ‖CONSONANT LETTER LLLA
+*?OZ‖व	‖MSI‖En‖व्व¦व्र¦र्व¦र्‍व¦व्व्र¦र्व्व¦र्‍व्व¦व्न‖CONSONANT LETTER VA
+*?OZ‖श	‖MSI‖En‖श्श¦श्र¦र्श¦र्‍श¦श्श्र¦र्श्श¦र्‍श्श¦श्न¦श्व¦श्च {Left 2}{BS}{Right}‖CONSONANT LETTER ŚA
+*?OZ‖ष	‖MSI‖En‖ष्ष¦ष्र¦र्ष¦र्‍ष¦ष्ष्र¦र्ष्ष¦र्‍ष्ष¦ष्ट¦ष्ट्र¦र्ष्ट {Left 2}{BS}{Right}¦र्‍ष्ट {Left 2}{BS}{Right}¦ष्ठ {Left 2}{BS}{Right}¦ष्ठ्र {Left 2}{BS}{Right}¦र्ष्ठ {Left 2}{BS}{Right}¦र्‍ष्ठ {Left 2}{BS}{Right}‖CONSONANT LETTER ṢA
+*?OZ‖स	‖MSI‖En‖स्स¦स्र¦र्स¦र्‍स¦स्स्र¦र्स्स¦र्‍स्स¦स्न‖CONSONANT LETTER SA
+*?OZ‖ह	‖MSI‖En‖ह्र¦र्ह¦र्‍ह¦ह्न¦ह्ण¦ह्व¦ह्ल¦ह्य¦ह्म¦हृ {Left 2}{BS}{Right}¦हॄ {Left 2}{BS}{Right}¦है {Left 2}{BS}{Right}¦हैं {Left 2}{BS}{Right}¦हूँ {Left 2}{BS}{Right}¦हो {Left 2}{BS}{Right}¦हुआ {Left 2}{BS}{Right}‖CONSONANT LETTER HA
