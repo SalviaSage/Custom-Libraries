@@ -1,0 +1,24 @@
+﻿;; Bengali Maatra Helper
+
+;; Automatically fixes some typing mistakes related to vowel maatras.
+;; Intended to be used alongside this keyboard layout program:
+;; 
+;; 15 Definitions.
+
+*C1OZ‖া‖SI‖En‖{U+0985}‖bengali letter a - Automatic Replace
+*C1OZ‖ি‖SI‖En‖{U+0987}‖bengali letter i - Automatic Replace
+*C1OZ‖ী‖SI‖En‖{U+0988}‖bengali letter ii - Automatic Replace
+*C1OZ‖ু‖SI‖En‖{U+0989}‖bengali letter u - Automatic Replace
+*C1OZ‖ূ‖SI‖En‖{U+098A}‖bengali letter uu - Automatic Replace
+*C1OZ‖ে‖SI‖En‖{U+098F}‖bengali letter e - Automatic Replace
+*C1OZ‖ৈ‖SI‖En‖{U+0990}‖bengali letter ai - Automatic Replace
+*C1OZ‖ো‖SI‖En‖{U+0993}‖bengali letter o - Automatic Replace
+*C1OZ‖ৌ‖SI‖En‖{U+0994}‖bengali letter au - Automatic Replace
+*C1OZ‖ৗ‖SI‖En‖{U+0994}‖bengali letter au - Automatic Replace
+
+*C1OZ‖ৃ‖SI‖En‖{U+098B}‖bengali letter vocalic r - Automatic Replace
+*C1OZ‖ৄ‖SI‖En‖{U+09E0}‖bengali letter vocalic rr - Automatic Replace
+*C1OZ‖ৢ‖SI‖En‖{U+098C}‖bengali letter vocalic l - Automatic Replace
+*C1OZ‖ৣ‖SI‖En‖{U+09E1}‖bengali letter vocalic ll - Automatic Replace
+
+*C1B0OZ‖্য‖SI‖En‖{U+0985}{U+09CD}{U+09AF}‖bengali letter ya - Automatic Replace

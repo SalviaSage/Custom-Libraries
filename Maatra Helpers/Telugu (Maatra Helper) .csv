@@ -1,0 +1,22 @@
+﻿;; Telugu Maatra Helper
+
+;; Automatically fixes some typing mistakes related to vowel maatras.
+;; Intended to be used alongside this keyboard layout program:
+;; https://github.com/SalviaSage/Keyboard-Layouts/tree/master/Indic%20Typers/Telugu%20Typer
+;; 15 Definitions.
+
+*C1OZ‖ా‖SI‖En‖{U+0C05}‖telugu letter a - Automatic Replace
+*C1OZ‖ి‖SI‖En‖{U+0C07}‖telugu letter i - Automatic Replace
+*C1OZ‖ీ‖SI‖En‖{U+0C08}‖telugu letter ii - Automatic Replace
+*C1OZ‖ు‖SI‖En‖{U+0C09}‖telugu letter u - Automatic Replace
+*C1OZ‖ూ‖SI‖En‖{U+0C0A}‖telugu letter uu - Automatic Replace
+*C1OZ‖ె‖SI‖En‖{U+0C0E}‖telugu letter e - Automatic Replace
+*C1OZ‖ే‖SI‖En‖{U+0C0F}‖telugu letter ee - Automatic Replace
+*C1OZ‖ై‖SI‖En‖{U+0C10}‖telugu letter ai - Automatic Replace
+*C1OZ‖ౌ‖SI‖En‖{U+0C14}‖telugu letter au - Automatic Replace
+*C1OZ‖ొ‖SI‖En‖{U+0C12}‖telugu letter o - Automatic Replace
+*C1OZ‖ో‖SI‖En‖{U+0C13}‖telugu letter oo - Automatic Replace
+*C1OZ‖ృ‖SI‖En‖{U+0C0B}‖telugu letter vocalic r - Automatic Replace
+*C1OZ‖ౄ‖SI‖En‖{U+0C60}‖telugu letter vocalic rr - Automatic Replace
+*C1OZ‖ౢ‖SI‖En‖{U+0C0C}‖telugu letter vocalic l - Automatic Replace
+*C1OZ‖ౣ‖SI‖En‖{U+0C61}‖telugu letter vocalic ll - Automatic Replace

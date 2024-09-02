@@ -1,0 +1,18 @@
+﻿;; Gurmukhi Maatra Helper (Alternative Version)
+;; Replaces with ੲੈ instead of ਐ , replaces with ਅੋ instead of ਓ
+;; This is more in line with what it is supposed to be in comparison to Devanagari.
+
+;; Automatically fixes some typing mistakes related to vowel maatras.
+;; Intended to be used alongside this keyboard layout program:
+;; https://github.com/SalviaSage/Keyboard-Layouts/tree/master/Indic%20Typers/Gurmukhi%20Typer
+;; 9 Definitions.
+
+*C1OZ‖ਾ‖SI‖En‖{U+0A05}‖gurmukhi letter a - Automatic Replace
+*C1OZ‖ਿ‖SI‖En‖{U+0A07}‖gurmukhi letter i - Automatic Replace
+*C1OZ‖ੀ‖SI‖En‖{U+0A08}‖gurmukhi letter ii - Automatic Replace
+*C1OZ‖ੁ‖SI‖En‖{U+0A09}‖gurmukhi letter u - Automatic Replace
+*C1OZ‖ੂ‖SI‖En‖{U+0A0A}‖gurmukhi letter uu - Automatic Replace
+*C1OZ‖ੇ‖SI‖En‖{U+0A0F}‖gurmukhi letter ee - Automatic Replace
+*C1OZ‖ੈ‖SI‖En‖{U+0A72}{U+0A48}‖gurmukhi letter ai - Automatic Replace ;; Uses U+0A72 + U+0A48 instead of U+0A0F
+*C1OZ‖ੋ‖SI‖En‖{U+0A05}{U+0A4B}‖gurmukhi letter oo - Automatic Replace ;; Uses U+0A05 + U+0A4B instead of U+0A13
+*C1OZ‖ੌ‖SI‖En‖{U+0A14}‖gurmukhi letter au - Automatic Replace
