@@ -1,0 +1,3 @@
+ctrl+spacebar diacritics will not work with the character replacer.
+For example, if the combining acute accent is on ctrl+spacebar, it won't replace.
+But if it is on the (\) key on the keyboard, for example, it will replace.

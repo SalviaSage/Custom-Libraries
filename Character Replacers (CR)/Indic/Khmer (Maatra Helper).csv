@@ -1,0 +1,16 @@
+﻿;; Khmer Maatra Helper
+
+;; Automatically fixes some typing mistakes related to vowel maatras.
+;; Intended to be used alongside this keyboard layout program:
+;; 
+;; 9 Definitions.
+
+*C1OZ‖ា‖SI‖En‖{U+17A2}‖khmer letter qa - Automatic Replace
+*C1OZ‖ិ‖SI‖En‖{U+17A5}‖khmer independent vowel qi - Automatic Replace
+*C1OZ‖ី‖SI‖En‖{U+17A6}‖khmer independent vowel qii - Automatic Replace
+*C1OZ‖ុ‖SI‖En‖{U+17A7}‖khmer independent vowel qu - Automatic Replace
+*C1OZ‖ូ‖SI‖En‖{U+17A9}‖khmer independent vowel quu - Automatic Replace
+*C1OZ‖េ‖SI‖En‖{U+17AF}‖khmer independent vowel qe - Automatic Replace
+*C1OZ‖ៃ‖SI‖En‖{U+17B0}‖khmer independent vowel qai - Automatic Replace
+*C1OZ‖ោ‖SI‖En‖{U+17B1}‖khmer independent vowel qoo type one - Automatic Replace
+*C1OZ‖ៅ‖SI‖En‖{U+17B3}‖khmer independent vowel qau - Automatic Replace
