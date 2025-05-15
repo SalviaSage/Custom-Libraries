@@ -1,0 +1,12 @@
+﻿;; Belarusian Character Replacer
+
+;; For use with the Russian Cyrillic Keyboard Layout
+;; https://github.com/SalviaSage/Keyboard-Layouts/blob/master/Cyrillic%20Typers/Russian%20Cyrillic%20Typer/Russian%20Cyrillic%20Typer%20Layout.png
+;; Replaces the instances of the Russian letter и with the Belarusian-Ukarinian letter і.
+
+;; Has to be case sensitive with the (C) syntax
+;; Probably has to have the (?) syntax, which will allow it to trigger within words.
+
+;; И, и
+*C?OZ‖и‖SI‖En‖{U+0456}‖cyrillic small letter byelorussian-ukrainian i - Automatic Replace
+*C?OZ‖И‖SI‖En‖{U+0406}‖cyrillic capital letter byelorussian-ukrainian i - Automatic Replace
