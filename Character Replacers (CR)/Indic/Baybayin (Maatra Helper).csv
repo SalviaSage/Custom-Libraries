@@ -1,7 +1,0 @@
-﻿;; Baybayin Maatra Helper
-
-;; Automatically fixes some typing mistakes related to vowel maatras.
-;; 2 Definitions.
-
-*C1OZ‖ᜒ‖SI‖En‖{U+1701}‖tagalog letter i - Automatic Replace
-*C1OZ‖ᜓ‖SI‖En‖{U+1702}‖tagalog letter u - Automatic Replace
