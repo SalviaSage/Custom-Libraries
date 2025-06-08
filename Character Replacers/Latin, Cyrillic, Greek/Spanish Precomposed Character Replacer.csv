@@ -1,0 +1,41 @@
+﻿;; Spanish Precomposed Character Replacer
+
+;; Write the letter, add the combining diacritic on it, this library will delete it and replace it with a single Unicode letter.
+;; This also reduces the filesize of the letters from 3 to 2 bytes per letter.
+
+;; Has to be case sensitive with the (C) syntax
+;; Probably has to have the (?) syntax, which will allow it to trigger within words.
+
+;; A, a
+*C?OZ‖á‖SI‖En‖{U+00E1}‖latin small letter a with acute  - Automatic Replace
+*C?OZ‖Á‖SI‖En‖{U+00C1}‖latin capital letter a with acute - Automatic Replace
+
+;; E, e
+*C?OZ‖é‖SI‖En‖{U+00E9}‖latin small letter e with acute - Automatic Replace
+*C?OZ‖É‖SI‖En‖{U+00C9}‖latin capital letter e with acute - Automatic Replace
+
+;; I, i
+*C?OZ‖í‖SI‖En‖{U+00ED}‖latin small letter i with acute - Automatic Replace
+*C?OZ‖Í‖SI‖En‖{U+00CD}‖latin capital letter i with acute - Automatic Replace
+
+;; O, o
+*C?OZ‖ó‖SI‖En‖{U+00F3}‖latin small letter o with acute - Automatic Replace
+*C?OZ‖Ó‖SI‖En‖{U+00D3}‖latin capital letter o with acute - Automatic Replace
+
+;; U, u
+*C?OZ‖ú‖SI‖En‖{U+00FA}‖latin small letter u with acute - Automatic Replace
+*C?OZ‖ü‖SI‖En‖{U+00FC}‖latin small letter u with diaeresis - Automatic Replace
+*C?OZ‖Ú‖SI‖En‖{U+00DA}‖latin capital letter u with acute - Automatic Replace
+*C?OZ‖Ü‖SI‖En‖{U+00DC}‖latin capital letter u with diaeresis - Automatic Replace
+
+;; Y, y
+*C?OZ‖ý‖SI‖En‖{U+00FD}‖latin small letter y with acute - Automatic Replace
+*C?OZ‖Ý‖SI‖En‖{U+00DD}‖latin capital letter y with acute - Automatic Replace
+
+;; C, c
+*C?OZ‖ç‖SI‖En‖{U+00E7}‖latin small letter c with cedilla - Automatic Replace
+*C?OZ‖Ç‖SI‖En‖{U+00C7}‖latin capital letter c with cedilla - Automatic Replace
+
+;; N, n
+*C?OZ‖ñ‖SI‖En‖{U+00F1}‖latin small letter n with tilde - Automatic Replace
+*C?OZ‖Ñ‖SI‖En‖{U+00D1}‖latin capital letter n with tilde - Automatic Replace

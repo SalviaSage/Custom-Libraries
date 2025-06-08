@@ -1,0 +1,27 @@
+﻿;; Arabic Diacritic Helper
+
+;; Automatically fixes some typing mistakes related to vowel haraka.
+;; Intended to be used alongside this keyboard layout program:
+;; https://github.com/SalviaSage/Keyboard-Layouts/tree/master/Semitic%20Typers/Arabic%20Typer
+;; 14 Definitions.
+
+;; Diacritics
+*C1OZ‖ّ‖SI‖En‖{U+0008}‖arabic shadda - Automatic Replace
+*C1OZ‖ْ‖SI‖En‖{U+0008}‖arabic sukun - Automatic Replace
+*C1OZ‖ۡ‖SI‖En‖{U+0008}‖arabic small high dotless head of khah - Automatic Replace
+
+*C1OZ‖ٓ‖SI‖En‖{U+0627}{U+0653}‖arabic maddah above - Automatic Replace
+*C1OZ‖ٔ‖SI‖En‖{U+0627}{U+0654}‖arabic hamza above - Automatic Replace
+*C1OZ‖ٕ‖SI‖En‖{U+0627}{U+0655}‖arabic hamza below - Automatic Replace
+
+*C1OZ‖ٰ‖SI‖En‖{U+0008}‖arabic letter superscript alef - Automatic Replace
+*C1OZ‖ٖ‖SI‖En‖{U+0008}‖arabic letter subscript alef - Automatic Replace
+
+;; Simple Vowels
+*C1OZ‖َ‖SI‖En‖{U+0627}{U+064E}‖arabic fatha - Automatic Replace
+*C1OZ‖ِ‖SI‖En‖{U+0627}{U+0650}‖arabic kasra - Automatic Replace
+*C1OZ‖ُ‖SI‖En‖{U+0627}{U+064F}‖arabic damma - Automatic Replace
+
+*C1OZ‖ً‖SI‖En‖{U+0627}{U+064B}‖arabic fathatan - Automatic Replace
+*C1OZ‖ٍ‖SI‖En‖{U+0627}{U+064D}‖arabic kasratan - Automatic Replace
+*C1OZ‖ٌ‖SI‖En‖{U+0627}{U+064C}‖arabic dammatan - Automatic Replace

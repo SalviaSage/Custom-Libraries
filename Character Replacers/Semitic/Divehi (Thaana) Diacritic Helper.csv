@@ -1,0 +1,23 @@
+﻿;; Divehi (Thaana) Diacritic Helper
+
+;; Automatically fixes some typing mistakes related to vowel haraka.
+;; Intended to be used alongside this keyboard layout program:
+;; https://github.com/SalviaSage/Keyboard-Layouts/tree/master/Semitic%20Typers/Thaana%20Typer
+;; 11 Definitions.
+
+*C1OZ‖ް‖SI‖En‖{U+0787}{U+07B0}‖thaana sukun - Automatic Replace
+
+*C1OZ‖ަ‖SI‖En‖{U+0787}‖thaana abafili - Automatic Replace
+*C1OZ‖ާ‖SI‖En‖{U+0787}{U+07A7}‖thaana aabaafili - Automatic Replace
+
+*C1OZ‖ި‖SI‖En‖{U+0787}{U+07A8}‖thaana ibifili - Automatic Replace
+*C1OZ‖ީ‖SI‖En‖{U+0787}{U+07A9}‖thaana eebeefili - Automatic Replace
+
+*C1OZ‖ު‖SI‖En‖{U+0787}{U+07AA}‖thaana ubufili - Automatic Replace
+*C1OZ‖ޫ‖SI‖En‖{U+0787}{U+07AB}‖thaana ooboofili - Automatic Replace
+
+*C1OZ‖ެ‖SI‖En‖{U+0787}{U+07AC}‖thaana ebefili - Automatic Replace
+*C1OZ‖ޭ‖SI‖En‖{U+0787}{U+07AD}‖thaana eybeyfili - Automatic Replace
+
+*C1OZ‖ޮ‖SI‖En‖{U+0787}{U+07AE}‖thaana obofili - Automatic Replace
+*C1OZ‖ޯ‖SI‖En‖{U+0787}{U+07AF}‖thaana oaboafili - Automatic Replace

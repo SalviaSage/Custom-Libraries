@@ -1,0 +1,9 @@
+﻿;; Arabic-Persian Character Replacer
+
+;; Replaces the dotless version of the letter yā with dotted versions in the Arabic-Persian script.
+;; Intended to be used alongside this keyboard layout program:
+;; https://github.com/SalviaSage/Keyboard-Layouts/tree/master/Semitic%20Typers/Arabic%20Typer
+;; 1 Definition.
+
+;; ي
+*C?OZ‖ي‖SI‖En‖{U+064A}‖arabic letter yeh (U+064A) - Automatic Replace

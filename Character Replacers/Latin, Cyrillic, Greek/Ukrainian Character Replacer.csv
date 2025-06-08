@@ -1,0 +1,12 @@
+﻿;; Ukrainian Character Replacer
+
+;; For use with the Russian Cyrillic Keyboard Layout
+;; https://github.com/SalviaSage/Keyboard-Layouts/blob/master/Cyrillic%20Typers/Russian%20Cyrillic%20Typer/Russian%20Cyrillic%20Typer%20Layout.png
+;; Replaces the instances of the Russian letter Э with the Ukrainian letter Є.
+
+;; Has to be case sensitive with the (C) syntax
+;; Probably has to have the (?) syntax, which will allow it to trigger within words.
+
+;; Э, э
+*C?OZ‖э‖SI‖En‖{U+0454}‖cyrillic small letter ukrainian ie - Automatic Replace
+*C?OZ‖Э‖SI‖En‖{U+0404}‖cyrillic capital letter ukrainian ie - Automatic Replace

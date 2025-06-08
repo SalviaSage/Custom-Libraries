@@ -1,0 +1,22 @@
+﻿;; Maithili (Tirhuta) Vowel Helper
+
+;; Automatically fixes some typing mistakes related to vowel maatras.
+
+;; Tirhuta is a separate block in Unicode compared with Bengali-Assamese.
+;; However, its letters look almost identical to that block of Unicode letters.
+;; 13 Definitions.
+
+*C1OZ‖𑒰‖SI‖En‖{U+11481}‖tirhuta letter a - Automatic Replace
+*C1OZ‖𑒱‖SI‖En‖{U+11483}‖tirhuta letter i - Automatic Replace
+*C1OZ‖𑒲‖SI‖En‖{U+11484}‖tirhuta letter ii - Automatic Replace
+*C1OZ‖𑒴‖SI‖En‖{U+11485}‖tirhuta letter u - Automatic Replace
+*C1OZ‖𑒴‖SI‖En‖{U+11486}‖tirhuta letter uu - Automatic Replace
+*C1OZ‖𑒹‖SI‖En‖{U+1148B}‖tirhuta letter e - Automatic Replace
+*C1OZ‖𑒻‖SI‖En‖{U+1148C}‖tirhuta letter ai - Automatic Replace
+*C1OZ‖𑒼‖SI‖En‖{U+1148D}‖tirhuta letter o - Automatic Replace
+*C1OZ‖𑒾‖SI‖En‖{U+1148E}‖tirhuta letter au - Automatic Replace
+
+*C1OZ‖𑒵‖SI‖En‖{U+11487}‖tirhuta letter vocalic r - Automatic Replace
+*C1OZ‖𑒶‖SI‖En‖{U+11488}‖tirhuta letter vocalic rr - Automatic Replace
+*C1OZ‖𑒷‖SI‖En‖{U+11489}‖tirhuta letter vocalic l - Automatic Replace
+*C1OZ‖𑒸‖SI‖En‖{U+1148A}‖tirhuta letter vocalic ll - Automatic Replace

@@ -1,0 +1,7 @@
+﻿;; Assamese Character Replacer
+
+;; Replaces ra with variant used in Assamese.
+;; 1 Definition
+
+;; র
+*C?OZ‖র‖SI‖En‖{U+09F0}‖Bengali letter ra with middle diagonal (U+09F0) - Automatic Replace
