@@ -1,0 +1,47 @@
+﻿;; Fractions Replacer
+
+;; When typing fractions using the slash or the fraction slash character and pressing tab,
+;; it will convert the fractions to a single Unicode character.
+;; This can also aid in fractions look like ½ instead of 1⁄2.
+
+;; Slash Section
+*?OZ‖1/4	‖SI‖En‖{U+00BC}‖vulgar fraction one quarter - Automatic Replace
+*?OZ‖1/2	‖SI‖En‖{U+00BD}‖vulgar fraction one half - Automatic Replace
+*?OZ‖3/4	‖SI‖En‖{U+00BE}‖vulgar fraction three quarters - Automatic Replace
+*?OZ‖1/3	‖SI‖En‖{U+2153}‖vulgar fraction one third - Automatic Replace
+*?OZ‖2/3	‖SI‖En‖{U+2154}‖vulgar fraction two thirds - Automatic Replace
+*?OZ‖1/5	‖SI‖En‖{U+2155}‖vulgar fraction one fifth - Automatic Replace
+*?OZ‖2/5	‖SI‖En‖{U+2156}‖vulgar fraction two fifths - Automatic Replace
+*?OZ‖3/5	‖SI‖En‖{U+2157}‖vulgar fraction three fifths - Automatic Replace
+*?OZ‖4/5	‖SI‖En‖{U+2158}‖vulgar fraction four fifths - Automatic Replace
+*?OZ‖1/6	‖SI‖En‖{U+2159}‖vulgar fraction one sixth - Automatic Replace
+*?OZ‖5/6	‖SI‖En‖{U+215A}‖vulgar fraction five sixths - Automatic Replace
+*?OZ‖1/8	‖SI‖En‖{U+215B}‖vulgar fraction one eighth - Automatic Replace
+*?OZ‖3/8	‖SI‖En‖{U+215C}‖vulgar fraction three eighths - Automatic Replace
+*?OZ‖5/8	‖SI‖En‖{U+215D}‖vulgar fraction five eighths - Automatic Replace
+*?OZ‖7/8	‖SI‖En‖{U+215E}‖vulgar fraction seven eighths - Automatic Replace
+*?OZ‖1/7	‖SI‖En‖{U+2150}‖vulgar fraction one seventh - Automatic Replace
+*?OZ‖1/9	‖SI‖En‖{U+2151}‖vulgar fraction one ninth - Automatic Replace
+*?OZ‖1/10	‖SI‖En‖{U+2152}‖vulgar fraction one tenth - Automatic Replace
+*?OZ‖0/3	‖SI‖En‖{U+2189}‖vulgar fraction zero thirds - Automatic Replace
+
+;; Fraction Slash Section
+*?OZ‖1⁄4	‖SI‖En‖{U+00BC}‖vulgar fraction one quarter - Automatic Replace
+*?OZ‖1⁄2	‖SI‖En‖{U+00BD}‖vulgar fraction one half - Automatic Replace
+*?OZ‖3⁄4	‖SI‖En‖{U+00BE}‖vulgar fraction three quarters - Automatic Replace
+*?OZ‖1⁄3	‖SI‖En‖{U+2153}‖vulgar fraction one third - Automatic Replace
+*?OZ‖2⁄3	‖SI‖En‖{U+2154}‖vulgar fraction two thirds - Automatic Replace
+*?OZ‖1⁄5	‖SI‖En‖{U+2155}‖vulgar fraction one fifth - Automatic Replace
+*?OZ‖2⁄5	‖SI‖En‖{U+2156}‖vulgar fraction two fifths - Automatic Replace
+*?OZ‖3⁄5	‖SI‖En‖{U+2157}‖vulgar fraction three fifths - Automatic Replace
+*?OZ‖4⁄5	‖SI‖En‖{U+2158}‖vulgar fraction four fifths - Automatic Replace
+*?OZ‖1⁄6	‖SI‖En‖{U+2159}‖vulgar fraction one sixth - Automatic Replace
+*?OZ‖5⁄6	‖SI‖En‖{U+215A}‖vulgar fraction five sixths - Automatic Replace
+*?OZ‖1⁄8	‖SI‖En‖{U+215B}‖vulgar fraction one eighth - Automatic Replace
+*?OZ‖3⁄8	‖SI‖En‖{U+215C}‖vulgar fraction three eighths - Automatic Replace
+*?OZ‖5⁄8	‖SI‖En‖{U+215D}‖vulgar fraction five eighths - Automatic Replace
+*?OZ‖7⁄8	‖SI‖En‖{U+215E}‖vulgar fraction seven eighths - Automatic Replace
+*?OZ‖1⁄7	‖SI‖En‖{U+2150}‖vulgar fraction one seventh - Automatic Replace
+*?OZ‖1⁄9	‖SI‖En‖{U+2151}‖vulgar fraction one ninth - Automatic Replace
+*?OZ‖1⁄10	‖SI‖En‖{U+2152}‖vulgar fraction one tenth - Automatic Replace
+*?OZ‖0⁄3	‖SI‖En‖{U+2189}‖vulgar fraction zero thirds - Automatic Replace
