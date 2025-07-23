@@ -1,0 +1,67 @@
+﻿;; Greek Precomposed Character Replacer
+
+;; Write the letter, add the combining diacritic on it, this library will delete it and replace it with a single Unicode letter.
+;; This also reduces the filesize of the letters from 3 to 2 bytes per letter.
+
+;; Has to be case sensitive with the (C) syntax
+;; Probably has to have the (?) syntax, which will allow it to trigger within words.
+
+;; Α, α
+*C?OZ‖ά‖SI‖En‖{U+03AC}‖greek small letter alpha with tonos - Automatic Replace
+*C?OZ‖Ά‖SI‖En‖{U+0386}‖greek capital letter alpha with tonos - Automatic Replace
+
+*C?OZ‖ᾶ‖SI‖En‖{U+1FB6}‖greek small letter alpha with perispomeni - Automatic Replace
+
+*C?OZ‖ᾰ‖SI‖En‖{U+1FB0}‖greek small letter alpha with vrachy - Automatic Replace
+*C?OZ‖Ᾰ‖SI‖En‖{U+1FB8}‖greek capital letter alpha with vrachy - Automatic Replace
+
+;; Ε, ε
+*C?OZ‖έ‖SI‖En‖{U+03AD}‖greek small letter epsilon with tonos - Automatic Replace
+*C?OZ‖Έ‖SI‖En‖{U+0388}‖greek capital letter epsilon with tonos - Automatic Replace
+
+;; Ι, ι
+*C?OZ‖ί‖SI‖En‖{U+03AF}‖greek small letter iota with tonos - Automatic Replace
+*C?OZ‖ϊ‖SI‖En‖{U+03CA}‖greek small letter iota with dialytika - Automatic Replace
+*C?OZ‖ΐ‖SI‖En‖{U+0390}‖greek small letter iota with dialytika and tonos - Automatic Replace
+*C?OZ‖Ί‖SI‖En‖{U+038A}‖greek capital letter iota with tonos - Automatic Replace
+*C?OZ‖Ϊ‖SI‖En‖{U+03AA}‖greek capital letter iota with dialytika - Automatic Replace
+
+*C?OZ‖ῖ‖SI‖En‖{U+1FD6}‖greek small letter iota with perispomeni - Automatic Replace
+
+*C?OZ‖ῐ‖SI‖En‖{U+1FD0}‖greek small letter iota with vrachy - Automatic Replace
+*C?OZ‖Ῐ‖SI‖En‖{U+1FD8}‖greek capital letter iota with vrachy - Automatic Replace
+
+;; Η, η
+*C?OZ‖ή‖SI‖En‖{U+03AE}‖greek small letter eta with tonos - Automatic Replace
+*C?OZ‖Ή‖SI‖En‖{U+0389}‖greek capital letter eta with tonos - Automatic Replace
+
+*C?OZ‖ῆ‖SI‖En‖{U+1FC6}‖greek small letter eta with perispomeni - Automatic Replace
+
+;; Ο, ο
+*C?OZ‖ό‖SI‖En‖{U+03CC}‖greek small letter omicron with tonos - Automatic Replace
+*C?OZ‖Ό‖SI‖En‖{U+038C}‖greek capital letter omicron with tonos - Automatic Replace
+
+;; Υ, υ
+*C?OZ‖ύ‖SI‖En‖{U+03CD}‖greek small letter upsilon with tonos - Automatic Replace
+*C?OZ‖ὑ‖SI‖En‖{U+1F51}‖greek small letter upsilon with dasia - Automatic Replace
+*C?OZ‖ϋ‖SI‖En‖{U+03CB}‖greek small letter upsilon with dialytika - Automatic Replace
+*C?OZ‖ΰ‖SI‖En‖{U+03B0}‖greek small letter upsilon with dialytika and tonos - Automatic Replace
+*C?OZ‖Ύ‖SI‖En‖{U+038E}‖greek capital letter upsilon with tonos - Automatic Replace
+*C?OZ‖Ὑ‖SI‖En‖{U+1F59}‖greek capital letter upsilon with dasia - Automatic Replace
+*C?OZ‖Ϋ‖SI‖En‖{U+03AB}‖greek capital letter upsilon with dialytika - Automatic Replace
+
+*C?OZ‖ῦ‖SI‖En‖{U+1FE6}‖greek small letter upsilon with perispomeni - Automatic Replace
+
+*C?OZ‖ῠ‖SI‖En‖{U+1FE0}‖greek small letter upsilon with vrachy - Automatic Replace
+*C?OZ‖Ῠ‖SI‖En‖{U+1FE8}‖greek capital letter upsilon with vrachy - Automatic Replace
+
+;; Ω, ω
+*C?OZ‖ώ‖SI‖En‖{U+03CE}‖greek small letter omega with tonos - Automatic Replace
+*C?OZ‖Ώ‖SI‖En‖{U+038F}‖greek capital letter omega with tonos - Automatic Replace
+
+*C?OZ‖ῶ‖SI‖En‖{U+1FF6}‖greek small letter omega with perispomeni - Automatic Replace
+
+;; Ρ, ρ
+*C?OZ‖ῥ‖SI‖En‖{U+1FE5}‖greek small letter rho with dasia - Automatic Replace
+*C?OZ‖Ῥ‖SI‖En‖{U+1FEC}‖greek capital letter rho with dasia - Automatic Replace
+*C?OZ‖ῤ‖SI‖En‖{U+1FE4}‖greek small letter rho with psili - Automatic Replace
