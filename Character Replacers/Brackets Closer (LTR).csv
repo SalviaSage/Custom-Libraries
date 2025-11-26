@@ -1,0 +1,24 @@
+﻿;; Fractions Replacer
+
+;; When typing fractions using the slash or the fraction slash character and pressing tab,
+;; it will convert the fractions to a single Unicode character.
+;; This can also aid in fractions look like ½ instead of 1⁄2.
+
+;; Brackets Section
+*?OZ‖(‖SI‖En‖(){Left}‖() - Automatic Replace
+*?OZ‖[‖SI‖En‖[]{Left}‖[] - Automatic Replace
+*?OZ‖{‖SI‖En‖{U+007B}{U+007D}{Left}‖{} - Automatic Replace
+
+*?OZ‖⟨‖SI‖En‖⟨⟩{Left}‖⟨⟩ - Automatic Replace
+
+;; Quotes Section
+*?OZ‖"‖SI‖En‖""{Left}‖"" - Automatic Replace
+*?OZ‖“‖SI‖En‖“”{Left}‖“” - Automatic Replace
+*?OZ‖«‖SI‖En‖«»{Left}‖«» - Automatic Replace
+
+*?OZ‖‹‖SI‖En‖‹›{Left}‖‹› - Automatic Replace
+*?OZ‖‘‖SI‖En‖‘’{Left}‖‘’ - Automatic Replace
+
+;; Other Section
+*?OZ‖¿‖SI‖En‖¿?{Left}‖¿? - Automatic Replace
+*?OZ‖¡‖SI‖En‖¡{U+0021}{Left}‖¡! - Automatic Replace
