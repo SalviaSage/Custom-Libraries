@@ -1,0 +1,3958 @@
+﻿;; Spanish Diacritic Helper
+
+;; https://gchq.github.io/CyberChef/#recipe=Remove_Diacritics() (Diacritic Remover)
+;; https://www.somacon.com/p568.php (Duplicate Line Counter)
+
+;; Does not correct spelling mistakes.
+;; Trigger accentuation by pressing the TAB key after typing the word.
+
+;; Immediate Execute (*) has to be used for triggers.
+;; Reset Recognizer (Z) has to be used for proper differentiation between words.
+;; Has to be case insensitive. That is, the syntaxes (C) or (C1) must not be used.
+;; The spelling of the word has to match on the left and the right sides of "‖SI‖En‖".
+
+
+;; Language Specific information and To Do List:
+;; Adjectives have to be in 2 separate forms as masculine ending in (-o), and feminine ending in (-a).
+;; They have 4 forms if we also add the plural variations.
+
+;; -eño, -eña ONLY DONE THE LETTER A, HAVE TO DO THE REST OF THE LETTERS FROM WIKTIONARY.
+;; WORDS CONTAINING DIAERESIS (ü), HAVE TO DO MORE OF THESE BECAUSE IT IS REALLY LACKING AT THE MOMENT.
+;; ADDITION OF PLURALS FOR NOUNS AND ADJECTIVES.
+
+;; Correct way to add words that are separate words capitalised and uncapitalised is to;
+;; make a separate entry for the capitalised word that starts with the *COZ syntax;
+;; and another entry that starts with the *OZ syntax for the word that is not capitalised.
+;; for example; refer to the word "pacifico" in this .csv file.
+
+;; á é í ó ú
+;;====================
+;; PRONOUNS
+;;====================¦
+*OZ‖el	‖SI‖En‖él‖*
+*OZ‖este	‖SI‖En‖éste{pronoun}¦esté{verb}‖* https://en.wiktionary.org/wiki/%C3%A9ste
+*OZ‖mi	‖SI‖En‖mí‖*
+*OZ‖tu	‖SI‖En‖tú‖*
+
+*OZ‖mia	‖SI‖En‖mía‖*
+*OZ‖mias	‖SI‖En‖mías‖*
+*OZ‖mio	‖SI‖En‖mío‖*
+*OZ‖mios	‖SI‖En‖míos‖*
+
+;;====================
+;; WORDS
+;;====================
+*OZ‖aun	‖SI‖En‖aún‖*
+*OZ‖mas	‖SI‖En‖más‖*
+*OZ‖si	‖SI‖En‖sí‖*
+*OZ‖solo	‖SI‖En‖sólo‖*
+
+*OZ‖porque	‖SI‖En‖porqué‖*
+*OZ‖porques	‖SI‖En‖porqués‖
+
+*OZ‖adonde	‖SI‖En‖adónde‖*
+*OZ‖como	‖SI‖En‖cómo‖*
+*OZ‖cual	‖SI‖En‖cuál‖*
+*OZ‖cuales	‖SI‖En‖cuáles‖*
+*OZ‖cuan	‖SI‖En‖cuán‖*
+*OZ‖cuando	‖SI‖En‖cuándo‖*
+*OZ‖cuanta	‖SI‖En‖cuánta‖*
+*OZ‖cuantas	‖SI‖En‖cuántas‖*
+*OZ‖cuanto	‖SI‖En‖cuánto‖*
+*OZ‖cuantos	‖SI‖En‖cuántos‖*
+*OZ‖cuya	‖SI‖En‖cúya‖*
+*OZ‖cuyas	‖SI‖En‖cúyas‖*
+*OZ‖cuyo	‖SI‖En‖cúyo‖*
+*OZ‖cuyos	‖SI‖En‖cúyos‖*
+*OZ‖donde	‖SI‖En‖dónde‖*
+*OZ‖que	‖SI‖En‖qué‖*
+*OZ‖quien	‖SI‖En‖quién‖*
+*OZ‖quienes	‖SI‖En‖quiénes‖*
+*OZ‖sandia	‖SI‖En‖sandía‖*
+*OZ‖sandias	‖SI‖En‖sandías‖*
+*OZ‖mama	‖SI‖En‖mamá‖
+*OZ‖mamas	‖SI‖En‖mamás‖
+*OZ‖bebe	‖SI‖En‖bebé‖
+*OZ‖bebes	‖SI‖En‖bebés‖
+*OZ‖papa	‖SI‖En‖papá‖
+*OZ‖papas	‖SI‖En‖papás‖
+*OZ‖ejercito	‖SI‖En‖ejército‖
+*OZ‖ejercitos	‖SI‖En‖ejércitos‖
+
+;;====================
+;; WORDS (MENU)
+;;====================
+*OZ‖animo	‖MSI‖En‖ánimo{noun}¦animó{verb}‖** menu
+*OZ‖rio	‖MSI‖En‖río{noun/verb}¦rio{verb}‖** menu
+
+*OZ‖musculo	‖MSI‖En‖músculo{noun}¦musculo{verb}¦musculó{verb}‖** menu
+*OZ‖musculos	‖SI‖En‖músculos‖
+
+*OZ‖titulo	‖MSI‖En‖título{noun}¦tituló{verb}‖** menu
+*OZ‖titulos	‖SI‖En‖títulos‖
+
+;;====================
+;; Verbs List
+;;====================
+
+;;abrir
+;;callar
+;;deber
+
+;;====================
+;; Verbs Endings
+;;====================
+;; -ábamos words
+;; -ácea words
+;; -áis words
+;; -aré words
+;; -é words
+;; -éis words
+;; -eré words
+;; -eréis words
+;; -íais words
+;; -íamos words
+;; -ían words
+;; -ías words
+;; -ió words
+;; -iré words
+;; -iréis words
+;; -ís words
+;; -ó words
+
+;;====================
+;;;; abrir
+;;====================
+*OZ‖abris	‖SI‖En‖abrís‖
+
+;;====================
+;;;; callar
+;;====================
+
+;;====================
+;;;; deber https://en.wiktionary.org/wiki/deber#Conjugation
+;;====================
+*OZ‖debais	‖SI‖En‖debáis‖
+*OZ‖debeis	‖SI‖En‖debéis‖
+*OZ‖deberan	‖SI‖En‖deberán‖
+*OZ‖deberas	‖SI‖En‖deberás‖
+*OZ‖debera	‖SI‖En‖deberá‖
+*OZ‖debereis	‖SI‖En‖deberéis‖
+*OZ‖debere	‖SI‖En‖deberé‖
+*OZ‖deberiais	‖SI‖En‖deberíais‖
+*OZ‖deberiamos	‖SI‖En‖deberíamos‖
+*OZ‖deberian	‖SI‖En‖deberían‖
+*OZ‖deberias	‖SI‖En‖deberías‖
+*OZ‖deberia	‖SI‖En‖debería‖
+*OZ‖debiais	‖SI‖En‖debíais‖
+*OZ‖debiamos	‖SI‖En‖debíamos‖
+*OZ‖debian	‖SI‖En‖debían‖
+*OZ‖debias	‖SI‖En‖debías‖
+*OZ‖debia	‖SI‖En‖debía‖
+*OZ‖debieramos	‖SI‖En‖debiéramos‖
+*OZ‖debieremos	‖SI‖En‖debiéremos‖
+*OZ‖debiesemos	‖SI‖En‖debiésemos‖
+*OZ‖debio	‖SI‖En‖debió‖
+*OZ‖debi	‖SI‖En‖debí‖
+
+*OZ‖debiendolas	‖SI‖En‖debiéndolas‖
+*OZ‖debiendola	‖SI‖En‖debiéndola‖
+*OZ‖debiendoles	‖SI‖En‖debiéndoles‖
+*OZ‖debiendole	‖SI‖En‖debiéndole‖
+*OZ‖debiendolos	‖SI‖En‖debiéndolos‖
+*OZ‖debiendolo	‖SI‖En‖debiéndolo‖
+*OZ‖debiendome	‖SI‖En‖debiéndome‖
+*OZ‖debiendonos	‖SI‖En‖debiéndonos‖
+*OZ‖debiendoos	‖SI‖En‖debiéndoos‖
+*OZ‖debiendose	‖SI‖En‖debiéndose‖
+*OZ‖debiendote	‖SI‖En‖debiéndote‖
+
+*OZ‖debalas	‖SI‖En‖débalas‖
+*OZ‖debala	‖SI‖En‖débala‖
+*OZ‖debales	‖SI‖En‖débales‖
+*OZ‖debale	‖SI‖En‖débale‖
+*OZ‖debalos	‖SI‖En‖débalos‖
+*OZ‖debalo	‖SI‖En‖débalo‖
+*OZ‖debame	‖SI‖En‖débame‖
+*OZ‖debamonos	‖SI‖En‖debámonos‖
+*OZ‖debamoslas	‖SI‖En‖debámoslas‖
+*OZ‖debamosla	‖SI‖En‖debámosla‖
+*OZ‖debamosles	‖SI‖En‖debámosles‖
+*OZ‖debamosle	‖SI‖En‖debámosle‖
+*OZ‖debamoslos	‖SI‖En‖debámoslos‖
+*OZ‖debamoslo	‖SI‖En‖debámoslo‖
+*OZ‖debamoste	‖SI‖En‖debámoste‖
+*OZ‖debanlas	‖SI‖En‖débanlas‖
+*OZ‖debanla	‖SI‖En‖débanla‖
+*OZ‖debanles	‖SI‖En‖débanles‖
+*OZ‖debanle	‖SI‖En‖débanle‖
+*OZ‖debanlos	‖SI‖En‖débanlos‖
+*OZ‖debanlo	‖SI‖En‖débanlo‖
+*OZ‖debanme	‖SI‖En‖débanme‖
+*OZ‖debannos	‖SI‖En‖débannos‖
+*OZ‖debanos	‖SI‖En‖débanos‖
+*OZ‖debanse	‖SI‖En‖débanse‖
+*OZ‖debase	‖SI‖En‖débase‖
+
+;;====================
+;;;; ser
+;;====================
+*OZ‖se	‖SI‖En‖sé‖* conflicts with the word "se"
+*OZ‖eramos	‖SI‖En‖éramos‖
+*OZ‖fueramos	‖SI‖En‖fuéramos‖
+*OZ‖fueremos	‖SI‖En‖fuéremos‖
+*OZ‖fuesemos	‖SI‖En‖fuésemos‖
+*OZ‖seais	‖SI‖En‖seáis‖
+*OZ‖seran	‖SI‖En‖serán‖
+*OZ‖seras	‖SI‖En‖serás‖
+*OZ‖sera	‖SI‖En‖será‖
+*OZ‖sereis	‖SI‖En‖seréis‖
+*OZ‖sere	‖SI‖En‖seré‖
+*OZ‖seriais	‖SI‖En‖seríais‖
+*OZ‖seriamos	‖SI‖En‖seríamos‖
+
+;;====================
+;;;; seriar
+;;====================
+
+;;====================
+;;;; estar (done)
+;;====================
+*OZ‖esta	‖SI‖En‖está‖conflicts with the word "esta"
+*OZ‖estabamos	‖SI‖En‖estábamos‖
+*OZ‖estais	‖SI‖En‖estáis‖
+*OZ‖estan	‖SI‖En‖están‖
+*OZ‖estaran	‖SI‖En‖estarán‖
+*OZ‖estaras	‖SI‖En‖estarás‖
+*OZ‖estara	‖SI‖En‖estará‖
+*OZ‖estareis	‖SI‖En‖estaréis‖
+*OZ‖estare	‖SI‖En‖estaré‖
+*OZ‖estariais	‖SI‖En‖estaríais‖
+*OZ‖estariamos	‖SI‖En‖estaríamos‖
+*OZ‖estarian	‖SI‖En‖estarían‖
+*OZ‖estarias	‖SI‖En‖estarías‖
+*OZ‖estaria	‖SI‖En‖estaría‖
+*OZ‖esteis	‖SI‖En‖estéis‖
+*OZ‖esten	‖SI‖En‖estén‖
+*OZ‖estuvieramos	‖SI‖En‖estuviéramos‖
+*OZ‖estuvieremos	‖SI‖En‖estuviéremos‖
+*OZ‖estuviesemos	‖SI‖En‖estuviésemos‖
+
+*OZ‖estemonos	‖SI‖En‖estémonos‖
+*OZ‖estemoos	‖SI‖En‖estémoos‖
+*OZ‖estemoslas	‖SI‖En‖estémoslas‖
+*OZ‖estemosla	‖SI‖En‖estémosla‖
+*OZ‖estemosles	‖SI‖En‖estémosles‖
+*OZ‖estemosle	‖SI‖En‖estémosle‖
+*OZ‖estemoslos	‖SI‖En‖estémoslos‖
+*OZ‖estemoslo	‖SI‖En‖estémoslo‖
+*OZ‖estemoste	‖SI‖En‖estémoste‖
+
+*OZ‖estandolas	‖SI‖En‖estándolas‖
+*OZ‖estandola	‖SI‖En‖estándola‖
+*OZ‖estandoles	‖SI‖En‖estándoles‖
+*OZ‖estandole	‖SI‖En‖estándole‖
+*OZ‖estandolos	‖SI‖En‖estándolos‖
+*OZ‖estandolo	‖SI‖En‖estándolo‖
+*OZ‖estandome	‖SI‖En‖estándome‖
+*OZ‖estandonos	‖SI‖En‖estándonos‖
+*OZ‖estandoos	‖SI‖En‖estándoos‖
+*OZ‖estandose	‖SI‖En‖estándose‖
+*OZ‖estandote	‖SI‖En‖estándote‖
+
+;;====================
+;;;; dar
+;;====================
+*OZ‖de	‖SI‖En‖dé‖"give" present subjunctive and imperative of "dar"
+
+;;====================
+;; WORDS CONTAINING DIAERESIS (ü) ;; https://www.lawlessspanish.com/grammar/verbs/uar-verbs/
+;;====================
+*OZ‖antiguedades	‖SI‖En‖antigüedades‖
+*OZ‖antiguedad	‖SI‖En‖antigüedad‖
+*OZ‖cigueñas	‖SI‖En‖cigüeñas‖
+*OZ‖cigueña	‖SI‖En‖cigüeña‖
+*OZ‖gueras	‖SI‖En‖güeras‖
+*OZ‖guera	‖SI‖En‖güera‖
+*OZ‖gueros	‖SI‖En‖güeros‖
+*OZ‖guero	‖SI‖En‖güero‖
+*OZ‖pinguinas	‖SI‖En‖pingüinas‖
+*OZ‖pinguina	‖SI‖En‖pingüina‖
+*OZ‖pinguinos	‖SI‖En‖pingüinos‖
+*OZ‖pinguino	‖SI‖En‖pingüino‖
+*OZ‖nicaraguense	‖SI‖En‖nicaragüense‖
+*OZ‖nicaragueño	‖SI‖En‖nicaragüeño‖
+*OZ‖piraguismo	‖SI‖En‖piragüismo‖
+*OZ‖piraguistas	‖SI‖En‖piragüistas‖
+*OZ‖piraguista	‖SI‖En‖piragüista‖
+*OZ‖verguenzas	‖SI‖En‖vergüenzas‖
+*OZ‖verguenza	‖SI‖En‖vergüenza‖
+*OZ‖zarigueyas	‖SI‖En‖zarigüeyas‖
+*OZ‖zarigueya	‖SI‖En‖zarigüeya‖
+
+*OZ‖bilingues	‖SI‖En‖bilingües‖
+*OZ‖bilingue	‖SI‖En‖bilingüe‖
+*OZ‖bilinguismo	‖SI‖En‖bilingüismo‖
+*OZ‖cuatrilingues	‖SI‖En‖cuatrilingües‖
+*OZ‖cuatrilingue	‖SI‖En‖cuatrilingüe‖
+*OZ‖cuatrilinguismo	‖SI‖En‖cuatrilingüismo‖
+*OZ‖linguistas	‖SI‖En‖lingüístas‖
+*OZ‖lingüistas	‖SI‖En‖lingüístas‖
+*OZ‖linguista	‖SI‖En‖lingüísta‖
+*OZ‖lingüista	‖SI‖En‖lingüísta‖
+
+*OZ‖linguisticamente	‖SI‖En‖lingüísticamente‖
+*OZ‖lingüisticamente	‖SI‖En‖lingüísticamente‖
+
+*OZ‖linguistica	‖SI‖En‖lingüística‖
+*OZ‖linguisticas	‖SI‖En‖lingüísticas‖
+*OZ‖lingüistica	‖SI‖En‖lingüística‖
+*OZ‖lingüisticas	‖SI‖En‖lingüísticas‖
+
+*OZ‖linguistico	‖SI‖En‖lingüístico‖
+*OZ‖linguisticos	‖SI‖En‖lingüísticos‖
+*OZ‖lingüistico	‖SI‖En‖lingüístico‖
+*OZ‖lingüisticos	‖SI‖En‖lingüísticos‖
+
+*OZ‖monolingues	‖SI‖En‖monolingües‖
+*OZ‖monolingue	‖SI‖En‖monolingüe‖
+*OZ‖monolinguismos	‖SI‖En‖monolingüismos‖
+*OZ‖monolinguismo	‖SI‖En‖monolingüismo‖
+*OZ‖multilingues	‖SI‖En‖multilingües‖
+*OZ‖multilingue	‖SI‖En‖multilingüe‖
+*OZ‖multilinguismos	‖SI‖En‖multilingüismos‖
+*OZ‖multilinguismo	‖SI‖En‖multilingüismo‖
+*OZ‖plurilingues	‖SI‖En‖plurilingües‖
+*OZ‖plurilingue	‖SI‖En‖plurilingüe‖
+*OZ‖plurilinguismos	‖SI‖En‖plurilingüismos‖
+*OZ‖plurilinguismo	‖SI‖En‖plurilingüismo‖
+*OZ‖trilingues	‖SI‖En‖trilingües‖
+*OZ‖trilingue	‖SI‖En‖trilingüe‖
+*OZ‖trilinguismos	‖SI‖En‖trilingüismos‖
+*OZ‖trilinguismo	‖SI‖En‖trilingüismo‖
+
+;;====================
+;; NUMBERS (CARDINAL NUMBERS) (https://en.wiktionary.org/wiki/Appendix:Spanish_numerals)
+;;====================
+*OZ‖billon	‖SI‖En‖billón‖
+*OZ‖cincuenta y un	‖SI‖En‖cincuenta y ún‖
+*OZ‖cincuentiun	‖SI‖En‖cincuentiún‖
+*OZ‖cuarenta y un	‖SI‖En‖cuarenta y ún‖
+*OZ‖cuarentiun	‖SI‖En‖cuarentiún‖
+*OZ‖cuatrillon	‖SI‖En‖cuatrillón‖
+*OZ‖cuatrodecillon	‖SI‖En‖cuatrodecillón‖
+*OZ‖decillon	‖SI‖En‖decillón‖
+*OZ‖dieciseis	‖SI‖En‖dieciséis‖
+*OZ‖duodecillon	‖SI‖En‖duodecillón‖
+*OZ‖millon	‖SI‖En‖millón‖
+*OZ‖nonillon	‖SI‖En‖nonillón‖
+*OZ‖novendecillon	‖SI‖En‖novendecillón‖
+*OZ‖noventa y un	‖SI‖En‖noventa y ún‖
+*OZ‖noventiun	‖SI‖En‖noventiún‖
+*OZ‖ochenta y un	‖SI‖En‖ochenta y ún‖
+*OZ‖ochentiun	‖SI‖En‖ochentiún‖
+*OZ‖octillon	‖SI‖En‖octillón‖
+*OZ‖octodecillon	‖SI‖En‖octodecillón‖
+*OZ‖quindecillon	‖SI‖En‖quindecillón‖
+*OZ‖quintillon	‖SI‖En‖quintillón‖
+*OZ‖septendecillon	‖SI‖En‖septendecillón‖
+*OZ‖septillon	‖SI‖En‖septillón‖
+*OZ‖sesenta y un	‖SI‖En‖sesenta y ún‖
+*OZ‖sesentiun	‖SI‖En‖sesentiún‖
+*OZ‖setenta y un	‖SI‖En‖setenta y ún‖
+*OZ‖setentiun	‖SI‖En‖setentiún‖
+*OZ‖sexdecillon	‖SI‖En‖sexdecillón‖
+*OZ‖sextillon	‖SI‖En‖sextillón‖
+*OZ‖tredecillon	‖SI‖En‖tredecillón‖
+*OZ‖treinta y un	‖SI‖En‖treinta y ún‖
+*OZ‖treintiun	‖SI‖En‖treintiún‖
+*OZ‖trillon	‖SI‖En‖trillón‖
+*OZ‖undecillon	‖SI‖En‖undecillón‖
+*OZ‖veintidos	‖SI‖En‖veintidós‖
+*OZ‖veintiseis	‖SI‖En‖veintiséis‖
+*OZ‖veintitres	‖SI‖En‖veintitrés‖
+*OZ‖veintiun	‖SI‖En‖veintiún‖
+*OZ‖vigintillon	‖SI‖En‖vigintillón‖
+
+;;====================
+;; NUMBERS (ORDINAL NUMBERS) (-ésimo, -ésima)
+;;====================
+*OZ‖billonesima	‖SI‖En‖billonésima‖
+*OZ‖billonesimo	‖SI‖En‖billonésimo‖
+*OZ‖centesima	‖SI‖En‖centésima‖
+*OZ‖centesimo	‖SI‖En‖centésimo‖
+*OZ‖centima	‖SI‖En‖céntima‖
+*OZ‖centimo	‖SI‖En‖céntimo‖
+*OZ‖ceroesima	‖SI‖En‖ceroésima‖
+*OZ‖ceroesimo	‖SI‖En‖ceroésimo‖
+*OZ‖cienmilesima	‖SI‖En‖cienmilésima‖
+*OZ‖cienmilesimo	‖SI‖En‖cienmilésimo‖
+*OZ‖cienmillonesima	‖SI‖En‖cienmillonésima‖
+*OZ‖cienmillonesimo	‖SI‖En‖cienmillonésimo‖
+*OZ‖cincomilesima	‖SI‖En‖cincomilésima‖
+*OZ‖cincomilesimo	‖SI‖En‖cincomilésimo‖
+*OZ‖cuadragesima	‖SI‖En‖cuadragésima‖
+*OZ‖cuadragesimo	‖SI‖En‖cuadragésimo‖
+*OZ‖cuadringentesima	‖SI‖En‖cuadringentésima‖
+*OZ‖cuadringentesimo	‖SI‖En‖cuadringentésimo‖
+*OZ‖cuatrillonesima	‖SI‖En‖cuatrillonésima‖
+*OZ‖cuatrillonesimo	‖SI‖En‖cuatrillonésimo‖
+*OZ‖cuatrodecillonesima	‖SI‖En‖cuatrodecillonésima‖
+*OZ‖cuatrodecillonesimo	‖SI‖En‖cuatrodecillonésimo‖
+*OZ‖cuatromilesima	‖SI‖En‖cuatromilésima‖
+*OZ‖cuatromilesimo	‖SI‖En‖cuatromilésimo‖
+*OZ‖decillonesima	‖SI‖En‖decillonésima‖
+*OZ‖decillonesimo	‖SI‖En‖decillonésimo‖
+*OZ‖decima	‖SI‖En‖décima‖
+*OZ‖decimoseptima	‖SI‖En‖decimoséptima‖
+*OZ‖decimoseptimo	‖SI‖En‖decimoséptimo‖
+*OZ‖decimosetima	‖SI‖En‖decimosétima‖
+*OZ‖decimosetimo	‖SI‖En‖decimosétimo‖
+*OZ‖decimo	‖SI‖En‖décimo‖
+*OZ‖diezmilesima	‖SI‖En‖diezmilésima‖
+*OZ‖diezmilesimo	‖SI‖En‖diezmilésimo‖
+*OZ‖diezmillonesima	‖SI‖En‖diezmillonésima‖
+*OZ‖diezmillonesimo	‖SI‖En‖diezmillonésimo‖
+*OZ‖doscientosmilesima	‖SI‖En‖doscientosmilésima‖
+*OZ‖doscientosmilesimo	‖SI‖En‖doscientosmilésimo‖
+*OZ‖dosmilesima	‖SI‖En‖dosmilésima‖
+*OZ‖dosmilesimo	‖SI‖En‖dosmilésimo‖
+*OZ‖dosmillonesima	‖SI‖En‖dosmillonésima‖
+*OZ‖dosmillonesimo	‖SI‖En‖dosmillonésimo‖
+*OZ‖ducentesima	‖SI‖En‖ducentésima‖
+*OZ‖ducentesimo	‖SI‖En‖ducentésimo‖
+*OZ‖duodecillonesima	‖SI‖En‖duodecillonésima‖
+*OZ‖duodecillonesimo	‖SI‖En‖duodecillonésimo‖
+*OZ‖duodecima	‖SI‖En‖duodécima‖
+*OZ‖duodecimo	‖SI‖En‖duodécimo‖
+*OZ‖milesima	‖SI‖En‖milésima‖
+*OZ‖milesimo	‖SI‖En‖milésimo‖
+*OZ‖millardesima	‖SI‖En‖millardésima‖
+*OZ‖millardesimo	‖SI‖En‖millardésimo‖
+*OZ‖millonesima	‖SI‖En‖millonésima‖
+*OZ‖millonesimo	‖SI‖En‖millonésimo‖
+*OZ‖milmillonesima	‖SI‖En‖milmillonésima‖
+*OZ‖milmillonesimo	‖SI‖En‖milmillonésimo‖
+*OZ‖nonagesima	‖SI‖En‖nonagésima‖
+*OZ‖nonagesimo	‖SI‖En‖nonagésimo‖
+*OZ‖nonillonesima	‖SI‖En‖nonillonésima‖
+*OZ‖nonillonesimo	‖SI‖En‖nonillonésimo‖
+*OZ‖noningentesima	‖SI‖En‖noningentésima‖
+*OZ‖noningentesimo	‖SI‖En‖noningentésimo‖
+*OZ‖novendecillonesima	‖SI‖En‖novendecillonésima‖
+*OZ‖novendecillonesimo	‖SI‖En‖novendecillonésimo‖
+*OZ‖nuevemilesima	‖SI‖En‖nuevemilésima‖
+*OZ‖nuevemilesimo	‖SI‖En‖nuevemilésimo‖
+*OZ‖ochomilesima	‖SI‖En‖ochomilésima‖
+*OZ‖ochomilesimo	‖SI‖En‖ochomilésimo‖
+*OZ‖octillonesima	‖SI‖En‖octillonésima‖
+*OZ‖octillonesimo	‖SI‖En‖octillonésimo‖
+*OZ‖octingentesima	‖SI‖En‖octingentésima‖
+*OZ‖octingentesimo	‖SI‖En‖octingentésimo‖
+*OZ‖octodecillonesima	‖SI‖En‖octodecillonésima‖
+*OZ‖octodecillonesimo	‖SI‖En‖octodecillonésimo‖
+*OZ‖octogesima	‖SI‖En‖octogésima‖
+*OZ‖octogesimo	‖SI‖En‖octogésimo‖
+*OZ‖quincuagesima	‖SI‖En‖quincuagésima‖
+*OZ‖quincuagesimo	‖SI‖En‖quincuagésimo‖
+*OZ‖quindecillonesima	‖SI‖En‖quindecillonésima‖
+*OZ‖quindecillonesimo	‖SI‖En‖quindecillonésimo‖
+*OZ‖quingentesima	‖SI‖En‖quingentésima‖
+*OZ‖quingentesimo	‖SI‖En‖quingentésimo‖
+*OZ‖quintillonesima	‖SI‖En‖quintillonésima‖
+*OZ‖quintillonesimo	‖SI‖En‖quintillonésimo‖
+*OZ‖seismilesima	‖SI‖En‖seismilésima‖
+*OZ‖seismilesimo	‖SI‖En‖seismilésimo‖
+*OZ‖septendecillonesima	‖SI‖En‖septendecillonésima‖
+*OZ‖septendecillonesimo	‖SI‖En‖septendecillonésimo‖
+*OZ‖septillonesima	‖SI‖En‖septillonésima‖
+*OZ‖septillonesimo	‖SI‖En‖septillonésimo‖
+*OZ‖septima	‖SI‖En‖séptima‖
+*OZ‖septimo	‖SI‖En‖séptimo‖
+*OZ‖septingentesima	‖SI‖En‖septingentésima‖
+*OZ‖septingentesimo	‖SI‖En‖septingentésimo‖
+*OZ‖septuagesima	‖SI‖En‖septuagésima‖
+*OZ‖septuagesimo	‖SI‖En‖septuagésimo‖
+*OZ‖setima	‖SI‖En‖sétima‖
+*OZ‖setimo	‖SI‖En‖sétimo‖
+*OZ‖sexagesima	‖SI‖En‖sexagésima‖
+*OZ‖sexagesimo	‖SI‖En‖sexagésimo‖
+*OZ‖sexcentesima	‖SI‖En‖sexcentésima‖
+*OZ‖sexcentesimo	‖SI‖En‖sexcentésimo‖
+*OZ‖sexdecillonesima	‖SI‖En‖sexdecillonésima‖
+*OZ‖sexdecillonesimo	‖SI‖En‖sexdecillonésimo‖
+*OZ‖sextillonesima	‖SI‖En‖sextillonésima‖
+*OZ‖sextillonesimo	‖SI‖En‖sextillonésimo‖
+*OZ‖sietemilesima	‖SI‖En‖sietemilésima‖
+*OZ‖sietemilesimo	‖SI‖En‖sietemilésimo‖
+*OZ‖trecesima	‖SI‖En‖trecésima‖
+*OZ‖trecesimo	‖SI‖En‖trecésimo‖
+*OZ‖tredecillonesima	‖SI‖En‖tredecillonésima‖
+*OZ‖tredecillonesimo	‖SI‖En‖tredecillonésimo‖
+*OZ‖tresmilesima	‖SI‖En‖tresmilésima‖
+*OZ‖tresmilesimo	‖SI‖En‖tresmilésimo‖
+*OZ‖tricentesima	‖SI‖En‖tricentésima‖
+*OZ‖tricentesimo	‖SI‖En‖tricentésimo‖
+*OZ‖tricesima	‖SI‖En‖tricésima‖
+*OZ‖tricesimo	‖SI‖En‖tricésimo‖
+*OZ‖trigesima	‖SI‖En‖trigésima‖
+*OZ‖trigesimo	‖SI‖En‖trigésimo‖
+*OZ‖trillonesima	‖SI‖En‖trillonésima‖
+*OZ‖trillonesimo	‖SI‖En‖trillonésimo‖
+*OZ‖undecillonesima	‖SI‖En‖undecillonésima‖
+*OZ‖undecillonesimo	‖SI‖En‖undecillonésimo‖
+*OZ‖undecima	‖SI‖En‖undécima‖
+*OZ‖undecimo	‖SI‖En‖undécimo‖
+*OZ‖veintemilesima	‖SI‖En‖veintemilésima‖
+*OZ‖veintemilesimo	‖SI‖En‖veintemilésimo‖
+*OZ‖veintiunmilesima	‖SI‖En‖veintiunmilésima‖
+*OZ‖veintiunmilesimo	‖SI‖En‖veintiunmilésimo‖
+*OZ‖vigesima	‖SI‖En‖vigésima‖
+*OZ‖vigesimo	‖SI‖En‖vigésimo‖
+*OZ‖vigintillonesima	‖SI‖En‖vigintillonésima‖
+*OZ‖vigintillonesimo	‖SI‖En‖vigintillonésimo‖
+
+;;====================
+;; NUMBERS (MULTIPLIER NUMBERS) (-uplo, -uple, -upla)
+;;====================
+*OZ‖cuadrupla	‖SI‖En‖cuádrupla‖
+*OZ‖cuadruple	‖SI‖En‖cuádruple‖
+*OZ‖cuadruplo	‖SI‖En‖cuádruplo‖
+*OZ‖decupla	‖SI‖En‖décupla‖
+*OZ‖decuplo	‖SI‖En‖décuplo‖
+*OZ‖duodecupla	‖SI‖En‖duodécupla‖
+*OZ‖duodecuplo	‖SI‖En‖duodécuplo‖
+*OZ‖nonupla	‖SI‖En‖nónupla‖
+*OZ‖nonuple	‖SI‖En‖nónuple‖
+*OZ‖nonuplo	‖SI‖En‖nónuplo‖
+*OZ‖octupla	‖SI‖En‖óctupla‖
+*OZ‖octuple	‖SI‖En‖óctuple‖
+*OZ‖octuplo	‖SI‖En‖óctuplo‖
+*OZ‖quintupla	‖SI‖En‖quíntupla‖
+*OZ‖quintuple	‖SI‖En‖quíntuple‖
+*OZ‖quintuplo	‖SI‖En‖quíntuplo‖
+*OZ‖septupla	‖SI‖En‖séptupla‖
+*OZ‖septuple	‖SI‖En‖séptuple‖
+*OZ‖septuplo	‖SI‖En‖séptuplo‖
+*OZ‖sextupla	‖SI‖En‖séxtupla‖
+*OZ‖sextuple	‖SI‖En‖séxtuple‖
+*OZ‖sextuplo	‖SI‖En‖séxtuplo‖
+*OZ‖undecupla	‖SI‖En‖undécupla‖
+*OZ‖undecuplo	‖SI‖En‖undécuplo‖
+*OZ‖centuplo	‖SI‖En‖céntuplo‖
+*OZ‖centupla	‖SI‖En‖céntupla‖
+*OZ‖centuple	‖SI‖En‖céntuple‖
+
+;;====================
+;; PROPER NOUNS (GIVEN NAMES)
+;;====================
+*OZ‖Aaron	‖SI‖En‖Aarón‖
+*OZ‖Abdias	‖SI‖En‖Abdías‖
+*OZ‖Abdon	‖SI‖En‖Abdón‖
+*OZ‖Abigail	‖SI‖En‖Abigaíl‖
+*OZ‖Abrahan	‖SI‖En‖Abrahán‖
+*OZ‖Absalon	‖SI‖En‖Absalón‖
+*OZ‖Adan	‖SI‖En‖Adán‖
+*OZ‖Adrian	‖SI‖En‖Adrián‖
+*OZ‖Agueda	‖SI‖En‖Águeda‖
+*OZ‖Agustin	‖SI‖En‖Agustín‖
+*OZ‖Aida	‖SI‖En‖Aída‖
+*OZ‖Alan	‖SI‖En‖Alán‖
+*OZ‖Alex	‖SI‖En‖Álex‖
+*OZ‖Alvara	‖SI‖En‖Álvara‖
+*OZ‖Alvarez	‖SI‖En‖Álvarez‖
+*OZ‖Alvaro	‖SI‖En‖Álvaro‖
+*OZ‖Americo	‖SI‖En‖Américo‖
+*OZ‖Amilcar	‖SI‖En‖Amílcar‖
+*OZ‖Andre	‖SI‖En‖André‖
+*OZ‖Andres	‖SI‖En‖Andrés‖
+*OZ‖Andromaca	‖SI‖En‖Andrómaca‖
+*OZ‖Angel	‖SI‖En‖Ángel‖
+*OZ‖Angela	‖SI‖En‖Ángela‖
+*OZ‖Angelica	‖SI‖En‖Angélica‖
+*OZ‖Angelina	‖SI‖En‖Angélina‖
+*OZ‖Anibal	‖SI‖En‖Aníbal‖
+*OZ‖Anton	‖SI‖En‖Antón‖
+*OZ‖Aristoteles	‖SI‖En‖Aristóteles‖
+*OZ‖Ascension	‖SI‖En‖Ascensión‖
+*OZ‖Asdrubal	‖SI‖En‖Asdrúbal‖
+*OZ‖Asuncion	‖SI‖En‖Asunción‖
+*OZ‖Augustin	‖SI‖En‖Augustín‖
+*OZ‖Barbara	‖SI‖En‖Bárbara‖
+*OZ‖Bartolome	‖SI‖En‖Bartolomé‖
+*OZ‖Beltran	‖SI‖En‖Beltrán‖
+*OZ‖Benjamin	‖SI‖En‖Benjamín‖
+*OZ‖Bermudez	‖SI‖En‖Bermúdez‖
+*OZ‖Bernabe	‖SI‖En‖Bernabé‖
+*OZ‖Bernardez	‖SI‖En‖Bernárdez‖
+*OZ‖Bertran	‖SI‖En‖Bertrán‖
+*OZ‖Brigido	‖SI‖En‖Brígido‖
+*OZ‖Crisostomo	‖SI‖En‖Crisóstomo‖
+*OZ‖Cristian	‖SI‖En‖Cristian‖
+*OZ‖Cristobal	‖SI‖En‖Cristóbal‖
+*OZ‖Cristobal Colon	‖SI‖En‖Cristóbal Colón‖
+*OZ‖Damian	‖SI‖En‖Damián‖
+*OZ‖Debora	‖SI‖En‖Débora‖
+*OZ‖Edgar	‖SI‖En‖Édgar‖
+*OZ‖Efrain	‖SI‖En‖Efraín‖
+*OZ‖Elias	‖SI‖En‖Elías‖
+*OZ‖Enriquez	‖SI‖En‖Enríquez‖
+*OZ‖Ernandez	‖SI‖En‖Ernández‖
+*OZ‖Escalon	‖SI‖En‖Escalón‖
+*OZ‖Estefania	‖SI‖En‖Estefanía‖
+*OZ‖Fabian	‖SI‖En‖Fabián‖
+*OZ‖Fatima	‖SI‖En‖Fátima‖
+*OZ‖Felix	‖SI‖En‖Félix‖
+*OZ‖Fernandez	‖SI‖En‖Fernández‖
+*OZ‖Froilan	‖SI‖En‖Froilán‖
+*OZ‖Garcia	‖SI‖En‖García‖
+*OZ‖German	‖SI‖En‖Germán‖
+*OZ‖Gimenez	‖SI‖En‖Giménez‖
+*OZ‖Gomez	‖SI‖En‖Gómez‖
+*OZ‖Gonzalez	‖SI‖En‖González‖
+*OZ‖Gutierrez	‖SI‖En‖Gutiérrez‖
+*OZ‖Hector	‖SI‖En‖Héctor‖
+*OZ‖Henriquez	‖SI‖En‖Henríquez‖
+*OZ‖Hernan	‖SI‖En‖Hernán‖
+*OZ‖Hernandez	‖SI‖En‖Hernández‖
+*OZ‖Isai	‖SI‖En‖Isaí‖
+*OZ‖Isaias	‖SI‖En‖Isaías‖
+*OZ‖Ivan	‖SI‖En‖Iván‖
+*OZ‖Iñigo	‖SI‖En‖Íñigo‖
+*OZ‖Jeronima	‖SI‖En‖Jerónima‖
+*OZ‖Jeronimo	‖SI‖En‖Jerónimo‖
+*OZ‖Jesus	‖SI‖En‖Jesús‖
+*OZ‖Jimenez	‖SI‖En‖Jiménez‖
+*OZ‖Joaquin	‖SI‖En‖Joaquín‖
+*OZ‖Jonatan	‖SI‖En‖Jonatán‖
+*OZ‖Jose	‖SI‖En‖José‖
+*OZ‖Josias	‖SI‖En‖Josías‖
+*OZ‖Josue	‖SI‖En‖Josué‖
+*OZ‖Julian	‖SI‖En‖Julián‖
+*OZ‖Justin	‖SI‖En‖Justín‖
+*OZ‖Lazaro	‖SI‖En‖Lázaro‖
+*OZ‖Leon	‖SI‖En‖León‖
+*OZ‖Lia	‖SI‖En‖Lía‖
+*OZ‖Lopez	‖SI‖En‖López‖
+*OZ‖Lucia	‖SI‖En‖Lucía‖
+*OZ‖Maria	‖SI‖En‖María‖
+*OZ‖Martin	‖SI‖En‖Martín‖
+*OZ‖Matias	‖SI‖En‖Matías‖
+*OZ‖Maximo	‖SI‖En‖Máximo‖
+*OZ‖Moises	‖SI‖En‖Moisés‖
+*OZ‖Monica	‖SI‖En‖Mónica‖
+*OZ‖Natan	‖SI‖En‖Natán‖
+*OZ‖Neftali	‖SI‖En‖Neftalí‖
+*OZ‖Nehemias	‖SI‖En‖Nehemías‖
+*OZ‖Nestor	‖SI‖En‖Néstor‖
+*OZ‖Nicolas	‖SI‖En‖Nicolás‖
+*OZ‖Noe	‖SI‖En‖Noé‖
+*OZ‖Oscar	‖SI‖En‖Óscar‖
+*OZ‖Quintin	‖SI‖En‖Quintín‖
+*OZ‖Ramon	‖SI‖En‖Ramón‖
+*OZ‖Raul	‖SI‖En‖Raúl‖
+*OZ‖Rene	‖SI‖En‖René‖
+*OZ‖Rocio	‖SI‖En‖Rocío‖
+*OZ‖Roman	‖SI‖En‖Román‖
+*OZ‖Romulo	‖SI‖En‖Rómulo‖
+*OZ‖Rosalia	‖SI‖En‖Rosalía‖
+*OZ‖Ruben	‖SI‖En‖Rubén‖
+*OZ‖Salomon	‖SI‖En‖Salomón‖
+*OZ‖Sanchez	‖SI‖En‖Sánchez‖
+*OZ‖Sanson	‖SI‖En‖Sansón‖
+*OZ‖Saud	‖SI‖En‖Saúd‖
+*OZ‖Saul	‖SI‖En‖Saúl‖
+*OZ‖Sebastian	‖SI‖En‖Sebastián‖
+*OZ‖Simeon	‖SI‖En‖Simeón‖
+*OZ‖Simon	‖SI‖En‖Simón‖
+*OZ‖Socrates	‖SI‖En‖Sócrates‖
+*OZ‖Sofia	‖SI‖En‖Sofía‖
+*OZ‖Timon	‖SI‖En‖Timón‖
+*OZ‖Tobias	‖SI‖En‖Tobías‖
+*OZ‖Tomas	‖SI‖En‖Tomás‖
+*OZ‖Tristan	‖SI‖En‖Tristán‖
+*OZ‖Ursula	‖SI‖En‖Úrsula‖
+*OZ‖Valentin	‖SI‖En‖Valentín‖
+*OZ‖Veronica	‖SI‖En‖Verónica‖
+*OZ‖Ximenez	‖SI‖En‖Ximénez‖
+*OZ‖Zacarias	‖SI‖En‖Zacarías‖
+
+;;====================
+;; PROPER NOUNS (SURNAMES)
+;;====================
+*OZ‖Arguelles	‖SI‖En‖Argüelles‖
+*OZ‖Buendia	‖SI‖En‖Buendía‖
+*OZ‖Calderon	‖SI‖En‖Calderón‖
+*OZ‖Castillon	‖SI‖En‖Castillón‖
+*OZ‖Chavez	‖SI‖En‖Chávez‖
+*OZ‖Ciceron	‖SI‖En‖Cicerón‖
+*OZ‖Cortazar	‖SI‖En‖Cortázar‖
+*OZ‖Diaz	‖SI‖En‖Díaz‖
+*OZ‖Dieguez	‖SI‖En‖Diéguez‖
+*OZ‖Duran	‖SI‖En‖Durán‖
+*OZ‖Estevez	‖SI‖En‖Estévez‖
+*OZ‖Gabaldon	‖SI‖En‖Gabaldón‖
+*OZ‖Galindez	‖SI‖En‖Galíndez‖
+*OZ‖Galvez	‖SI‖En‖Gálvez‖
+*OZ‖Gascon	‖SI‖En‖Gascón‖
+*OZ‖Gaston	‖SI‖En‖Gastón‖
+*OZ‖Gavaldon	‖SI‖En‖Gavaldón‖
+*OZ‖Guzman	‖SI‖En‖Guzmán‖
+*OZ‖Ibañez	‖SI‖En‖Ibáñez‖
+*OZ‖Irazabal	‖SI‖En‖Irazábal‖
+*OZ‖Iñiguez	‖SI‖En‖Íñiguez‖
+*OZ‖Juarez	‖SI‖En‖Juárez‖
+*OZ‖Ladron	‖SI‖En‖Ladrón‖
+*OZ‖Lardizabal	‖SI‖En‖Lardizábal‖
+*OZ‖Marquez	‖SI‖En‖Márquez‖
+*OZ‖Mendez	‖SI‖En‖Méndez‖
+*OZ‖Mendizabal	‖SI‖En‖Mendizábal‖
+*OZ‖Menendez	‖SI‖En‖Menéndez‖
+*OZ‖Mirelez	‖SI‖En‖Mirélez‖
+*OZ‖Morazan	‖SI‖En‖Morazán‖
+*OZ‖Nuñez	‖SI‖En‖Núñez‖
+*OZ‖Olazabal	‖SI‖En‖Olazábal‖
+*OZ‖Ordoñez	‖SI‖En‖Ordóñez‖
+*OZ‖Perez	‖SI‖En‖Pérez‖
+*OZ‖Ramirez	‖SI‖En‖Ramírez‖
+*OZ‖Rodriguez	‖SI‖En‖Rodríguez‖
+*OZ‖Suarez	‖SI‖En‖Suárez‖
+*OZ‖Urquidez	‖SI‖En‖Urquídez‖
+*OZ‖Vasquez	‖SI‖En‖Vásquez‖
+*OZ‖Vazquez	‖SI‖En‖Vázquez‖
+*OZ‖Velasquez	‖SI‖En‖Velásquez‖
+*OZ‖Velazquez	‖SI‖En‖Velázquez‖
+*OZ‖Velez	‖SI‖En‖Vélez‖
+*OZ‖Xuarez	‖SI‖En‖Xuárez‖
+*OZ‖Ybañez	‖SI‖En‖Ybáñez‖
+
+;;====================
+;; PROPER NOUNS (GEOGRAPHICAL) (COUNTRIES)
+;;====================
+*OZ‖Afganistan	‖SI‖En‖Afganistán‖
+*OZ‖Arabia Saudi	‖SI‖En‖Arabia Saudí‖
+*OZ‖Azerbaiyan	‖SI‖En‖Azerbaiyán‖
+*OZ‖Bahrein	‖SI‖En‖Bahréin‖
+*OZ‖Banglades	‖SI‖En‖Bangladés‖
+*OZ‖Barein	‖SI‖En‖Baréin‖
+*OZ‖Belgica	‖SI‖En‖Bélgica‖
+*OZ‖Benin	‖SI‖En‖Benín‖
+*OZ‖Brunei	‖SI‖En‖Brunéi‖
+*OZ‖Butan	‖SI‖En‖Bután‖
+*OZ‖Camerun	‖SI‖En‖Camerún‖
+*OZ‖Canada	‖SI‖En‖Canadá‖
+*OZ‖Emiratos Arabes Unidos	‖SI‖En‖Emiratos Árabes Unidos‖
+*OZ‖Etiopia	‖SI‖En‖Etiopía‖
+*OZ‖Gabon	‖SI‖En‖Gabón‖
+*OZ‖Haiti	‖SI‖En‖Haití‖
+*OZ‖Hungria	‖SI‖En‖Hungría‖
+*OZ‖Iran	‖SI‖En‖Irán‖
+*OZ‖Islas Caiman	‖SI‖En‖Islas Caimán‖
+*OZ‖Islas Salomon	‖SI‖En‖Islas Salomón‖
+*OZ‖Islas Virgenes Britanicas	‖SI‖En‖Islas Vírgenes Británicas‖
+*OZ‖Japon	‖SI‖En‖Japón‖
+*OZ‖Kazajstan	‖SI‖En‖Kazajstán‖
+*OZ‖Kirguistan	‖SI‖En‖Kirguistán‖
+*OZ‖Kirguizistan	‖SI‖En‖Kirguizistán‖
+*OZ‖Libano	‖SI‖En‖Líbano‖
+*OZ‖Mali	‖SI‖En‖Malí‖
+*OZ‖Mexico	‖SI‖En‖México‖
+*OZ‖Monaco	‖SI‖En‖Mónaco‖
+*OZ‖Oman	‖SI‖En‖Omán‖
+*OZ‖Paises Bajos	‖SI‖En‖Países Bajos‖
+*OZ‖Pakistan	‖SI‖En‖Pakistán‖
+*OZ‖Panama	‖SI‖En‖Panamá‖
+*OZ‖Papua Nueva Guinea	‖SI‖En‖Papúa Nueva Guinea‖
+*OZ‖Papua-Nueva Guinea	‖SI‖En‖Papúa-Nueva Guinea‖
+*OZ‖Peru	‖SI‖En‖Perú‖
+*OZ‖Republica Centroafricana	‖SI‖En‖República Centroafricana‖
+*OZ‖Republica Checa	‖SI‖En‖República Checa‖
+*OZ‖Republica Democratica del Congo	‖SI‖En‖República Democrática del Congo‖
+*OZ‖Republica Dominicana	‖SI‖En‖República Dominicana‖
+*OZ‖Republica Guinea	‖SI‖En‖República Guinea‖
+*OZ‖Republica del Congo	‖SI‖En‖República del Congo‖
+*OZ‖Rumania	‖SI‖En‖Rumanía‖
+*OZ‖Santa Lucia	‖SI‖En‖Santa Lucía‖
+*OZ‖Santo Tome y Principe	‖SI‖En‖Santo Tomé y Príncipe‖
+*OZ‖Sudafrica	‖SI‖En‖Sudáfrica‖
+*OZ‖Sudan	‖SI‖En‖Sudán‖
+*OZ‖Sudan del Sur	‖SI‖En‖Sudán del Sur‖
+*OZ‖Taiwan	‖SI‖En‖Taiwán‖
+*OZ‖Tunez	‖SI‖En‖Túnez‖
+*OZ‖Turkmenistan	‖SI‖En‖Turkmenistán‖
+*OZ‖Turquia	‖SI‖En‖Turquía‖
+*OZ‖Uiguristan	‖SI‖En‖Uiguristán‖
+*OZ‖Uzbekistan	‖SI‖En‖Uzbekistán‖
+́*OZ‖Tayikistan	‖SI‖En‖Tayikistán‖
+
+;;====================
+;; PROPER NOUNS (GEOGRAPHICAL) (REGIONS)
+;;====================
+*OZ‖Africa	‖SI‖En‖África‖
+*OZ‖America	‖SI‖En‖América‖
+*OZ‖Antartica	‖SI‖En‖Antártica‖
+*OZ‖Antartida	‖SI‖En‖Antártida‖
+*OZ‖Araucania	‖SI‖En‖Araucanía‖
+*OZ‖Artico	‖SI‖En‖Ártico‖
+*OZ‖Bailia de Guernsey	‖SI‖En‖Bailía de Guernsey‖
+*OZ‖Bailia de Jersey	‖SI‖En‖Bailía de Jersey‖
+*OZ‖Caucaso	‖SI‖En‖Cáucaso‖
+*OZ‖Jorasan	‖SI‖En‖Jorasán‖
+*OZ‖Oceania	‖SI‖En‖Oceanía‖
+*OZ‖San Martin	‖SI‖En‖San Martín‖
+*OZ‖San Pedro y Miquelon	‖SI‖En‖San Pedro y Miquelón‖
+*OZ‖Turkistan	‖SI‖En‖Turkistán‖
+*OZ‖Union Europea	‖SI‖En‖Unión Europea‖
+
+;;====================
+;; PROPER NOUNS (GEOGRAPHICAL) (CITIES)
+;;====================
+*OZ‖Abiyan	‖SI‖En‖Abiyán‖
+*OZ‖Adis Abeba	‖SI‖En‖Adís Abeba‖
+*OZ‖Aman	‖SI‖En‖Amán‖
+*OZ‖Amsterdam	‖SI‖En‖Ámsterdam‖
+*OZ‖Angra do Heroismo	‖SI‖En‖Angra do Heroísmo‖
+*OZ‖Baku	‖SI‖En‖Bakú‖
+*OZ‖Belmopan	‖SI‖En‖Belmopán‖
+*OZ‖Berlin	‖SI‖En‖Berlín‖
+*OZ‖Bisau	‖SI‖En‖Bisáu‖
+*OZ‖Bogota	‖SI‖En‖Bogotá‖
+*OZ‖Chisinau	‖SI‖En‖Chisináu‖
+*OZ‖Ciudad Mexico	‖SI‖En‖Ciudad México‖
+*OZ‖Ciudad de Mexico	‖SI‖En‖Ciudad de México‖
+*OZ‖Cotonu	‖SI‖En‖Cotonú‖
+*OZ‖Dublin	‖SI‖En‖Dublín‖
+*OZ‖El Aaiun	‖SI‖En‖El Aaiún‖
+*OZ‖Episkopi	‖SI‖En‖Episkopí‖
+*OZ‖Erevan	‖SI‖En‖Ereván‖
+*OZ‖Hanoi	‖SI‖En‖Hanói‖
+*OZ‖Jerusalen	‖SI‖En‖Jerusalén‖
+*OZ‖Katmandu	‖SI‖En‖Katmandú‖
+*OZ‖Lilongue	‖SI‖En‖Lilongüe‖
+*OZ‖Lome	‖SI‖En‖Lomé‖
+*OZ‖Male	‖SI‖En‖Malé‖
+*OZ‖Managua	‖SI‖En‖Managüa‖
+*OZ‖Merida	‖SI‖En‖Mérida‖
+*OZ‖Moscu	‖SI‖En‖Moscú‖
+*OZ‖Naipyido	‖SI‖En‖Naipyidó‖
+*OZ‖Nasau	‖SI‖En‖Nasáu‖
+*OZ‖Nur-Sultan	‖SI‖En‖Nur-Sultán‖
+*OZ‖Nursultan	‖SI‖En‖Nursultán‖
+*OZ‖Paris	‖SI‖En‖París‖
+*OZ‖Pekin	‖SI‖En‖Pekín‖
+*OZ‖Puerto Principe	‖SI‖En‖Puerto Príncipe‖
+*OZ‖Saigon	‖SI‖En‖Saigón‖
+*OZ‖Saipan	‖SI‖En‖Saipán‖
+*OZ‖San Jose	‖SI‖En‖San José‖
+*OZ‖Sana	‖SI‖En‖Saná‖
+*OZ‖Santo Tome	‖SI‖En‖Santo Tomé‖
+*OZ‖Seul	‖SI‖En‖Seúl‖
+*OZ‖Taipei	‖SI‖En‖Taipéi‖
+*OZ‖Teheran	‖SI‖En‖Teherán‖
+*OZ‖Tiraspol	‖SI‖En‖Tiráspol‖
+*OZ‖Torshavn	‖SI‖En‖Tórshavn‖
+*OZ‖Tripoli	‖SI‖En‖Trípoli‖
+*OZ‖Uagadugu	‖SI‖En‖Uagadugú‖
+*OZ‖Ulan Bator	‖SI‖En‖Ulán Bator‖
+*OZ‖Vientian	‖SI‖En‖Vientián‖
+*OZ‖Yaunde	‖SI‖En‖Yaundé‖
+
+;;====================
+;; GEOGRAPHICAL (CANADA, USA)
+;;====================
+*OZ‖Columbia Britanica	‖SI‖En‖Columbia Británica‖
+*OZ‖Havai	‖SI‖En‖Havái‖
+*OZ‖Hawai	‖SI‖En‖Hawái‖
+*OZ‖Huron	‖SI‖En‖Hurón‖
+*OZ‖Isla del Principe Eduardo	‖SI‖En‖Isla del Príncipe Eduardo‖
+*OZ‖Michigan	‖SI‖En‖Míchigan‖
+*OZ‖Niagara	‖SI‖En‖Niágara‖
+*OZ‖Oregon	‖SI‖En‖Oregón‖
+*OZ‖Yukon	‖SI‖En‖Yukón‖
+
+;;====================
+;; GEOGRAPHICAL (ITALY)
+;;====================
+*OZ‖Bergamo	‖SI‖En‖Bérgamo‖
+*OZ‖Genova	‖SI‖En‖Génova‖
+*OZ‖Lombardia	‖SI‖En‖Lombardía‖
+*OZ‖Milan	‖SI‖En‖Milán‖
+*OZ‖Modena	‖SI‖En‖Módena‖
+*OZ‖Napoles	‖SI‖En‖Nápoles‖
+*OZ‖Pesaro	‖SI‖En‖Pésaro‖
+*OZ‖Ravena	‖SI‖En‖Rávena‖
+*OZ‖Turin	‖SI‖En‖Turín‖
+*OZ‖Umbria	‖SI‖En‖Umbría‖
+
+;;====================
+;; GEOGRAPHICAL (MEXICO)
+;;====================
+*OZ‖Cardenas	‖SI‖En‖Cárdenas‖
+*OZ‖Lazaro Cardenas	‖SI‖En‖Lázaro Cárdenas‖
+*OZ‖Michoacan	‖SI‖En‖Michoacán‖
+*OZ‖Nuevo Leon	‖SI‖En‖Nuevo León‖
+*OZ‖Queretaro	‖SI‖En‖Querétaro‖
+*OZ‖San Luis Potosi	‖SI‖En‖San Luis Potosí‖
+*OZ‖Yucatan	‖SI‖En‖Yucatán‖
+
+;;====================
+;; GEOGRAPHICAL (Bolivia)
+;;====================
+*OZ‖Potosi	‖SI‖En‖Potosí‖
+
+;;====================
+;; GEOGRAPHICAL (SPAIN)
+;;====================
+*OZ‖Alava	‖SI‖En‖Álava‖
+*OZ‖Alcala de Henares	‖SI‖En‖Alcalá de Henares‖
+*OZ‖Alcorcon	‖SI‖En‖Alcorcón‖
+*OZ‖Almeria	‖SI‖En‖Almería‖
+*OZ‖Andalucia	‖SI‖En‖Andalucía‖
+*OZ‖Aragon	‖SI‖En‖Aragón‖
+*OZ‖Avila	‖SI‖En‖Ávila‖
+*OZ‖Ayna	‖SI‖En‖Aýna‖
+*OZ‖Benetusser	‖SI‖En‖Benetússer‖
+*OZ‖Caceres	‖SI‖En‖Cáceres‖
+*OZ‖Cadiz	‖SI‖En‖Cádiz‖
+*OZ‖Castellon	‖SI‖En‖Castellón‖
+*OZ‖Castilla y Leon	‖SI‖En‖Castilla y León‖
+*OZ‖Cordoba	‖SI‖En‖Córdoba‖
+*OZ‖Cordova	‖SI‖En‖Córdova‖
+*OZ‖Cornella de Llobregat	‖SI‖En‖Cornellà de Llobregat‖
+*OZ‖Gijon	‖SI‖En‖Gijón‖
+*OZ‖Guipuzcoa	‖SI‖En‖Guipúzcoa‖
+*OZ‖Huetor Vega	‖SI‖En‖Huétor Vega‖
+*OZ‖Jaen	‖SI‖En‖Jaén‖
+*OZ‖Leganes	‖SI‖En‖Leganés‖
+*OZ‖Lerida	‖SI‖En‖Lérida‖
+*OZ‖Malaga	‖SI‖En‖Málaga‖
+*OZ‖Mataro	‖SI‖En‖Mataró‖
+*OZ‖Mostoles	‖SI‖En‖Móstoles‖
+*OZ‖Pais Vasco	‖SI‖En‖País Vasco‖
+*OZ‖Pozuelo de Alarcon	‖SI‖En‖Pozuelo de Alarcón‖
+*OZ‖Region de Murcia	‖SI‖En‖Región de Murcia‖
+*OZ‖Sant Joan Despi	‖SI‖En‖Sant Joan Despí‖
+*OZ‖Sedavi	‖SI‖En‖Sedaví‖
+*OZ‖Torrejon de Ardoz	‖SI‖En‖Torrejón de Ardoz‖
+
+;;====================
+;; PROPER NOUNS (MISC)
+;;====================
+*OZ‖Andromeda	‖SI‖En‖Andrómeda‖
+*OZ‖Jupiter	‖SI‖En‖Júpiter‖
+*OZ‖Pluton	‖SI‖En‖Plutón‖
+
+;;====================
+;; NOUNS
+;;====================
+;;;; NO SUFFIX
+*OZ‖abadia	‖SI‖En‖abadía‖
+*OZ‖abadias	‖SI‖En‖abadías‖
+*OZ‖accion	‖SI‖En‖acción‖
+*OZ‖algodon	‖SI‖En‖algodón‖
+*OZ‖almacen	‖SI‖En‖almacén‖
+*OZ‖ambitos	‖SI‖En‖ámbitos‖
+*OZ‖ambito	‖SI‖En‖ámbito‖
+*OZ‖amigdalas	‖SI‖En‖amígdalas‖
+*OZ‖amigdala	‖SI‖En‖amígdala‖
+*OZ‖anfitrion	‖SI‖En‖anfitrión‖
+*OZ‖angstrom	‖SI‖En‖ángstrom‖
+*OZ‖antepaises	‖SI‖En‖antepaíses‖
+*OZ‖antepais	‖SI‖En‖antepaís‖
+*OZ‖antiheroes	‖SI‖En‖antihéroes‖
+*OZ‖antiheroe	‖SI‖En‖antihéroe‖
+*OZ‖antiheroinas	‖SI‖En‖antiheroínas‖
+*OZ‖antiheroina	‖SI‖En‖antiheroína‖
+*OZ‖arabes	‖SI‖En‖árabes‖
+*OZ‖arabe	‖SI‖En‖árabe‖
+*OZ‖arboles	‖SI‖En‖árboles‖
+*OZ‖arbol	‖SI‖En‖árbol‖
+*OZ‖areas	‖SI‖En‖áreas‖
+*OZ‖area	‖SI‖En‖área‖
+*OZ‖ateismo	‖SI‖En‖ateísmo‖
+*OZ‖ateistas	‖SI‖En‖ateístas‖
+*OZ‖ateista	‖SI‖En‖ateísta‖
+*OZ‖atun	‖SI‖En‖atún‖
+*OZ‖autobus	‖SI‖En‖autobús‖
+*OZ‖avion	‖SI‖En‖avión‖
+*OZ‖azucares	‖SI‖En‖azúcares‖
+*OZ‖azucar	‖SI‖En‖azúcar‖
+
+*OZ‖bus		‖SI‖En‖bús‖***
+*OZ‖baterias	‖SI‖En‖baterías‖
+*OZ‖bateria	‖SI‖En‖batería‖
+*OZ‖bibliobus	‖SI‖En‖bibliobús‖
+*OZ‖boligrafos	‖SI‖En‖bolígrafos‖
+*OZ‖boligrafo	‖SI‖En‖bolígrafo‖
+*OZ‖bolivar	‖SI‖En‖bolívar‖
+*OZ‖brecol	‖SI‖En‖brécol‖
+*OZ‖brecoles	‖SI‖En‖brécoles‖
+*OZ‖brocoli	‖SI‖En‖brócoli‖
+*OZ‖brocolis	‖SI‖En‖brócolis‖
+*OZ‖busquedas	‖SI‖En‖búsquedas‖
+*OZ‖busqueda	‖SI‖En‖búsqueda‖
+*OZ‖bufon	‖SI‖En‖bufón‖
+
+*OZ‖cabron	‖SI‖En‖cabrón‖
+*OZ‖cadaveres	‖SI‖En‖cadáveres‖
+*OZ‖cadaver	‖SI‖En‖cadáver‖
+*OZ‖cafeina	‖SI‖En‖cafeína‖
+*OZ‖cafes	‖SI‖En‖cafés‖
+*OZ‖cafe	‖SI‖En‖café‖
+*OZ‖cannabis	‖SI‖En‖cánnabis‖
+*OZ‖canoistas	‖SI‖En‖canoístas‖
+*OZ‖canoista	‖SI‖En‖canoísta‖
+*OZ‖capitan	‖SI‖En‖capitán‖
+*OZ‖capitulos	‖SI‖En‖capítulos‖
+*OZ‖capitulo	‖SI‖En‖capítulo‖
+*OZ‖caracter	‖SI‖En‖carácter‖
+*OZ‖cercanias	‖SI‖En‖cercanías‖
+*OZ‖charlatan	‖SI‖En‖charlatán‖
+*OZ‖cingaras	‖SI‖En‖cíngaras‖
+*OZ‖cingara	‖SI‖En‖cíngara‖
+*OZ‖cingaros	‖SI‖En‖cíngaros‖
+*OZ‖cingaro	‖SI‖En‖cíngaro‖
+*OZ‖circulos	‖SI‖En‖círculos‖
+*OZ‖circulo	‖SI‖En‖círculo‖
+*OZ‖citron	‖SI‖En‖citrón‖
+*OZ‖cocaina	‖SI‖En‖cocaína‖
+*OZ‖codigos	‖SI‖En‖códigos‖
+*OZ‖codigo	‖SI‖En‖código‖
+*OZ‖colon	‖SI‖En‖colón‖
+*OZ‖comezon	‖SI‖En‖comezón‖
+*OZ‖corazon	‖SI‖En‖corazón‖
+*OZ‖cordoba	‖SI‖En‖córdoba‖
+*OZ‖credito	‖SI‖En‖créditos‖
+*OZ‖credito	‖SI‖En‖crédito‖
+*OZ‖crepusculos	‖SI‖En‖crepúsculos‖
+*OZ‖crepusculo	‖SI‖En‖crepúsculo‖
+
+*OZ‖datiles	‖SI‖En‖dátiles‖
+*OZ‖datil	‖SI‖En‖dátil‖
+*OZ‖debitos	‖SI‖En‖débitos‖
+*OZ‖debito	‖SI‖En‖débito‖
+*OZ‖deismo	‖SI‖En‖deísmo‖
+*OZ‖deismos	‖SI‖En‖deísmos‖
+*OZ‖deistas	‖SI‖En‖deístas‖
+*OZ‖deista	‖SI‖En‖deísta‖
+*OZ‖depositos	‖SI‖En‖depósitos‖
+*OZ‖deposito	‖SI‖En‖depósito‖
+*OZ‖dias	‖SI‖En‖días‖
+*OZ‖dia	‖SI‖En‖día‖
+*OZ‖dieresis	‖SI‖En‖diéresis‖
+*OZ‖dolares	‖SI‖En‖dólares‖
+*OZ‖dolar	‖SI‖En‖dólar‖
+*OZ‖dragon	‖SI‖En‖dragón‖
+
+*OZ‖egoistas	‖SI‖En‖egoístas‖
+*OZ‖egoista	‖SI‖En‖egoísta‖
+*OZ‖eleccion	‖SI‖En‖elección‖
+*OZ‖empatia	‖SI‖En‖empatía‖
+*OZ‖encias	‖SI‖En‖encías‖
+*OZ‖encia	‖SI‖En‖encía‖
+*OZ‖enfermedad venerea	‖SI‖En‖enfermedad venérea‖
+*OZ‖enfermedades venereas	‖SI‖En‖enfermedades venéreas‖
+*OZ‖epocas	‖SI‖En‖épocas‖
+*OZ‖epoca	‖SI‖En‖época‖
+*OZ‖esparragos	‖SI‖En‖espárragos‖
+*OZ‖esparrago	‖SI‖En‖espárrago‖
+*OZ‖espiritu	‖SI‖En‖espíritu‖
+*OZ‖estereofonia	‖SI‖En‖estereofonía‖
+*OZ‖estomago	‖SI‖En‖estómago‖
+*OZ‖europeistas	‖SI‖En‖europeístas‖
+*OZ‖europeista	‖SI‖En‖europeísta‖
+
+*OZ‖fabricas	‖SI‖En‖fábricas‖
+*OZ‖fabrica	‖SI‖En‖fábrica‖
+*OZ‖factorias	‖SI‖En‖factorías‖
+*OZ‖factoria	‖SI‖En‖factoría‖
+*OZ‖fantasias	‖SI‖En‖fantasías‖
+*OZ‖fantasia	‖SI‖En‖fantasía‖
+*OZ‖ficcion	‖SI‖En‖ficción‖
+*OZ‖filosofo	‖SI‖En‖filósofo‖
+*OZ‖filosofos	‖SI‖En‖filósofos‖
+*OZ‖filosofa	‖SI‖En‖filósofa‖
+*OZ‖filosofas	‖SI‖En‖filósofas‖
+*OZ‖frenesies	‖SI‖En‖frenesíes‖
+*OZ‖frenesis	‖SI‖En‖frenesís‖
+*OZ‖frenesi	‖SI‖En‖frenesí‖
+*OZ‖futbol	‖SI‖En‖fútbol‖
+
+*OZ‖generos	‖SI‖En‖géneros‖
+*OZ‖genero	‖SI‖En‖género‖
+*OZ‖globulos	‖SI‖En‖glóbulos‖
+*OZ‖globulo	‖SI‖En‖glóbulo‖
+*OZ‖gluteos	‖SI‖En‖glúteos‖
+*OZ‖gluteo	‖SI‖En‖glúteo‖
+*OZ‖grafia	‖SI‖En‖grafía‖
+*OZ‖guapeton	‖SI‖En‖guapetón‖
+*OZ‖guias	‖MSI‖En‖guías{noun}¦guías{verb}‖
+*OZ‖guia	‖SI‖En‖guía‖
+
+*OZ‖heroes	‖SI‖En‖héroes‖
+*OZ‖heroe	‖SI‖En‖héroe‖
+*OZ‖heroinas	‖SI‖En‖heroínas‖
+*OZ‖heroina	‖SI‖En‖heroína‖
+*OZ‖heroismos	‖SI‖En‖heroísmos‖
+*OZ‖heroismo	‖SI‖En‖heroísmo‖
+*OZ‖heterocromia	‖SI‖En‖heterocromía‖
+*OZ‖higados	‖SI‖En‖hígados‖
+*OZ‖higado	‖SI‖En‖hígado‖
+*OZ‖hiperaccion	‖SI‖En‖hiperacción‖
+*OZ‖hiperempatia	‖SI‖En‖hiperempatía‖
+*OZ‖huesped	‖SI‖En‖huésped‖
+*OZ‖huespedes	‖SI‖En‖huéspedes‖
+*OZ‖huespeda	‖SI‖En‖huéspeda‖
+*OZ‖huespedas	‖SI‖En‖huéspedas‖
+*OZ‖hipocrita	‖SI‖En‖hipócrita‖
+*OZ‖hipocritas	‖SI‖En‖hipócritas‖
+
+*OZ‖imbeciles	‖SI‖En‖imbéciles‖
+*OZ‖imbecil	‖SI‖En‖imbécil‖
+*OZ‖inaccion	‖SI‖En‖inacción‖
+*OZ‖interes	‖SI‖En‖interés‖
+
+*OZ‖jabali	‖SI‖En‖jabalí‖
+*OZ‖jabalis	‖SI‖En‖jabalís‖
+*OZ‖jabalies	‖SI‖En‖jabalíes‖
+*OZ‖jabon	‖SI‖En‖jabón‖
+*OZ‖jamon	‖SI‖En‖jamón‖
+*OZ‖jardin	‖SI‖En‖jardín‖
+*OZ‖jicama	‖SI‖En‖jícama‖
+*OZ‖jicamas	‖SI‖En‖jícamas‖
+
+*OZ‖ladron	‖SI‖En‖ladrón‖
+*OZ‖lagrimas	‖SI‖En‖lágrimas‖
+*OZ‖lagrima	‖SI‖En‖lágrima‖
+*OZ‖lampara	‖SI‖En‖lámpara‖
+*OZ‖lamparas	‖SI‖En‖lámparas‖
+*OZ‖lapices	‖MSI‖En‖lápices{noun}¦lapices{verb}‖
+*OZ‖lapiz	‖SI‖En‖lápiz‖
+*OZ‖latin	‖SI‖En‖latín‖
+*OZ‖lejania	‖SI‖En‖lejanía‖
+*OZ‖lejanias	‖SI‖En‖lejanías‖
+*OZ‖leccion	‖SI‖En‖lección‖
+*OZ‖lexicon	‖SI‖En‖lexicón‖
+*OZ‖limon	‖SI‖En‖limón‖
+
+*OZ‖magacen	‖SI‖En‖magacén‖
+*OZ‖malpaises	‖SI‖En‖malpaíses‖
+*OZ‖malpais	‖SI‖En‖malpaís‖
+*OZ‖marron	‖SI‖En‖marrón‖
+*OZ‖mateinas	‖SI‖En‖mateínas‖
+*OZ‖mateina	‖SI‖En‖mateína‖
+*OZ‖matematicas	‖SI‖En‖matemáticas‖
+*OZ‖matematica	‖SI‖En‖matemática‖
+*OZ‖matematicos	‖SI‖En‖matemáticos‖
+*OZ‖matematico	‖SI‖En‖matemático‖
+*OZ‖mediodias	‖SI‖En‖mediodías‖
+*OZ‖mediodia	‖SI‖En‖mediodía‖
+*OZ‖melodias	‖SI‖En‖melodías‖
+*OZ‖melodia	‖SI‖En‖melodía‖
+*OZ‖melon	‖SI‖En‖melón‖
+*OZ‖menton	‖SI‖En‖mentón‖
+*OZ‖miercoles	‖SI‖En‖miércoles‖
+
+*OZ‖mitologas	‖SI‖En‖mitólogas‖
+*OZ‖mitologa	‖SI‖En‖mitóloga‖
+*OZ‖mitologias	‖SI‖En‖mitologías‖
+*OZ‖mitologia	‖SI‖En‖mitología‖
+*OZ‖mitologos	‖SI‖En‖mitólogos‖
+*OZ‖mitologo	‖SI‖En‖mitólogo‖
+*OZ‖movil	‖SI‖En‖móvil‖
+*OZ‖moviles	‖SI‖En‖móviles‖
+*OZ‖monoteismo	‖SI‖En‖monoteísmo‖
+*OZ‖monoteismos	‖SI‖En‖monoteísmos‖
+*OZ‖musicas	‖SI‖En‖músicas‖
+*OZ‖musica	‖SI‖En‖música‖
+
+*OZ‖neurosifilis	‖SI‖En‖neurosífilis‖
+
+*OZ‖ñandus	‖SI‖En‖ñandús‖
+*OZ‖ñandu	‖SI‖En‖ñandú‖
+*OZ‖ñangaras	‖SI‖En‖ñángaras‖
+*OZ‖ñangara	‖SI‖En‖ñángara‖
+*OZ‖ñoñeria	‖SI‖En‖ñoñería‖
+
+*OZ‖oceanos	‖SI‖En‖océanos‖
+*OZ‖oceano	‖SI‖En‖océano‖
+*OZ‖oidos	‖SI‖En‖oídos‖
+*OZ‖oido	‖SI‖En‖oído‖
+*OZ‖opcion	‖SI‖En‖opción‖
+*OZ‖ortografa	‖SI‖En‖ortógrafa‖
+*OZ‖ortografo	‖SI‖En‖ortógrafo‖
+
+*OZ‖paragrafo	‖SI‖En‖parágrafo‖
+*OZ‖paragrafos	‖SI‖En‖parágrafos‖
+*OZ‖parrafo	‖SI‖En‖párrafo‖
+*OZ‖parrafos	‖SI‖En‖párrafos‖
+*OZ‖paises	‖SI‖En‖países‖
+*OZ‖pais	‖SI‖En‖país‖
+*OZ‖panico	‖SI‖En‖pánico‖
+*OZ‖peliculas	‖SI‖En‖películas‖
+*OZ‖pelicula	‖SI‖En‖película‖
+*OZ‖peloton	‖SI‖En‖pelotón‖
+*OZ‖peninsulas	‖SI‖En‖penínsulas‖
+*OZ‖peninsula	‖SI‖En‖península‖
+*OZ‖perdidas	‖SI‖En‖pérdidas‖
+*OZ‖perdida	‖SI‖En‖pérdida‖
+*OZ‖perdon	‖SI‖En‖perdón‖
+*OZ‖pezon	‖SI‖En‖pezón‖
+*OZ‖picua	‖SI‖En‖picúa‖
+*OZ‖picuas	‖SI‖En‖picúas‖
+*OZ‖policia	‖SI‖En‖policía‖
+*OZ‖policias	‖SI‖En‖policías‖
+*OZ‖politeista	‖SI‖En‖politeísta‖
+*OZ‖politeistas	‖SI‖En‖politeístas‖
+*OZ‖politeismo	‖SI‖En‖politeísmo‖
+*OZ‖politeismos	‖SI‖En‖politeísmos‖
+*OZ‖prologo	‖SI‖En‖prólogo‖
+*OZ‖prostata	‖SI‖En‖próstata‖
+*OZ‖pulmon	‖SI‖En‖pulmón‖
+
+*OZ‖raton	‖SI‖En‖ratón‖
+*OZ‖razon	‖SI‖En‖razón‖
+*OZ‖reaccion	‖SI‖En‖reacción‖
+*OZ‖region	‖SI‖En‖región‖
+*OZ‖religion	‖SI‖En‖religión‖
+*OZ‖reticulos	‖SI‖En‖retículos‖
+*OZ‖reticulo	‖SI‖En‖retículo‖
+*OZ‖riñon	‖SI‖En‖riñón‖
+
+*OZ‖salmon	‖SI‖En‖salmón‖
+*OZ‖sandwich	‖SI‖En‖sándwich‖
+*OZ‖sandwiches	‖SI‖En‖sándwiches‖
+*OZ‖sandvich	‖SI‖En‖sándvich‖
+*OZ‖sandviches	‖SI‖En‖sándviches‖
+*OZ‖sabados	‖SI‖En‖sábados‖
+*OZ‖sabado	‖SI‖En‖sábado‖
+*OZ‖sacadolares	‖SI‖En‖sacadólares‖
+*OZ‖sifilis	‖SI‖En‖sífilis‖
+*OZ‖silabas	‖SI‖En‖sílabas‖
+*OZ‖silaba	‖SI‖En‖sílaba‖
+*OZ‖simbolo	‖SI‖En‖símbolo‖
+*OZ‖simbolos	‖SI‖En‖símbolos‖
+*OZ‖sindromes	‖SI‖En‖síndromes‖
+*OZ‖sindrome	‖SI‖En‖síndrome‖
+*OZ‖sintomas	‖SI‖En‖síntomas‖
+*OZ‖sintoma	‖SI‖En‖síntoma‖
+*OZ‖sofas	‖SI‖En‖sofás
+*OZ‖sofa	‖SI‖En‖sofá‖
+*OZ‖sotanos	‖SI‖En‖sótanos‖
+*OZ‖sotano	‖SI‖En‖sótano‖
+*OZ‖subtitulos	‖SI‖En‖subtítulos‖
+*OZ‖subtitulo	‖SI‖En‖subtítulo‖
+*OZ‖superheroes	‖SI‖En‖superhéroes‖
+*OZ‖superheroe	‖SI‖En‖superhéroe‖
+
+*OZ‖tabu	‖SI‖En‖tabú‖
+*OZ‖tabues	‖SI‖En‖tabúes‖
+*OZ‖tabus	‖SI‖En‖tabús‖
+*OZ‖talero	‖SI‖En‖tálero‖
+*OZ‖talon	‖SI‖En‖talón‖
+*OZ‖te	‖SI‖En‖té‖
+*OZ‖tecnologo	‖SI‖En‖tecnólogo‖
+*OZ‖teismo	‖SI‖En‖teísmo‖
+*OZ‖teista	‖SI‖En‖teísta‖
+*OZ‖teistas	‖SI‖En‖teístas‖
+*OZ‖tentaculo	‖SI‖En‖tentáculo‖
+*OZ‖tentaculos	‖SI‖En‖tentáculos‖
+*OZ‖tes	‖SI‖En‖tés‖
+*OZ‖testiculo	‖SI‖En‖testículo‖
+*OZ‖tia	‖SI‖En‖tía‖
+*OZ‖tias	‖SI‖En‖tías‖
+*OZ‖tiburon	‖SI‖En‖tiburón‖
+*OZ‖timpano	‖SI‖En‖tímpano‖
+*OZ‖tio	‖SI‖En‖tío‖
+*OZ‖tios	‖SI‖En‖tíos‖
+*OZ‖tradicion	‖SI‖En‖tradición‖
+*OZ‖traicion	‖SI‖En‖traición‖
+*OZ‖traves	‖SI‖En‖través‖
+*OZ‖trebol	‖SI‖En‖trébol‖
+*OZ‖treboles	‖SI‖En‖tréboles‖
+
+*OZ‖utero	‖SI‖En‖útero‖
+
+*OZ‖vertigos	‖SI‖En‖vértigos‖
+*OZ‖vertigo	‖SI‖En‖vértigo‖
+*OZ‖vesicula	‖SI‖En‖vesícula‖
+
+*OZ‖xilofago	‖SI‖En‖xilófago‖
+*OZ‖xilofono	‖SI‖En‖xilófono‖
+
+
+;;;; -ería
+*OZ‖abaceria	‖SI‖En‖abacería‖
+*OZ‖abarroteria	‖SI‖En‖abarrotería‖
+*OZ‖aceria	‖SI‖En‖acería‖
+*OZ‖albañileria	‖SI‖En‖albañilería‖
+*OZ‖alcahueteria	‖SI‖En‖alcahuetería‖
+*OZ‖alfareria	‖SI‖En‖alfarería‖
+*OZ‖almidoneria	‖SI‖En‖almidonería‖
+*OZ‖altaneria	‖SI‖En‖altanería‖
+*OZ‖ancoreria	‖SI‖En‖ancorería‖
+*OZ‖andeneria	‖SI‖En‖andenería‖
+*OZ‖anticucheria	‖SI‖En‖anticuchería‖
+*OZ‖aparceria	‖SI‖En‖aparcería‖
+*OZ‖armeria	‖SI‖En‖armería‖
+*OZ‖arqueria	‖SI‖En‖arquería‖
+*OZ‖arrieria	‖SI‖En‖arriería‖
+*OZ‖arroceria	‖SI‖En‖arrocería‖
+*OZ‖arteria	‖SI‖En‖artería‖
+*OZ‖azulejeria	‖SI‖En‖azulejería‖
+
+*OZ‖balconeria	‖SI‖En‖balconería‖
+*OZ‖barberia	‖SI‖En‖barbería‖
+*OZ‖beateria	‖SI‖En‖beatería‖
+*OZ‖beberia	‖SI‖En‖bebería‖
+*OZ‖bellaqueria	‖SI‖En‖bellaquería‖
+*OZ‖boberia	‖SI‖En‖bobería‖
+*OZ‖bocadilleria	‖SI‖En‖bocadillería‖
+*OZ‖bocateria	‖SI‖En‖bocatería‖
+*OZ‖boleteria	‖SI‖En‖boletería‖
+*OZ‖bolleria	‖SI‖En‖bollería‖
+*OZ‖bomboneria	‖SI‖En‖bombonería‖
+*OZ‖borracheria	‖SI‖En‖borrachería‖
+*OZ‖botilleria	‖SI‖En‖botillería‖
+*OZ‖brujeria	‖SI‖En‖brujería‖
+*OZ‖burgueseria	‖SI‖En‖burguesería‖
+
+*OZ‖cabezoneria	‖SI‖En‖cabezonería‖
+*OZ‖cabuyeria	‖SI‖En‖cabuyería‖
+*OZ‖caceria	‖SI‖En‖cacería‖
+*OZ‖cafeteria	‖SI‖En‖cafetería‖
+*OZ‖camaraderia	‖SI‖En‖camaradería‖
+*OZ‖camiseria	‖SI‖En‖camisería‖
+*OZ‖cancilleria	‖SI‖En‖cancillería‖
+*OZ‖carinderia	‖SI‖En‖carindería‖
+*OZ‖carniceria	‖SI‖En‖carnicería‖
+*OZ‖carpinteria	‖SI‖En‖carpintería‖
+*OZ‖cañeria	‖SI‖En‖cañería‖
+*OZ‖cebicheria	‖SI‖En‖cebichería‖
+*OZ‖cerveceria	‖SI‖En‖cervecería‖
+*OZ‖cesteria	‖SI‖En‖cestería‖
+*OZ‖chabacaneria	‖SI‖En‖chabacanería‖
+*OZ‖charlataneria	‖SI‖En‖charlatanería‖
+*OZ‖chatarreria	‖SI‖En‖chatarrería‖
+*OZ‖chavaleria	‖SI‖En‖chavalería‖
+*OZ‖chinchorreria	‖SI‖En‖chinchorrería‖
+*OZ‖chingoneria	‖SI‖En‖chingonería‖
+*OZ‖chiquilleria	‖SI‖En‖chiquillería‖
+*OZ‖chiviteria	‖SI‖En‖chivitería‖
+*OZ‖chocolateria	‖SI‖En‖chocolatería‖
+*OZ‖chucheria	‖SI‖En‖chuchería‖
+*OZ‖chuleria	‖SI‖En‖chulería‖
+*OZ‖chuleteria	‖SI‖En‖chuletería‖
+*OZ‖churreria	‖SI‖En‖churrería‖
+*OZ‖circuiteria	‖SI‖En‖circuitería‖
+*OZ‖cockteleria	‖SI‖En‖cocktelería‖
+*OZ‖cocteleria	‖SI‖En‖coctelería‖
+*OZ‖coheteria	‖SI‖En‖cohetería‖
+*OZ‖conserjeria	‖SI‖En‖conserjería‖
+*OZ‖copisteria	‖SI‖En‖copistería‖
+*OZ‖cordeleria	‖SI‖En‖cordelería‖
+*OZ‖cresteria	‖SI‖En‖crestería‖
+*OZ‖cristaleria	‖SI‖En‖cristalería‖
+*OZ‖cruceria	‖SI‖En‖crucería‖
+*OZ‖cuberteria	‖SI‖En‖cubertería‖
+*OZ‖cuqueria	‖SI‖En‖cuquería‖
+*OZ‖cursileria	‖SI‖En‖cursilería‖
+
+*OZ‖destileria	‖SI‖En‖destilería‖
+*OZ‖drogueria	‖SI‖En‖droguería‖
+
+*OZ‖escuderia	‖SI‖En‖escudería‖
+*OZ‖estanterias	‖SI‖En‖estanterías‖
+*OZ‖estanteria	‖SI‖En‖estantería‖
+
+*OZ‖faisaneria	‖SI‖En‖faisanería‖
+*OZ‖ferreteria	‖SI‖En‖ferretería‖
+*OZ‖fiambreria	‖SI‖En‖fiambrería‖
+*OZ‖floreria	‖SI‖En‖florería‖
+*OZ‖floristeria	‖SI‖En‖floristería‖
+*OZ‖fruteria	‖SI‖En‖frutería‖
+*OZ‖funderia	‖SI‖En‖fundería‖
+
+*OZ‖galanteria	‖SI‖En‖galantería‖
+*OZ‖galleteria	‖SI‖En‖galletería‖
+*OZ‖ganaderia	‖SI‖En‖ganadería‖
+*OZ‖garroteria	‖SI‖En‖garrotería‖
+*OZ‖gasolineria	‖SI‖En‖gasolinería‖
+*OZ‖gazmoñeria	‖SI‖En‖gazmoñería‖
+*OZ‖gelateria	‖SI‖En‖gelatería‖
+*OZ‖glotoneria	‖SI‖En‖glotonería‖
+*OZ‖griteria	‖SI‖En‖gritería‖
+*OZ‖guarderia	‖SI‖En‖guardería‖
+*OZ‖guerreria	‖SI‖En‖guerrería‖
+*OZ‖guisqueria	‖SI‖En‖güisquería‖
+*OZ‖güisqueria	‖SI‖En‖güisquería‖
+
+*OZ‖hamburgueseria	‖SI‖En‖hamburguesería‖
+*OZ‖haraganeria	‖SI‖En‖haraganería‖
+*OZ‖hechiceria	‖SI‖En‖hechicería‖
+*OZ‖heladeria	‖SI‖En‖heladería‖
+*OZ‖herreria	‖SI‖En‖herrería‖
+*OZ‖hilanderia	‖SI‖En‖hilandería‖
+*OZ‖holgazaneria	‖SI‖En‖holgazanería‖
+*OZ‖horchateria	‖SI‖En‖horchatería‖
+*OZ‖hosteleria	‖SI‖En‖hostelería‖
+*OZ‖hueveria	‖SI‖En‖huevería‖
+
+*OZ‖jaboneria	‖SI‖En‖jabonería‖
+*OZ‖jardineria	‖SI‖En‖jardinería‖
+*OZ‖jorguineria	‖SI‖En‖jorguinería‖
+*OZ‖joteria	‖SI‖En‖jotería‖
+*OZ‖joyeria	‖SI‖En‖joyería‖
+*OZ‖jugueria	‖SI‖En‖juguería‖
+*OZ‖jugueteria	‖SI‖En‖juguetería‖
+
+*OZ‖lecheria	‖SI‖En‖lechería‖
+*OZ‖libreria	‖SI‖En‖librería‖
+*OZ‖lloreria	‖SI‖En‖llorería‖
+*OZ‖loncheria	‖SI‖En‖lonchería‖
+
+*OZ‖malsineria	‖SI‖En‖malsinería‖
+*OZ‖mariconeria	‖SI‖En‖mariconería‖
+*OZ‖marisqueria	‖SI‖En‖marisquería‖
+*OZ‖matoneria	‖SI‖En‖matonería‖
+*OZ‖medianeria	‖SI‖En‖medianería‖
+*OZ‖mensajeria	‖SI‖En‖mensajería‖
+*OZ‖metalisteria	‖SI‖En‖metalistería‖
+*OZ‖mezcaleria	‖SI‖En‖mezcalería‖
+*OZ‖mojigateria	‖SI‖En‖mojigatería‖
+*OZ‖moneria	‖SI‖En‖monería‖
+*OZ‖monjeria	‖SI‖En‖monjería‖
+*OZ‖monteria	‖SI‖En‖montería‖
+
+*OZ‖naderia	‖SI‖En‖nadería‖
+*OZ‖neveria	‖SI‖En‖nevería‖
+
+*OZ‖orfebreria	‖SI‖En‖orfebrería‖
+*OZ‖ostioneria	‖SI‖En‖ostionería‖
+*OZ‖ostreria	‖SI‖En‖ostrería‖
+
+*OZ‖palabreria	‖SI‖En‖palabrería‖
+*OZ‖panaderia	‖SI‖En‖panadería‖
+*OZ‖pancheria	‖SI‖En‖panchería‖
+*OZ‖panciteria	‖SI‖En‖pancitería‖
+*OZ‖paneleria	‖SI‖En‖panelería‖
+*OZ‖panquequeria	‖SI‖En‖panquequería‖
+*OZ‖papeleria	‖SI‖En‖papelería‖
+*OZ‖pasteleria	‖SI‖En‖pastelería‖
+*OZ‖pañoleria	‖SI‖En‖pañolería‖
+*OZ‖pedigueñeria	‖SI‖En‖pedigüeñería‖
+*OZ‖pedigüeñeria	‖SI‖En‖pedigüeñería‖
+*OZ‖peluqueria	‖SI‖En‖peluquería‖
+*OZ‖perfumeria	‖SI‖En‖perfumería‖
+*OZ‖personeria	‖SI‖En‖personería‖
+*OZ‖pescaderia	‖SI‖En‖pescadería‖
+*OZ‖picanteria	‖SI‖En‖picantería‖
+*OZ‖pijeria	‖SI‖En‖pijería‖
+*OZ‖pilleria	‖SI‖En‖pillería‖
+*OZ‖pirateria	‖SI‖En‖piratería‖
+*OZ‖pizzeria	‖SI‖En‖pizzería‖
+*OZ‖polleria	‖SI‖En‖pollería‖
+*OZ‖porqueria	‖SI‖En‖porquería‖
+*OZ‖porquerias	‖SI‖En‖porquerías‖
+*OZ‖pozoleria	‖SI‖En‖pozolería‖
+*OZ‖prenderia	‖SI‖En‖prendería‖
+*OZ‖prestamos	‖SI‖En‖préstamos‖
+*OZ‖prestamo	‖SI‖En‖préstamo‖
+*OZ‖pulperia	‖SI‖En‖pulpería‖
+*OZ‖pulqueria	‖SI‖En‖pulquería‖
+
+*OZ‖queseria	‖SI‖En‖quesería‖
+*OZ‖quijoteria	‖SI‖En‖quijotería‖
+*OZ‖quincalleria	‖SI‖En‖quincallería‖
+
+*OZ‖rancheria	‖SI‖En‖ranchería‖
+*OZ‖refineria	‖SI‖En‖refinería‖
+*OZ‖rejeria	‖SI‖En‖rejería‖
+*OZ‖relojeria	‖SI‖En‖relojería‖
+
+*OZ‖saladeria	‖SI‖En‖saladería‖
+*OZ‖salchichoneria	‖SI‖En‖salchichonería‖
+*OZ‖sandvicheria	‖SI‖En‖sandvichería‖
+*OZ‖sandwicheria	‖SI‖En‖sandwichería‖
+*OZ‖santurroneria	‖SI‖En‖santurronería‖
+*OZ‖sastreria	‖SI‖En‖sastrería‖
+*OZ‖semilleria	‖SI‖En‖semillería‖
+*OZ‖sensibleria	‖SI‖En‖sensiblería‖
+*OZ‖serreria	‖SI‖En‖serrería‖
+*OZ‖sidreria	‖SI‖En‖sidrería‖
+*OZ‖sinvergonzoneria	‖SI‖En‖sinvergonzonería‖
+*OZ‖sinverguenceria	‖SI‖En‖sinvergüencería‖
+*OZ‖sinvergüenceria	‖SI‖En‖sinvergüencería‖
+*OZ‖socarroneria	‖SI‖En‖socarronería‖
+*OZ‖soleria	‖SI‖En‖solería‖
+*OZ‖sombrereria	‖SI‖En‖sombrerería‖
+*OZ‖sorbeteria	‖SI‖En‖sorbetería‖
+
+*OZ‖tabaqueria	‖SI‖En‖tabaquería‖
+*OZ‖tableria	‖SI‖En‖tablería‖
+*OZ‖tacañeria	‖SI‖En‖tacañería‖
+*OZ‖tamaleria	‖SI‖En‖tamalería‖
+*OZ‖tapiceria	‖SI‖En‖tapicería‖
+*OZ‖taqueria	‖SI‖En‖taquería‖
+*OZ‖tejeria	‖SI‖En‖tejería‖
+*OZ‖tequileria	‖SI‖En‖tequilería‖
+*OZ‖tesoreria	‖SI‖En‖tesorería‖
+*OZ‖teteria	‖SI‖En‖tetería‖
+*OZ‖tinajeria	‖SI‖En‖tinajería‖
+*OZ‖tintoreria	‖SI‖En‖tintorería‖
+*OZ‖tiperia	‖SI‖En‖tipería‖
+*OZ‖tlapaleria	‖SI‖En‖tlapalería‖
+*OZ‖tocineria	‖SI‖En‖tocinería‖
+*OZ‖toleteria	‖SI‖En‖toletería‖
+*OZ‖toneleria	‖SI‖En‖tonelería‖
+*OZ‖tonteria	‖SI‖En‖tontería‖
+*OZ‖torteria	‖SI‖En‖tortería‖
+*OZ‖tortilleria	‖SI‖En‖tortillería‖
+*OZ‖totoposteria	‖SI‖En‖totopostería‖
+*OZ‖tramposeria	‖SI‖En‖tramposería‖
+
+*OZ‖utileria	‖SI‖En‖utilería‖
+
+*OZ‖vaqueria	‖SI‖En‖vaquería‖
+*OZ‖vhiskeria	‖SI‖En‖vhiskería‖
+*OZ‖vidrieria	‖SI‖En‖vidriería‖
+*OZ‖vigueria	‖SI‖En‖viguería‖
+
+*OZ‖whiskeria	‖SI‖En‖whiskería‖
+
+*OZ‖yeseria	‖SI‖En‖yesería‖
+*OZ‖yogureria	‖SI‖En‖yogurería‖
+*OZ‖yogurteria	‖SI‖En‖yogurtería‖
+
+*OZ‖zalameria	‖SI‖En‖zalamería‖
+*OZ‖zapateria	‖SI‖En‖zapatería‖
+
+;;;; -ía
+*OZ‖albardoneria	‖SI‖En‖albardonería‖
+*OZ‖alcaldia	‖SI‖En‖alcaldía‖
+*OZ‖alegria	‖SI‖En‖alegría‖
+*OZ‖alevosia	‖SI‖En‖alevosía‖
+*OZ‖alevosias	‖SI‖En‖alevosías‖
+*OZ‖artesania	‖SI‖En‖artesanía‖
+*OZ‖asesoria	‖SI‖En‖asesoría‖
+*OZ‖auditoria	‖SI‖En‖auditoría‖
+*OZ‖autoria	‖SI‖En‖autoría‖
+*OZ‖ayudantia	‖SI‖En‖ayudantía‖
+
+*OZ‖barquia	‖SI‖En‖barquía‖
+
+*OZ‖caballeria	‖SI‖En‖caballería‖
+*OZ‖canteria	‖SI‖En‖cantería‖
+*OZ‖capellania	‖SI‖En‖capellanía‖
+*OZ‖capitania	‖SI‖En‖capitanía‖
+*OZ‖celiaquia	‖SI‖En‖celiaquía‖
+*OZ‖cercania	‖SI‖En‖cercanía‖
+*OZ‖cesantia	‖SI‖En‖cesantía‖
+*OZ‖chapuceria	‖SI‖En‖chapucería‖
+*OZ‖cinematografia	‖SI‖En‖cinematografía‖
+*OZ‖ciudadania	‖SI‖En‖ciudadanía‖
+*OZ‖cobardia	‖SI‖En‖cobardía‖
+*OZ‖cofradia	‖SI‖En‖cofradía‖
+*OZ‖colostomia	‖SI‖En‖colostomía‖
+*OZ‖compañias	‖SI‖En‖compañías‖
+*OZ‖compañia	‖SI‖En‖compañía‖
+*OZ‖concejalia	‖SI‖En‖concejalía‖
+*OZ‖confiteria	‖SI‖En‖confitería‖
+*OZ‖contraloria	‖SI‖En‖contraloría‖
+*OZ‖cortesania	‖SI‖En‖cortesanía‖
+*OZ‖cortesia	‖SI‖En‖cortesía‖
+*OZ‖cortesias	‖SI‖En‖cortesías‖
+*OZ‖cuantia	‖SI‖En‖cuantía‖
+*OZ‖curaduria	‖SI‖En‖curaduría‖
+*OZ‖curtiduria	‖SI‖En‖curtiduría‖
+
+*OZ‖demasia	‖SI‖En‖demasía‖
+*OZ‖descortesias	‖SI‖En‖descortesías‖
+*OZ‖descortesia	‖SI‖En‖descortesía‖
+*OZ‖diploidia	‖SI‖En‖diploidía‖
+*OZ‖dulceria	‖SI‖En‖dulcería‖
+
+*OZ‖epigrafia	‖SI‖En‖epigrafía‖
+*OZ‖escolania	‖SI‖En‖escolanía‖
+*OZ‖escribania	‖SI‖En‖escribanía‖
+*OZ‖etimologia	‖SI‖En‖etimología‖
+
+*OZ‖fiscalia	‖SI‖En‖fiscalía‖
+
+*OZ‖gañania	‖SI‖En‖gañanía‖
+*OZ‖geriatria	‖SI‖En‖geriatría‖
+*OZ‖groserias	‖SI‖En‖groserías‖
+*OZ‖groseria	‖SI‖En‖grosería‖
+*OZ‖guardiania	‖SI‖En‖guardianía‖
+
+*OZ‖habladuria	‖SI‖En‖habladuría‖
+*OZ‖haploidia	‖SI‖En‖haploidía‖
+*OZ‖hemeralopia	‖SI‖En‖hemeralopía‖
+*OZ‖hidalguia	‖SI‖En‖hidalguía‖
+*OZ‖hidroponia	‖SI‖En‖hidroponía‖
+*OZ‖hipocondria	‖SI‖En‖hipocondría‖
+*OZ‖hipsometria	‖SI‖En‖hipsometría‖
+*OZ‖hipocresia	‖SI‖En‖hipocresía‖
+*OZ‖hipocresias	‖SI‖En‖hipocresías‖
+
+*OZ‖lectoria	‖SI‖En‖lectoría‖
+
+*OZ‖maestria	‖SI‖En‖maestría‖
+*OZ‖majaderia	‖SI‖En‖majadería‖
+*OZ‖marineria	‖SI‖En‖marinería‖
+*OZ‖mayordomia	‖SI‖En‖mayordomía‖
+*OZ‖mayoria	‖SI‖En‖mayoría‖
+*OZ‖mediania	‖SI‖En‖medianía‖
+*OZ‖mejoria	‖SI‖En‖mejoría‖
+*OZ‖membresia	‖SI‖En‖membresía‖
+*OZ‖mercaderia	‖SI‖En‖mercadería‖
+
+*OZ‖osadia	‖SI‖En‖osadía‖
+
+*OZ‖pasantia	‖SI‖En‖pasantía‖
+*OZ‖pediatria	‖SI‖En‖pediatría‖
+*OZ‖penitenciaria	‖SI‖En‖penitenciaría‖
+*OZ‖picardia	‖SI‖En‖picardía‖
+*OZ‖poliploidia	‖SI‖En‖poliploidía‖
+*OZ‖pornografia	‖SI‖En‖pornografía‖
+*OZ‖portavocia	‖SI‖En‖portavocía‖
+*OZ‖procuraduria	‖SI‖En‖procuraduría‖
+*OZ‖protectoria	‖SI‖En‖protectoría‖
+*OZ‖psiquiatria	‖SI‖En‖psiquiatría‖
+*OZ‖putañeria	‖SI‖En‖putañería‖
+*OZ‖putañerias	‖SI‖En‖putañerías‖
+
+*OZ‖rateria	‖SI‖En‖ratería‖
+*OZ‖rebeldia	‖SI‖En‖rebeldía‖
+*OZ‖rectoria	‖SI‖En‖rectoría‖
+*OZ‖recamaras	‖SI‖En‖recámaras‖
+*OZ‖recamara	‖SI‖En‖recámara‖
+*OZ‖romeria	‖SI‖En‖romería‖
+
+*OZ‖sabiduria	‖SI‖En‖sabiduría‖
+*OZ‖sangria	‖SI‖En‖sangría‖
+*OZ‖santeria	‖SI‖En‖santería‖
+*OZ‖secretaria	‖SI‖En‖secretaría‖
+*OZ‖serrania	‖SI‖En‖serranía‖
+*OZ‖señoria	‖SI‖En‖señoría‖
+*OZ‖soberania	‖SI‖En‖soberanía‖
+*OZ‖solteria	‖SI‖En‖soltería‖
+*OZ‖subprocuraduria	‖SI‖En‖subprocuraduría‖
+
+*OZ‖tejeduria	‖SI‖En‖tejeduría‖
+*OZ‖telefonia	‖SI‖En‖telefonía‖
+*OZ‖tirania	‖SI‖En‖tiranía‖
+*OZ‖tutoria	‖SI‖En‖tutoría‖
+
+*OZ‖valentia	‖SI‖En‖valentía‖
+*OZ‖valia	‖SI‖En‖valía‖
+*OZ‖villania	‖SI‖En‖villanía‖
+*OZ‖vocalia	‖SI‖En‖vocalía‖
+
+;;;; -ón
+*OZ‖abejarron	‖SI‖En‖abejarrón‖
+*OZ‖abejon	‖SI‖En‖abejón‖
+*OZ‖aborton	‖SI‖En‖abortón‖
+*OZ‖aceleron	‖SI‖En‖acelerón‖
+*OZ‖achuchon	‖SI‖En‖achuchón‖
+*OZ‖actrizon	‖SI‖En‖actrizón‖
+*OZ‖adulon	‖SI‖En‖adulón‖
+*OZ‖agarron	‖SI‖En‖agarrón‖
+*OZ‖aguilon	‖SI‖En‖aguilón‖
+*OZ‖agujon	‖SI‖En‖agujón‖
+*OZ‖albardon	‖SI‖En‖albardón‖
+*OZ‖alcedon	‖SI‖En‖alcedón‖
+*OZ‖aldabon	‖SI‖En‖aldabón‖
+*OZ‖alegron	‖SI‖En‖alegrón‖
+*OZ‖almendron	‖SI‖En‖almendrón‖
+*OZ‖almohadon	‖SI‖En‖almohadón‖
+*OZ‖alverjon	‖SI‖En‖alverjón‖
+*OZ‖antañon	‖SI‖En‖antañón‖
+*OZ‖apagon	‖SI‖En‖apagón‖
+*OZ‖apreton	‖SI‖En‖apretón‖
+*OZ‖apretujon	‖SI‖En‖apretujón‖
+*OZ‖aprovechon	‖SI‖En‖aprovechón‖
+*OZ‖arañon	‖SI‖En‖arañón‖
+*OZ‖arcon	‖SI‖En‖arcón‖
+*OZ‖argon	‖SI‖En‖argón‖
+*OZ‖arrancon	‖SI‖En‖arrancón‖
+*OZ‖arreon	‖SI‖En‖arreón‖
+*OZ‖arvejon	‖SI‖En‖arvejón‖
+*OZ‖asnejon	‖SI‖En‖asnejón‖
+*OZ‖asperon	‖SI‖En‖asperón‖
+*OZ‖atracon	‖SI‖En‖atracón‖
+*OZ‖aventon	‖SI‖En‖aventón‖
+*OZ‖avispon	‖SI‖En‖avispón‖
+*OZ‖azadon	‖SI‖En‖azadón‖
+
+*OZ‖bailon	‖SI‖En‖bailón‖
+*OZ‖bajon	‖SI‖En‖bajón‖
+*OZ‖balon	‖SI‖En‖balón‖
+*OZ‖bandejon	‖SI‖En‖bandejón‖
+*OZ‖banderon	‖SI‖En‖banderón‖
+*OZ‖barbon	‖SI‖En‖barbón‖
+*OZ‖barracon	‖SI‖En‖barracón‖
+*OZ‖barrigon	‖SI‖En‖barrigón‖
+*OZ‖barron	‖SI‖En‖barrón‖
+*OZ‖baton	‖SI‖En‖batón‖
+*OZ‖beberron	‖SI‖En‖beberrón‖
+*OZ‖bellezon	‖SI‖En‖bellezón‖
+*OZ‖bestion	‖SI‖En‖bestión‖
+*OZ‖bigoton	‖SI‖En‖bigotón‖
+*OZ‖bluson	‖SI‖En‖blusón‖
+*OZ‖bobalicon	‖SI‖En‖bobalicón‖
+*OZ‖bocon	‖SI‖En‖bocón‖
+*OZ‖bodegon	‖SI‖En‖bodegón‖
+*OZ‖bofeton	‖SI‖En‖bofetón‖
+*OZ‖bolson	‖SI‖En‖bolsón‖
+*OZ‖borlon	‖SI‖En‖borlón‖
+*OZ‖borrachon	‖SI‖En‖borrachón‖
+*OZ‖borron	‖SI‖En‖borrón‖
+*OZ‖botellon	‖SI‖En‖botellón‖
+*OZ‖bravucon	‖SI‖En‖bravucón‖
+*OZ‖bribon	‖SI‖En‖bribón‖
+*OZ‖bridon	‖SI‖En‖bridón‖
+*OZ‖buchon	‖SI‖En‖buchón‖
+*OZ‖buenon	‖SI‖En‖buenón‖
+*OZ‖buitron	‖SI‖En‖buitrón‖
+*OZ‖burlon	‖SI‖En‖burlón‖
+*OZ‖buscon	‖SI‖En‖buscón‖
+*OZ‖butacon	‖SI‖En‖butacón‖
+
+*OZ‖cabezon	‖SI‖En‖cabezón‖
+*OZ‖cacheton	‖SI‖En‖cachetón‖
+*OZ‖cagon	‖SI‖En‖cagón‖
+*OZ‖cajon	‖SI‖En‖cajón‖
+*OZ‖calderon	‖SI‖En‖calderón‖
+*OZ‖calenton	‖SI‖En‖calentón‖
+*OZ‖callejon	‖SI‖En‖callejón‖
+*OZ‖camellon	‖SI‖En‖camellón‖
+*OZ‖camison	‖SI‖En‖camisón‖
+*OZ‖canalon	‖SI‖En‖canalón‖
+*OZ‖canchon	‖SI‖En‖canchón‖
+*OZ‖canson	‖SI‖En‖cansón‖
+*OZ‖canton	‖SI‖En‖cantón‖
+*OZ‖caparazon	‖SI‖En‖caparazón‖
+*OZ‖caparron	‖SI‖En‖caparrón‖
+*OZ‖capuchon	‖SI‖En‖capuchón‖
+*OZ‖carreron	‖SI‖En‖carrerón‖
+*OZ‖cartelon	‖SI‖En‖cartelón‖
+*OZ‖carton	‖SI‖En‖cartón‖
+*OZ‖cascaron	‖SI‖En‖cascarón‖
+*OZ‖cason	‖SI‖En‖casón‖
+*OZ‖casoplon	‖SI‖En‖casoplón‖
+*OZ‖cazon	‖SI‖En‖cazón‖
+*OZ‖cañamon	‖SI‖En‖cañamón‖
+*OZ‖cañon	‖SI‖En‖cañón‖
+*OZ‖cedron	‖SI‖En‖cedrón‖
+*OZ‖cejon	‖SI‖En‖cejón‖
+*OZ‖ceston	‖SI‖En‖cestón‖
+*OZ‖chambon	‖SI‖En‖chambón‖
+*OZ‖chancon	‖SI‖En‖chancón‖
+*OZ‖chapon	‖SI‖En‖chapón‖
+*OZ‖chaqueton	‖SI‖En‖chaquetón‖
+*OZ‖charangon	‖SI‖En‖charangón‖
+*OZ‖chicharron	‖SI‖En‖chicharrón‖
+*OZ‖chillon	‖SI‖En‖chillón‖
+*OZ‖chingon	‖SI‖En‖chingón‖
+*OZ‖chirrion	‖SI‖En‖chirrión‖
+*OZ‖choloton	‖SI‖En‖cholotón‖
+*OZ‖chuleton	‖SI‖En‖chuletón‖
+*OZ‖chupeton	‖SI‖En‖chupetón‖
+*OZ‖chupon	‖SI‖En‖chupón‖
+*OZ‖cincuenton	‖SI‖En‖cincuentón‖
+*OZ‖cinturon	‖SI‖En‖cinturón‖
+*OZ‖cobardon	‖SI‖En‖cobardón‖
+*OZ‖cocheron	‖SI‖En‖cocherón‖
+*OZ‖coheton	‖SI‖En‖cohetón‖
+*OZ‖colchon	‖SI‖En‖colchón‖
+*OZ‖coleron	‖SI‖En‖colerón‖
+*OZ‖colmadon	‖SI‖En‖colmadón‖
+*OZ‖colocon	‖SI‖En‖colocón‖
+*OZ‖comadron	‖SI‖En‖comadrón‖
+*OZ‖coñon	‖SI‖En‖coñón‖
+*OZ‖copion	‖SI‖En‖copión‖
+*OZ‖copon	‖SI‖En‖copón‖
+*OZ‖corpachon	‖SI‖En‖corpachón‖
+*OZ‖corralon	‖SI‖En‖corralón‖
+*OZ‖cortinon	‖SI‖En‖cortinón‖
+*OZ‖criticon	‖SI‖En‖criticón‖
+*OZ‖cronicon	‖SI‖En‖cronicón‖
+*OZ‖cuarenton	‖SI‖En‖cuarentón‖
+*OZ‖cuarteron	‖SI‖En‖cuarterón‖
+*OZ‖cucarachon	‖SI‖En‖cucarachón‖
+*OZ‖cucharon	‖SI‖En‖cucharón‖
+*OZ‖cuchillon	‖SI‖En‖cuchillón‖
+*OZ‖culebron	‖SI‖En‖culebrón‖
+*OZ‖culon	‖SI‖En‖culón‖
+*OZ‖cursilon	‖SI‖En‖cursilón‖
+*OZ‖curvon	‖SI‖En‖curvón‖
+*OZ‖cutron	‖SI‖En‖cutrón‖
+
+*OZ‖danzon	‖SI‖En‖danzón‖
+*OZ‖destrozon	‖SI‖En‖destrozón‖
+*OZ‖discotecon	‖SI‖En‖discotecón‖
+*OZ‖dramon	‖SI‖En‖dramón‖
+*OZ‖dulzon	‖SI‖En‖dulzón‖
+
+*OZ‖embrollon	‖SI‖En‖embrollón‖
+*OZ‖empellon	‖SI‖En‖empellón‖
+*OZ‖empollon	‖SI‖En‖empollón‖
+*OZ‖empujon	‖SI‖En‖empujón‖
+*OZ‖encontron	‖SI‖En‖encontrón‖
+*OZ‖enganchon	‖SI‖En‖enganchón‖
+*OZ‖envion	‖SI‖En‖envión‖
+*OZ‖equipon	‖SI‖En‖equipón‖
+*OZ‖escalon	‖SI‖En‖escalón‖
+*OZ‖escobon	‖SI‖En‖escobón‖
+*OZ‖escuadron	‖SI‖En‖escuadrón‖
+*OZ‖espadon	‖SI‖En‖espadón‖
+*OZ‖espaldon	‖SI‖En‖espaldón‖
+*OZ‖espigon	‖SI‖En‖espigón‖
+*OZ‖espolon	‖SI‖En‖espolón‖
+*OZ‖esquilon	‖SI‖En‖esquilón‖
+*OZ‖estacon	‖SI‖En‖estacón‖
+*OZ‖estrellon	‖SI‖En‖estrellón‖
+*OZ‖estremezon	‖SI‖En‖estremezón‖
+*OZ‖estrujon	‖SI‖En‖estrujón‖
+
+*OZ‖facilon	‖SI‖En‖facilón‖
+*OZ‖facon	‖SI‖En‖facón‖
+*OZ‖faldon	‖SI‖En‖faldón‖
+*OZ‖falton	‖SI‖En‖faltón‖
+*OZ‖fantasmon	‖SI‖En‖fantasmón‖
+*OZ‖fardon	‖SI‖En‖fardón‖
+*OZ‖fieston	‖SI‖En‖fiestón‖
+*OZ‖figuron	‖SI‖En‖figurón‖
+*OZ‖fisgon	‖SI‖En‖fisgón‖
+*OZ‖fortachon	‖SI‖En‖fortachón‖
+*OZ‖foton	‖SI‖En‖fotón‖
+*OZ‖fregon	‖SI‖En‖fregón‖
+*OZ‖freson	‖SI‖En‖fresón‖
+*OZ‖fronton	‖SI‖En‖frontón‖
+*OZ‖fumon	‖SI‖En‖fumón‖
+
+*OZ‖galeron	‖SI‖En‖galerón‖
+*OZ‖gambon	‖SI‖En‖gambón‖
+*OZ‖gariton	‖SI‖En‖garitón‖
+*OZ‖garrafon	‖SI‖En‖garrafón‖
+*OZ‖gazapon	‖SI‖En‖gazapón‖
+*OZ‖giganton	‖SI‖En‖gigantón‖
+*OZ‖gorron	‖SI‖En‖gorrón‖
+*OZ‖goteron	‖SI‖En‖goterón‖
+*OZ‖grandon	‖SI‖En‖grandón‖
+*OZ‖grandullon	‖SI‖En‖grandullón‖
+*OZ‖griton	‖SI‖En‖gritón‖
+*OZ‖gruñon	‖SI‖En‖gruñón‖
+*OZ‖guarron	‖SI‖En‖guarrón‖
+*OZ‖guason	‖SI‖En‖guasón‖
+*OZ‖guaton	‖SI‖En‖guatón‖
+*OZ‖guitarron	‖SI‖En‖guitarrón‖
+
+*OZ‖habon	‖SI‖En‖habón‖
+*OZ‖hachon	‖SI‖En‖hachón‖
+*OZ‖hadron	‖SI‖En‖hadrón‖
+*OZ‖hampon	‖SI‖En‖hampón‖
+*OZ‖hocicon	‖SI‖En‖hocicón‖
+*OZ‖hombreton	‖SI‖En‖hombretón‖
+*OZ‖hombron	‖SI‖En‖hombrón‖
+*OZ‖hondon	‖SI‖En‖hondón‖
+*OZ‖horcon	‖SI‖En‖horcón‖
+*OZ‖hormigon	‖SI‖En‖hormigón‖
+*OZ‖huevon	‖SI‖En‖huevón‖
+*OZ‖hurgon	‖SI‖En‖hurgón‖
+
+*OZ‖inocenton	‖SI‖En‖inocentón‖
+
+*OZ‖jalon	‖SI‖En‖jalón‖
+*OZ‖jaqueton	‖SI‖En‖jaquetón‖
+*OZ‖jarron	‖SI‖En‖jarrón‖
+*OZ‖jergon	‖SI‖En‖jergón‖
+*OZ‖jodon	‖SI‖En‖jodón‖
+*OZ‖judion	‖SI‖En‖judión‖
+*OZ‖jugon	‖SI‖En‖jugón‖
+
+*OZ‖lacon	‖SI‖En‖lacón‖
+*OZ‖lagarton	‖SI‖En‖lagartón‖
+*OZ‖lagrimon	‖SI‖En‖lagrimón‖
+*OZ‖lambon	‖SI‖En‖lambón‖
+*OZ‖lamparon	‖SI‖En‖lamparón‖
+*OZ‖lanchon	‖SI‖En‖lanchón‖
+*OZ‖lanzon	‖SI‖En‖lanzón‖
+*OZ‖lebraston	‖SI‖En‖lebrastón‖
+*OZ‖lechon	‖SI‖En‖lechón‖
+*OZ‖ligon	‖SI‖En‖ligón‖
+*OZ‖linon	‖SI‖En‖linón‖
+*OZ‖liston	‖SI‖En‖listón‖
+*OZ‖lloron	‖SI‖En‖llorón‖
+*OZ‖locuron	‖SI‖En‖locurón‖
+
+*OZ‖macarron	‖SI‖En‖macarrón‖
+*OZ‖machacon	‖SI‖En‖machacón‖
+*OZ‖machon	‖SI‖En‖machón‖
+*OZ‖machucon	‖SI‖En‖machucón‖
+*OZ‖mamanton	‖SI‖En‖mamantón‖
+*OZ‖mamon	‖SI‖En‖mamón‖
+*OZ‖manchon	‖SI‖En‖manchón‖
+*OZ‖mandon	‖SI‖En‖mandón‖
+*OZ‖manoton	‖SI‖En‖manotón‖
+*OZ‖manton	‖SI‖En‖mantón‖
+*OZ‖marañon	‖SI‖En‖marañón‖
+*OZ‖maricon	‖SI‖En‖maricón‖
+*OZ‖mariposon	‖SI‖En‖mariposón‖
+*OZ‖mascaron	‖SI‖En‖mascarón‖
+*OZ‖maton	‖SI‖En‖matón‖
+*OZ‖mechon	‖SI‖En‖mechón‖
+*OZ‖medallon	‖SI‖En‖medallón‖
+*OZ‖meon	‖SI‖En‖meón‖
+*OZ‖meson	‖SI‖En‖mesón‖
+*OZ‖migajon	‖SI‖En‖migajón‖
+*OZ‖miron	‖SI‖En‖mirón‖
+*OZ‖molon	‖SI‖En‖molón‖
+*OZ‖monton	‖SI‖En‖montón‖
+*OZ‖moraton	‖SI‖En‖moratón‖
+*OZ‖morcillon	‖SI‖En‖morcillón‖
+*OZ‖mordiscon	‖SI‖En‖mordiscón‖
+*OZ‖morron	‖SI‖En‖morrón‖
+*OZ‖moscardon	‖SI‖En‖moscardón‖
+*OZ‖moscon	‖SI‖En‖moscón‖
+*OZ‖mosqueton	‖SI‖En‖mosquetón‖
+*OZ‖muchachon	‖SI‖En‖muchachón‖
+*OZ‖mujeron	‖SI‖En‖mujerón‖
+*OZ‖murallon	‖SI‖En‖murallón‖
+*OZ‖murgon	‖SI‖En‖murgón‖
+
+*OZ‖nalgon	‖SI‖En‖nalgón‖
+*OZ‖narizon	‖SI‖En‖narizón‖
+*OZ‖neon	‖SI‖En‖neón‖
+*OZ‖novelon	‖SI‖En‖novelón‖
+*OZ‖nubarron	‖SI‖En‖nubarrón‖
+
+*OZ‖oferton	‖SI‖En‖ofertón‖
+*OZ‖ojon	‖SI‖En‖ojón‖
+*OZ‖orejon	‖SI‖En‖orejón‖
+
+*OZ‖pachucon	‖SI‖En‖pachucón‖
+*OZ‖padron	‖SI‖En‖padrón‖
+*OZ‖paleton	‖SI‖En‖paletón‖
+*OZ‖palizon	‖SI‖En‖palizón‖
+*OZ‖panzon	‖SI‖En‖panzón‖
+*OZ‖papelon	‖SI‖En‖papelón‖
+*OZ‖paqueton	‖SI‖En‖paquetón‖
+*OZ‖paradon	‖SI‖En‖paradón‖
+*OZ‖paration	‖SI‖En‖paratión‖
+*OZ‖paredon	‖SI‖En‖paredón‖
+*OZ‖paron	‖SI‖En‖parón‖
+*OZ‖paston	‖SI‖En‖pastón‖
+*OZ‖patacon	‖SI‖En‖patacón‖
+*OZ‖patadon	‖SI‖En‖patadón‖
+*OZ‖paton	‖SI‖En‖patón‖
+*OZ‖pañolon	‖SI‖En‖pañolón‖
+*OZ‖pechugon	‖SI‖En‖pechugón‖
+*OZ‖peleon	‖SI‖En‖peleón‖
+*OZ‖peliculon	‖SI‖En‖peliculón‖
+*OZ‖pelon	‖SI‖En‖pelón‖
+*OZ‖pelucon	‖SI‖En‖pelucón‖
+*OZ‖pendejon	‖SI‖En‖pendejón‖
+*OZ‖perdigon	‖SI‖En‖perdigón‖
+*OZ‖pescozon	‖SI‖En‖pescozón‖
+*OZ‖peñon	‖SI‖En‖peñón‖
+*OZ‖pibon	‖SI‖En‖pibón‖
+*OZ‖picaron	‖SI‖En‖picarón‖
+*OZ‖piernon	‖SI‖En‖piernón‖
+*OZ‖pillastron	‖SI‖En‖pillastrón‖
+*OZ‖pilon	‖SI‖En‖pilón‖
+*OZ‖pimenton	‖SI‖En‖pimentón‖
+*OZ‖pinzon	‖SI‖En‖pinzón‖
+*OZ‖pipon	‖SI‖En‖pipón‖
+*OZ‖pisoton	‖SI‖En‖pisotón‖
+*OZ‖pizarron	‖SI‖En‖pizarrón‖
+*OZ‖piñon	‖SI‖En‖piñón‖
+*OZ‖planillon	‖SI‖En‖planillón‖
+*OZ‖platicon	‖SI‖En‖platicón‖
+*OZ‖platon	‖SI‖En‖platón‖
+*OZ‖playon	‖SI‖En‖playón‖
+*OZ‖plumon	‖SI‖En‖plumón‖
+*OZ‖pobreton	‖SI‖En‖pobretón‖
+*OZ‖pollon	‖SI‖En‖pollón‖
+*OZ‖polvoron	‖SI‖En‖polvorón‖
+*OZ‖portalon	‖SI‖En‖portalón‖
+*OZ‖pregunton	‖SI‖En‖preguntón‖
+*OZ‖problemon	‖SI‖En‖problemón‖
+*OZ‖programon	‖SI‖En‖programón‖
+*OZ‖puton	‖SI‖En‖putón‖
+
+*OZ‖querendon	‖SI‖En‖querendón‖
+
+*OZ‖rabon	‖SI‖En‖rabón‖
+*OZ‖ramon	‖SI‖En‖ramón‖
+*OZ‖rasgon	‖SI‖En‖rasgón‖
+*OZ‖raspon	‖SI‖En‖raspón‖
+*OZ‖reclamon	‖SI‖En‖reclamón‖
+*OZ‖refunfuñon	‖SI‖En‖refunfuñón‖
+*OZ‖regalon	‖SI‖En‖regalón‖
+*OZ‖regaton	‖SI‖En‖regatón‖
+*OZ‖regañon	‖SI‖En‖regañón‖
+*OZ‖reggaeton	‖SI‖En‖reggaeton‖
+*OZ‖reglon	‖SI‖En‖reglón‖
+*OZ‖rejon	‖SI‖En‖rejón‖
+*OZ‖remezon	‖SI‖En‖remezón‖
+*OZ‖renegon	‖SI‖En‖renegón‖
+*OZ‖reparon	‖SI‖En‖reparón‖
+*OZ‖requeson	‖SI‖En‖requesón‖
+*OZ‖resacon	‖SI‖En‖resacón‖
+*OZ‖resbalon	‖SI‖En‖resbalón‖
+*OZ‖respingon	‖SI‖En‖respingón‖
+*OZ‖respondon	‖SI‖En‖respondón‖
+*OZ‖resulton	‖SI‖En‖resultón‖
+*OZ‖retortijon	‖SI‖En‖retortijón‖
+*OZ‖reventon	‖SI‖En‖reventón‖
+*OZ‖revolcon	‖SI‖En‖revolcón‖
+*OZ‖ricachon	‖SI‖En‖ricachón‖
+*OZ‖rodrigon	‖SI‖En‖rodrigón‖
+*OZ‖romanticon	‖SI‖En‖romanticón‖
+*OZ‖ropon	‖SI‖En‖ropón‖
+*OZ‖roseton	‖SI‖En‖rosetón‖
+*OZ‖rumbon	‖SI‖En‖rumbón‖
+
+*OZ‖sacudon	‖SI‖En‖sacudón‖
+*OZ‖salon	‖SI‖En‖salón‖
+*OZ‖salpicon	‖SI‖En‖salpicón‖
+*OZ‖salton	‖SI‖En‖saltón‖
+*OZ‖santon	‖SI‖En‖santón‖
+*OZ‖sargenton	‖SI‖En‖sargentón‖
+*OZ‖seron	‖SI‖En‖serón‖
+*OZ‖sesenton	‖SI‖En‖sesentón‖
+*OZ‖setenton	‖SI‖En‖setentón‖
+*OZ‖señoron	‖SI‖En‖señorón‖
+*OZ‖sillon	‖SI‖En‖sillón‖
+*OZ‖simpaticon	‖SI‖En‖simpaticón‖
+*OZ‖simplon	‖SI‖En‖simplón‖
+*OZ‖sinvergonzon	‖SI‖En‖sinvergonzón‖
+*OZ‖socavon	‖SI‖En‖socavón‖
+*OZ‖sofocon	‖SI‖En‖sofocón‖
+*OZ‖solteron	‖SI‖En‖solterón‖
+*OZ‖sombreron	‖SI‖En‖sombrerón‖
+*OZ‖sonrizon	‖SI‖En‖sonrizón‖
+*OZ‖soplon	‖SI‖En‖soplón‖
+*OZ‖sopon	‖SI‖En‖sopón‖
+*OZ‖subidon	‖SI‖En‖subidón‖
+
+*OZ‖tablon	‖SI‖En‖tablón‖
+*OZ‖tacon	‖SI‖En‖tacón‖
+*OZ‖tapon	‖SI‖En‖tapón‖
+*OZ‖tardon	‖SI‖En‖tardón‖
+*OZ‖tarjeton	‖SI‖En‖tarjetón‖
+*OZ‖tazon	‖SI‖En‖tazón‖
+*OZ‖tejon	‖SI‖En‖tejón‖
+*OZ‖telon	‖SI‖En‖telón‖
+*OZ‖temblon	‖SI‖En‖temblón‖
+*OZ‖terron	‖SI‖En‖terrón‖
+*OZ‖teton	‖SI‖En‖tetón‖
+*OZ‖tinajon	‖SI‖En‖tinajón‖
+*OZ‖tiron	‖SI‖En‖tirón‖
+*OZ‖tiznon	‖SI‖En‖tiznón‖
+*OZ‖tonton	‖SI‖En‖tontón‖
+*OZ‖tormenton	‖SI‖En‖tormentón‖
+*OZ‖torpon	‖SI‖En‖torpón‖
+*OZ‖torreon	‖SI‖En‖torreón‖
+*OZ‖tragon	‖SI‖En‖tragón‖
+*OZ‖trallon	‖SI‖En‖trallón‖
+*OZ‖trenton	‖SI‖En‖trentón‖
+*OZ‖trincon	‖SI‖En‖trincón‖
+*OZ‖tripon	‖SI‖En‖tripón‖
+*OZ‖triston	‖SI‖En‖tristón‖
+*OZ‖triton	‖SI‖En‖tritón‖
+*OZ‖trompicon	‖SI‖En‖trompicón‖
+*OZ‖tropezon	‖SI‖En‖tropezón‖
+*OZ‖tumbon	‖SI‖En‖tumbón‖
+
+*OZ‖vacilon	‖SI‖En‖vacilón‖
+*OZ‖valenton	‖SI‖En‖valentón‖
+*OZ‖velon	‖SI‖En‖velón‖
+*OZ‖verdugon	‖SI‖En‖verdugón‖
+*OZ‖vergon	‖SI‖En‖vergón‖
+*OZ‖vinagron	‖SI‖En‖vinagrón‖
+
+*OZ‖xenon	‖SI‖En‖xenón‖
+
+*OZ‖zampon	‖SI‖En‖zampón‖
+*OZ‖zanjon	‖SI‖En‖zanjón‖
+*OZ‖zorron	‖SI‖En‖zorrón‖
+*OZ‖zumbon	‖SI‖En‖zumbón‖
+
+;;;; -ción
+*OZ‖abanacion	‖SI‖En‖abanación‖
+*OZ‖abdicacion	‖SI‖En‖abdicación‖
+*OZ‖abnegacion	‖SI‖En‖abnegación‖
+*OZ‖abolicion	‖SI‖En‖abolición‖
+*OZ‖abreviacion	‖SI‖En‖abreviación‖
+*OZ‖acentuacion	‖SI‖En‖acentuación‖
+*OZ‖aceptacion	‖SI‖En‖aceptación‖
+*OZ‖acidificacion	‖SI‖En‖acidificación‖
+*OZ‖aclaracion	‖SI‖En‖aclaración‖
+*OZ‖aclimatacion	‖SI‖En‖aclimatación‖
+*OZ‖acotacion	‖SI‖En‖acotación‖
+*OZ‖acreditacion	‖SI‖En‖acreditación‖
+*OZ‖actualizacion	‖SI‖En‖actualización‖
+*OZ‖aculturacion	‖SI‖En‖aculturación‖
+*OZ‖acuñacion	‖SI‖En‖acuñación‖
+*OZ‖adjetivacion	‖SI‖En‖adjetivación‖
+*OZ‖afeminacion	‖SI‖En‖afeminación‖
+*OZ‖afinacion	‖SI‖En‖afinación‖
+*OZ‖africanizacion	‖SI‖En‖africanización‖
+*OZ‖agilizacion	‖SI‖En‖agilización‖
+*OZ‖aglomeracion	‖SI‖En‖aglomeración‖
+*OZ‖aglutinacion	‖SI‖En‖aglutinación‖
+*OZ‖agremiacion	‖SI‖En‖agremiación‖
+*OZ‖agrupacion	‖SI‖En‖agrupación‖
+*OZ‖agudizacion	‖SI‖En‖agudización‖
+*OZ‖aireacion	‖SI‖En‖aireación‖
+*OZ‖aislacion	‖SI‖En‖aislación‖
+*OZ‖alcalinizacion	‖SI‖En‖alcalinización‖
+*OZ‖aleatorizacion	‖SI‖En‖aleatorización‖
+*OZ‖alfabetizacion	‖SI‖En‖alfabetización‖
+*OZ‖alimentacion	‖SI‖En‖alimentación‖
+*OZ‖alineacion	‖SI‖En‖alineación‖
+*OZ‖amalgamacion	‖SI‖En‖amalgamación‖
+*OZ‖ambientacion	‖SI‖En‖ambientación‖
+*OZ‖americanizacion	‖SI‖En‖americanización‖
+*OZ‖aminoracion	‖SI‖En‖aminoración‖
+*OZ‖amonedacion	‖SI‖En‖amonedación‖
+*OZ‖amonestacion	‖SI‖En‖amonestación‖
+*OZ‖amortiguacion	‖SI‖En‖amortiguación‖
+*OZ‖amortizacion	‖SI‖En‖amortización‖
+*OZ‖amputacion	‖SI‖En‖amputación‖
+*OZ‖anegacion	‖SI‖En‖anegación‖
+*OZ‖angulacion	‖SI‖En‖angulación‖
+*OZ‖anidacion	‖SI‖En‖anidación‖
+*OZ‖anillacion	‖SI‖En‖anillación‖
+*OZ‖animalizacion	‖SI‖En‖animalización‖
+*OZ‖aniquilacion	‖SI‖En‖aniquilación‖
+*OZ‖anonimizacion	‖SI‖En‖anonimización‖
+*OZ‖antropomorfizacion	‖SI‖En‖antropomorfización‖
+*OZ‖anulacion	‖SI‖En‖anulación‖
+*OZ‖aproximacion	‖SI‖En‖aproximación‖
+*OZ‖apuntacion	‖SI‖En‖apuntación‖
+*OZ‖arabizacion	‖SI‖En‖arabización‖
+*OZ‖araucanizacion	‖SI‖En‖araucanización‖
+*OZ‖arborizacion	‖SI‖En‖arborización‖
+*OZ‖armonizacion	‖SI‖En‖armonización‖
+*OZ‖aromatizacion	‖SI‖En‖aromatización‖
+*OZ‖arrabalizacion	‖SI‖En‖aseguración‖
+*OZ‖aseguracion	‖SI‖En‖arrabalización‖
+*OZ‖asociacion	‖SI‖En‖asociación‖
+*OZ‖atemorizacion	‖SI‖En‖atemorización‖
+*OZ‖atomizacion	‖SI‖En‖atomización‖
+*OZ‖autenticacion	‖SI‖En‖autenticación‖
+*OZ‖autentificacion	‖SI‖En‖autentificación‖
+*OZ‖automatizacion	‖SI‖En‖automatización‖
+*OZ‖autonomizacion	‖SI‖En‖autonomización‖
+*OZ‖autorizacion	‖SI‖En‖autorización‖
+*OZ‖averiguacion	‖SI‖En‖averiguación‖
+*OZ‖axiomatizacion	‖SI‖En‖axiomatización‖
+
+*OZ‖balcanizacion	‖SI‖En‖balcanización‖
+*OZ‖bifurcacion	‖SI‖En‖bifurcación‖
+*OZ‖bonificacion	‖SI‖En‖bonificación‖
+*OZ‖braquiacion	‖SI‖En‖braquiación‖
+*OZ‖burilacion	‖SI‖En‖burilación‖
+
+*OZ‖calcificacion	‖SI‖En‖calcificación‖
+*OZ‖calcinacion	‖SI‖En‖calcinación‖
+*OZ‖calibracion	‖SI‖En‖calibración‖
+*OZ‖cancelacion	‖SI‖En‖cancelación‖
+*OZ‖cancion	‖SI‖En‖canción‖
+*OZ‖canonizacion	‖SI‖En‖canonización‖
+*OZ‖capacitacion	‖SI‖En‖capacitación‖
+*OZ‖capitalizacion	‖SI‖En‖capitalización‖
+*OZ‖caracterizacion	‖SI‖En‖caracterización‖
+*OZ‖carbonizacion	‖SI‖En‖carbonización‖
+*OZ‖castellanizacion	‖SI‖En‖castellanización‖
+*OZ‖categorizacion	‖SI‖En‖categorización‖
+*OZ‖cauterizacion	‖SI‖En‖cauterización‖
+*OZ‖centralizacion	‖SI‖En‖centralización‖
+*OZ‖centrifugacion	‖SI‖En‖centrifugación‖
+*OZ‖certificacion	‖SI‖En‖certificación‖
+*OZ‖cicatrizacion	‖SI‖En‖cicatrización‖
+*OZ‖cimentacion	‖SI‖En‖cimentación‖
+*OZ‖circuncision	‖SI‖En‖circuncisión‖
+*OZ‖circunvalacion	‖SI‖En‖circunvalación‖
+*OZ‖civilizacion	‖SI‖En‖civilización‖
+*OZ‖clasificacion	‖SI‖En‖clasificación‖
+*OZ‖climatizacion	‖SI‖En‖climatización‖
+*OZ‖colaboracion	‖SI‖En‖colaboración‖
+*OZ‖colectivizacion	‖SI‖En‖colectivización‖
+*OZ‖colonizacion	‖SI‖En‖colonización‖
+*OZ‖comercializacion	‖SI‖En‖comercialización‖
+*OZ‖compenetracion	‖SI‖En‖compenetración‖
+*OZ‖completacion	‖SI‖En‖completación‖
+*OZ‖concentracion	‖SI‖En‖concentración‖
+*OZ‖conceptualizacion	‖SI‖En‖conceptualización‖
+*OZ‖concatenacion	‖SI‖En‖concatenación‖
+*OZ‖concienciacion	‖SI‖En‖concienciación‖
+*OZ‖concientizacion	‖SI‖En‖concientización‖
+*OZ‖conciliacion	‖SI‖En‖conciliación‖
+*OZ‖concretizacion	‖SI‖En‖concretización‖
+*OZ‖conculcacion	‖SI‖En‖conculcación‖
+*OZ‖condecoracion	‖SI‖En‖condecoración‖
+*OZ‖condicion	‖SI‖En‖condición‖
+*OZ‖confederacion	‖SI‖En‖confederación‖
+*OZ‖conglomeracion	‖SI‖En‖conglomeración‖
+*OZ‖conmemoracion	‖SI‖En‖conmemoración‖
+*OZ‖consagracion	‖SI‖En‖consagración‖
+*OZ‖constitucionalizacion	‖SI‖En‖constitucionalización‖
+*OZ‖consumicion	‖SI‖En‖consumición‖
+*OZ‖contencion	‖SI‖En‖contención‖
+*OZ‖contextualizacion	‖SI‖En‖contextualización‖
+*OZ‖continuacion	‖SI‖En‖continuación‖
+*OZ‖contradiccion	‖SI‖En‖contradicción‖
+*OZ‖contraindicacion	‖SI‖En‖contraindicación‖
+*OZ‖contratacion	‖SI‖En‖contratación‖
+*OZ‖convalidacion	‖SI‖En‖convalidación‖
+*OZ‖convidacion	‖SI‖En‖convidación‖
+*OZ‖cosificacion	‖SI‖En‖cosificación‖
+*OZ‖cotizacion	‖SI‖En‖cotización‖
+*OZ‖criminalizacion	‖SI‖En‖criminalización‖
+*OZ‖cristalizacion	‖SI‖En‖cristalización‖
+*OZ‖cristianizacion	‖SI‖En‖cristianización‖
+*OZ‖cuantificacion	‖SI‖En‖cuantificación‖
+*OZ‖cuantizacion	‖SI‖En‖cuantización‖
+*OZ‖culminacion	‖SI‖En‖culminación‖
+
+*OZ‖decantacion	‖SI‖En‖decantación‖
+*OZ‖decapitacion	‖SI‖En‖decapitación‖
+*OZ‖deceleracion	‖SI‖En‖deceleración‖
+*OZ‖decimalizacion	‖SI‖En‖decimalización‖
+*OZ‖deforestacion	‖SI‖En‖deforestación‖
+*OZ‖defraudacion	‖SI‖En‖defraudación‖
+*OZ‖degeneracion	‖SI‖En‖degeneración‖
+*OZ‖deliberacion	‖SI‖En‖deliberación‖
+*OZ‖demarcacion	‖SI‖En‖demarcación‖
+*OZ‖democratizacion	‖SI‖En‖democratización‖
+*OZ‖demonizacion	‖SI‖En‖demonización‖
+*OZ‖denigracion	‖SI‖En‖denigración‖
+*OZ‖depilacion	‖SI‖En‖depilación‖
+*OZ‖deposicion	‖SI‖En‖deposición‖
+*OZ‖deportacion	‖SI‖En‖deportación‖
+*OZ‖depreciacion	‖SI‖En‖depreciación‖
+*OZ‖depuracion	‖SI‖En‖depuración‖
+*OZ‖derechizacion	‖SI‖En‖derechización‖
+*OZ‖desaceleracion	‖SI‖En‖desaceleración‖
+*OZ‖desalinizacion	‖SI‖En‖desalinización‖
+*OZ‖desaparicion	‖SI‖En‖desaparición‖
+*OZ‖desaprobacion	‖SI‖En‖desaprobación‖
+*OZ‖descalificacion	‖SI‖En‖descalificación‖
+*OZ‖descarbonizacion	‖SI‖En‖descarbonización‖
+*OZ‖descentralizacion	‖SI‖En‖descentralización‖
+*OZ‖descerebracion	‖SI‖En‖descerebración‖
+*OZ‖descodificacion	‖SI‖En‖descodificación‖
+*OZ‖descolonizacion	‖SI‖En‖descolonización‖
+*OZ‖descongelacion	‖SI‖En‖descongelación‖
+*OZ‖descontextualizacion	‖SI‖En‖descontextualización‖
+*OZ‖descriminalizacion	‖SI‖En‖descriminalización‖
+*OZ‖desertificacion	‖SI‖En‖desertificación‖
+*OZ‖desertizacion	‖SI‖En‖desertización‖
+*OZ‖desesperacion	‖SI‖En‖desesperación‖
+*OZ‖desestabilizacion	‖SI‖En‖desestabilización‖
+*OZ‖desestacionalizacion	‖SI‖En‖desestacionalización‖
+*OZ‖desestructuracion	‖SI‖En‖desestructuración‖
+*OZ‖desfiguracion	‖SI‖En‖desfiguración‖
+*OZ‖desfragmentacion	‖SI‖En‖desfragmentación‖
+*OZ‖deshidratacion	‖SI‖En‖deshidratación‖
+*OZ‖deshumanizacion	‖SI‖En‖deshumanización‖
+*OZ‖deshumidificacion	‖SI‖En‖deshumidificación‖
+*OZ‖desindustrializacion	‖SI‖En‖desindustrialización‖
+*OZ‖desinformacion	‖SI‖En‖desinformación‖
+*OZ‖desinstalacion	‖SI‖En‖desinstalación‖
+*OZ‖desintegracion	‖SI‖En‖desintegración‖
+*OZ‖desintoxicacion	‖SI‖En‖desintoxicación‖
+*OZ‖desjudicializacion	‖SI‖En‖desjudicialización‖
+*OZ‖deslocalizacion	‖SI‖En‖deslocalización‖
+*OZ‖desmantelacion	‖SI‖En‖desmantelación‖
+*OZ‖desmembracion	‖SI‖En‖desmembración‖
+*OZ‖desmilitarizacion	‖SI‖En‖desmilitarización‖
+*OZ‖desmineralizacion	‖SI‖En‖desmineralización‖
+*OZ‖desmonetizacion	‖SI‖En‖desmonetización‖
+*OZ‖desmoralizacion	‖SI‖En‖desmoralización‖
+*OZ‖desmovilizacion	‖SI‖En‖desmovilización‖
+*OZ‖desnaturalizacion	‖SI‖En‖desnaturalización‖
+*OZ‖desnuclearizacion	‖SI‖En‖desnuclearización‖
+*OZ‖desorientacion	‖SI‖En‖desorientación‖
+*OZ‖despenalizacion	‖SI‖En‖despenalización‖
+*OZ‖despersonalizacion	‖SI‖En‖despersonalización‖
+*OZ‖despolarizacion	‖SI‖En‖despolarización‖
+*OZ‖despolitizacion	‖SI‖En‖despolitización‖
+*OZ‖despreocupacion	‖SI‖En‖despreocupación‖
+*OZ‖despresurizacion	‖SI‖En‖despresurización‖
+*OZ‖desprivatizacion	‖SI‖En‖desprivatización‖
+*OZ‖desregulacion	‖SI‖En‖desregulación‖
+*OZ‖desregularizacion	‖SI‖En‖desregularización‖
+*OZ‖destruccion	‖SI‖En‖destrucción‖
+*OZ‖desvalorizacion	‖SI‖En‖desvalorización‖
+*OZ‖deteccion	‖SI‖En‖detección‖
+*OZ‖detencion	‖SI‖En‖detención‖
+*OZ‖detonacion	‖SI‖En‖detonación‖
+*OZ‖devastacion	‖SI‖En‖devastación‖
+*OZ‖diferenciacion	‖SI‖En‖diferenciación‖
+*OZ‖digitalizacion	‖SI‖En‖digitalización‖
+*OZ‖dignificacion	‖SI‖En‖dignificación‖
+*OZ‖dimerizacion	‖SI‖En‖dimerización‖
+*OZ‖disminucion	‖SI‖En‖disminución‖
+*OZ‖disociacion	‖SI‖En‖disociación‖
+*OZ‖distanciacion	‖SI‖En‖distanciación‖
+*OZ‖diversificacion	‖SI‖En‖diversificación‖
+*OZ‖divinizacion	‖SI‖En‖divinización‖
+*OZ‖documentacion	‖SI‖En‖documentación‖
+*OZ‖dolarizacion	‖SI‖En‖dolarización‖
+*OZ‖donacion	‖SI‖En‖donación‖
+*OZ‖dosificacion	‖SI‖En‖dosificación‖
+*OZ‖dramatizacion	‖SI‖En‖dramatización‖
+
+*OZ‖ecualizacion	‖SI‖En‖ecualización‖
+*OZ‖educacion	‖SI‖En‖educación‖
+*OZ‖ejemplificacion	‖SI‖En‖ejemplificación‖
+*OZ‖ejecucion	‖SI‖En‖ejecución‖
+*OZ‖electrificacion	‖SI‖En‖electrificación‖
+*OZ‖electrizacion	‖SI‖En‖electrización‖
+*OZ‖eliminacion	‖SI‖En‖eliminación‖
+*OZ‖elucubracion	‖SI‖En‖elucubración‖
+*OZ‖emasculacion	‖SI‖En‖emasculación‖
+*OZ‖embarcacion	‖SI‖En‖embarcación‖
+*OZ‖embolizacion	‖SI‖En‖embolización‖
+*OZ‖emigracion	‖SI‖En‖emigración‖
+*OZ‖empreñacion	‖SI‖En‖empreñación‖
+*OZ‖enajenacion	‖SI‖En‖enajenación‖
+*OZ‖encapsulacion	‖SI‖En‖encapsulación‖
+*OZ‖encarnacion	‖SI‖En‖encarnación‖
+*OZ‖encriptacion	‖SI‖En‖encriptación‖
+*OZ‖encuadernacion	‖SI‖En‖encuadernación‖
+*OZ‖enfatizacion	‖SI‖En‖enfatización‖
+*OZ‖entonacion	‖SI‖En‖entonación‖
+*OZ‖entretencion	‖SI‖En‖entretención‖
+*OZ‖entronizacion	‖SI‖En‖entronización‖
+*OZ‖equiparacion	‖SI‖En‖equiparación‖
+*OZ‖erotizacion	‖SI‖En‖erotización‖
+*OZ‖erradicacion	‖SI‖En‖erradicación‖
+*OZ‖esclavizacion	‖SI‖En‖esclavización‖
+*OZ‖escolarizacion	‖SI‖En‖escolarización‖
+*OZ‖españolizacion	‖SI‖En‖españolización‖
+*OZ‖especializacion	‖SI‖En‖especialización‖
+*OZ‖especificacion	‖SI‖En‖especificación‖
+*OZ‖espiracion	‖SI‖En‖espiración‖
+*OZ‖espiritualizacion	‖SI‖En‖espiritualización‖
+*OZ‖esquematizacion	‖SI‖En‖esquematización‖
+*OZ‖estabilizacion	‖SI‖En‖estabilización‖
+*OZ‖estadificacion	‖SI‖En‖estadificación‖
+*OZ‖estandarizacion	‖SI‖En‖estandarización‖
+*OZ‖estatizacion	‖SI‖En‖estatización‖
+*OZ‖esterilizacion	‖SI‖En‖esterilización‖
+*OZ‖estigmatizacion	‖SI‖En‖estigmatización‖
+*OZ‖estilizacion	‖SI‖En‖estilización‖
+*OZ‖estructuracion	‖SI‖En‖estructuración‖
+*OZ‖europeizacion	‖SI‖En‖europeización‖
+*OZ‖euskaldunizacion	‖SI‖En‖euskaldunización‖
+*OZ‖evaluacion	‖SI‖En‖evaluación‖
+*OZ‖evangelizacion	‖SI‖En‖evangelización‖
+*OZ‖eventracion	‖SI‖En‖eventración‖
+*OZ‖evisceracion	‖SI‖En‖evisceración‖
+*OZ‖exacerbacion	‖SI‖En‖exacerbación‖
+*OZ‖exasperacion	‖SI‖En‖exasperación‖
+*OZ‖exhumacion	‖SI‖En‖exhumación‖
+*OZ‖expatriacion	‖SI‖En‖expatriación‖
+*OZ‖expectacion	‖SI‖En‖expectación‖
+*OZ‖expectoracion	‖SI‖En‖expectoración‖
+*OZ‖explotacion	‖SI‖En‖explotación‖
+*OZ‖expoliacion	‖SI‖En‖expoliación‖
+*OZ‖exportacion	‖SI‖En‖exportación‖
+*OZ‖expresion	‖SI‖En‖expresión‖
+*OZ‖exteriorizacion	‖SI‖En‖exteriorización‖
+*OZ‖externalizacion	‖SI‖En‖externalización‖
+*OZ‖extralimitacion	‖SI‖En‖extralimitación‖
+*OZ‖extranjerizacion	‖SI‖En‖extranjerización‖
+*OZ‖extrapolacion	‖SI‖En‖extrapolación‖
+*OZ‖extubacion	‖SI‖En‖extubación‖
+*OZ‖eyaculacion	‖SI‖En‖eyaculación‖
+
+*OZ‖factorizacion	‖SI‖En‖factorización‖
+*OZ‖facturacion	‖SI‖En‖facturación‖
+*OZ‖falsacion	‖SI‖En‖falsación‖
+*OZ‖familiarizacion	‖SI‖En‖familiarización‖
+*OZ‖fecundacion	‖SI‖En‖fecundación‖
+*OZ‖federalizacion	‖SI‖En‖federalización‖
+*OZ‖felicitacion	‖SI‖En‖felicitación‖
+*OZ‖feminizacion	‖SI‖En‖feminización‖
+*OZ‖fertilizacion	‖SI‖En‖fertilización‖
+*OZ‖fijacion	‖SI‖En‖fijación‖
+*OZ‖filmacion	‖SI‖En‖filmación‖
+*OZ‖filtracion	‖SI‖En‖filtración‖
+*OZ‖finalizacion	‖SI‖En‖finalización‖
+*OZ‖financiacion	‖SI‖En‖financiación‖
+*OZ‖fiscalizacion	‖SI‖En‖fiscalización‖
+*OZ‖flexibilizacion	‖SI‖En‖flexibilización‖
+*OZ‖floracion	‖SI‖En‖floración‖
+*OZ‖focalizacion	‖SI‖En‖focalización‖
+*OZ‖forestacion	‖SI‖En‖forestación‖
+*OZ‖formalizacion	‖SI‖En‖formalización‖
+*OZ‖formulacion	‖SI‖En‖formulación‖
+*OZ‖fosforilacion	‖SI‖En‖fosforilación‖
+*OZ‖fosilizacion	‖SI‖En‖fosilización‖
+*OZ‖fracturacion	‖SI‖En‖fracturación‖
+*OZ‖fragmentacion	‖SI‖En‖fragmentación‖
+*OZ‖fundacion	‖SI‖En‖fundación‖
+*OZ‖fundamentacion	‖SI‖En‖fundamentación‖
+
+*OZ‖galvanizacion	‖SI‖En‖galvanización‖
+*OZ‖gasificacion	‖SI‖En‖gasificación‖
+*OZ‖generacion	‖SI‖En‖generación‖
+*OZ‖generalizacion	‖SI‖En‖generalización‖
+*OZ‖geolocalizacion	‖SI‖En‖geolocalización‖
+*OZ‖germanizacion	‖SI‖En‖germanización‖
+*OZ‖globalizacion	‖SI‖En‖globalización‖
+*OZ‖gobernacion	‖SI‖En‖gobernación‖
+*OZ‖grabacion	‖SI‖En‖grabación‖
+*OZ‖graduacion	‖SI‖En‖graduación‖
+*OZ‖gravitacion	‖SI‖En‖gravitación‖
+
+*OZ‖habitacion	‖SI‖En‖habitación‖
+*OZ‖habituacion	‖SI‖En‖habituación‖
+*OZ‖halogenacion	‖SI‖En‖halogenación‖
+*OZ‖helenizacion	‖SI‖En‖helenización‖
+*OZ‖herborizacion	‖SI‖En‖herborización‖
+*OZ‖herniacion	‖SI‖En‖herniación‖
+*OZ‖hibernacion	‖SI‖En‖hibernación‖
+*OZ‖hidratacion	‖SI‖En‖hidratación‖
+*OZ‖homogeneizacion	‖SI‖En‖homogeneización‖
+*OZ‖homogenizacion	‖SI‖En‖homogenización‖
+*OZ‖homosexualizacion	‖SI‖En‖homosexualización‖
+*OZ‖hospitalizacion	‖SI‖En‖hospitalización‖
+*OZ‖humanizacion	‖SI‖En‖humanización‖
+*OZ‖humidificacion	‖SI‖En‖humidificación‖
+
+*OZ‖ideacion	‖SI‖En‖ideación‖
+*OZ‖idealizacion	‖SI‖En‖idealización‖
+*OZ‖identificacion	‖SI‖En‖identificación‖
+*OZ‖ideologizacion	‖SI‖En‖ideologización‖
+*OZ‖ilegalizacion	‖SI‖En‖ilegalización‖
+*OZ‖impermeabilizacion	‖SI‖En‖impermeabilización‖
+*OZ‖importacion	‖SI‖En‖importación‖
+*OZ‖imprimacion	‖SI‖En‖imprimación‖
+*OZ‖improvisacion	‖SI‖En‖improvisación‖
+*OZ‖incapacitacion	‖SI‖En‖incapacitación‖
+*OZ‖incardinacion	‖SI‖En‖incardinación‖
+*OZ‖incautacion	‖SI‖En‖incautación‖
+*OZ‖incensacion	‖SI‖En‖incensación‖
+*OZ‖indagacion	‖SI‖En‖indagación‖
+*OZ‖indemnizacion	‖SI‖En‖indemnización‖
+*OZ‖indexacion	‖SI‖En‖indexación‖
+*OZ‖indizacion	‖SI‖En‖indización‖
+*OZ‖industrializacion	‖SI‖En‖industrialización‖
+*OZ‖infantilizacion	‖SI‖En‖infantilización‖
+*OZ‖infatuacion	‖SI‖En‖infatuación‖
+*OZ‖infiltracion	‖SI‖En‖infiltración‖
+*OZ‖inflacion	‖SI‖En‖inflación‖
+*OZ‖informatizacion	‖SI‖En‖informatización‖
+*OZ‖infrautilizacion	‖SI‖En‖infrautilización‖
+*OZ‖inmovilizacion	‖SI‖En‖inmovilización‖
+*OZ‖inmunizacion	‖SI‖En‖inmunización‖
+*OZ‖inseminacion	‖SI‖En‖inseminación‖
+*OZ‖insonorizacion	‖SI‖En‖insonorización‖
+*OZ‖instalacion	‖SI‖En‖instalación‖
+*OZ‖institucionalizacion	‖SI‖En‖institucionalización‖
+*OZ‖instrumentalizacion	‖SI‖En‖instrumentalización‖
+*OZ‖integracion	‖SI‖En‖integración‖
+*OZ‖intensificacion	‖SI‖En‖intensificación‖
+*OZ‖intermediacion	‖SI‖En‖intermediación‖
+*OZ‖internacionalizacion	‖SI‖En‖internacionalización‖
+*OZ‖internalizacion	‖SI‖En‖internalización‖
+*OZ‖interpelacion	‖SI‖En‖interpelación‖
+*OZ‖interpretacion	‖SI‖En‖interpretación‖
+*OZ‖intimidacion	‖SI‖En‖intimidación‖
+*OZ‖intoxicacion	‖SI‖En‖intoxicación‖
+*OZ‖invaginacion	‖SI‖En‖invaginación‖
+*OZ‖invalidacion	‖SI‖En‖invalidación‖
+*OZ‖invisibilizacion	‖SI‖En‖invisibilización‖
+*OZ‖invitacion	‖SI‖En‖invitación‖
+*OZ‖involucracion	‖SI‖En‖involucración‖
+*OZ‖ionizacion	‖SI‖En‖ionización‖
+*OZ‖islamizacion	‖SI‖En‖islamización‖
+
+*OZ‖jerarquizacion	‖SI‖En‖jerarquización‖
+*OZ‖jibarizacion	‖SI‖En‖jibarización‖
+*OZ‖judaizacion	‖SI‖En‖judaización‖
+*OZ‖judicializacion	‖SI‖En‖judicialización‖
+*OZ‖justificacion	‖SI‖En‖justificación‖
+
+*OZ‖laicizacion	‖SI‖En‖laicización‖
+*OZ‖latinizacion	‖SI‖En‖latinización‖
+*OZ‖legalizacion	‖SI‖En‖legalización‖
+*OZ‖legislacion	‖SI‖En‖legislación‖
+*OZ‖legitimacion	‖SI‖En‖legitimación‖
+*OZ‖levitacion	‖SI‖En‖levitación‖
+*OZ‖liberacion	‖SI‖En‖liberación‖
+*OZ‖liberalizacion	‖SI‖En‖liberalización‖
+*OZ‖ligacion	‖SI‖En‖ligación‖
+*OZ‖liquidacion	‖SI‖En‖liquidación‖
+*OZ‖lobotomizacion	‖SI‖En‖lobotomización‖
+*OZ‖localizacion	‖SI‖En‖localización‖
+*OZ‖lotificacion	‖SI‖En‖lotificación‖
+*OZ‖lotizacion	‖SI‖En‖lotización‖
+*OZ‖lubricacion	‖SI‖En‖lubricación‖
+*OZ‖lubrificacion	‖SI‖En‖lubrificación‖
+
+*OZ‖magnetizacion	‖SI‖En‖magnetización‖
+*OZ‖malinterpretacion	‖SI‖En‖malinterpretación‖
+*OZ‖manipulacion	‖SI‖En‖manipulación‖
+*OZ‖marginacion	‖SI‖En‖marginación‖
+*OZ‖marginalizacion	‖SI‖En‖marginalización‖
+*OZ‖masculinizacion	‖SI‖En‖masculinización‖
+*OZ‖masificacion	‖SI‖En‖masificación‖
+*OZ‖masturbacion	‖SI‖En‖masturbación‖
+*OZ‖matematizacion	‖SI‖En‖matematización‖
+*OZ‖materializacion	‖SI‖En‖materialización‖
+*OZ‖matizacion	‖SI‖En‖matización‖
+*OZ‖matriculacion	‖SI‖En‖matriculación‖
+*OZ‖maximizacion	‖SI‖En‖maximización‖
+*OZ‖mecanizacion	‖SI‖En‖mecanización‖
+*OZ‖mediatizacion	‖SI‖En‖mediatización‖
+*OZ‖medicacion	‖SI‖En‖medicación‖
+*OZ‖medicion	‖SI‖En‖medición‖
+*OZ‖memorizacion	‖SI‖En‖memorización‖
+*OZ‖menstruacion	‖SI‖En‖menstruación‖
+*OZ‖mentalizacion	‖SI‖En‖mentalización‖
+*OZ‖mercantilizacion	‖SI‖En‖mercantilización‖
+*OZ‖metabolizacion	‖SI‖En‖metabolización‖
+*OZ‖mexicanizacion	‖SI‖En‖mexicanización‖
+*OZ‖militarizacion	‖SI‖En‖militarización‖
+*OZ‖miniaturizacion	‖SI‖En‖miniaturización‖
+*OZ‖minimizacion	‖SI‖En‖minimización‖
+*OZ‖minorizacion	‖SI‖En‖minorización‖
+*OZ‖mitificacion	‖SI‖En‖mitificación‖
+*OZ‖modernizacion	‖SI‖En‖modernización‖
+*OZ‖molduracion	‖SI‖En‖molduración‖
+*OZ‖momificacion	‖SI‖En‖momificación‖
+*OZ‖monetizacion	‖SI‖En‖monetización‖
+*OZ‖monitorizacion	‖SI‖En‖monitorización‖
+*OZ‖monopolizacion	‖SI‖En‖monopolización‖
+*OZ‖moralizacion	‖SI‖En‖moralización‖
+*OZ‖motorizacion	‖SI‖En‖motorización‖
+*OZ‖movilizacion	‖SI‖En‖movilización‖
+*OZ‖mundializacion	‖SI‖En‖mundialización‖
+*OZ‖musculacion	‖SI‖En‖musculación‖
+*OZ‖musicalizacion	‖SI‖En‖musicalización‖
+
+*OZ‖nacionalizacion	‖SI‖En‖nacionalización‖
+*OZ‖narcotizacion	‖SI‖En‖narcotización‖
+*OZ‖nasalizacion	‖SI‖En‖nasalización‖
+*OZ‖naturalizacion	‖SI‖En‖naturalización‖
+*OZ‖navegacion	‖SI‖En‖navegación‖
+*OZ‖nebulizacion	‖SI‖En‖nebulización‖
+*OZ‖neutralizacion	‖SI‖En‖neutralización‖
+*OZ‖nivelacion	‖SI‖En‖nivelación‖
+*OZ‖nixtamalizacion	‖SI‖En‖nixtamalización‖
+*OZ‖nominalizacion	‖SI‖En‖nominalización‖
+*OZ‖normalizacion	‖SI‖En‖normalización‖
+*OZ‖normativizacion	‖SI‖En‖normativización‖
+
+*OZ‖objetivacion	‖SI‖En‖objetivación‖
+*OZ‖obnubilacion	‖SI‖En‖obnubilación‖
+*OZ‖observacion	‖SI‖En‖observación‖
+*OZ‖obstaculizacion	‖SI‖En‖obstaculización‖
+*OZ‖occidentalizacion	‖SI‖En‖occidentalización‖
+*OZ‖oficializacion	‖SI‖En‖oficialización‖
+*OZ‖ondulacion	‖SI‖En‖ondulación‖
+*OZ‖operativizacion	‖SI‖En‖operativización‖
+*OZ‖optimizacion	‖SI‖En‖optimización‖
+*OZ‖oralizacion	‖SI‖En‖oralización‖
+*OZ‖organizacion	‖SI‖En‖organización‖
+*OZ‖osificacion	‖SI‖En‖osificación‖
+*OZ‖oxidacion	‖SI‖En‖oxidación‖
+
+*OZ‖palatalizacion	‖SI‖En‖palatalización‖
+*OZ‖panificacion	‖SI‖En‖panificación‖
+*OZ‖paralizacion	‖SI‖En‖paralización‖
+*OZ‖parametrizacion	‖SI‖En‖parametrización‖
+*OZ‖parasitacion	‖SI‖En‖parasitación‖
+*OZ‖particularizacion	‖SI‖En‖particularización‖
+*OZ‖patrimonializacion	‖SI‖En‖patrimonialización‖
+*OZ‖pauperizacion	‖SI‖En‖pauperización‖
+*OZ‖pavimentacion	‖SI‖En‖pavimentación‖
+*OZ‖peatonalizacion	‖SI‖En‖peatonalización‖
+*OZ‖penalizacion	‖SI‖En‖penalización‖
+*OZ‖periodizacion	‖SI‖En‖periodización‖
+*OZ‖pernoctacion	‖SI‖En‖pernoctación‖
+*OZ‖perpetuacion	‖SI‖En‖perpetuación‖
+*OZ‖personalizacion	‖SI‖En‖personalización‖
+*OZ‖personificacion	‖SI‖En‖personificación‖
+*OZ‖perturbacion	‖SI‖En‖perturbación‖
+*OZ‖planificacion	‖SI‖En‖planificación‖
+*OZ‖poblacion	‖SI‖En‖población‖
+*OZ‖podemizacion	‖SI‖En‖podemización‖
+*OZ‖polarizacion	‖SI‖En‖polarización‖
+*OZ‖polinizacion	‖SI‖En‖polinización‖
+*OZ‖politizacion	‖SI‖En‖politización‖
+*OZ‖popularizacion	‖SI‖En‖popularización‖
+*OZ‖postergacion	‖SI‖En‖postergación‖
+*OZ‖potabilizacion	‖SI‖En‖potabilización‖
+*OZ‖potenciacion	‖SI‖En‖potenciación‖
+*OZ‖potencializacion	‖SI‖En‖potencialización‖
+*OZ‖precarizacion	‖SI‖En‖precarización‖
+*OZ‖prefijacion	‖SI‖En‖prefijación‖
+*OZ‖premiacion	‖SI‖En‖premiación‖
+*OZ‖preocupacion	‖SI‖En‖preocupación‖
+*OZ‖presentacion	‖SI‖En‖presentación‖
+*OZ‖preservacion	‖SI‖En‖preservación‖
+*OZ‖prestacion	‖SI‖En‖prestación‖
+*OZ‖presurizacion	‖SI‖En‖presurización‖
+*OZ‖previsualizacion	‖SI‖En‖previsualización‖
+*OZ‖privatizacion	‖SI‖En‖privatización‖
+*OZ‖profesionalizacion	‖SI‖En‖profesionalización‖
+*OZ‖profundizacion	‖SI‖En‖profundización‖
+*OZ‖proletarizacion	‖SI‖En‖proletarización‖
+*OZ‖proliferacion	‖SI‖En‖proliferación‖
+*OZ‖pronunciacion	‖SI‖En‖pronunciación‖
+*OZ‖protocolizacion	‖SI‖En‖protocolización‖
+*OZ‖provincializacion	‖SI‖En‖provincialización‖
+*OZ‖pulverizacion	‖SI‖En‖pulverización‖
+*OZ‖puntuacion	‖SI‖En‖puntuación‖
+*OZ‖puntualizacion	‖SI‖En‖puntualización‖
+
+*OZ‖racionalizacion	‖SI‖En‖racionalización‖
+*OZ‖radicalizacion	‖SI‖En‖radicalización‖
+*OZ‖ralentizacion	‖SI‖En‖ralentización‖
+*OZ‖reagrupacion	‖SI‖En‖reagrupación‖
+*OZ‖realizacion	‖SI‖En‖realización‖
+*OZ‖reanimacion	‖SI‖En‖reanimación‖
+*OZ‖recapacitacion	‖SI‖En‖recapacitación‖
+*OZ‖recapitulacion	‖SI‖En‖recapitulación‖
+*OZ‖recaudacion	‖SI‖En‖recaudación‖
+*OZ‖recentralizacion	‖SI‖En‖recentralización‖
+*OZ‖recomendacion	‖SI‖En‖recomendación‖
+*OZ‖reconsideracion	‖SI‖En‖reconsideración‖
+*OZ‖reconstitucion	‖SI‖En‖reconstitución‖
+*OZ‖recopilacion	‖SI‖En‖recopilación‖
+*OZ‖redefinicion	‖SI‖En‖redefinición‖
+*OZ‖redistribucion	‖SI‖En‖redistribución‖
+*OZ‖reeducacion	‖SI‖En‖reeducación‖
+*OZ‖reencarnacion	‖SI‖En‖reencarnación‖
+*OZ‖reestructuracion	‖SI‖En‖reestructuración‖
+*OZ‖refinacion	‖SI‖En‖refinación‖
+*OZ‖reflotacion	‖SI‖En‖reflotación‖
+*OZ‖reformulacion	‖SI‖En‖reformulación‖
+*OZ‖refundacion	‖SI‖En‖refundación‖
+*OZ‖regasificacion	‖SI‖En‖regasificación‖
+*OZ‖registracion	‖SI‖En‖registración‖
+*OZ‖regulacion	‖SI‖En‖regulación‖
+*OZ‖regularizacion	‖SI‖En‖regularización‖
+*OZ‖regurgitacion	‖SI‖En‖regurgitación‖
+*OZ‖rehabilitacion	‖SI‖En‖rehabilitación‖
+*OZ‖reincorporacion	‖SI‖En‖reincorporación‖
+*OZ‖reindustrializacion	‖SI‖En‖reindustrialización‖
+*OZ‖reinstalacion	‖SI‖En‖reinstalación‖
+*OZ‖relativizacion	‖SI‖En‖relativización‖
+*OZ‖remasterizacion	‖SI‖En‖remasterización‖
+*OZ‖renegociacion	‖SI‖En‖renegociación‖
+*OZ‖renovacion	‖SI‖En‖renovación‖
+*OZ‖rentabilizacion	‖SI‖En‖rentabilización‖
+*OZ‖reorganizacion	‖SI‖En‖reorganización‖
+*OZ‖reorientacion	‖SI‖En‖reorientación‖
+*OZ‖reparacion	‖SI‖En‖reparación‖
+*OZ‖reparticion	‖SI‖En‖repartición‖
+*OZ‖repatriacion	‖SI‖En‖repatriación‖
+*OZ‖repeticion	‖SI‖En‖repetición‖
+*OZ‖repoblacion	‖SI‖En‖repoblación‖
+*OZ‖reproduccion	‖SI‖En‖reproducción‖
+*OZ‖reputacion	‖SI‖En‖reputación‖
+*OZ‖resignacion	‖SI‖En‖resignación‖
+*OZ‖responsabilizacion	‖SI‖En‖responsabilización‖
+*OZ‖restauracion	‖SI‖En‖restauración‖
+*OZ‖reubicacion	‖SI‖En‖reubicación‖
+*OZ‖reunificacion	‖SI‖En‖reunificación‖
+*OZ‖reutilizacion	‖SI‖En‖reutilización‖
+*OZ‖revalorizacion	‖SI‖En‖revalorización‖
+*OZ‖revitalizacion	‖SI‖En‖revitalización‖
+*OZ‖robotizacion	‖SI‖En‖robotización‖
+*OZ‖romanizacion	‖SI‖En‖romanización‖
+*OZ‖rotulacion	‖SI‖En‖rotulación‖
+*OZ‖ruralizacion	‖SI‖En‖ruralización‖
+
+*OZ‖sacralizacion	‖SI‖En‖sacralización‖
+*OZ‖salinizacion	‖SI‖En‖salinización‖
+*OZ‖saponificacion	‖SI‖En‖saponificación‖
+*OZ‖secuenciacion	‖SI‖En‖secuenciación‖
+*OZ‖secularizacion	‖SI‖En‖secularización‖
+*OZ‖segmentacion	‖SI‖En‖segmentación‖
+*OZ‖segregacion	‖SI‖En‖segregación‖
+*OZ‖sensibilizacion	‖SI‖En‖sensibilización‖
+*OZ‖sexualizacion	‖SI‖En‖sexualización‖
+*OZ‖señalizacion	‖SI‖En‖señalización‖
+*OZ‖silabacion	‖SI‖En‖silabación‖
+*OZ‖simbolizacion	‖SI‖En‖simbolización‖
+*OZ‖sincronizacion	‖SI‖En‖sincronización‖
+*OZ‖sistematizacion	‖SI‖En‖sistematización‖
+*OZ‖situacion	‖SI‖En‖situación‖
+*OZ‖socavacion	‖SI‖En‖socavación‖
+*OZ‖sociabilizacion	‖SI‖En‖sociabilización‖
+*OZ‖socializacion	‖SI‖En‖socialización‖
+*OZ‖suavizacion	‖SI‖En‖suavización‖
+*OZ‖subestimacion	‖SI‖En‖subestimación‖
+*OZ‖substantivacion	‖SI‖En‖substantivación‖
+*OZ‖subtitulacion	‖SI‖En‖subtitulación‖
+*OZ‖sufijacion	‖SI‖En‖sufijación‖
+*OZ‖superacion	‖SI‖En‖superación‖
+*OZ‖sustantivacion	‖SI‖En‖sustantivación‖
+
+*OZ‖tarificacion	‖SI‖En‖tarificación‖
+*OZ‖tecnologizacion	‖SI‖En‖tecnologización‖
+*OZ‖teleportacion	‖SI‖En‖teleportación‖
+*OZ‖teletransportacion	‖SI‖En‖teletransportación‖
+*OZ‖tematizacion	‖SI‖En‖tematización‖
+*OZ‖teorizacion	‖SI‖En‖teorización‖
+*OZ‖tergiversacion	‖SI‖En‖tergiversación‖
+*OZ‖terraformacion	‖SI‖En‖terraformación‖
+*OZ‖territorializacion	‖SI‖En‖territorialización‖
+*OZ‖titulizacion	‖SI‖En‖titulización‖
+*OZ‖tonificacion	‖SI‖En‖tonificación‖
+*OZ‖tostacion	‖SI‖En‖tostación‖
+*OZ‖trasplantacion	‖SI‖En‖trasplantación‖
+*OZ‖tribulacion	‖SI‖En‖tribulación‖
+*OZ‖trivializacion	‖SI‖En‖trivialización‖
+
+*OZ‖uberizacion	‖SI‖En‖uberización‖
+*OZ‖unificacion	‖SI‖En‖unificación‖
+*OZ‖urbanizacion	‖SI‖En‖urbanización‖
+*OZ‖utilizacion	‖SI‖En‖utilización‖
+
+*OZ‖vacunacion	‖SI‖En‖vacunación‖
+*OZ‖validacion	‖SI‖En‖validación‖
+*OZ‖valoracion	‖SI‖En‖valoración‖
+*OZ‖valuacion	‖SI‖En‖valuación‖
+*OZ‖vaporizacion	‖SI‖En‖vaporización‖
+*OZ‖vectorizacion	‖SI‖En‖vectorización‖
+*OZ‖verbalizacion	‖SI‖En‖verbalización‖
+*OZ‖verificacion	‖SI‖En‖verificación‖
+*OZ‖victimizacion	‖SI‖En‖victimización‖
+*OZ‖vinificacion	‖SI‖En‖vinificación‖
+*OZ‖violacion	‖SI‖En‖violación‖
+*OZ‖visitacion	‖SI‖En‖visitación‖
+*OZ‖visualizacion	‖SI‖En‖visualización‖
+*OZ‖vocalizacion	‖SI‖En‖vocalización‖
+*OZ‖volatilizacion	‖SI‖En‖volatilización‖
+*OZ‖votacion	‖SI‖En‖votación‖
+*OZ‖vulcanizacion	‖SI‖En‖vulcanización‖
+
+*OZ‖zonificacion	‖SI‖En‖zonificación‖
+
+;;;; -sión
+*OZ‖abrasion	‖SI‖En‖abrasión‖
+*OZ‖desilusion	‖SI‖En‖desilusión‖
+*OZ‖excursion	‖SI‖En‖excursión‖
+*OZ‖ilusion	‖SI‖En‖ilusión‖
+*OZ‖mision	‖SI‖En‖misión‖
+*OZ‖ocasion	‖SI‖En‖ocasión‖
+*OZ‖omision	‖SI‖En‖omisión‖
+*OZ‖television	‖SI‖En‖televisión‖
+
+;;;; -xión
+*OZ‖reflexion	‖SI‖En‖reflexión‖
+
+;;;; -ectomía
+*OZ‖adenoidectomia	‖SI‖En‖adenoidectomía‖
+*OZ‖adrenalectomia	‖SI‖En‖adrenalectomía‖
+*OZ‖amigdalectomia	‖SI‖En‖amigdalectomía‖
+*OZ‖apendicectomia	‖SI‖En‖apendicectomía‖
+*OZ‖apicectomia	‖SI‖En‖apicectomía‖
+*OZ‖bullectomia	‖SI‖En‖bullectomía‖
+*OZ‖clitorectomia	‖SI‖En‖clitorectomía‖
+*OZ‖clitoridectomia	‖SI‖En‖clitoridectomía‖
+*OZ‖colecistectomia	‖SI‖En‖colecistectomía‖
+*OZ‖colectomia	‖SI‖En‖colectomía‖
+*OZ‖craniectomia	‖SI‖En‖craniectomía‖
+*OZ‖esofaguectomia	‖SI‖En‖esofaguectomía‖
+*OZ‖gastrectomia	‖SI‖En‖gastrectomía‖
+*OZ‖histerectomia	‖SI‖En‖histerectomía‖
+*OZ‖laminectomia	‖SI‖En‖laminectomía‖
+*OZ‖nefrectomia	‖SI‖En‖nefrectomía‖
+*OZ‖orquiectomia	‖SI‖En‖orquiectomía‖
+*OZ‖salpingectomia	‖SI‖En‖salpingectomía‖
+*OZ‖tiroidectomia	‖SI‖En‖tiroidectomía‖
+*OZ‖trombectomia	‖SI‖En‖trombectomía‖
+*OZ‖vasectomia	‖SI‖En‖vasectomía‖
+*OZ‖vitrectomia	‖SI‖En‖vitrectomía‖
+
+;;;; -logía
+*OZ‖adenologia	‖SI‖En‖adenología‖
+*OZ‖aerologia	‖SI‖En‖aerología‖
+*OZ‖agrologia	‖SI‖En‖agrología‖
+*OZ‖alergologia	‖SI‖En‖alergología‖
+*OZ‖algologia	‖SI‖En‖algología‖
+*OZ‖andrologia	‖SI‖En‖andrología‖
+*OZ‖anestesiologia	‖SI‖En‖anestesiología‖
+*OZ‖angelologia	‖SI‖En‖angelología‖
+*OZ‖angiologia	‖SI‖En‖angiología‖
+*OZ‖aparatologia	‖SI‖En‖aparatología‖
+*OZ‖audiologia	‖SI‖En‖audiología‖
+
+*OZ‖bacteriologia	‖SI‖En‖bacteriología‖
+*OZ‖bibliotecologia	‖SI‖En‖bibliotecología‖
+*OZ‖biologia	‖SI‖En‖biología‖
+*OZ‖biotecnologia	‖SI‖En‖biotecnología‖
+*OZ‖braquilogia	‖SI‖En‖braquilogía‖
+*OZ‖bromatologia	‖SI‖En‖bromatología‖
+
+*OZ‖cardiologia	‖SI‖En‖cardiología‖
+*OZ‖cienciologia	‖SI‖En‖cienciología‖
+*OZ‖citologia	‖SI‖En‖citología‖
+*OZ‖conquiliologia	‖SI‖En‖conquiliología‖
+*OZ‖craneologia	‖SI‖En‖craneología‖
+*OZ‖cronologia	‖SI‖En‖cronología‖
+
+*OZ‖dendrologia	‖SI‖En‖dendrología‖
+*OZ‖deontologia	‖SI‖En‖deontología‖
+
+*OZ‖ecologia	‖SI‖En‖ecología‖
+*OZ‖edafologia	‖SI‖En‖edafología‖
+*OZ‖egiptologia	‖SI‖En‖egiptología‖
+*OZ‖endocrinologia	‖SI‖En‖endocrinología‖
+*OZ‖enologia	‖SI‖En‖enología‖
+*OZ‖entomologia	‖SI‖En‖entomología‖
+*OZ‖epidemiologia	‖SI‖En‖epidemiología‖
+*OZ‖escatologia	‖SI‖En‖escatología‖
+*OZ‖esjatologia	‖SI‖En‖esjatología‖
+*OZ‖espeleologia	‖SI‖En‖espeleología‖
+*OZ‖etnologia	‖SI‖En‖etnología‖
+
+*OZ‖feminologia	‖SI‖En‖feminología‖
+*OZ‖fenologia	‖SI‖En‖fenología‖
+*OZ‖fonologia	‖SI‖En‖fonología‖
+*OZ‖futurologia	‖SI‖En‖futurología‖
+
+*OZ‖gastroenterologia	‖SI‖En‖gastroenterología‖
+*OZ‖geologia	‖SI‖En‖geología‖
+*OZ‖gerontologia	‖SI‖En‖gerontología‖
+*OZ‖ginecologia	‖SI‖En‖ginecología‖
+*OZ‖grafologia	‖SI‖En‖grafología‖
+
+*OZ‖hematologia	‖SI‖En‖hematología‖
+*OZ‖herpetologia	‖SI‖En‖herpetología‖
+*OZ‖hidrologia	‖SI‖En‖hidrología‖
+*OZ‖histologia	‖SI‖En‖histología‖
+
+*OZ‖ictiologia	‖SI‖En‖ictiología‖
+*OZ‖ideologia	‖SI‖En‖ideología‖
+*OZ‖inmunologia	‖SI‖En‖inmunología‖
+
+*OZ‖laringologia	‖SI‖En‖laringología‖
+
+*OZ‖meteorologia	‖SI‖En‖meteorología‖
+*OZ‖metrologia	‖SI‖En‖metrología‖
+*OZ‖microbiologia	‖SI‖En‖microbiología‖
+*OZ‖mineralogia	‖SI‖En‖mineralogía‖
+*OZ‖museologia	‖SI‖En‖museología‖
+*OZ‖musicologia	‖SI‖En‖musicología‖
+
+*OZ‖nefrologia	‖SI‖En‖nefrología‖
+*OZ‖neonatologia	‖SI‖En‖neonatología‖
+*OZ‖neumologia	‖SI‖En‖neumología‖
+*OZ‖neurologia	‖SI‖En‖neurología‖
+
+*OZ‖oceanologia	‖SI‖En‖oceanología‖
+*OZ‖odontologia	‖SI‖En‖odontología‖
+*OZ‖oftalmologia	‖SI‖En‖oftalmología‖
+*OZ‖oncologia	‖SI‖En‖oncología‖
+*OZ‖ontologia	‖SI‖En‖ontología‖
+*OZ‖ornitologia	‖SI‖En‖ornitología‖
+*OZ‖otorrinolaringologia	‖SI‖En‖otorrinolaringología‖
+
+*OZ‖parasitologia	‖SI‖En‖parasitología‖
+*OZ‖podologia	‖SI‖En‖podología‖
+
+*OZ‖radiologia	‖SI‖En‖radiología‖
+*OZ‖reumatologia	‖SI‖En‖reumatología‖
+*OZ‖runologia	‖SI‖En‖runología‖
+
+*OZ‖semiologia	‖SI‖En‖semiología‖
+*OZ‖serologia	‖SI‖En‖serología‖
+*OZ‖sexologia	‖SI‖En‖sexología‖
+*OZ‖simbologia	‖SI‖En‖simbología‖
+*OZ‖sinologia	‖SI‖En‖sinología‖
+*OZ‖sismologia	‖SI‖En‖sismología‖
+*OZ‖somatologia	‖SI‖En‖somatología‖
+
+*OZ‖tecnologia	‖SI‖En‖tecnología‖
+*OZ‖teologia	‖SI‖En‖teología‖
+*OZ‖terminologia	‖SI‖En‖terminología‖
+*OZ‖tipologia	‖SI‖En‖tipología‖
+*OZ‖traumatologia	‖SI‖En‖traumatología‖
+*OZ‖tribologia	‖SI‖En‖tribología‖
+
+*OZ‖ufologia	‖SI‖En‖ufología‖
+
+*OZ‖volcanologia	‖SI‖En‖volcanología‖
+*OZ‖vulcanologia	‖SI‖En‖vulcanología‖
+
+*OZ‖zoologia	‖SI‖En‖zoología‖
+
+;;;; -manía
+*OZ‖anglomania	‖SI‖En‖anglomanía‖
+*OZ‖cleptomania	‖SI‖En‖cleptomanía‖
+*OZ‖cocainomania	‖SI‖En‖cocainomanía‖
+*OZ‖empleomania	‖SI‖En‖empleomanía‖
+*OZ‖grafomania	‖SI‖En‖grafomanía‖
+*OZ‖hipomania	‖SI‖En‖hipomanía‖
+*OZ‖megalomania	‖SI‖En‖megalomanía‖
+*OZ‖melomania	‖SI‖En‖melomanía‖
+*OZ‖mitomania	‖SI‖En‖mitomanía‖
+*OZ‖piromania	‖SI‖En‖piromanía‖
+
+;;;; -nomía
+*OZ‖ergonomia	‖SI‖En‖ergonomía‖
+
+;;;; -ónimo
+*OZ‖antroponimo	‖SI‖En‖antropónimo‖
+*OZ‖endonimo	‖SI‖En‖endónimo‖
+*OZ‖exonimo	‖SI‖En‖exónimo‖
+*OZ‖heteronimo	‖SI‖En‖heterónimo‖
+*OZ‖hidronimo	‖SI‖En‖hidrónimo‖
+*OZ‖hiperonimo	‖SI‖En‖hiperónimo‖
+*OZ‖hiponimo	‖SI‖En‖hipónimo‖
+*OZ‖holonimo	‖SI‖En‖holónimo‖
+*OZ‖homonimo	‖SI‖En‖homónimo‖
+*OZ‖seudonimo	‖SI‖En‖seudónimo‖
+*OZ‖sinonimo	‖SI‖En‖sinónimo‖
+*OZ‖toponimo	‖SI‖En‖topónimo‖
+
+;;;; -óptero
+*OZ‖chupoptera	‖SI‖En‖chupóptera‖
+*OZ‖chupoptero	‖SI‖En‖chupóptero‖
+
+;;;; -zón
+*OZ‖apretazon	‖SI‖En‖apretazón‖
+*OZ‖hinchazon	‖SI‖En‖hinchazón‖
+*OZ‖ligazon	‖SI‖En‖ligazón‖
+*OZ‖picazon	‖SI‖En‖picazón‖
+*OZ‖quejazon	‖SI‖En‖quejazón‖
+*OZ‖quemazon	‖SI‖En‖quemazón‖
+*OZ‖ramazon	‖SI‖En‖ramazón‖
+
+;;;; -tomía
+*OZ‖anatomia	‖SI‖En‖anatomía‖
+*OZ‖autotomia	‖SI‖En‖autotomía‖
+*OZ‖cordotomia	‖SI‖En‖cordotomía‖
+*OZ‖craneotomia	‖SI‖En‖craneotomía‖
+*OZ‖episiotomia	‖SI‖En‖episiotomía‖
+*OZ‖esternotomia	‖SI‖En‖esternotomía‖
+*OZ‖fasciotomia	‖SI‖En‖fasciotomía‖
+*OZ‖fitotomia	‖SI‖En‖fitotomía‖
+*OZ‖laparotomia	‖SI‖En‖laparotomía‖
+*OZ‖leucotomia	‖SI‖En‖leucotomía‖
+*OZ‖lobotomia	‖SI‖En‖lobotomía‖
+*OZ‖tenotomia	‖SI‖En‖tenotomía‖
+*OZ‖toracotomia	‖SI‖En‖toracotomía‖
+*OZ‖traqueotomia	‖SI‖En‖traqueotomía‖
+
+;;;; -grafía
+*OZ‖aerografia	‖SI‖En‖aerografía‖
+*OZ‖angiografia	‖SI‖En‖angiografía‖
+*OZ‖bibliografia	‖SI‖En‖bibliografía‖
+*OZ‖cacografia	‖SI‖En‖cacografía‖
+*OZ‖colangiopancreatografia	‖SI‖En‖colangiopancreatografía‖
+*OZ‖corografia	‖SI‖En‖corografía‖
+*OZ‖cromatografia	‖SI‖En‖cromatografía‖
+*OZ‖dactilografia	‖SI‖En‖dactilografía‖
+*OZ‖estratigrafia	‖SI‖En‖estratigrafía‖
+*OZ‖fitografia	‖SI‖En‖fitografía‖
+*OZ‖fotografia	‖SI‖En‖fotografía‖
+*OZ‖fotografias	‖SI‖En‖fotografías‖
+*OZ‖hidrografia	‖SI‖En‖hidrografía‖
+*OZ‖litografia	‖SI‖En‖litografía‖
+*OZ‖mamografia	‖SI‖En‖mamografía‖
+*OZ‖mecanografia	‖SI‖En‖mecanografía‖
+*OZ‖monografia	‖SI‖En‖monografía‖
+*OZ‖museografia	‖SI‖En‖museografía‖
+*OZ‖oceanografia	‖SI‖En‖oceanografía‖
+*OZ‖organografia	‖SI‖En‖organografía‖
+*OZ‖orografia	‖SI‖En‖orografía‖
+*OZ‖ortografia	‖SI‖En‖ortografía‖
+*OZ‖pictografia	‖SI‖En‖pictografía‖
+*OZ‖radiografia	‖SI‖En‖radiografía‖
+*OZ‖serigrafia	‖SI‖En‖serigrafía‖
+*OZ‖taquigrafia	‖SI‖En‖taquigrafía‖
+*OZ‖topografia	‖SI‖En‖topografía‖
+*OZ‖urografia	‖SI‖En‖urografía‖
+*OZ‖xerografia	‖SI‖En‖xerografía‖
+*OZ‖xilografia	‖SI‖En‖xilografía‖
+*OZ‖zoografia	‖SI‖En‖zoografía‖
+
+;;;; -patía
+*OZ‖adenopatia	‖SI‖En‖adenopatía‖
+*OZ‖alelopatia	‖SI‖En‖alelopatía‖
+*OZ‖angiopatia	‖SI‖En‖angiopatía‖
+*OZ‖antipatia	‖SI‖En‖antipatía‖
+*OZ‖artropatia	‖SI‖En‖artropatía‖
+*OZ‖encefalopatia	‖SI‖En‖encefalopatía‖
+*OZ‖hepatopatia	‖SI‖En‖hepatopatía‖
+*OZ‖hidropatia	‖SI‖En‖hidropatía‖
+*OZ‖homeopatia	‖SI‖En‖homeopatía‖
+*OZ‖ludopatia	‖SI‖En‖ludopatía‖
+*OZ‖mielopatia	‖SI‖En‖mielopatía‖
+*OZ‖miopatia	‖SI‖En‖miopatía‖
+*OZ‖nefropatia	‖SI‖En‖nefropatía‖
+*OZ‖neumopatia	‖SI‖En‖neumopatía‖
+*OZ‖neuropatia	‖SI‖En‖neuropatía‖
+*OZ‖oftalmopatia	‖SI‖En‖oftalmopatía‖
+*OZ‖osteopatia	‖SI‖En‖osteopatía‖
+*OZ‖polineuropatia	‖SI‖En‖polineuropatía‖
+*OZ‖radiculopatia	‖SI‖En‖radiculopatía‖
+*OZ‖retinopatia	‖SI‖En‖retinopatía‖
+*OZ‖sexopatia	‖SI‖En‖sexopatía‖
+*OZ‖telepatia	‖SI‖En‖telepatía‖
+*OZ‖tubulopatia	‖SI‖En‖tubulopatía‖
+
+;;;; -ostomía
+*OZ‖ileostomia	‖SI‖En‖ileostomía‖
+*OZ‖traqueostomia	‖SI‖En‖traqueostomía‖
+*OZ‖yeyunostomia	‖SI‖En‖yeyunostomía‖
+
+;;;; -ín
+*OZ‖andarin	‖SI‖En‖andarín‖
+*OZ‖arreglin	‖SI‖En‖arreglín‖
+*OZ‖azquelin	‖SI‖En‖azquelín‖
+
+*OZ‖balancin	‖SI‖En‖balancín‖
+*OZ‖baldosin	‖SI‖En‖baldosín‖
+*OZ‖balin	‖SI‖En‖balín‖
+*OZ‖banderin	‖SI‖En‖banderín‖
+*OZ‖batin	‖SI‖En‖batín‖
+*OZ‖boletin	‖SI‖En‖boletín‖
+*OZ‖borrachin	‖SI‖En‖borrachín‖
+*OZ‖botiquin	‖SI‖En‖botiquín‖
+
+*OZ‖cafetin	‖SI‖En‖cafetín‖
+*OZ‖calabacin	‖SI‖En‖calabacín‖
+*OZ‖calcetin	‖SI‖En‖calcetín‖
+*OZ‖calesin	‖SI‖En‖calesín‖
+*OZ‖camarin	‖SI‖En‖camarín‖
+*OZ‖cantarin	‖SI‖En‖cantarín‖
+*OZ‖chapin	‖SI‖En‖chapín‖
+*OZ‖chiquitin	‖SI‖En‖chiquitín‖
+*OZ‖chochin	‖SI‖En‖chochín‖
+*OZ‖chocolatin	‖SI‖En‖chocolatín‖
+*OZ‖chupetin	‖SI‖En‖chupetín‖
+*OZ‖clarin	‖SI‖En‖clarín‖
+*OZ‖cofin	‖SI‖En‖cofín‖
+*OZ‖colin	‖SI‖En‖colín‖
+*OZ‖collarin	‖SI‖En‖collarín‖
+*OZ‖colorin	‖SI‖En‖colorín‖
+*OZ‖comodin	‖SI‖En‖comodín‖
+*OZ‖corbatin	‖SI‖En‖corbatín‖
+*OZ‖cornetin	‖SI‖En‖cornetín‖
+
+*OZ‖danzarin	‖SI‖En‖danzarín‖
+
+*OZ‖escalopin	‖SI‖En‖escalopín‖
+*OZ‖espadin	‖SI‖En‖espadín‖
+
+*OZ‖fajin	‖SI‖En‖fajín‖
+*OZ‖folletin	‖SI‖En‖folletín‖
+*OZ‖fortin	‖SI‖En‖fortín‖
+*OZ‖futbolin	‖SI‖En‖futbolín‖
+
+*OZ‖guapin	‖SI‖En‖guapín‖
+
+*OZ‖lavastin	‖SI‖En‖lavastín‖
+
+*OZ‖maletin	‖SI‖En‖maletín‖
+*OZ‖marroquin	‖SI‖En‖marroquín‖
+
+*OZ‖pelin	‖SI‖En‖pelín‖
+*OZ‖peluquin	‖SI‖En‖peluquín‖
+*OZ‖pequeñin	‖SI‖En‖pequeñín‖
+*OZ‖pillin	‖SI‖En‖pillín‖
+*OZ‖pitagorin	‖SI‖En‖pitagorín‖
+*OZ‖poquitin	‖SI‖En‖poquitín‖
+
+*OZ‖segundin	‖SI‖En‖segundín‖
+*OZ‖serpentin	‖SI‖En‖serpentín‖
+*OZ‖sillin	‖SI‖En‖sillín‖
+
+*OZ‖tallarin	‖SI‖En‖tallarín‖
+*OZ‖tamborin	‖SI‖En‖tamborín‖
+
+*OZ‖yogurin	‖SI‖En‖yogurín‖
+
+;;====================
+;; ADJECTIVES
+;;====================
+;;;; NO SUFFIX
+*COZ‖Indico	‖SI‖En‖Índico‖
+*COZ‖Pacifico	‖SI‖En‖Pacífico‖
+*OZ‖abioticas	‖SI‖En‖abióticas‖
+*OZ‖abiotica	‖SI‖En‖abiótica‖
+*OZ‖abioticos	‖SI‖En‖abióticos‖
+*OZ‖abiotico	‖SI‖En‖abiótico‖
+*OZ‖acientificas	‖SI‖En‖acientíficas‖
+*OZ‖acientifica	‖SI‖En‖acientífica‖
+*OZ‖acientificos	‖SI‖En‖acientíficos‖
+*OZ‖acientifico	‖SI‖En‖acientífico‖
+*OZ‖acronimas	‖SI‖En‖acrónimas‖
+*OZ‖acronima	‖SI‖En‖acrónima‖
+*OZ‖acronimos	‖SI‖En‖acrónimos‖
+*OZ‖acronimo	‖SI‖En‖acrónimo‖
+*OZ‖agnostico	‖SI‖En‖agnóstico‖
+*OZ‖agnosticos	‖SI‖En‖agnósticos‖
+*OZ‖agnostica	‖SI‖En‖agnóstica‖
+*OZ‖agnosticas	‖SI‖En‖agnósticas‖
+*OZ‖aleman	‖SI‖En‖alemán‖
+*OZ‖anfifilico	‖SI‖En‖anfifílica‖
+*OZ‖anfifilico	‖SI‖En‖anfifílico‖
+*OZ‖antartico	‖SI‖En‖antártico‖
+*OZ‖anteultimas	‖SI‖En‖anteúltimas‖
+*OZ‖anteultima	‖SI‖En‖anteúltima‖
+*OZ‖anteultimos	‖SI‖En‖anteúltimos‖
+*OZ‖anteultimo	‖SI‖En‖anteúltimo‖
+*OZ‖antibioticas	‖SI‖En‖antibióticas‖
+*OZ‖antibiotica	‖SI‖En‖antibiótica‖
+*OZ‖antibioticos	‖SI‖En‖antibióticos‖
+*OZ‖antibiotico	‖SI‖En‖antibiótico‖
+*OZ‖anticientificas	‖SI‖En‖anticientíficas‖
+*OZ‖anticientifica	‖SI‖En‖anticientífica‖
+*OZ‖anticientificos	‖SI‖En‖anticientíficos‖
+*OZ‖anticientifico	‖SI‖En‖anticientífico‖
+*OZ‖aristotelico	‖SI‖En‖aristotélico‖
+*OZ‖artico	‖SI‖En‖ártico‖
+*OZ‖asintomatica	‖SI‖En‖asintomática‖
+*OZ‖asintomatico	‖SI‖En‖asintomático‖
+*OZ‖atleticas	‖SI‖En‖atléticas‖
+*OZ‖atletica	‖SI‖En‖atlética‖
+*OZ‖atleticos	‖SI‖En‖atléticos‖
+*OZ‖atletico	‖SI‖En‖atlético‖
+*OZ‖baricentrica	‖SI‖En‖baricéntrica‖
+*OZ‖baricentrico	‖SI‖En‖baricéntrico‖
+*OZ‖belgicas	‖SI‖En‖bélgicas‖
+*OZ‖belgica	‖SI‖En‖bélgica‖
+*OZ‖belgicos	‖SI‖En‖bélgicos‖
+*OZ‖belgico	‖SI‖En‖bélgico‖
+*OZ‖bicentrica	‖SI‖En‖bicéntrica‖
+*OZ‖bicentrico	‖SI‖En‖bicéntrico‖
+*OZ‖bioticas	‖SI‖En‖bióticas‖
+*OZ‖biotica	‖SI‖En‖biótica‖
+*OZ‖bioticos	‖SI‖En‖bióticos‖
+*OZ‖biotico	‖SI‖En‖biótico‖
+*OZ‖bisilabas	‖SI‖En‖bisílabas‖
+*OZ‖bisilaba	‖SI‖En‖bisílaba‖
+*OZ‖bisilabos	‖SI‖En‖bisílabos‖
+*OZ‖bisilabo	‖SI‖En‖bisílabo‖
+*OZ‖bosniacas	‖SI‖En‖bosníacas‖
+*OZ‖bosniaca	‖SI‖En‖bosníaca‖
+*OZ‖bosniacos	‖SI‖En‖bosníacos‖
+*OZ‖bosniaco	‖SI‖En‖bosníaco‖
+*OZ‖bulgaras	‖SI‖En‖búlgaras‖
+*OZ‖bulgara	‖SI‖En‖búlgara‖
+*OZ‖bulgaros	‖SI‖En‖búlgaros‖
+*OZ‖bulgaro	‖SI‖En‖búlgaro‖
+*OZ‖caoticas	‖SI‖En‖caóticas‖
+*OZ‖caotica	‖SI‖En‖caótica‖
+*OZ‖caoticos	‖SI‖En‖caóticos‖
+*OZ‖caotico	‖SI‖En‖caótico‖
+*OZ‖cervantico	‖SI‖En‖cervántico‖
+*OZ‖cientificas	‖SI‖En‖científicas‖
+*OZ‖cientifica	‖SI‖En‖científica‖
+*OZ‖cientificos	‖SI‖En‖científicos‖
+*OZ‖cientifico	‖SI‖En‖científico‖
+*OZ‖clasicas	‖SI‖En‖clásicas‖
+*OZ‖clasica	‖SI‖En‖clásica‖
+*OZ‖clasicos	‖SI‖En‖clásicos‖
+*OZ‖clasico	‖SI‖En‖clásico‖
+*OZ‖columbianobritanico	‖SI‖En‖columbianobritánico‖
+*OZ‖columbiano-britanico	‖SI‖En‖columbiano-británico‖
+*OZ‖columbianobritanica	‖SI‖En‖columbianobritánica‖
+*OZ‖columbiano-britanica	‖SI‖En‖columbiano-británica‖
+*OZ‖creible	‖SI‖En‖creíble‖
+*OZ‖danicas	‖SI‖En‖dánicas‖
+*OZ‖danica	‖SI‖En‖dánica‖
+*OZ‖danicos	‖SI‖En‖dánicos‖
+*OZ‖danico	‖SI‖En‖dánico‖
+*OZ‖decasilabas	‖SI‖En‖decasílabas‖
+*OZ‖decasilaba	‖SI‖En‖decasílaba‖
+*OZ‖decasilabos	‖SI‖En‖decasílabos‖
+*OZ‖decasilabo	‖SI‖En‖decasílabo‖
+*OZ‖demoniacas	‖SI‖En‖demoníacas‖
+*OZ‖demoniaca	‖SI‖En‖demoníaca‖
+*OZ‖demoniacos	‖SI‖En‖demoníacos‖
+*OZ‖demoniaco	‖SI‖En‖demoníaco‖
+*OZ‖dicigotica	‖SI‖En‖dicigótica‖
+*OZ‖dicigotico	‖SI‖En‖dicigótico‖
+*OZ‖dificiles	‖SI‖En‖difíciles‖
+*OZ‖dificilisimo	‖SI‖En‖dificilísimo‖
+*OZ‖dificil	‖SI‖En‖difícil‖
+*OZ‖eclesiasticas	‖SI‖En‖eclesiásticas‖
+*OZ‖eclesiastica	‖SI‖En‖eclesiástica‖
+*OZ‖eclesiasticos	‖SI‖En‖eclesiásticos‖
+*OZ‖eclesiastico	‖SI‖En‖eclesiástico‖
+*OZ‖egocentrica	‖SI‖En‖egocéntrica‖
+*OZ‖egocentrico	‖SI‖En‖egocéntrico‖
+*OZ‖eleatico	‖SI‖En‖eleático‖
+*OZ‖eneasilabas	‖SI‖En‖eneasílabas‖
+*OZ‖eneasilaba	‖SI‖En‖eneasílaba‖
+*OZ‖eneasilabos	‖SI‖En‖eneasílabos‖
+*OZ‖eneasilabo	‖SI‖En‖eneasílabo‖
+*OZ‖esguizaro	‖SI‖En‖esguízaro‖
+*OZ‖estupidas	‖SI‖En‖estúpidas‖
+*OZ‖estupida	‖SI‖En‖estúpida‖
+*OZ‖estupidos	‖SI‖En‖estúpidos‖
+*OZ‖estupido	‖SI‖En‖estúpido‖
+*OZ‖etiopes	‖SI‖En‖etíopes‖
+*OZ‖etiope	‖SI‖En‖etíope‖
+*OZ‖etiopicas	‖SI‖En‖etiópicas‖
+*OZ‖etiopica	‖SI‖En‖etiópica‖
+*OZ‖etiopicos	‖SI‖En‖etiópicos‖
+*OZ‖etiopico	‖SI‖En‖etiópico‖
+*OZ‖faciles	‖SI‖En‖fáciles‖
+*OZ‖facilisimo	‖SI‖En‖facilísimo‖
+*OZ‖facil	‖SI‖En‖fácil‖
+*OZ‖fantastica	‖SI‖En‖fantástica‖
+*OZ‖fantastico	‖SI‖En‖fantástico‖
+*OZ‖freneticas	‖SI‖En‖frenéticas‖
+*OZ‖frenetica	‖SI‖En‖frenética‖
+*OZ‖freneticos	‖SI‖En‖frenéticos‖
+*OZ‖frenetico	‖SI‖En‖frenético‖
+*OZ‖genericas	‖SI‖En‖genéricas‖
+*OZ‖generica	‖SI‖En‖genérica‖
+*OZ‖genericos	‖SI‖En‖genéricos‖
+*OZ‖generico	‖SI‖En‖genérico‖
+*OZ‖gnostico	‖SI‖En‖gnóstico‖
+*OZ‖gnosticos	‖SI‖En‖gnósticos‖
+*OZ‖gnostica	‖SI‖En‖gnóstica‖
+*OZ‖gnosticas	‖SI‖En‖gnósticas‖
+*OZ‖gramatico	‖SI‖En‖gramático‖
+*OZ‖gramaticos	‖SI‖En‖gramáticos‖
+*OZ‖gramatica	‖SI‖En‖gramática‖
+*OZ‖gramaticas	‖SI‖En‖gramáticas‖
+*OZ‖guarani	‖SI‖En‖guaraní‖
+*OZ‖helvetica	‖SI‖En‖helvética‖
+*OZ‖helveticas	‖SI‖En‖helvéticas‖
+*OZ‖helvetico	‖SI‖En‖helvético‖
+*OZ‖helveticos	‖SI‖En‖helvéticos‖
+*OZ‖heptasilaba	‖SI‖En‖heptasílaba‖
+*OZ‖heptasilabo	‖SI‖En‖heptasílabo‖
+*OZ‖heptasilabos	‖SI‖En‖heptasílabos‖
+*OZ‖heterocigotica	‖SI‖En‖heterocigótica‖
+*OZ‖heterocigotico	‖SI‖En‖heterocigótico‖
+*OZ‖hexasilaba	‖SI‖En‖hexasílaba‖
+*OZ‖hexasilabas	‖SI‖En‖hexasílabas‖
+*OZ‖hexasilabo	‖SI‖En‖hexasílabo‖
+*OZ‖hexasilabos	‖SI‖En‖hexasílabos‖
+*OZ‖homerico	‖SI‖En‖homérico‖
+*OZ‖homocigotica	‖SI‖En‖homocigótica‖
+*OZ‖homocigotico	‖SI‖En‖homocigótico‖
+*OZ‖hungara	‖SI‖En‖húngara‖
+*OZ‖hungaras	‖SI‖En‖húngaras‖
+*OZ‖hungaro	‖SI‖En‖húngaro‖
+*OZ‖hungaros	‖SI‖En‖húngaros‖
+*OZ‖identica	‖SI‖En‖idéntica‖
+*OZ‖identicas	‖SI‖En‖idénticas‖
+*OZ‖identico	‖SI‖En‖idéntico‖
+*OZ‖identicos	‖SI‖En‖idénticos‖
+*OZ‖increible	‖SI‖En‖increíble‖
+*OZ‖instantaneas	‖SI‖En‖instantáneas‖
+*OZ‖instantanea	‖SI‖En‖instantánea‖
+*OZ‖instantaneos	‖SI‖En‖instantáneos‖
+*OZ‖instantaneo	‖SI‖En‖instantáneo‖
+*OZ‖islandicas	‖SI‖En‖islándicas‖
+*OZ‖islandica	‖SI‖En‖islándica‖
+*OZ‖islandicos	‖SI‖En‖islándicos‖
+*OZ‖islandico	‖SI‖En‖islándico‖
+*OZ‖italo	‖SI‖En‖ítalo‖
+*OZ‖italos	‖SI‖En‖ítalos‖
+*OZ‖itala	‖SI‖En‖ítala‖
+*OZ‖italas	‖SI‖En‖ítalas‖
+*OZ‖jovenes	‖SI‖En‖jóvenes‖
+*OZ‖kirguis	‖SI‖En‖kirguís‖
+*OZ‖lentisimas	‖SI‖En‖lentísimas‖
+*OZ‖lentisima	‖SI‖En‖lentísima‖
+*OZ‖lentisimos	‖SI‖En‖lentísimos‖
+*OZ‖lentisimo	‖SI‖En‖lentísimo‖
+*OZ‖leton	‖SI‖En‖letón‖
+*OZ‖macrocefala	‖SI‖En‖macrocéfala‖
+*OZ‖macrocefalo	‖SI‖En‖macrocéfalo‖
+*OZ‖magicas	‖SI‖En‖mágicas‖
+*OZ‖magica	‖SI‖En‖mágica‖
+*OZ‖magico	‖SI‖En‖mágicos‖
+*OZ‖magico	‖SI‖En‖mágico‖
+*OZ‖managuense	‖SI‖En‖managüense‖
+*OZ‖mitologicas	‖SI‖En‖mitológicas‖
+*OZ‖mitologica	‖SI‖En‖mitológica‖
+*OZ‖mitologicos	‖SI‖En‖mitológicos‖
+*OZ‖mitologico	‖SI‖En‖mitológico‖
+*OZ‖monosilabicas	‖SI‖En‖monosilábicas‖
+*OZ‖monosilabica	‖SI‖En‖monosilábica‖
+*OZ‖monosilabicos	‖SI‖En‖monosilábicos‖
+*OZ‖monosilabico	‖SI‖En‖monosilábico‖
+*OZ‖multicentrica	‖SI‖En‖multicéntrica‖
+*OZ‖multicentrico	‖SI‖En‖multicéntrico‖
+*OZ‖nahuatl	‖SI‖En‖náhuatl‖
+*OZ‖napoleonico	‖SI‖En‖napoleónico‖
+*OZ‖octosilabas	‖SI‖En‖octosílabas‖
+*OZ‖octosilaba	‖SI‖En‖octosílaba‖
+*OZ‖octosilabos	‖SI‖En‖octosílabos‖
+*OZ‖octosilabo	‖SI‖En‖octosílabo‖
+*OZ‖ortografica	‖SI‖En‖ortográfica‖
+*OZ‖ortografico	‖SI‖En‖ortográfico‖
+*OZ‖pacifico	‖MSI‖En‖pacífico{adjective}¦pacificó{verb}‖
+*OZ‖pacificos	‖SI‖En‖pacíficos‖
+*OZ‖pacifica	‖SI‖En‖pacífica‖
+*OZ‖pacificas	‖SI‖En‖pacíficas‖
+*OZ‖parmenideo	‖SI‖En‖parmenídeo‖
+*OZ‖papu	‖SI‖En‖papú‖
+*OZ‖pentasilabas	‖SI‖En‖pentasílabas‖
+*OZ‖pentasilaba	‖SI‖En‖pentasílaba‖
+*OZ‖pentasilabos	‖SI‖En‖pentasílabos‖
+*OZ‖pentasilabo	‖SI‖En‖pentasílabo‖
+*OZ‖penultimas	‖SI‖En‖penúltimas‖
+*OZ‖penultima	‖SI‖En‖penúltima‖
+*OZ‖penultimos	‖SI‖En‖penúltimos‖
+*OZ‖penultimo	‖SI‖En‖penúltimo‖
+*OZ‖petrografica	‖SI‖En‖petrográfica‖
+*OZ‖petrografico	‖SI‖En‖petrográfico‖
+*OZ‖pitagorico	‖SI‖En‖pitagórico‖
+*OZ‖platonico	‖SI‖En‖platónico‖
+*OZ‖polisilabas	‖SI‖En‖polisílabas‖
+*OZ‖polisilaba	‖SI‖En‖polisílaba‖
+*OZ‖polisilabos	‖SI‖En‖polisílabos‖
+*OZ‖polisilabo	‖SI‖En‖polisílabo‖
+*OZ‖probioticas	‖SI‖En‖probióticas‖
+*OZ‖probiotica	‖SI‖En‖probiótica‖
+*OZ‖probioticos	‖SI‖En‖probióticos‖
+*OZ‖probiotico	‖SI‖En‖probiótico‖
+*OZ‖purpureas	‖SI‖En‖purpúreas‖
+*OZ‖purpurea	‖SI‖En‖purpúrea‖
+*OZ‖purpureos	‖SI‖En‖purpúreos‖
+*OZ‖purpureo	‖SI‖En‖purpúreo‖
+*OZ‖rapidas	‖SI‖En‖rápidas‖
+*OZ‖rapida	‖SI‖En‖rápida‖
+*OZ‖rapidisimas	‖SI‖En‖rapidísimas‖
+*OZ‖rapidisima	‖SI‖En‖rapidísima‖
+*OZ‖rapidisimos	‖SI‖En‖rapidísimos‖
+*OZ‖rapidisimo	‖SI‖En‖rapidísimo‖
+*OZ‖rapidos	‖SI‖En‖rápidos‖
+*OZ‖rapido	‖SI‖En‖rápido‖
+*OZ‖sanguinea	‖SI‖En‖sanguínea‖
+*OZ‖sanguineo	‖SI‖En‖sanguíneo‖
+*OZ‖septisilabas	‖SI‖En‖septisílabas‖
+*OZ‖septisilaba	‖SI‖En‖septisílaba‖
+*OZ‖septisilabos	‖SI‖En‖septisílabos‖
+*OZ‖septisilabo	‖SI‖En‖septisílabo‖
+*OZ‖sifiliticas	‖SI‖En‖sifilíticas‖
+*OZ‖sifilitica	‖SI‖En‖sifilítica‖
+*OZ‖sifiliticos	‖SI‖En‖sifilíticos‖
+*OZ‖sifilitico	‖SI‖En‖sifilítico‖
+*OZ‖silabicas	‖SI‖En‖silábicas‖
+*OZ‖silabica	‖SI‖En‖silábica‖
+*OZ‖silabicos	‖SI‖En‖silábicos‖
+*OZ‖silabico	‖SI‖En‖silábico‖
+*OZ‖simbolicas	‖SI‖En‖simbólicas‖
+*OZ‖simbolica	‖SI‖En‖simbólica‖
+*OZ‖simbolicos	‖SI‖En‖simbólicos‖
+*OZ‖simbolico	‖SI‖En‖simbólico‖
+*OZ‖simpatica	‖SI‖En‖simpática‖
+*OZ‖simpatico	‖SI‖En‖simpático‖
+*OZ‖sindromicas	‖SI‖En‖sindrómicas‖
+*OZ‖sindromica	‖SI‖En‖sindrómica‖
+*OZ‖sindromicos	‖SI‖En‖sindrómicos‖
+*OZ‖sindromico	‖SI‖En‖sindrómico‖
+*OZ‖sintomatica	‖SI‖En‖sintomática‖
+*OZ‖sintomatico	‖SI‖En‖sintomático‖
+*OZ‖siriacas	‖SI‖En‖siríacas‖
+*OZ‖siriaca	‖SI‖En‖siríaca‖
+*OZ‖siriacos	‖SI‖En‖siríacos‖
+*OZ‖siriaco	‖SI‖En‖siríaco‖
+*OZ‖socratico	‖SI‖En‖socrático‖
+*OZ‖tardias	‖SI‖En‖tardías‖
+*OZ‖tardia	‖SI‖En‖tardía‖
+*OZ‖tardios	‖SI‖En‖tardíos‖
+*OZ‖tardio	‖SI‖En‖tardío‖
+*OZ‖tecnologica	‖SI‖En‖tecnológica‖
+*OZ‖tecnologico	‖SI‖En‖tecnológico‖
+*OZ‖tetrasilabas	‖SI‖En‖tetrasílabas‖
+*OZ‖tetrasilaba	‖SI‖En‖tetrasílaba‖
+*OZ‖tetrasilabos	‖SI‖En‖tetrasílabos‖
+*OZ‖tetrasilabo	‖SI‖En‖tetrasílabo‖
+*OZ‖teuton	‖SI‖En‖teutón‖
+*OZ‖timidas	‖SI‖En‖tímidas‖
+*OZ‖timida	‖SI‖En‖tímida‖
+*OZ‖timidos	‖SI‖En‖tímidos‖
+*OZ‖timido	‖SI‖En‖tímido‖
+*OZ‖trisilabas	‖SI‖En‖trisílabas‖
+*OZ‖trisilaba	‖SI‖En‖trisílaba‖
+*OZ‖trisilabos	‖SI‖En‖trisílabos‖
+*OZ‖trisilabo	‖SI‖En‖trisílabo‖
+*OZ‖ultimas	‖SI‖En‖últimas‖
+*OZ‖ultima	‖SI‖En‖última‖
+*OZ‖ultimos	‖SI‖En‖últimos‖
+*OZ‖ultimo	‖SI‖En‖último‖
+*OZ‖unicas	‖SI‖En‖únicas‖
+*OZ‖unica	‖SI‖En‖única‖
+*OZ‖unicos	‖SI‖En‖únicos‖
+*OZ‖unico	‖SI‖En‖único‖
+*OZ‖virgenense britanico	‖SI‖En‖virgenense británico‖
+*OZ‖virgenense britanicos	‖SI‖En‖virgenense británicos‖
+*OZ‖virgenense britanica	‖SI‖En‖virgenense británica‖
+*OZ‖virgenense britanicas	‖SI‖En‖virgenense británicas‖
+*OZ‖ñañigo	‖SI‖En‖ñáñigo‖
+
+;;;; ísimo (https://en.wiktionary.org/wiki/Category:Spanish_terms_suffixed_with_-%C3%ADsimo)
+*OZ‖jovencisimas	‖SI‖En‖jovencísimas‖
+*OZ‖jovencisima	‖SI‖En‖jovencísima‖
+*OZ‖jovencisimos	‖SI‖En‖jovencísimos‖
+*OZ‖jovencisimo	‖SI‖En‖jovencísimo‖
+
+;;;; -ático
+*OZ‖aneurismatico	‖SI‖En‖aneurismático‖
+*OZ‖aromatico	‖SI‖En‖aromático‖
+*OZ‖cigomatico	‖SI‖En‖cigomático‖
+*OZ‖enzimatico	‖SI‖En‖enzimático‖
+*OZ‖exantematico	‖SI‖En‖exantemático‖
+*OZ‖flematico	‖SI‖En‖flemático‖
+*OZ‖linfatico	‖SI‖En‖linfático‖
+*OZ‖mediatico	‖SI‖En‖mediático‖
+*OZ‖meristematico	‖SI‖En‖meristemático‖
+*OZ‖plasmatico	‖SI‖En‖plasmático‖
+*OZ‖supraquiasmatico	‖SI‖En‖supraquiasmático‖
+
+;;;; -áceo
+*OZ‖acantaceo	‖SI‖En‖acantáceo‖
+*OZ‖aliaceo	‖SI‖En‖aliáceo‖
+*OZ‖cactaceo	‖SI‖En‖cactáceo‖
+*OZ‖carbonaceo	‖SI‖En‖carbonáceo‖
+*OZ‖grisaceo	‖SI‖En‖grisáceo‖
+*OZ‖opiaceo	‖SI‖En‖opiáceo‖
+*OZ‖orquidaceo	‖SI‖En‖orquidáceo‖
+*OZ‖vitaceo	‖SI‖En‖vitáceo‖
+
+;;;; -fóbico
+*OZ‖agorafobica	‖SI‖En‖agorafóbica‖
+*OZ‖agorafobico	‖SI‖En‖agorafóbico‖
+*OZ‖anglofobica	‖SI‖En‖anglofóbica‖
+*OZ‖anglofobico	‖SI‖En‖anglofóbico‖
+*OZ‖transfobica	‖SI‖En‖transfóbica‖
+*OZ‖transfobico	‖SI‖En‖transfóbico‖
+*OZ‖xenofobica	‖SI‖En‖xenofóbica‖
+*OZ‖xenofobico	‖SI‖En‖xenofóbico‖
+
+;;;; -génico
+*OZ‖antropogenica	‖SI‖En‖antropogénica‖
+*OZ‖antropogenico	‖SI‖En‖antropogénico‖
+*OZ‖biogenica	‖SI‖En‖biogénica‖
+*OZ‖biogenico	‖SI‖En‖biogénico‖
+*OZ‖cardiogenica	‖SI‖En‖cardiogénica‖
+*OZ‖cardiogenico	‖SI‖En‖cardiogénico‖
+*OZ‖fitogenica	‖SI‖En‖fitogénica‖
+*OZ‖fitogenico	‖SI‖En‖fitogénico‖
+*OZ‖inmunogenica	‖SI‖En‖inmunogénica‖
+*OZ‖inmunogenico	‖SI‖En‖inmunogénico‖
+*OZ‖mutagenica	‖SI‖En‖mutagénica‖
+*OZ‖mutagenico	‖SI‖En‖mutagénico‖
+*OZ‖patogenica	‖SI‖En‖patogénica‖
+*OZ‖patogenico	‖SI‖En‖patogénico‖
+*OZ‖poligenica	‖SI‖En‖poligénica‖
+*OZ‖poligenico	‖SI‖En‖poligénico‖
+*OZ‖radiogenica	‖SI‖En‖radiogénica‖
+*OZ‖radiogenico	‖SI‖En‖radiogénico‖
+*OZ‖sismogenica	‖SI‖En‖sismogénica‖
+*OZ‖sismogenico	‖SI‖En‖sismogénico‖
+*OZ‖teratogenica	‖SI‖En‖teratogénica‖
+*OZ‖teratogenico	‖SI‖En‖teratogénico‖
+
+;;;; -lítico
+*OZ‖etnologica	‖SI‖En‖etnológica‖
+*OZ‖etnologico	‖SI‖En‖etnológico‖
+*OZ‖oncolitica	‖SI‖En‖oncolítica‖
+*OZ‖oncolitico	‖SI‖En‖oncolítico‖
+*OZ‖organoleptica	‖SI‖En‖organoléptica‖
+*OZ‖organoleptico	‖SI‖En‖organoléptico‖
+*OZ‖paleolitica	‖SI‖En‖paleolítica‖
+*OZ‖paleolitico	‖SI‖En‖paleolítico‖
+
+;;;; -métrico
+*OZ‖barometrica	‖SI‖En‖barométrica‖
+*OZ‖barometrico	‖SI‖En‖barométrico‖
+*OZ‖batimetrica	‖SI‖En‖batimétrica‖
+*OZ‖batimetrico	‖SI‖En‖batimétrico‖
+*OZ‖bibliometrica	‖SI‖En‖bibliométrica‖
+*OZ‖bibliometrico	‖SI‖En‖bibliométrico‖
+*OZ‖cronometrica	‖SI‖En‖cronométrica‖
+*OZ‖cronometrico	‖SI‖En‖cronométrico‖
+*OZ‖radiometrica	‖SI‖En‖radiométrica‖
+*OZ‖radiometrico	‖SI‖En‖radiométrico‖
+*OZ‖termometrica	‖SI‖En‖termométrica‖
+*OZ‖termometrico	‖SI‖En‖termométrico‖
+*OZ‖volumetrica	‖SI‖En‖volumétrica‖
+*OZ‖volumetrico	‖SI‖En‖volumétrico‖
+
+;;;; -mórfico
+*OZ‖anamorfica	‖SI‖En‖anamórfica‖
+*OZ‖anamorfico	‖SI‖En‖anamórfico‖
+*OZ‖dimorfica	‖SI‖En‖dimórfica‖
+*OZ‖dimorfico	‖SI‖En‖dimórfico‖
+*OZ‖isomorfica	‖SI‖En‖isomórfica‖
+*OZ‖isomorfico	‖SI‖En‖isomórfico‖
+
+;;;; -trópico
+*OZ‖anisotropica	‖SI‖En‖anisotrópica‖
+*OZ‖anisotropico	‖SI‖En‖anisotrópico‖
+*OZ‖inotropica	‖SI‖En‖inotrópica‖
+*OZ‖inotropico	‖SI‖En‖inotrópico‖
+*OZ‖linfotropica	‖SI‖En‖linfotrópica‖
+*OZ‖linfotropico	‖SI‖En‖linfotrópico‖
+*OZ‖neurotropica	‖SI‖En‖neurotrópica‖
+*OZ‖neurotropico	‖SI‖En‖neurotrópico‖
+
+;;;; -stático
+*OZ‖aerostatica	‖SI‖En‖aerostática‖
+*OZ‖aerostatico	‖SI‖En‖aerostático‖
+*OZ‖bacteriostatica	‖SI‖En‖bacteriostática‖
+*OZ‖bacteriostatico	‖SI‖En‖bacteriostático‖
+*OZ‖citostatica	‖SI‖En‖citostática‖
+*OZ‖citostatico	‖SI‖En‖citostático‖
+*OZ‖electrostatica	‖SI‖En‖electrostática‖
+*OZ‖electrostatico	‖SI‖En‖electrostático‖
+*OZ‖hemostatica	‖SI‖En‖hemostática‖
+*OZ‖hemostatico	‖SI‖En‖hemostático‖
+*OZ‖homeostatico	‖SI‖En‖homeostático‖
+*OZ‖homeostatica	‖SI‖En‖homeostática‖
+*OZ‖ortostatica	‖SI‖En‖ortostática‖
+*OZ‖ortostatico	‖SI‖En‖ortostático‖
+
+;;;; -scópico
+*OZ‖endoscopica	‖SI‖En‖endoscópica‖
+*OZ‖endoscopico	‖SI‖En‖endoscópico‖
+*OZ‖giroscopica	‖SI‖En‖giroscópica‖
+*OZ‖giroscopico	‖SI‖En‖giroscópico‖
+*OZ‖laparoscopica	‖SI‖En‖laparoscópica‖
+*OZ‖laparoscopico	‖SI‖En‖laparoscópico‖
+*OZ‖macroscopica	‖SI‖En‖macroscópica‖
+*OZ‖macroscopico	‖SI‖En‖macroscópico‖
+*OZ‖microscopica	‖SI‖En‖microscópica‖
+*OZ‖microscopico	‖SI‖En‖microscópico‖
+*OZ‖nanoscopica	‖SI‖En‖nanoscópica‖
+*OZ‖nanoscopico	‖SI‖En‖nanoscópico‖
+*OZ‖telescopica	‖SI‖En‖telescópica‖
+*OZ‖telescopico	‖SI‖En‖telescópico‖
+
+;;;; -pático
+*OZ‖anfipatica	‖SI‖En‖anfipática‖
+*OZ‖anfipatico	‖SI‖En‖anfipático‖
+*OZ‖homeopatica	‖SI‖En‖homeopática‖
+*OZ‖homeopatico	‖SI‖En‖homeopático‖
+*OZ‖idiopatica	‖SI‖En‖idiopática‖
+*OZ‖idiopatico	‖SI‖En‖idiopático‖
+*OZ‖miopatica	‖SI‖En‖miopática‖
+*OZ‖miopatico	‖SI‖En‖miopático‖
+*OZ‖osteopatica	‖SI‖En‖osteopática‖
+*OZ‖osteopatico	‖SI‖En‖osteopático‖
+*OZ‖psicopatica	‖SI‖En‖psicopática‖
+*OZ‖psicopatico	‖SI‖En‖psicopático‖
+
+;;;; -í
+*OZ‖abudabi	‖SI‖En‖abudabí‖
+*OZ‖andalusi	‖SI‖En‖andalusí‖
+*OZ‖artsaji	‖SI‖En‖artsají‖
+*OZ‖asgabadi	‖SI‖En‖asgabadí‖
+*OZ‖asjabadi	‖SI‖En‖asjabadí‖
+*OZ‖azavadi	‖SI‖En‖azavadí‖
+*OZ‖azawadi	‖SI‖En‖azawadí‖
+*OZ‖azeri	‖SI‖En‖azerí‖
+*OZ‖bagdadi	‖SI‖En‖bagdadí‖
+*OZ‖bahreini	‖SI‖En‖bahreiní‖
+*OZ‖bangladeshi	‖SI‖En‖bangladeshí‖
+*OZ‖bangladesi	‖SI‖En‖bangladesí‖
+*OZ‖beiruti	‖SI‖En‖beirutí‖
+*OZ‖bengali	‖SI‖En‖bengalí‖
+*OZ‖catari	‖SI‖En‖catarí‖
+*OZ‖ceuti	‖SI‖En‖ceutí‖
+*OZ‖daguestani	‖SI‖En‖daguestaní‖
+*OZ‖emirati	‖SI‖En‖emiratí‖
+*OZ‖estambuli	‖SI‖En‖estambulí‖
+*OZ‖gazati	‖SI‖En‖gazatí‖
+*OZ‖irani	‖SI‖En‖iraní‖
+*OZ‖iraqui	‖SI‖En‖iraquí‖
+*OZ‖islamabadi	‖SI‖En‖islamabadí‖
+*OZ‖israeli	‖SI‖En‖israelí‖
+*OZ‖kabuli	‖SI‖En‖kabulí‖
+*OZ‖kiribati	‖SI‖En‖kiribatí‖
+*OZ‖kuvaiti	‖SI‖En‖kuvaití‖
+*OZ‖kuwaiti	‖SI‖En‖kuwaití‖
+*OZ‖magrebi	‖SI‖En‖magrebí‖
+*OZ‖malaui	‖SI‖En‖malauí‖
+*OZ‖malawi	‖SI‖En‖malawí‖
+*OZ‖manami	‖SI‖En‖manamí‖
+*OZ‖marbelli	‖SI‖En‖marbellí‖
+*OZ‖marroqui	‖SI‖En‖marroquí‖
+*OZ‖nepali	‖SI‖En‖nepalí‖
+*OZ‖omani	‖SI‖En‖omaní‖
+*OZ‖pakistani	‖SI‖En‖pakistaní‖
+*OZ‖paquistani	‖SI‖En‖paquistaní‖
+*OZ‖riadi	‖SI‖En‖riadí‖
+*OZ‖saudi	‖SI‖En‖saudí‖
+*OZ‖somali	‖SI‖En‖somalí‖
+*OZ‖tuneci	‖SI‖En‖tunecí‖
+*OZ‖yameni	‖SI‖En‖yamení‖
+*OZ‖yemeni	‖SI‖En‖yemení‖
+*OZ‖zagrebi	‖SI‖En‖zagrebí‖
+*OZ‖teherani	‖SI‖En‖teheraní‖
+*OZ‖nursultani	‖SI‖En‖nursultaní‖
+*OZ‖rabati	‖SI‖En‖rabatí‖
+
+;;;; -ífero
+*OZ‖arsenifera	‖SI‖En‖arsenífera‖
+*OZ‖arsenifero	‖SI‖En‖arsenífero‖
+*OZ‖diamantifera	‖SI‖En‖diamantífera‖
+*OZ‖diamantifero	‖SI‖En‖diamantífero‖
+*OZ‖fosilifera	‖SI‖En‖fosilífera‖
+*OZ‖fosilifero	‖SI‖En‖fosilífero‖
+*OZ‖plumifera	‖SI‖En‖plumífera‖
+*OZ‖plumifero	‖SI‖En‖plumífero‖
+
+;;;; -ífico
+*OZ‖terrorifico	‖SI‖En‖terrorífico‖
+
+;;;; -és
+*OZ‖abiyanes	‖SI‖En‖abiyanés‖
+*OZ‖alaves	‖SI‖En‖alavés‖
+*OZ‖albanes	‖SI‖En‖albanés‖
+*OZ‖algueres	‖SI‖En‖alguerés‖
+*OZ‖ampurdanes	‖SI‖En‖ampurdanés‖
+*OZ‖amsterdames	‖SI‖En‖amsterdamés‖
+*OZ‖antananarives	‖SI‖En‖antananarivés‖
+*OZ‖annobones	‖SI‖En‖annobonés‖
+*OZ‖aragones	‖SI‖En‖aragonés‖
+*OZ‖aranes	‖SI‖En‖aranés‖
+*OZ‖atlantes	‖SI‖En‖atlantés‖
+*OZ‖austines	‖SI‖En‖austinés‖
+*OZ‖auvernes	‖SI‖En‖auvernés‖
+*OZ‖aviles	‖SI‖En‖avilés‖
+
+*OZ‖badalones	‖SI‖En‖badalonés‖
+*OZ‖bahames	‖SI‖En‖bahamés‖
+*OZ‖balines	‖SI‖En‖balinés‖
+*OZ‖bamakes	‖SI‖En‖bamakés‖
+*OZ‖baracaldes	‖SI‖En‖baracaldés‖
+*OZ‖barcelones	‖SI‖En‖barcelonés‖
+*OZ‖barines	‖SI‖En‖barinés‖
+*OZ‖bayames	‖SI‖En‖bayamés‖
+*OZ‖benines	‖SI‖En‖beninés‖
+*OZ‖berlines	‖SI‖En‖berlinés‖
+*OZ‖bernes	‖SI‖En‖bernés‖
+*OZ‖bismarques	‖SI‖En‖bismarqués‖
+*OZ‖botsvanes	‖SI‖En‖botsvanés‖
+*OZ‖botswanes	‖SI‖En‖botswanés‖
+*OZ‖burkines	‖SI‖En‖burkinés‖
+*OZ‖burundes	‖SI‖En‖burundés‖
+*OZ‖butanes	‖SI‖En‖butanés‖
+
+*OZ‖caimanes	‖SI‖En‖caimanés‖
+*OZ‖calabres	‖SI‖En‖calabrés‖
+*OZ‖calañes	‖SI‖En‖calañés‖
+*OZ‖camerunes	‖SI‖En‖camerunés‖
+*OZ‖casablanques	‖SI‖En‖casablanqués‖
+*OZ‖ceilanes	‖SI‖En‖ceilanés‖
+*OZ‖chisinaues	‖SI‖En‖chisinaués‖
+*OZ‖congoles	‖SI‖En‖congolés‖
+*OZ‖copenhagues	‖SI‖En‖copenhagués‖
+*OZ‖cordobes	‖SI‖En‖cordobés‖
+*OZ‖coruñes	‖SI‖En‖coruñés‖
+*OZ‖cundinamarques	‖SI‖En‖cundinamarqués‖
+
+*OZ‖danes	‖SI‖En‖danés‖
+*OZ‖dinamarques	‖SI‖En‖dinamarqués‖
+*OZ‖dominiques	‖SI‖En‖dominiqués‖
+*OZ‖dublines	‖SI‖En‖dublinés‖
+*OZ‖durbanes	‖SI‖En‖durbanés‖
+*OZ‖dusambes	‖SI‖En‖dusambés‖
+
+*OZ‖edimburgues	‖SI‖En‖edimburgués‖
+*OZ‖eibarres	‖SI‖En‖eibarrés‖
+*OZ‖erevanes	‖SI‖En‖erevanés‖
+*OZ‖escoces	‖SI‖En‖escocés‖
+*OZ‖esrilanques	‖SI‖En‖esrilanqués‖
+
+*OZ‖feroes	‖SI‖En‖feroés‖
+*OZ‖fines	‖SI‖En‖finés‖
+*OZ‖finlandes	‖SI‖En‖finlandés‖
+*OZ‖frances	‖SI‖En‖francés‖
+
+*OZ‖gabones	‖SI‖En‖gabonés‖
+*OZ‖gales	‖SI‖En‖galés‖
+*OZ‖genoves	‖SI‖En‖genovés‖
+*OZ‖ghanes	‖SI‖En‖ghanés‖
+*OZ‖gijones	‖SI‖En‖gijonés‖
+*OZ‖ginebres	‖SI‖En‖ginebrés‖
+*OZ‖gotemburgues	‖SI‖En‖gotemburgués‖
+*OZ‖groenlandes	‖SI‖En‖groenlandés‖
+*OZ‖guerneseyes	‖SI‖En‖guerneseyés‖
+*OZ‖guayanes	‖SI‖En‖guayanés‖
+*OZ‖guyanes	‖SI‖En‖guyanés‖
+
+*OZ‖hamburgues	‖SI‖En‖hamburgués‖
+*OZ‖holandes	‖SI‖En‖holandés‖
+*OZ‖hongkones	‖SI‖En‖hongkonés‖
+
+*OZ‖ingles	‖SI‖En‖inglés‖
+*OZ‖irlandes	‖SI‖En‖irlandés‖
+*OZ‖irunes	‖SI‖En‖irunés‖
+*OZ‖islandes	‖SI‖En‖islandés‖
+
+*OZ‖jaenes	‖SI‖En‖jaenés‖
+*OZ‖japones	‖SI‖En‖japonés‖
+*OZ‖jerseyes	‖SI‖En‖jerseyés‖
+*OZ‖johannesburgues	‖SI‖En‖johannesburgués‖
+
+*OZ‖kines	‖SI‖En‖kinés‖
+*OZ‖kosoves	‖SI‖En‖kosovés‖
+
+*OZ‖leones	‖SI‖En‖leonés‖
+*OZ‖libanes	‖SI‖En‖libanés‖
+*OZ‖librevilles	‖SI‖En‖librevillés‖
+*OZ‖limburgues	‖SI‖En‖limburgués‖
+*OZ‖lilongues	‖SI‖En‖lilongüés‖
+*OZ‖lilongües	‖SI‖En‖lilongüés‖
+*OZ‖logroñes	‖SI‖En‖logroñés‖
+*OZ‖luandes	‖SI‖En‖luandés‖
+*OZ‖lugues	‖SI‖En‖lugués‖
+*OZ‖luxemburgues	‖SI‖En‖luxemburgués‖
+
+*OZ‖mahones	‖SI‖En‖mahonés‖
+*OZ‖maines	‖SI‖En‖mainés‖
+*OZ‖maltes	‖SI‖En‖maltés‖
+*OZ‖manes	‖SI‖En‖manés‖
+*OZ‖marilandes	‖SI‖En‖marilandés‖
+*OZ‖marsales	‖SI‖En‖marsalés‖
+*OZ‖marselles	‖SI‖En‖marsellés‖
+*OZ‖marshales	‖SI‖En‖marshalés‖
+*OZ‖martiniques	‖SI‖En‖martiniqués‖
+*OZ‖milanes	‖SI‖En‖milanés‖
+*OZ‖montañes	‖SI‖En‖montañés‖
+*OZ‖montes	‖SI‖En‖montés‖
+*OZ‖montreales	‖SI‖En‖montrealés‖
+*OZ‖mundaques	‖SI‖En‖mundaqués‖
+*OZ‖muniques	‖SI‖En‖muniqués‖
+
+*OZ‖neerlandes	‖SI‖En‖neerlandés‖
+*OZ‖neoescoces	‖SI‖En‖neoescocés‖
+*OZ‖norirlandes	‖SI‖En‖norirlandés‖
+*OZ‖neoleones	‖SI‖En‖neoleonés‖
+*OZ‖nepales	‖SI‖En‖nepalés‖
+*OZ‖nuevoleones	‖SI‖En‖nuevoleonés‖
+*OZ‖neobrunsviques	‖SI‖En‖neobrunsviqués‖
+*OZ‖neobrunswiques	‖SI‖En‖neobrunswiqués‖
+*OZ‖neozelandes	‖SI‖En‖neozelandés‖
+
+*OZ‖oregones	‖SI‖En‖oregonés‖
+*OZ‖otaues	‖SI‖En‖otaués‖
+*OZ‖otawes	‖SI‖En‖otawés‖
+
+*OZ‖pamplones	‖SI‖En‖pamplonés‖
+*OZ‖pekines	‖SI‖En‖pekinés‖
+*OZ‖petersburgues	‖SI‖En‖petersburgués‖
+*OZ‖piamontes	‖SI‖En‖piamontés‖
+*OZ‖pitcairnes	‖SI‖En‖pitcairnés‖
+*OZ‖politiques	‖SI‖En‖politiqués‖
+*OZ‖polones	‖SI‖En‖polonés‖
+*OZ‖portonoves	‖SI‖En‖portonovés‖
+*OZ‖portugues	‖SI‖En‖portugués‖
+*OZ‖pontevedres	‖SI‖En‖pontevedrés‖
+*OZ‖pulles	‖SI‖En‖pullés‖
+
+*OZ‖quebeques	‖SI‖En‖quebequés‖
+
+*OZ‖regines	‖SI‖En‖reginés‖
+*OZ‖rigues	‖SI‖En‖rigués‖
+*OZ‖ruandes	‖SI‖En‖ruandés‖
+
+*OZ‖saipanes	‖SI‖En‖saipanés‖
+*OZ‖salzburgues	‖SI‖En‖salzburgués‖
+*OZ‖sanabres	‖SI‖En‖sanabrés‖
+*OZ‖sanjuanes	‖SI‖En‖sanjuanés‖
+*OZ‖santiagues	‖SI‖En‖santiagués‖
+*OZ‖sarajeves	‖SI‖En‖sarajevés‖
+*OZ‖sayagues	‖SI‖En‖sayagués‖
+*OZ‖selandes	‖SI‖En‖selandés‖
+*OZ‖senegales	‖SI‖En‖senegalés‖
+*OZ‖seules	‖SI‖En‖seulés‖
+*OZ‖siames	‖SI‖En‖siamés‖
+*OZ‖sidneyes	‖SI‖En‖sidneyés‖
+*OZ‖sierraleones	‖SI‖En‖sierraleonés‖
+*OZ‖sierra-leones	‖SI‖En‖sierra-leonés‖
+*OZ‖somalilandes	‖SI‖En‖somalilandés‖
+*OZ‖sudanes	‖SI‖En‖sudanés‖
+*OZ‖surinames	‖SI‖En‖surinamés‖
+*OZ‖sursudanes	‖SI‖En‖sursudanés‖
+
+*OZ‖tailandes	‖SI‖En‖tailandés‖
+*OZ‖taivanes	‖SI‖En‖taivanés‖
+*OZ‖taiwanes	‖SI‖En‖taiwanés‖
+*OZ‖tallines	‖SI‖En‖tallinés‖
+*OZ‖taskentes	‖SI‖En‖taskentés‖
+*OZ‖tiranes	‖SI‖En‖tiranes‖
+*OZ‖tiroles	‖SI‖En‖tirolés‖
+*OZ‖togoles	‖SI‖En‖togolés‖
+*OZ‖turines	‖SI‖En‖turinés‖
+
+*OZ‖ugandes	‖SI‖En‖ugandés‖
+
+*OZ‖vermontes	‖SI‖En‖vermontés‖
+*OZ‖verones	‖SI‖En‖veronés‖
+*OZ‖vienes	‖SI‖En‖vienés‖
+*OZ‖vigues	‖SI‖En‖vigués‖
+*OZ‖villalbes	‖SI‖En‖villalbés‖
+*OZ‖vilnes	‖SI‖En‖vilnés‖
+
+*OZ‖vinnipegues	‖SI‖En‖vinnipegués‖
+*OZ‖winnipegues	‖SI‖En‖winnipegués‖
+
+*OZ‖yakartes	‖SI‖En‖yakartés‖
+*OZ‖yukones	‖SI‖En‖yukonés‖
+
+*OZ‖zelandes	‖SI‖En‖zelandés‖
+
+;;====================
+;; ADVERBS
+;;====================
+;;;; NO SUFFIX
+*OZ‖aca	‖SI‖En‖acá‖
+*OZ‖ademas	‖SI‖En‖además‖
+*OZ‖ahi	‖SI‖En‖ahí‖
+*OZ‖alla	‖SI‖En‖allá‖
+*OZ‖alli	‖SI‖En‖allí‖
+*OZ‖aqui	‖SI‖En‖aquí‖
+*OZ‖asi	‖SI‖En‖así‖
+*OZ‖atras	‖SI‖En‖atrás‖
+*OZ‖demas	‖SI‖En‖demás‖
+*OZ‖despues	‖SI‖En‖después‖
+*OZ‖detras	‖SI‖En‖detrás‖
+*OZ‖mas	‖SI‖En‖más‖*not accented for the Latin origin word "magis".
+*OZ‖nomas	‖SI‖En‖nomás‖
+*OZ‖quizas	‖SI‖En‖quizás‖
+*OZ‖quiza	‖SI‖En‖quizá‖
+*OZ‖recien	‖SI‖En‖recién‖
+*OZ‖tambien	‖SI‖En‖también‖
+*OZ‖todavia	‖SI‖En‖todavía‖
+
+;;;; -mente
+*OZ‖acrobaticamente	‖SI‖En‖acrobáticamente‖
+*OZ‖anaerobicamente	‖SI‖En‖anaeróbicamente‖
+*OZ‖artisticamente	‖SI‖En‖artísticamente‖
+*OZ‖asintomaticamente	‖SI‖En‖asintomáticamente‖
+*OZ‖autonomamente	‖SI‖En‖autónomamente‖
+
+*OZ‖biogeograficamente	‖SI‖En‖biogeográficamente
+*OZ‖biosinteticamente	‖SI‖En‖biosintéticamente
+*OZ‖brigidamente	‖SI‖En‖brígidamente
+
+*OZ‖catastroficamente	‖SI‖En‖catastróficamente
+*OZ‖celebremente	‖SI‖En‖célebremente
+*OZ‖comodamente	‖SI‖En‖cómodamente
+*OZ‖comunmente	‖SI‖En‖comúnmente
+*OZ‖cortesmente	‖SI‖En‖cortésmente
+*OZ‖creiblemente	‖SI‖En‖creíblemente‖
+*OZ‖cromatograficamente	‖SI‖En‖cromatográficamente‖
+*OZ‖cronicamente	‖SI‖En‖crónicamente‖
+
+*OZ‖dificilmente	‖SI‖En‖difícilmente‖
+*OZ‖dinamicamente	‖SI‖En‖dinámicamente‖
+
+*OZ‖egoistamente	‖SI‖En‖egoístamente‖
+*OZ‖electromagneticamente	‖SI‖En‖electromagnéticamente‖
+*OZ‖elipticamente	‖SI‖En‖elípticamente‖
+*OZ‖energicamente	‖SI‖En‖enérgicamente‖
+*OZ‖entusiasticamente	‖SI‖En‖entusiásticamente‖
+*OZ‖epidemiologicamente	‖SI‖En‖epidemiológicamente‖
+*OZ‖erraticamente	‖SI‖En‖erráticamente‖
+*OZ‖erroneamente	‖SI‖En‖erróneamente‖
+*OZ‖estadisticamente	‖SI‖En‖estadísticamente‖
+*OZ‖estratigraficamente	‖SI‖En‖estratigráficamente‖
+
+*OZ‖facilmente	‖SI‖En‖fácilmente‖
+*OZ‖facticamente	‖SI‖En‖fácticamente‖
+*OZ‖fisicamente	‖SI‖En‖físicamente
+*OZ‖fisiograficamente	‖SI‖En‖fisiográficamente‖
+*OZ‖freneticamente	‖SI‖En‖frenéticamente‖
+*OZ‖frivolamente	‖SI‖En‖frívolamente‖
+
+*OZ‖genericamente	‖SI‖En‖genéricamente‖
+
+*OZ‖habilmente	‖SI‖En‖hábilmente‖
+*OZ‖hiperbolicamente	‖SI‖En‖hiperbólicamente‖
+*OZ‖historicamente	‖SI‖En‖históricamente‖
+
+*OZ‖identicamente	‖SI‖En‖idénticamente‖
+*OZ‖increiblemente	‖SI‖En‖increíblemente‖
+*OZ‖instantaneamente	‖SI‖En‖instantáneamente‖
+*OZ‖inutilmente	‖SI‖En‖inútilmente‖
+*OZ‖ironicamente	‖SI‖En‖irónicamente‖
+
+*OZ‖lexicamente	‖SI‖En‖léxicamente‖
+*OZ‖logaritmicamente	‖SI‖En‖logarítmicamente‖
+
+*OZ‖matematicamente	‖SI‖En‖matemáticamente‖
+*OZ‖metaforicamente	‖SI‖En‖metafóricamente‖
+*OZ‖metricamente	‖SI‖En‖métricamente‖
+*OZ‖morbidamente	‖SI‖En‖mórbidamente‖
+
+*OZ‖neurologicamente	‖SI‖En‖neurológicamente‖
+
+*OZ‖pacificamente	‖SI‖En‖pacíficamente‖
+*OZ‖paleograficamente	‖SI‖En‖paleográficamente‖
+*OZ‖paradigmaticamente	‖SI‖En‖paradigmáticamente‖
+*OZ‖perifrasticamente	‖SI‖En‖perifrásticamente‖
+*OZ‖politicamente	‖SI‖En‖políticamente‖
+*OZ‖practicamente	‖SI‖En‖prácticamente‖
+*OZ‖prodigamente	‖SI‖En‖pródigamente‖
+*OZ‖programaticamente	‖SI‖En‖programáticamente‖
+*OZ‖psicologicamente	‖SI‖En‖psicológicamente‖
+*OZ‖psionicamente	‖SI‖En‖psiónicamente‖
+
+*OZ‖rapidamente	‖SI‖En‖rápidamente‖
+*OZ‖ridiculamente	‖SI‖En‖ridículamente‖
+
+*OZ‖serologicamente	‖SI‖En‖serológicamente‖
+*OZ‖sicologicamente	‖SI‖En‖sicológicamente‖
+*OZ‖simpaticamente	‖SI‖En‖simpaticamente‖
+*OZ‖sintomaticamente	‖SI‖En‖sintomáticamente‖
+*OZ‖sistemicamente	‖SI‖En‖sistémicamente‖
+*OZ‖solidamente	‖SI‖En‖sólidamente‖
+*OZ‖sonicamente	‖SI‖En‖sónicamente‖
+*OZ‖simbolicamente	‖SI‖En‖simbólicamente‖
+
+*OZ‖ultimamente	‖SI‖En‖últimamente‖
+*OZ‖unanimemente	‖SI‖En‖unánimemente‖
+*OZ‖unicamente	‖SI‖En‖únicamente‖
+*OZ‖utilmente	‖SI‖En‖útilmente‖
+
+*OZ‖vividamente	‖SI‖En‖vívidamente‖
+
+*OZ‖teluricamente	‖SI‖En‖telúricamente‖
+*OZ‖tetricamente	‖SI‖En‖tétricamente‖
+
+;;====================
+;; INTERJECTIONS
+;;====================
+*OZ‖adios	‖SI‖En‖adiós‖
+*OZ‖idem	‖SI‖En‖ídem‖
+
+;;====================
+;; PREPOSITIONS, DETERMINERS AND OTHERS
+;;====================
+*OZ‖algun	‖SI‖En‖algún‖
+*OZ‖muchisimas	‖SI‖En‖muchísimas‖
+*OZ‖muchisima	‖SI‖En‖muchísima‖
+*OZ‖muchisimos	‖SI‖En‖muchísimos‖
+*OZ‖muchisimo	‖SI‖En‖muchísimo‖
+*OZ‖ningun	‖SI‖En‖ningún‖
+*OZ‖ojala	‖SI‖En‖ojalá‖
+*OZ‖segun	‖SI‖En‖según‖
+*OZ‖tantisimas	‖SI‖En‖tantísimas‖
+*OZ‖tantisima	‖SI‖En‖tantísima‖
+*OZ‖tantisimos	‖SI‖En‖tantísimos‖
+*OZ‖tantisimo	‖SI‖En‖tantísimo‖
