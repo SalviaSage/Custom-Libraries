@@ -1,0 +1,34 @@
+﻿;; Tibetan Vowel Helper
+
+;; Automatically fixes some typing mistakes related to vowel maatras.
+;; Intended to be used alongside this keyboard layout program:
+;; https://github.com/SalviaSage/Keyboard-Layouts/tree/master/Indic%20Typers/Tibetan%20Typer
+;; 22 Definitions.
+
+;; Vowels Section
+
+*CO‖ཱ‖SI‖En‖{U+0F68}‖tibetan letter a - Automatic Replace
+*CO‖ི‖SI‖En‖{U+0F68}{U+0F72}‖tibetan vowel sign i - Automatic Replace
+*CO‖ཱི‖SI‖En‖{U+0F68}{U+0F73}‖tibetan vowel sign ii - Automatic Replace
+*CO‖ུ‖SI‖En‖{U+0F68}{U+0F74}‖tibetan vowel sign u - Automatic Replace
+*CO‖ཱུ‖SI‖En‖{U+0F68}{U+0F75}‖tibetan vowel sign uu - Automatic Replace
+*CO‖ེ‖SI‖En‖{U+0F68}{U+0F7A}‖tibetan vowel sign e - Automatic Replace
+*CO‖ཻ‖SI‖En‖{U+0F68}{U+0F7B}‖tibetan vowel sign ee - Automatic Replace
+*CO‖ོ‖SI‖En‖{U+0F68}{U+0F7C}‖tibetan vowel sign o - Automatic Replace
+*CO‖ཽ‖SI‖En‖{U+0F68}{U+0F7D}‖tibetan vowel sign oo - Automatic Replace
+
+*CO‖ྀ‖SI‖En‖{U+0F62}{U+0F80}‖tibetan vowel sign reversed i - Automatic Replace
+*CO‖ཱྀ‖SI‖En‖{U+0F62}{U+0F71}{U+0F80}‖tibetan vowel sign reversed ii - Automatic Replace
+*CO‖ྲྀ‖SI‖En‖{U+0F62}{U+0F80}‖tibetan vowel sign vocalic r - Automatic Replace
+*CO‖ཷ‖SI‖En‖{U+0F62}{U+0F71}{U+0F80}‖tibetan vowel sign vocalic rr - Automatic Replace
+*CO‖ླྀ‖SI‖En‖{U+0F63}{U+0F80}‖tibetan vowel sign vocalic l - Automatic Replace
+*CO‖ཹ‖SI‖En‖{U+0F63}{U+0F71}{U+0F80}‖tibetan vowel sign vocalic ll - Automatic Replace
+
+;; Diacritics Section
+*CO‖ཿ‖SI‖En‖{U+0008}‖tibetan mark rnam bcad - Automatic Replace
+*CO‖༵‖SI‖En‖{U+0008}‖tibetan mark ngas bzung nyi zla - Automatic Replace
+*CO‖྆‖SI‖En‖{U+0008}‖tibetan sign lci rtags - Automatic Replace
+*CO‖྇‖SI‖En‖{U+0008}‖tibetan sign yang rtags - Automatic Replace
+;*CO‖ཾ‖SI‖En‖{U+0008}‖tibetan mark - Automatic Replace
+;*CO‖ྃ‖SI‖En‖{U+0008}‖tibetan sign sna ladan - Automatic Replace
+;*CO‖ྂ‖SI‖En‖{U+0008}‖tibetan sign nyi zla naa da - Automatic Replace
