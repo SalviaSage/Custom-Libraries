@@ -1,0 +1,7 @@
+﻿;; Character Replacer (Ethiopic Colon)
+;; Replaces the colon character with the ethiopic colon character.
+;; Made for Indic scripts because the visarga (ः/कः) looks exactly like the colon character (:).
+;; It automatically replaces the colon character (:) with the ethiopic colon character (፥).
+;; This colon character has a bar going between the dots and that helps distinguish it from the visarga.
+
+*?OZ‖:‖SI‖En‖{U+1365}‖colon ( ethiopic colon) - Automatic Replace

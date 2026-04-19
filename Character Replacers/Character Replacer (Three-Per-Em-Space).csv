@@ -1,0 +1,4 @@
+﻿;; Delimiter Replacer (Three-Per-Em-Space)
+;; Automatically replaces the space character ( ) with the three-per-em space ( ) character.
+
+*?OZ‖ ‖SI‖En‖{U+2004}‖three-per-em space - Automatic Replace
