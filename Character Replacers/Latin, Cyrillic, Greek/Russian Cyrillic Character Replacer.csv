@@ -1,0 +1,17 @@
+﻿;; Russian Cyrillic Character Replacer
+
+;; For use with the Russian Cyrillic Keyboard Layout
+;; https://github.com/SalviaSage/Keyboard-Layouts/blob/master/Cyrillic%20Typers/Russian%20Cyrillic%20Typer/Russian%20Cyrillic%20Typer%20Layout.png
+;; Replaces two letters with handwritten glyphs of Greek letters.
+;; Fails dictionary searches and is intended for aesthetic purposes.
+
+;; Has to be case sensitive with the (C) syntax
+;; Probably has to have the (?) syntax, which will allow it to trigger within words.
+
+;; Δ, δ
+*C?OZ‖д‖SI‖En‖{U+03B4}‖greek small letter delta - Automatic Replace
+*C?OZ‖Д‖SI‖En‖{U+0394}‖greek capital letter delta - Automatic Replace
+
+;; Λ, ᴧ
+*C?OZ‖л‖SI‖En‖{U+1D27}‖greek letter small capital lamda - Automatic Replace
+*C?OZ‖Л‖SI‖En‖{U+039B}‖greek capital letter lamda - Automatic Replace
