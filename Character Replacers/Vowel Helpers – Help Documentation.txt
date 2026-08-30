@@ -1,4 +1,4 @@
-Vowel Helpers — Help Documentation;
+Vowel Helpers – Help Documentation;
 
 I created these Hotstrings.exe libraries to tackle an issue with typing vowels in Indic scripts.
 
