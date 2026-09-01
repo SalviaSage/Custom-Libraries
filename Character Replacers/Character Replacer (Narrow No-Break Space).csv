@@ -1,0 +1,10 @@
+﻿;; Spacer (French Spacing) https://en.wiktionary.org/wiki/French_spacing
+;; Helps to space out punctuation marks by adding a narrow no-break space (U+202F).
+;; Particularly useful for certain scripts with big characters, such as Devanagari or other scripts.
+
+*?OZ‖?‖SI‖En‖{U+202F}{U+003F}‖question mark - Automatic Replace
+*?OZ‖!‖SI‖En‖{U+202F}{U+0021}‖exclamation mark - Automatic Replace
+*?OZ‖;‖SI‖En‖{U+202F}{U+003B}‖semicolon - Automatic Replace
+*?OZ‖:‖SI‖En‖{U+202F}{U+003A}‖colon - Automatic Replace
+
+*?OZ‖ ~‖SI‖En‖{U+202F}‖Narrow Non-Breaking Space (space + tilde)
