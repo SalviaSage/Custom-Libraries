@@ -1,0 +1,1244 @@
+﻿;; Unicode Sender (NEEDS IMPROVEMENT)
+;; Type what you want to send in Unicode and press backtick (`), it will be sent.
+;; C1 for characters where case is not relevant. C for characters where case is relevant.
+;; ? for characters that are used inside words. No '?' syntax otherwise.
+;; 1048 definitions.
+
+;; if we type (atom`), we get (om`). How to deal with this issue?
+;; Remove the '?' syntax out for things that should not be a part of a word, such as symbols.
+;; Keep the '?' syntax for letters and diacritics
+
+;; LIST
+;;====================
+;; GREEK LETTERS
+;; ARCHAIC GREEK LETTERS
+;; BRACKETS
+;; COMBINING DIACRITICS (LATIN)
+;; COMPUTER-KEYS SYMBOLS
+;; CURRENCY SYMBOLS
+;; DATE AND TIME
+;; EXTRA LETTERS & LIGATURES
+;; MATHEMATICAL (GEOMETRICAL)
+;; MATHEMATICAL
+;; ORTHOGRAPHICAL
+;; ORTHOGRAPHICAL (RIGHT-TO-LEFT)
+;; ROMAN NUMERALS
+;; SPACING
+;; ASTRONOMICAL
+;; RELIGIOUS & POLITICAL
+;; SYMBOLS
+
+
+;; GREEK LETTERS
+;;====================
+*C?OZ‖alpha`‖SI‖En‖{U+03B1}‖greek small letter alpha
+*C?OZ‖ALPHA`‖SI‖En‖{U+0391}‖greek capital letter alpha
+
+*C?OZ‖beta`‖SI‖En‖{U+03B2}‖greek small letter beta
+*C?OZ‖BETA`‖SI‖En‖{U+0392}‖greek capital letter beta
+
+*C?OZ‖gamma`‖SI‖En‖{U+03B3}‖greek small letter gamma
+*C?OZ‖GAMMA`‖SI‖En‖{U+0393}‖greek capital letter gamma
+
+*C?OZ‖delta`‖SI‖En‖{U+03B4}‖greek small letter delta
+*C?OZ‖DELTA`‖SI‖En‖{U+0394}‖greek capital letter delta
+
+*C?OZ‖epsilon`‖SI‖En‖{U+03B5}‖greek small letter epsilon
+*C?OZ‖EPSILON`‖SI‖En‖{U+0395}‖greek capital letter epsilon
+
+*C?OZ‖zeta`‖SI‖En‖{U+03B6}‖greek small letter zeta
+*C?OZ‖ZETA`‖SI‖En‖{U+0396}‖greek capital letter zeta
+
+*C?OZ‖eta`‖SI‖En‖{U+03B7}‖greek small letter eta
+*C?OZ‖ETA`‖SI‖En‖{U+0397}‖greek capital letter eta
+
+*C?OZ‖theta`‖SI‖En‖{U+03B8}‖greek small letter theta
+*C?OZ‖THETA`‖SI‖En‖{U+0398}‖greek capital letter theta
+
+*C?OZ‖iota`‖SI‖En‖{U+03B9}‖greek small letter iota
+*C?OZ‖IOTA`‖SI‖En‖{U+0399}‖greek capital letter iota
+
+*C?OZ‖kappa`‖SI‖En‖{U+03BA}‖greek small letter kappa
+*C?OZ‖KAPPA`‖SI‖En‖{U+039A}‖greek capital letter kappa
+
+*C?OZ‖lambda`‖SI‖En‖{U+03BB}‖greek small letter lamda
+*C?OZ‖LAMBDA`‖SI‖En‖{U+039B}‖greek capital letter lamda
+*C?OZ‖lamda`‖SI‖En‖{U+03BB}‖greek small letter lamda
+*C?OZ‖LAMDA`‖SI‖En‖{U+039B}‖greek capital letter lamda
+
+*C?OZ‖mu`‖SI‖En‖{U+03BC}‖greek small letter mu
+*C?OZ‖MU`‖SI‖En‖{U+039C}‖greek capital letter mu
+
+*C?OZ‖nu`‖SI‖En‖{U+03BD}‖greek small letter nu
+*C?OZ‖NU`‖SI‖En‖{U+039D}‖greek capital letter nu
+
+*C?OZ‖xi`‖SI‖En‖{U+03BE}‖greek small letter xi
+*C?OZ‖XI`‖SI‖En‖{U+039E}‖greek capital letter xi
+
+*C?OZ‖omicron`‖SI‖En‖{U+03BF}‖greek small letter omicron
+*C?OZ‖OMICRON`‖SI‖En‖{U+039F}‖greek capital letter omicron
+
+*C?OZ‖pi`‖SI‖En‖{U+03C0}‖greek small letter pi
+*C?OZ‖PI`‖SI‖En‖{U+03A0}‖greek capital letter pi
+
+*C?OZ‖rho`‖SI‖En‖{U+03C1}‖greek small letter rho
+*C?OZ‖RHO`‖SI‖En‖{U+03A1}‖greek capital letter rho
+
+*C?OZ‖sigma`‖SI‖En‖{U+03C3}‖greek small letter sigma
+*C?OZ‖finalsigma`‖SI‖En‖{U+03C2}‖greek small letter final sigma
+*C?OZ‖SIGMA`‖SI‖En‖{U+03A3}‖greek capital letter sigma
+
+*C?OZ‖tau`‖SI‖En‖{U+03C4}‖greek small letter tau
+*C?OZ‖TAU`‖SI‖En‖{U+03A4}‖greek capital letter tau
+
+*C?OZ‖upsilon`‖SI‖En‖{U+03C5}‖greek small letter upsilon
+*C?OZ‖UPSILON`‖SI‖En‖{U+03A5}‖greek capital letter upsilon
+
+*C?OZ‖phi`‖SI‖En‖{U+03C6}‖greek small letter phi
+*C?OZ‖PHI`‖SI‖En‖{U+03A6}‖greek capital letter phi
+
+*C?OZ‖chi`‖SI‖En‖{U+03C7}‖greek small letter chi
+*C?OZ‖CHI`‖SI‖En‖{U+03A7}‖greek capital letter chi
+
+*C?OZ‖psi`‖SI‖En‖{U+03C8}‖greek small letter psi
+*C?OZ‖PSI`‖SI‖En‖{U+03A8}‖greek capital letter psi
+
+*C?OZ‖omega`‖SI‖En‖{U+03C9}‖greek small letter omega
+*C?OZ‖OMEGA`‖SI‖En‖{U+03A9}‖greek capital letter omega
+
+
+;; ARCHAIC GREEK LETTERS
+;;====================
+*C?OZ‖digamma`‖SI‖En‖{U+03DD}‖greek small letter digamma
+*C?OZ‖DIGAMMA`‖SI‖En‖{U+03DC}‖greek letter digamma
+*C?OZ‖wau`‖SI‖En‖{U+03DD}‖greek small letter digamma
+*C?OZ‖WAU`‖SI‖En‖{U+03DC}‖greek letter digamma
+
+*C?OZ‖pamphyliandigamma`‖SI‖En‖{U+0377}‖greek small letter pamphylian digamma
+*C?OZ‖PAMPHYLIANDIGAMMA`‖SI‖En‖{U+0376}‖greek capital letter pamphylian digamma
+
+*C?OZ‖koppa`‖SI‖En‖{U+03D9}‖greek small letter archaic koppa
+*C?OZ‖KOPPA`‖SI‖En‖{U+03D8}‖greek letter archaic koppa
+*C?OZ‖qoppa`‖SI‖En‖{U+03D9}‖greek small letter archaic koppa
+*C?OZ‖QOPPA`‖SI‖En‖{U+03D8}‖greek letter archaic koppa
+*C?OZ‖modernkoppa`‖SI‖En‖{U+03DF}‖greek small letter koppa
+*C?OZ‖MODERNKOPPA`‖SI‖En‖{U+03DE}‖greek letter koppa
+*C?OZ‖modernqoppa`‖SI‖En‖{U+03DF}‖greek small letter koppa
+*C?OZ‖MODERNQOPPA`‖SI‖En‖{U+03DE}‖greek letter koppa
+
+*C?OZ‖sampi`‖SI‖En‖{U+0373}‖greek small letter archaic sampi
+*C?OZ‖SAMPI`‖SI‖En‖{U+0372}‖greek capital letter archaic sampi
+*C?OZ‖modernsampi`‖SI‖En‖{U+03E1}‖greek small letter sampi
+*C?OZ‖MODERNSAMPI`‖SI‖En‖{U+03E0}‖greek letter sampi
+
+*C?OZ‖san`‖SI‖En‖{U+03FB}‖greek small letter san
+*C?OZ‖SAN`‖SI‖En‖{U+03FA}‖greek capital letter san
+
+*C?OZ‖heta`‖SI‖En‖{U+0371}‖greek small letter heta
+*C?OZ‖HETA`‖SI‖En‖{U+0370}‖greek capital letter heta
+*C?OZ‖tackheta`‖SI‖En‖{U+0371}‖greek small letter heta
+*C?OZ‖TACKHETA`‖SI‖En‖{U+0370}‖greek capital letter heta
+
+*C?OZ‖stigma`‖SI‖En‖{U+03DB}‖greek small letter stigma
+*C?OZ‖STIGMA`‖SI‖En‖{U+03DA}‖greek letter stigma
+
+*C?OZ‖lunatesigma`‖SI‖En‖{U+03F2}‖greek lunate sigma symbol
+*C?OZ‖LUNATESIGMA`‖SI‖En‖{U+03F9}‖greek capital lunate sigma symbol
+
+*C?OZ‖jot`‖SI‖En‖{U+03F3}‖greek letter yot
+*C?OZ‖JOT`‖SI‖En‖{U+037F}‖greek capital letter yot
+
+*C?OZ‖sho`‖SI‖En‖{U+03F8}‖greek small letter sho
+*C?OZ‖SHO`‖SI‖En‖{U+03F7}‖greek capital letter sho
+
+*C?OZ‖kai`‖SI‖En‖{U+03D7}‖greek kai symbol
+*C?OZ‖KAI`‖SI‖En‖{U+03CF}‖greek capital kai symbol
+
+
+;; BRACKETS
+;;====================
+*C1OZ‖parentheses`‖SI‖En‖(){left 1}‖parentheses (open-close)
+*C1OZ‖parenthesis`‖SI‖En‖(){left 1}‖parenthesis (open-close)
+*C1OZ‖roundbrackets`‖SI‖En‖(){left 1}‖parentheses (open-close)
+*C1OZ‖squarebrackets`‖SI‖En‖[]{left 1}‖square brackets (open-close)
+*C1OZ‖curlybrackets`‖SI‖En‖{}{left 1}‖curly brackets (open-close)
+
+*C1OZ‖guillemets`‖SI‖En‖«»{left 1}‖guillemets (open-close)
+*C1OZ‖reverseguillemets`‖SI‖En‖»«{left 1}‖guillemets (open-close)
+*C1OZ‖singleguillemets`‖SI‖En‖‹›{left 1}‖chevrons (open-close)
+*C1OZ‖chevrons`‖SI‖En‖‹›{left 1}‖chevrons (open-close)
+*C1OZ‖anglebrackets`‖SI‖En‖⟨⟩{left 1}‖angle brackets (open-close)
+*C1OZ‖angledbrackets`‖SI‖En‖⟨⟩{left 1}‖angle brackets (open-close)
+*C1OZ‖doubleanglebrackets`‖SI‖En‖《》{left 1}‖double angle brackets (open-close)
+*C1OZ‖doubleangledbrackets`‖SI‖En‖《》{left 1}‖double angle brackets (open-close)
+*C1OZ‖curvedanglebrackets`‖SI‖En‖⧼⧽{left 1}‖curved angle brackets (open-close)
+*C1OZ‖doublesquarebrackets`‖SI‖En‖⟦⟧{left 1}‖double brackets (open-close)
+*C1OZ‖lenticularbrackets`‖SI‖En‖【】{left 1}‖lenticular brackets (open-close)
+*C1OZ‖sumitsuki`‖SI‖En‖【】{left 1}‖lenticular brackets (open-close)
+
+*C1OZ‖cornerbrackets`‖SI‖En‖⌈⌋{left 1}‖top left corner + right floor corner (open-close)
+*C1OZ‖halfcornerbrackets`‖SI‖En‖⌜⌟{left 1}‖top half left corner + right half floor corner (open-close)
+
+*C1OZ‖quillbrackets`‖SI‖En‖⁅⁆{left 1}‖quill brackets (open-close)
+*C1OZ‖piggparentes`‖SI‖En‖⁅⁆{left 1}‖pin brackets (open-close)
+*C1OZ‖pinbrackets`‖SI‖En‖⁅⁆{left 1}‖pin brackets (open-close)
+
+*C1OZ‖CJKbrackets`‖SI‖En‖「」{left 1}‖corner bracket (open-close)
+*C1OZ‖doublecornerbrackets`‖SI‖En‖『』{left 1}‖white corner bracket (open-close)
+*C1OZ‖doubleCJKbrackets`‖SI‖En‖『』{left 1}‖white corner bracket (open-close)
+*C1OZ‖thickCJKbrackets`‖SI‖En‖『』{left 1}‖white corner bracket (open-close)
+*C1OZ‖thickcornerbrackets`‖SI‖En‖『』{left 1}‖white corner bracket (open-close)
+*C1OZ‖tortoisebrackets`‖SI‖En‖〔〕{left 1}‖tortoise bracket (open-close)
+*C1OZ‖doubletortoisebrackets`‖SI‖En‖〘〙{left 1}‖white tortoise bracket (open-close)
+*C1OZ‖thicktortoisebrackets`‖SI‖En‖〘〙{left 1}‖white tortoise bracket (open-close)
+
+
+;; COMBINING DIACRITICS (LATIN)
+;;====================
+*C1?OZ‖grave`‖SI‖En‖{U+0300}‖combining grave accent
+*C1?OZ‖graveaccent`‖SI‖En‖{U+0300}‖combining grave accent
+*C1?OZ‖doublegrave`‖SI‖En‖{U+030F}‖combining double grave accent
+*C1?OZ‖doublegraveaccent`‖SI‖En‖{U+030F}‖combining double grave accent
+
+*C1?OZ‖acute`‖SI‖En‖{U+0301}‖combining acute accent
+*C1?OZ‖acuteaccent`‖SI‖En‖{U+0301}‖combining acute accent
+*C1?OZ‖doubleacute`‖SI‖En‖{U+030B}‖combining double acute accent
+*C1?OZ‖doubleacuteaccent`‖SI‖En‖{U+030B}‖combining double acute accent
+
+*C?1OZ‖circumflex`‖SI‖En‖{U+0302}‖combining circumflex accent
+*C1?OZ‖circumflexaccent`‖SI‖En‖{U+0302}‖combining circumflex accent
+
+*C1?OZ‖apex`‖SI‖En‖{U+1DC4}‖combining macron-acute
+
+*C1?OZ‖umlaut`‖SI‖En‖{U+0308}‖combining diaeresis
+*C1?OZ‖trema`‖SI‖En‖{U+0308}‖combining diaeresis
+*C1?OZ‖diaeresis`‖SI‖En‖{U+0308}‖combining diaeresis
+
+*C1?OZ‖ogonek`‖SI‖En‖{U+0328}‖combining ogonek
+
+*C1?OZ‖xbelow`‖SI‖En‖{U+0353}‖combining x below
+
+*C1?OZ‖leftangleabove`‖SI‖En‖{U+031A}‖combining left angle above
+
+*C1?OZ‖bridgeabove`‖SI‖En‖{U+0346}‖combining bridge above
+*C1?OZ‖bridgebelow`‖SI‖En‖{U+032A}‖combining bridge below
+
+*C1?OZ‖hook`‖SI‖En‖{U+0309}‖combining hook above
+*C1?OZ‖hookabove`‖SI‖En‖{U+0309}‖combining hook above
+
+*C1?OZ‖dotabove`‖SI‖En‖{U+0307}‖combining dot above
+*C1?OZ‖overdot`‖SI‖En‖{U+0307}‖combining dot above
+*C1?OZ‖tittle`‖SI‖En‖{U+0307}‖combining dot above
+*C1?OZ‖dotbelow`‖SI‖En‖{U+0323}‖combining dot below
+*C1?OZ‖underdot`‖SI‖En‖{U+0323}‖combining dot below
+
+*C1?OZ‖cedilla`‖SI‖En‖{U+0327}‖combining cedilla
+*C1?OZ‖cedille`‖SI‖En‖{U+0327}‖combining cedilla
+
+*C1?OZ‖commabelow`‖SI‖En‖{U+0326}‖combining comma below
+
+*C1?OZ‖sicilicus`‖SI‖En‖{U+0357}‖combining right half ring above
+
+*C1?OZ‖breve`‖SI‖En‖{U+0306}‖combining breve
+*C1?OZ‖invertedbreve`‖SI‖En‖{U+0311}‖combining inverted breve
+*C1?OZ‖invertedbrevebelow`‖SI‖En‖{U+032F}‖combining inverted breve below
+*C1?OZ‖doublebreve`‖SI‖En‖{U+035D}‖combining double breve
+*C1?OZ‖doublebrevebelow`‖SI‖En‖{U+035C}‖combining double breve below
+*C1?OZ‖tiebelow`‖SI‖En‖{U+035C}‖combining double breve below
+*C1?OZ‖doubleinvertedbreve`‖SI‖En‖{U+0361}‖combining double inverted breve
+*C1?OZ‖combiningtie`‖SI‖En‖{U+0361}‖combining double inverted breve
+*C1?OZ‖tieabove`‖SI‖En‖{U+0361}‖combining double inverted breve
+*C1?OZ‖doubleinvertedbrevebelow`‖SI‖En‖{U+1DFC}‖combining double inverted breve below
+
+*C1?OZ‖doubletie`‖SI‖En‖{U+0361}{right 1}{U+0361}‖combining double inverted breve
+*C1?OZ‖doubletiebelow`‖SI‖En‖{U+035C}{right 1}{U+035C}‖combining double breve below
+
+*C1?OZ‖tilde`‖SI‖En‖{U+0303}‖combining tilde
+
+*C1?OZ‖macron`‖SI‖En‖{U+0304}‖combining macron
+*C1?OZ‖macronbelow`‖SI‖En‖{U+0331}‖combining macron below
+*C1?OZ‖doublemacron`‖SI‖En‖{U+035E}‖combining double macron
+*C1?OZ‖doublemacronbelow`‖SI‖En‖{U+035F}‖combining double macron below
+*C1?OZ‖overline`‖SI‖En‖{U+0305}‖combining overline
+*C1?OZ‖doubleoverline`‖SI‖En‖{U+033F}‖combining double overline
+*C1?OZ‖lowline`‖SI‖En‖{U+0332}‖combining low line
+*C1?OZ‖underline`‖SI‖En‖{U+0332}‖combining low line
+*C1?OZ‖doublelowline`‖SI‖En‖{U+0333}‖combining double low line
+*C1?OZ‖doubleunderline`‖SI‖En‖{U+0333}‖combining double low line
+
+*C1?OZ‖caron`‖SI‖En‖{U+030C}‖combining caron
+*C1?OZ‖hacek`‖SI‖En‖{U+030C}‖combining caron
+
+*C1?OZ‖horn`‖SI‖En‖{U+031B}‖combining horn
+
+*C1?OZ‖overring`‖SI‖En‖{U+030A}‖combining ring above
+*C1?OZ‖ringabove`‖SI‖En‖{U+030A}‖combining ring above
+*C1?OZ‖underring`‖SI‖En‖{U+0325}‖combining ring below
+*C1?OZ‖ringbelow`‖SI‖En‖{U+0325}‖combining ring below
+
+*C1?OZ‖roughbreathing`‖SI‖En‖{U+0314}‖combining reversed comma above
+*C1?OZ‖smoothbreathing`‖SI‖En‖{U+0313}‖combining comma above
+
+*C1?OZ‖pinyintone1`‖SI‖En‖{U+0304}‖combining macron
+*C1?OZ‖pinyintone2`‖SI‖En‖{U+0301}‖combining acute
+*C1?OZ‖pinyintone3`‖SI‖En‖{U+030C}‖combining caron
+*C1?OZ‖pinyintone4`‖SI‖En‖{U+0300}‖combining grave
+
+*C1?OZ‖vietnamesetone1`‖SI‖En‖{U+0301}‖combining acute
+*C1?OZ‖vietnamesetone2`‖SI‖En‖{U+0300}‖combining grave
+*C1?OZ‖vietnamesetone3`‖SI‖En‖{U+0309}‖combining hook above
+*C1?OZ‖vietnamesetone4`‖SI‖En‖{U+0303}‖combining tilde
+*C1?OZ‖vietnamesetone5`‖SI‖En‖{U+0323}‖combining dot below
+
+
+;; COMPUTER-KEYS SYMBOLS
+;;====================
+*C1OZ‖commandkey`‖SI‖En‖{U+2318}‖place of interest sign
+*C1OZ‖applekey`‖SI‖En‖{U+2318}‖place of interest sign
+*C1OZ‖winkey`‖SI‖En‖{U+229E}‖squared plus
+*C1OZ‖windowskey`‖SI‖En‖{U+229E}‖squared plus
+*C1OZ‖tabkey`‖SI‖En‖{U+2B7E}‖horizontal tab key
+*C1OZ‖tabulationkey`‖SI‖En‖{U+2B7E}‖horizontal tab key
+*C1OZ‖enterkey`‖SI‖En‖{U+21B5}‖downwards arrow with corner leftwards
+*C1OZ‖enterkey2`‖SI‖En‖{U+2386}‖enter symbol
+*C1OZ‖shiftkey`‖SI‖En‖{U+21E7}‖upwards white arrow
+*C1OZ‖backspacekey`‖SI‖En‖{U+2190}‖leftwards arrow
+*C1OZ‖backspacekey2`‖SI‖En‖{U+232B}‖erase to the left
+*C1OZ‖bskey`‖SI‖En‖{U+2190}‖leftwards arrow
+
+*C1OZ‖capslockkey`‖SI‖En‖{U+21EA}‖upwards white arrow from bar
+*C1OZ‖capskey`‖SI‖En‖{U+21EA}‖upwards white arrow from bar
+*C1OZ‖scrolllockkey`‖SI‖En‖{U+2913}‖downwards arrow to bar
+*C1OZ‖scrollkey`‖SI‖En‖{U+2913}‖downwards arrow to bar
+*C1OZ‖numlockkey`‖SI‖En‖{U+21ED}‖upwards white arrow on pedestal with vertical bar
+*C1OZ‖numkey`‖SI‖En‖{U+21ED}‖upwards white arrow on pedestal with vertical bar
+
+*C1OZ‖composekey`‖SI‖En‖{U+2384}‖composition symbol
+*C1OZ‖spacekey`‖SI‖En‖{U+2423}‖open box
+*C1OZ‖spacekey2`‖SI‖En‖{U+2420}‖symbol for space
+*C1OZ‖escapekey`‖SI‖En‖{U+238B}‖broken circle with northwest arrow
+*C1OZ‖esckey`‖SI‖En‖{U+238B}‖broken circle with northwest arrow
+
+*C1OZ‖homekey`‖SI‖En‖{U+21F1}‖north west arrow to corner
+*C1OZ‖endkey`‖SI‖En‖{U+21F2}‖south east arrow to corner
+*C1OZ‖menukey`‖SI‖En‖{U+2263}‖strictly equivalent to
+
+*C1OZ‖ctrlkey`‖SI‖En‖{U+2388}‖helm symbol
+*C1OZ‖controlkey`‖SI‖En‖{U+2388}‖helm symbol
+*C1OZ‖altkey`‖SI‖En‖{U+2387}‖alternative key symbol
+*C1OZ‖alternativekey`‖SI‖En‖{U+2387}‖alternative key symbol
+
+*C1OZ‖leftarrowkey`‖SI‖En‖{U+2190}‖leftwards arrow
+*C1OZ‖uparrowkey`‖SI‖En‖{U+2191}‖upwards arrow
+*C1OZ‖rightarrowkey`‖SI‖En‖{U+2192}‖rightwards arrow
+*C1OZ‖downarrowkey`‖SI‖En‖{U+2193}‖downwards arrow
+
+
+;; CURRENCY SYMBOLS
+;;====================
+*C1OZ‖lira`‖SI‖En‖{U+20BA}‖turkish lira sign
+*C1OZ‖turkishlira`‖SI‖En‖{U+20BA}‖turkish lira sign
+
+*C1OZ‖manat`‖SI‖En‖{U+20BC}‖manat sign
+*C1OZ‖azerbaijanimanat`‖SI‖En‖{U+20BC}‖manat sign
+
+*C1OZ‖naira`‖SI‖En‖{U+20A6}‖naira sign
+*C1OZ‖nigeriannaira`‖SI‖En‖{U+20A6}‖naira sign
+
+*C1OZ‖kip`‖SI‖En‖{U+20AD}‖kip sign
+*C1OZ‖laokip`‖SI‖En‖{U+20AD}‖kip sign
+
+*C1OZ‖won`‖SI‖En‖{U+20A9}‖won sign
+*C1OZ‖koreanwon`‖SI‖En‖{U+20A9}‖won sign
+
+*C1OZ‖cent`‖SI‖En‖{U+00A2}‖cent sign
+*C1OZ‖mil`‖SI‖En‖{U+20A5}‖mil sign
+
+*C1OZ‖dollar`‖SI‖En‖{U+0024}‖dollar sign
+
+*C1OZ‖yen`‖SI‖En‖{U+00A5}‖yen sign
+*C1OZ‖japaneseyen`‖SI‖En‖{U+00A5}‖yen sign
+*C1OZ‖yuan`‖SI‖En‖{U+00A5}‖yen sign
+*C1OZ‖chineseyuan`‖SI‖En‖{U+00A5}‖yen sign
+
+*C1OZ‖bitcoin`‖SI‖En‖{U+20BF}‖bitcoin sign
+*C1OZ‖dogecoin`‖SI‖En‖{U+00D0}‖latin capital letter eth
+
+*C1OZ‖sheqel`‖SI‖En‖{U+20AA}‖new sheqel sign
+*C1OZ‖israelisheqel`‖SI‖En‖{U+20AA}‖new sheqel sign
+*C1OZ‖shekel`‖SI‖En‖{U+20AA}‖new sheqel sign
+*C1OZ‖israelishekel`‖SI‖En‖{U+20AA}‖new sheqel sign
+
+*C1OZ‖hryvnia`‖SI‖En‖{U+20B4}‖hryvnia sign
+*C1OZ‖ukrainianhryvnia`‖SI‖En‖{U+20B4}‖hryvnia sign
+
+*C1OZ‖ruble`‖SI‖En‖{U+20BD}‖ruble sign
+*C1OZ‖russianruble`‖SI‖En‖{U+20BD}‖ruble sign
+
+*C1OZ‖rupee`‖SI‖En‖{U+20B9}‖indian rupee sign
+*C1OZ‖indianrupee`‖SI‖En‖{U+20B9}‖indian rupee sign
+
+*C1OZ‖dong`‖SI‖En‖{U+20AB}‖dong sign
+*C1OZ‖vietnamesedong`‖SI‖En‖{U+20AB}‖dong sign
+
+*C1OZ‖rial`‖SI‖En‖{U+FDFC}‖rial sign
+
+*C1OZ‖saudirial`‖SI‖En‖{U+20C1}‖saudi riyal sign
+*C1OZ‖saudiriyal`‖SI‖En‖{U+20C1}‖saudi riyal sign
+
+*C1OZ‖omanirial`‖SI‖En‖{U+20C4}‖omani rial sign
+*C1OZ‖omaniriyal`‖SI‖En‖{U+20C4}‖omani rial sign
+
+*C1OZ‖uaedirham`‖SI‖En‖{U+20C3}‖UAE dirham sign
+
+*C1OZ‖tugrik`‖SI‖En‖{U+20AE}‖tugrik sign
+*C1OZ‖togrog`‖SI‖En‖{U+20AE}‖tugrik sign
+*C1OZ‖mongoliantugrik`‖SI‖En‖{U+20AE}‖tugrik sign
+*C1OZ‖mongoliantogrog`‖SI‖En‖{U+20AE}‖tugrik sign
+
+*C1OZ‖baht`‖SI‖En‖{U+0E3F}‖thai currency symbol baht
+*C1OZ‖thaibaht`‖SI‖En‖{U+0E3F}‖thai currency symbol baht
+
+*C1OZ‖cedi`‖SI‖En‖{U+20B5}‖cedi sign
+*C1OZ‖ghanaiancedi`‖SI‖En‖{U+20B5}‖cedi sign
+
+*C1OZ‖dram`‖SI‖En‖{U+058F}‖armenian dram sign
+*C1OZ‖armeniandram`‖SI‖En‖{U+058F}‖armenian dram sign
+
+*C1OZ‖euro`‖SI‖En‖{U+20AC}‖euro sign
+
+*C1OZ‖afghani`‖SI‖En‖{U+060B}‖afghani sign
+
+*C1OZ‖rufiyaa`‖SI‖En‖{U+20C2}‖rufiyaa sign
+*C1OZ‖maldivianrufiyaa`‖SI‖En‖{U+20C2}‖rufiyaa sign
+
+*C1OZ‖som`‖SI‖En‖{U+20C0}‖som sign
+*C1OZ‖kyrgyzstanisom`‖SI‖En‖{U+20C0}‖som sign
+
+*C1OZ‖srilankanrupee`‖SI‖En‖{U+0DBB}{U+0DD4}‖Srilankan Rupee
+*C1OZ‖srilankanrupee2`‖SI‖En‖{U+0BF9}‖tamil rupee sign
+
+*C1OZ‖hkdollar`‖SI‖En‖{U+0048}{U+004B}{U+0024}‖hong kong dollar
+*C1OZ‖hongkongdollar`‖SI‖En‖{U+0048}{U+004B}{U+0024}‖hong kong dollar
+*C1OZ‖taiwandollar`‖SI‖En‖{U+004E}{U+0054}{U+0024}‖new taiwan dollar
+*C1OZ‖newtaiwandollar`‖SI‖En‖{U+004E}{U+0054}{U+0024}‖new taiwan dollar
+*C1OZ‖australiandollar`‖SI‖En‖{U+0041}{U+0055}{U+0024}‖australian dollar
+*C1OZ‖canadiandollar`‖SI‖En‖{U+0043}{U+0044}{U+004E}{U+0024}‖canadian dollar
+
+*C1OZ‖pound`‖SI‖En‖{U+00A3}‖pound sign
+*C1OZ‖sterling`‖SI‖En‖{U+00A3}‖pound sign
+*C1OZ‖britishpound`‖SI‖En‖{U+00A3}‖pound sign
+
+*C1OZ‖philipinepeso`‖SI‖En‖{U+20B1}‖peso sign
+
+*C1OZ‖riel`‖SI‖En‖{U+17DB}‖khmer currency symbol riel
+*C1OZ‖cambodianriel`‖SI‖En‖{U+17DB}‖khmer currency symbol riel
+
+*C1OZ‖taka`‖SI‖En‖{U+09F3}‖bengali rupee sign
+*C1OZ‖bangladeshitaka`‖SI‖En‖{U+09F3}‖bengali rupee sign
+
+*C1OZ‖bahrainidinar`‖SI‖En‖{U+002E}{U+0628}{U+062F}‖bahraini dinar
+
+*C1OZ‖ngultrum`‖SI‖En‖{U+004E}{U+0075}{U+002E}‖bhutanese ngultrum
+*C1OZ‖bhutanesengultrum`‖SI‖En‖{U+004E}{U+0075}{U+002E}‖bhutanese ngultrum
+
+*C1OZ‖lari`‖SI‖En‖{U+20BE}‖lari sign
+*C1OZ‖georgianlari`‖SI‖En‖{U+20BE}‖lari sign
+
+
+;; DATE AND TIME
+;;====================
+*C1OZ‖time`‖SI‖En‖A_Hour:A_Min‖Sends the LOCAL TIME in the 24 hour format.
+*C1OZ‖localtime`‖SI‖En‖A_Hour:A_Min‖Sends the LOCAL TIME in the 24 hour format.
+*C1OZ‖currenttime`‖SI‖En‖A_Hour:A_Min‖Sends the LOCAL TIME in the 24 hour format.
+*C1OZ‖date`‖SI‖En‖A_YYYY-A_MM-A_DD‖Sends the date in the ISO 8601 format.
+*C1OZ‖isodate`‖SI‖En‖A_YYYY-A_MM-A_DD‖Sends the date in the ISO 8601 format.
+*C1OZ‖currentdate`‖SI‖En‖A_YYYY-A_MM-A_DD‖Sends the date in the ISO 8601 format.
+*C1OZ‖todaysdate`‖SI‖En‖A_YYYY-A_MM-A_DD‖Sends the date in the ISO 8601 format.
+*C1OZ‖longdate`‖SI‖En‖A_DDDD, A_MMMM A_DD, A_YYYY‖ Sends the long date (including day name) in the ISO 8601 format.
+
+*C1OZ‖ordinaldate`‖SI‖En‖A_YYYY-A_YDay‖Sends the date in the ISO 8601 format with the day of the year number.
+
+*C1OZ‖usdate`‖SI‖En‖A_MM/A_DD/A_YYYY‖ Sends the date in the US format.
+*C1OZ‖americandate`‖SI‖En‖A_MM/A_DD/A_YYYY‖ Sends the date in the US format.
+*C1OZ‖longusdate`‖SI‖En‖A_DDDD, A_MMMM A_DD, A_YYYY‖ Sends the date in the US format (including day name).
+*C1OZ‖longamericandate`‖SI‖En‖A_DDDD, A_MMMM A_DD, A_YYYY‖ Sends the date in the US format (including day name).
+
+*C1OZ‖eudate`‖SI‖En‖A_DD/A_MM/A_YYYY‖ Sends the date in the UK/EU format.
+*C1OZ‖ukdate`‖SI‖En‖A_DD/A_MM/A_YYYY‖ Sends the date in the UK/EU format.
+*C1OZ‖europeandate`‖SI‖En‖A_DD/A_MM/A_YYYY‖ Sends the date in the UK/EU format.
+*C1OZ‖longeudate`‖SI‖En‖A_DDDD, A_DD A_MMMM, A_YYYY‖ Sends the date in the UK/EU format.
+*C1OZ‖longukdate`‖SI‖En‖A_DDDD, A_DD A_MMMM, A_YYYY‖ Sends the date in the UK/EU format.
+*C1OZ‖longeuropeandate`‖SI‖En‖A_DDDD, A_DD A_MMMM, A_YYYY‖ Sends the date in the UK/EU format.
+
+*C1OZ‖turkishdate`‖SI‖En‖A_DD.A_MM.A_YYYY‖ Sends the date in the Turkish format.
+*C1OZ‖trdate`‖SI‖En‖A_DD.A_MM.A_YYYY‖ Sends the date in the Turkish format.
+
+
+;; EXTRA LETTERS & LIGATURES
+;;====================
+*C?OZ‖ae`‖SI‖En‖{U+00E6}‖latin small letter ae
+*C?OZ‖AE`‖SI‖En‖{U+00C6}‖latin capital letter ae
+*C?OZ‖oe`‖SI‖En‖{U+0153}‖latin small ligature oe
+*C?OZ‖OE`‖SI‖En‖{U+0152}‖latin capital ligature oe
+
+*C?OZ‖eth`‖SI‖En‖{U+00F0}‖latin small letter eth
+*C?OZ‖ETH`‖SI‖En‖{U+00D0}‖latin capital letter eth
+
+*C?OZ‖thorn`‖SI‖En‖{U+00FE}‖latin small letter thorn
+*C?OZ‖THORN`‖SI‖En‖{U+00DE}‖latin capital letter thorn
+
+*C?OZ‖wynn`‖SI‖En‖{U+01BF}‖latin letter wynn
+*C?OZ‖WYNN`‖SI‖En‖{U+01F7}‖latin capital letter wynn
+
+*C?OZ‖yogh`‖SI‖En‖{U+021D}‖latin small letter yogh
+*C?OZ‖YOGH`‖SI‖En‖{U+021C}‖latin capital letter yogh
+
+*C?OZ‖schwa`‖SI‖En‖{U+021D}‖latin small letter schwa
+*C?OZ‖SCHWA`‖SI‖En‖{U+018F}‖latin capital letter schwa
+
+*C?OZ‖eng`‖SI‖En‖{U+014B}‖latin small letter eng
+*C?OZ‖ENG`‖SI‖En‖{U+014A}‖latin capital letter eng
+
+*C?OZ‖enye`‖SI‖En‖{U+00F1}‖latin small letter n with tilde
+*C?OZ‖ENYE`‖SI‖En‖{U+00D1}‖latin capital letter n with tilde
+*C?OZ‖ntilde`‖SI‖En‖{U+00F1}‖latin small letter n with tilde
+*C?OZ‖NTILDE`‖SI‖En‖{U+00D1}‖latin capital letter n with tilde
+
+*C?OZ‖strokedl`‖SI‖En‖{U+0142}‖latin small letter l with stroke
+*C?OZ‖strokedel`‖SI‖En‖{U+0142}‖latin small letter l with stroke
+*C?OZ‖STROKEDL`‖SI‖En‖{U+0141}‖latin capital letter l with stroke
+*C?OZ‖STROKEDEL`‖SI‖En‖{U+0141}‖latin capital letter l with stroke
+
+*C1?OZ‖scripta`‖SI‖En‖{U+0251}‖latin small letter alpha
+*C1?OZ‖scriptg`‖SI‖En‖{U+0261}‖latin small letter script g
+*C1?OZ‖singlestoreyg`‖SI‖En‖{U+0261}‖latin small letter script g
+
+*C?OZ‖palatalnasal`‖SI‖En‖{U+0272}‖latin small letter n with left hook
+*C?OZ‖PALATALNASAL`‖SI‖En‖{U+019D}‖latin capital letter n with left hook
+
+*C?OZ‖opene`‖SI‖En‖{U+025B}‖latin small letter open e
+*C?OZ‖OPENE`‖SI‖En‖{U+0190}‖latin capital letter open e
+
+*C?OZ‖openo`‖SI‖En‖{U+0254}‖latin small letter open o
+*C?OZ‖OPENO`‖SI‖En‖{U+0186}‖latin capital letter open o
+
+*C?OZ‖glottalstop`‖SI‖En‖{U+0294}‖latin letter glottal stop
+*C?OZ‖GLOTTALSTOP`‖SI‖En‖{U+0241}‖latin capital letter glottal stop
+
+*C1?OZ‖longess`‖SI‖En‖{U+017F}‖latin small letter long s
+*C1?OZ‖longi`‖SI‖En‖{U+A7FE}‖latin epigraphic letter i longa
+*C1?OZ‖ilonga`‖SI‖En‖{U+A7FE}‖latin epigraphic letter i longa
+
+*C?OZ‖turnedm`‖SI‖En‖{U+026F}‖latin small letter turned m
+*C?OZ‖doubleu`‖SI‖En‖{U+026F}‖latin small letter turned m
+*C?OZ‖TURNEDM`‖SI‖En‖{U+019C}‖latin capital letter turned m
+*C?OZ‖DOUBLEU`‖SI‖En‖{U+019C}‖latin capital letter turned m
+
+*C?OZ‖sharpess`‖SI‖En‖{U+00DF}‖latin small letter sharp s
+*C?OZ‖SHARPESS`‖SI‖En‖{U+1E9E}‖latin capital letter sharp s
+
+*C?OZ‖esh`‖SI‖En‖{U+0283}‖latin small letter esh
+*C?OZ‖ESH`‖SI‖En‖{U+01A9}‖latin capital letter esh
+
+*C?OZ‖ohorn`‖SI‖En‖{U+01A1}‖latin small letter o with horn
+*C?OZ‖horno`‖SI‖En‖{U+01A1}‖latin small letter o with horn
+*C?OZ‖hornedo`‖SI‖En‖{U+01A1}‖latin small letter o with horn
+*C?OZ‖OHORN`‖SI‖En‖{U+01A0}‖latin capital letter o with horn
+*C?OZ‖HORNO`‖SI‖En‖{U+01A0}‖latin capital letter o with horn
+*C?OZ‖HORNEDO`‖SI‖En‖{U+01A0}‖latin capital letter o with horn
+
+*C?OZ‖uhorn`‖SI‖En‖{U+01B0}‖latin small letter u with horn
+*C?OZ‖hornu`‖SI‖En‖{U+01B0}‖latin small letter u with horn
+*C?OZ‖hornedu`‖SI‖En‖{U+01B0}‖latin small letter u with horn
+*C?OZ‖UHORN`‖SI‖En‖{U+01AF}‖latin capital letter u with horn
+*C?OZ‖HORNU`‖SI‖En‖{U+01AF}‖latin capital letter u with horn
+*C?OZ‖HORNEDU`‖SI‖En‖{U+01AF}‖latin capital letter u with horn
+
+*C?OZ‖dstroke`‖SI‖En‖{U+0111}‖latin small letter d with stroke
+*C?OZ‖strokedd`‖SI‖En‖{U+0111}‖latin small letter d with stroke
+*C?OZ‖DSTROKE`‖SI‖En‖{U+0110}‖latin capital letter d with stroke
+*C?OZ‖STROKEDD`‖SI‖En‖{U+0110}‖latin capital letter d with stroke
+
+*C?OZ‖ezh`‖SI‖En‖{U+0292}‖latin small letter ezh
+*C?OZ‖EZH`‖SI‖En‖{U+01B7}‖latin capital letter ezh
+
+*C?OZ‖aesc`‖SI‖En‖{U+00E6}‖latin small letter ae
+*C?OZ‖ash`‖SI‖En‖{U+00E6}‖latin small letter ae
+*C?OZ‖AESC`‖SI‖En‖{U+00C6}‖latin capital letter ae
+*C?OZ‖ASH`‖SI‖En‖{U+00C6}‖latin capital letter ae
+
+*C1?OZ‖dottedi`‖SI‖En‖{U+0130}‖latin capital letter i with dot above
+*C?OZ‖dotlessi`‖SI‖En‖{U+0131}‖latin small letter dotless i
+*C?OZ‖dotlessj`‖SI‖En‖{U+0237}‖latin small letter dotless j
+
+*C?OZ‖gbreve`‖SI‖En‖{U+011F}‖latin small letter g with breve
+*C?OZ‖GBREVE`‖SI‖En‖{U+011E}‖latin capital letter g with breve
+
+*C?OZ‖oumlaut`‖SI‖En‖{U+00F6}‖latin small letter o with diaeresis
+*C?OZ‖OUMLAUT`‖SI‖En‖{U+00D6}‖latin capital letter o with diaeresis
+
+*C?OZ‖aumlaut`‖SI‖En‖{U+00E4}‖latin small letter a with diaeresis
+*C?OZ‖AUMLAUT`‖SI‖En‖{U+00C4}‖latin capital letter a with diaeresis
+
+*C?OZ‖uumlaut`‖SI‖En‖{U+00FC}‖latin small letter u with diaeresis
+*C?OZ‖UUMLAUT`‖SI‖En‖{U+00DC}‖latin capital letter u with diaeresis
+
+*C?OZ‖ccedilla`‖SI‖En‖{U+00E7}‖latin small letter c with cedilla
+*C?OZ‖CCEDILLA`‖SI‖En‖{U+00C7}‖latin capital letter c with cedilla
+
+*C?OZ‖scedilla`‖SI‖En‖{U+015F}‖latin small letter s with cedilla
+*C?OZ‖SCEDILLA`‖SI‖En‖{U+015E}‖latin capital letter s with cedilla
+
+*C?OZ‖tcomma`‖SI‖En‖{U+021B}‖latin small letter t with comma below
+*C?OZ‖TCOMMA`‖SI‖En‖{U+021A}‖latin capital letter t with comma below
+
+*C?OZ‖scomma`‖SI‖En‖{U+0219}‖latin small letter s with comma below
+*C?OZ‖SCOMMA`‖SI‖En‖{U+0218}‖latin capital letter s with comma below
+
+*C?OZ‖tailedz`‖SI‖En‖{U+0292}‖latin small letter ezh
+*C?OZ‖TAILEDZ`‖SI‖En‖{U+01B7}‖latin capital letter ezh
+
+*C?OZ‖strokedz`‖SI‖En‖{U+01B6}‖latin small letter z with stroke
+*C?OZ‖STROKEDZ`‖SI‖En‖{U+01B5}‖latin capital letter z with stroke
+
+
+;; MATHEMATICAL (GEOMETRICAL)
+;;====================
+*C1OZ‖rectangle`‖SI‖En‖{U+25AD}‖white rectangle
+*C1OZ‖verticalrectangle`‖SI‖En‖{U+25AF}‖white vertical rectangle
+*C1OZ‖standingrectangle`‖SI‖En‖{U+25AF}‖white vertical rectangle
+*C1OZ‖lozenge`‖SI‖En‖{U+25CA}‖lozenge
+*C1OZ‖pentagon`‖SI‖En‖{U+2B20}‖white pentagon
+*C1OZ‖diamond`‖SI‖En‖{U+25C7}‖white diamond
+*C1OZ‖parallelogram`‖SI‖En‖{U+25B1}‖white parallelogram
+*C1OZ‖hexagon`‖SI‖En‖{U+2B21}‖white hexagon
+*C1OZ‖ellipse`‖SI‖En‖{U+2B2D}‖white horizontal ellipse
+*C1OZ‖verticalellipse`‖SI‖En‖{U+2B2F}‖white vertical ellipse
+*C1OZ‖square`‖SI‖En‖{U+25FB}‖white medium square
+*C1OZ‖roundedsquare`‖SI‖En‖{U+25A2}‖white square with rounded corners
+*C1OZ‖circle`‖SI‖En‖{U+25CB}‖white circle
+*C1OZ‖halfcircle`‖SI‖En‖{U+25E0}‖upper half circle
+*C1OZ‖upperhalfcircle`‖SI‖En‖{U+25E0}‖upper half circle
+*C1OZ‖uppercircle`‖SI‖En‖{U+25E0}‖upper half circle
+*C1OZ‖lowerhalfcircle`‖SI‖En‖{U+25E1}‖lower half circle
+*C1OZ‖lowercircle`‖SI‖En‖{U+25E1}‖lower half circle
+*C1OZ‖largecircle`‖SI‖En‖{U+25EF}‖large circle
+*C1OZ‖triangle`‖SI‖En‖{U+25B3}‖white up-pointing triangle
+*C1OZ‖roundedtriangle`‖SI‖En‖{U+1F6C6}‖triangle with rounded corners
+
+
+;; MATHEMATICAL
+;;====================
+*C1OZ‖plusminus`‖SI‖En‖{U+00B1}‖plus-minus sign
+*C1OZ‖minusplus`‖SI‖En‖{U+2213}‖minus-or-plus sign
+*C1OZ‖minussign`‖SI‖En‖{U+2212}‖minus sign
+*C1OZ‖subtractionsign`‖SI‖En‖{U+2212}‖minus sign
+*C1OZ‖divisionsign`‖SI‖En‖{U+00F7}‖division sign
+*C1OZ‖divisionslash`‖SI‖En‖{U+2215}‖division slash
+*C1OZ‖obelus`‖SI‖En‖{U+00F7}‖division sign
+*C1OZ‖obelusonedot`‖SI‖En‖{U+2A2A}‖minus sign with dot below
+*C1OZ‖homothetic`‖SI‖En‖{U+223B}‖homothetic
+*C1OZ‖multiplicationsign`‖SI‖En‖{U+00D7}‖multiplication sign
+*C1OZ‖multiplicationdot`‖SI‖En‖{U+22C5}‖dot operator
+*C1OZ‖dotoperator`‖SI‖En‖{U+22C5}‖dot operator
+*C1OZ‖functioncomposition`‖SI‖En‖{U+2218}‖ring operator
+*C1OZ‖ringoperator`‖SI‖En‖{U+2218}‖ring operator
+*C1OZ‖largemultiplicationsign`‖SI‖En‖{U+2715}‖multiplication x
+*C1OZ‖multiplicationsignlarge`‖SI‖En‖{U+2715}‖multiplication x
+*C1OZ‖notequal`‖SI‖En‖{U+2260}‖not equal to
+*C1OZ‖notequals`‖SI‖En‖{U+2260}‖not equal to
+*C1OZ‖notequalssign`‖SI‖En‖{U+2260}‖not equal to
+*C1OZ‖notequalto`‖SI‖En‖{U+2260}‖not equal to
+*C1OZ‖almostequalto`‖SI‖En‖{U+2248}‖almost equal to
+*C1OZ‖approximately`‖SI‖En‖{U+2248}‖almost equal to
+*C1OZ‖almostequal`‖SI‖En‖{U+2248}‖almost equal to
+*C1OZ‖doubletilde`‖SI‖En‖{U+2248}‖almost equal to
+*C1OZ‖increment`‖SI‖En‖{U+2206}‖increment
+*C1OZ‖laplace`‖SI‖En‖{U+2206}‖increment
+*C1OZ‖nabla`‖SI‖En‖{U+2207}‖nabla 
+*C1OZ‖del`‖SI‖En‖{U+2207}‖nabla
+*C1OZ‖ratio`‖SI‖En‖{U+2236}‖ratio
+
+*C1OZ‖integral`‖SI‖En‖{U+222B}‖integral
+*C1OZ‖doubleintegral`‖SI‖En‖{U+222C}‖double integral
+*C1OZ‖tripleintegral`‖SI‖En‖{U+222D}‖triple integral
+
+*C1OZ‖emptyset`‖SI‖En‖{U+2205}‖empty set
+*C1OZ‖lessthanorequal`‖SI‖En‖{U+2264}‖less-than or equal to
+*C1OZ‖lessthanorequalto`‖SI‖En‖{U+2264}‖less-than or equal to
+*C1OZ‖greaterthanorequal`‖SI‖En‖{U+2265}‖greater-than or equal to
+*C1OZ‖greaterthanorequalto`‖SI‖En‖{U+2265}‖greater-than or equal to
+
+*C1OZ‖longdivision`‖SI‖En‖{U+27CC}‖long division
+*C1OZ‖squareroot`‖SI‖En‖{U+221A}‖square root
+*C1OZ‖cuberoot`‖SI‖En‖{U+221B}‖cube root
+*C1OZ‖infinity`‖SI‖En‖{U+221E}‖infinity
+*C1OZ‖proportional`‖SI‖En‖{U+221D}‖proportional to
+*C1OZ‖proportionalto`‖SI‖En‖{U+221D}‖proportional to
+*C1OZ‖infinitysign`‖SI‖En‖{U+221E}‖infinity
+*C1OZ‖lemniscate`‖SI‖En‖{U+221E}‖infinity
+*C1OZ‖therefore`‖SI‖En‖{U+2234}‖therefore
+*C1OZ‖because`‖SI‖En‖{U+2235}‖because
+
+*C1OZ‖angle`‖SI‖En‖{U+2221}‖measured angle
+*C1OZ‖rightangle`‖SI‖En‖{U+22BE}‖right angle with arc
+
+*C1OZ‖perpendicular`‖SI‖En‖{U+22A5}‖up tack
+*C1OZ‖parallel`‖SI‖En‖{U+2225}‖parallel to
+
+*C1OZ‖planckconstant`‖SI‖En‖{U+210E}‖planck constant
+*C1OZ‖eulerconstant`‖SI‖En‖{U+210E}‖euler constant
+*C1OZ‖eulersconstant`‖SI‖En‖{U+210E}‖euler constant
+*C1OZ‖goldenratio`‖SI‖En‖{U+1D711}‖mathematical italic small phi
+*C1OZ‖goldenratioconstant`‖SI‖En‖{U+1D711}‖mathematical italic small phi
+*C1OZ‖piconstant`‖SI‖En‖{U+1D70B}‖mathematical italic small pi
+*C1OZ‖econstant`‖SI‖En‖{U+1D452}‖mathematical italic small e
+*C1OZ‖silverratio`‖SI‖En‖{U+1D6FF}{U+1D634}‖mathematical italic small delta + mathematical sans-serif italic small s
+*C1OZ‖silverratioconstant`‖SI‖En‖{U+1D6FF}{U+1D634}‖mathematical italic small delta + mathematical sans-serif italic small s
+*C1OZ‖speedoflight`‖SI‖En‖{U+1D450}‖mathematical italic small c (U+1D450)
+
+*C1OZ‖variablex`‖SI‖En‖{U+1D465}‖mathematical italic small x
+*C1OZ‖variabley`‖SI‖En‖{U+1D466}‖mathematical italic small y
+*C1OZ‖variablez`‖SI‖En‖{U+1D467}‖mathematical italic small z
+
+*C1OZ‖squared`‖SI‖En‖{U+00B2}‖superscript two
+*C1OZ‖cubed`‖SI‖En‖{U+00B3}‖superscript three
+
+*C1OZ‖permille`‖SI‖En‖{U+2030}‖per mille sign
+*C1OZ‖permyriad`‖SI‖En‖{U+2031}‖per ten thousand sign
+*C1OZ‖pertenthousand`‖SI‖En‖{U+2031}‖per ten thousand sign
+*C1OZ‖basispoint`‖SI‖En‖{U+2031}‖per ten thousand sign
+
+*C1OZ‖summation`‖SI‖En‖{U+2211}‖n-ary summation
+*C1OZ‖doublesummation`‖SI‖En‖{U+2211}{U+2211}‖n-ary summation
+*C1OZ‖summationsymbol`‖SI‖En‖{U+2211}‖n-ary summation
+
+*C1OZ‖capitalpi`‖SI‖En‖{U+220F}‖n-ary product
+*C1OZ‖productofasequence`‖SI‖En‖{U+220F}‖n-ary product
+
+*C1OZ‖circledplus`‖SI‖En‖{U+2295}‖circled plus
+*C1OZ‖circledminus`‖SI‖En‖{U+2296}‖circled minus
+*C1OZ‖circledtimes`‖SI‖En‖{U+2297}‖circled times
+*C1OZ‖tensorproduct`‖SI‖En‖{U+2297}‖circled times
+*C1OZ‖circleddivision`‖SI‖En‖{U+2298}‖circled division slash
+
+*C1OZ‖superscript0`‖SI‖En‖{U+2070}‖superscript zero
+*C1OZ‖superscript1`‖SI‖En‖{U+00B9}‖superscript one
+*C1OZ‖superscript2`‖SI‖En‖{U+00B2}‖superscript two
+*C1OZ‖superscript3`‖SI‖En‖{U+00B3}‖superscript three
+*C1OZ‖superscript4`‖SI‖En‖{U+2074}‖superscript four
+*C1OZ‖superscript5`‖SI‖En‖{U+2075}‖superscript five
+*C1OZ‖superscript6`‖SI‖En‖{U+2076}‖superscript six
+*C1OZ‖superscript7`‖SI‖En‖{U+2077}‖superscript seven
+*C1OZ‖superscript8`‖SI‖En‖{U+2078}‖superscript eight
+*C1OZ‖superscript9`‖SI‖En‖{U+2079}‖superscript nine
+
+*C1OZ‖superscriptplus`‖SI‖En‖{U+207A}‖superscript plus sign
+*C1OZ‖superscriptminus`‖SI‖En‖{U+207B}‖superscript minus
+*C1OZ‖superscriptequals`‖SI‖En‖{U+207C}‖superscript equals
+*C1OZ‖superscriptequalssign`‖SI‖En‖{U+207C}‖superscript equals
+
+*C1OZ‖superscriptphi`‖SI‖En‖{U+1D60}‖modifier letter small greek phi
+*C1OZ‖superscripttheta`‖SI‖En‖{U+1DBF}‖modifier letter small theta
+
+*C1OZ‖subscript0`‖SI‖En‖{U+2080}‖subscript zero
+*C1OZ‖subscript1`‖SI‖En‖{U+2081}‖subscript one
+*C1OZ‖subscript2`‖SI‖En‖{U+2082}‖subscript two
+*C1OZ‖subscript3`‖SI‖En‖{U+2083}‖subscript three
+*C1OZ‖subscript4`‖SI‖En‖{U+2084}‖subscript four
+*C1OZ‖subscript5`‖SI‖En‖{U+2085}‖subscript five
+*C1OZ‖subscript6`‖SI‖En‖{U+2086}‖subscript six
+*C1OZ‖subscript7`‖SI‖En‖{U+2087}‖subscript seven
+*C1OZ‖subscript8`‖SI‖En‖{U+2088}‖subscript eight
+*C1OZ‖subscript9`‖SI‖En‖{U+2089}‖subscript nine
+
+*C1OZ‖subscriptequals`‖SI‖En‖{U+208C}‖subscript equals sign
+*C1OZ‖subscriptplus`‖SI‖En‖{U+208A}‖subscript plus sign
+
+*C1OZ‖fractionslash`‖SI‖En‖{U+2044}‖fraction slash
+
+*C1OZ‖bigsolidus`‖SI‖En‖{U+29F8}‖big solidus
+*C1OZ‖bigslash`‖SI‖En‖{U+29F8}‖big solidus
+
+*C1OZ‖bigparenthesis`‖SI‖En‖{Enter}⎛⎞{Enter}⎝⎠{left 1}{up 1}‖large parentheses (open-close)
+*C1OZ‖bigparentheses`‖SI‖En‖{Enter}⎛⎞{Enter}⎝⎠{left 1}{up 1}‖large parentheses (open-close)
+
+*C1OZ‖largeparenthesis`‖SI‖En‖{Enter}⎛⎞{Enter}⎝⎠{left 1}{up 1}‖large parentheses (open-close)
+*C1OZ‖largeparentheses`‖SI‖En‖{Enter}⎛⎞{Enter}⎝⎠{left 1}{up 1}‖large parentheses (open-close)
+
+*C1OZ‖superscriptparenthesis`‖SI‖En‖⁽⁾{left 1}‖superscript parentheses (open-close)
+*C1OZ‖superscriptparentheses`‖SI‖En‖⁽⁾{left 1}‖superscript parentheses (open-close)
+
+*C1OZ‖subscriptparenthesis`‖SI‖En‖₍₎{left 1}‖subscript parentheses (open-close)
+*C1OZ‖subscriptparentheses`‖SI‖En‖₍₎{left 1}‖subscript parentheses (open-close)
+
+*C1OZ‖xbar`‖SI‖En‖{U+0078}{U+0305}‖latin small letter x + combining overline
+
+*C1OZ‖overline`‖SI‖En‖{U+0305}‖combining overline
+
+*C1OZ‖mathspace`‖SI‖En‖{U+205F}‖medium mathematical space
+*C1OZ‖mathematicalspace`‖SI‖En‖{U+205F}‖medium mathematical space
+
+
+;; ORTHOGRAPHICAL (Helps type some common orthographical marks without copy pasting.)
+;;====================
+*C1OZ‖modifierapostrophe`‖SI‖En‖{U+02BC}‖modifier letter apostrophe
+*C1OZ‖curledapostrophe`‖SI‖En‖{U+02BC}‖modifier letter apostrophe
+*C1OZ‖okina`‖SI‖En‖{U+02BB}‖modifier letter turned comma
+
+*C?OZ‖saltillo`‖SI‖En‖{U+A78C}‖latin small letter saltillo
+*C?OZ‖SALTILLO`‖SI‖En‖{U+A78B}‖latin capital letter saltillo
+
+*C1OZ‖prime`‖SI‖En‖{U+2032}‖prime
+*C1OZ‖doubleprime`‖SI‖En‖{U+2033}‖double prime
+*C1OZ‖tripleprime`‖SI‖En‖{U+2034}‖triple prime
+*C1OZ‖quadrupleprime`‖SI‖En‖{U+2057}‖quadruple prime
+
+*C1OZ‖dinkus`‖SI‖En‖{U+26B9}{U+26B9}{U+26B9}‖sextile
+*C1OZ‖sextile`‖SI‖En‖{U+26B9}‖sextile
+*C1OZ‖asterism`‖SI‖En‖{U+2042}‖asterism
+*C1OZ‖lowasterisk`‖SI‖En‖{U+204E}‖low asterisk
+*C1OZ‖doubleasterisk`‖SI‖En‖{U+2051}‖two asterisks aligned vertically
+
+*C1OZ‖estimatesymbol`‖SI‖En‖{U+212E}‖estimated symbol
+*C1OZ‖estimatedsymbol`‖SI‖En‖{U+212E}‖estimated symbol
+
+*C1OZ‖degree`‖SI‖En‖{U+00B0}‖degree sign
+*C1OZ‖degrees`‖SI‖En‖{U+00B0}‖degree sign
+
+*C1OZ‖notsign`‖SI‖En‖{U+00AC}‖not sign
+
+*C1OZ‖twodotleader`‖SI‖En‖{U+2025}‖two dot leader
+*C1OZ‖ellipsis`‖SI‖En‖{U+2026}‖horizontal ellipsis
+
+*C1OZ‖hyphenationpoint`‖SI‖En‖{U+2027}‖hyphenation point
+*C1OZ‖interpunct`‖SI‖En‖{U+00B7}‖middle dot)
+*C1OZ‖interpoint`‖SI‖En‖{U+00B7}‖middle dot
+*C1OZ‖middledot`‖SI‖En‖{U+00B7}‖middle dot
+*C1OZ‖middlepoint`‖SI‖En‖{U+00B7}‖middle dot
+*C1OZ‖centereddot`‖SI‖En‖{U+00B7}‖middle dot
+*C1OZ‖centreddot`‖SI‖En‖{U+00B7}‖middle dot
+
+*C1OZ‖doubleverticalline`‖SI‖En‖{U+2016}‖double vertical line
+*C1OZ‖doubleverticalbar`‖SI‖En‖{U+2016}‖double vertical line
+*C1OZ‖mediumverticalbar`‖SI‖En‖{U+2759}‖medium vertical bar
+*C1OZ‖brokenbar`‖SI‖En‖{U+00A6}‖broken bar
+*C1OZ‖zigzag`‖SI‖En‖{U+299A}‖vertical zigzag line
+*C1OZ‖zigzagline`‖SI‖En‖{U+299A}‖vertical zigzag line
+
+*C1OZ‖dagger`‖SI‖En‖{U+2020}‖dagger)
+*C1OZ‖doubledagger`‖SI‖En‖{U+2021}‖double dagger
+*C1OZ‖tripledagger`‖SI‖En‖{U+2E4B}‖triple dagger
+*C1OZ‖sectionsign`‖SI‖En‖{U+00A7}‖section sign
+*C1OZ‖halfsectionsign`‖SI‖En‖{U+2E39}‖top half section sign
+*C1OZ‖manicule`‖SI‖En‖{U+261E}‖white right pointing index
+*C1OZ‖blackmanicule`‖SI‖En‖{U+261B}‖black right pointing index
+*C1OZ‖tironianet`‖SI‖En‖{U+204A}‖tironian sign et
+
+*C1OZ‖pilcrow`‖SI‖En‖{U+00B6}‖pilcrow sign
+*C1OZ‖paragraphsign`‖SI‖En‖{U+00B6}‖pilcrow sign
+*C1OZ‖reversedpilcrow`‖SI‖En‖{U+204B}‖reversed pilcrow sign
+*C1OZ‖reversedparagraphsign`‖SI‖En‖{U+204B}‖reversed pilcrow sign
+*C1OZ‖capitulum`‖SI‖En‖{U+2E3F}‖capitulum
+
+*C1OZ‖paragraphend`‖SI‖En‖{U+220E}‖end of proof
+*C1OZ‖endofproof`‖SI‖En‖{U+220E}‖end of proof
+
+*C1OZ‖registered`‖SI‖En‖{U+00AE}‖registered sign
+*C1OZ‖registeredsign`‖SI‖En‖{U+00AE}‖registered sign
+*C1OZ‖copyright`‖SI‖En‖{U+00A9}‖copyright sign
+*C1OZ‖copyrightsign`‖SI‖En‖{U+00A9}‖copyright sign
+*C1OZ‖trademark`‖SI‖En‖{U+2122}‖trade mark sign
+*C1OZ‖trademarksign`‖SI‖En‖{U+2122}‖trade mark sign
+*C1OZ‖tm`‖SI‖En‖{U+2122}‖trade mark sign
+
+*C1OZ‖permanentpaper`‖SI‖En‖{U+267E}‖permanent paper sign
+*C1OZ‖permanentpapersign`‖SI‖En‖{U+267E}‖permanent paper sign
+
+*C1OZ‖japaneseindustrial`‖SI‖En‖{U+3004}‖japanese industrial standard symbol
+*C1OZ‖japaneseindustrialmark`‖SI‖En‖{U+3004}‖japanese industrial standard symbol
+*C1OZ‖japaneseindustrialstandard`‖SI‖En‖{U+3004}‖japanese industrial standard symbol
+*C1OZ‖japaneseindustrialstandardsymbol`‖SI‖En‖{U+3004}‖japanese industrial standard symbol
+
+*C1OZ‖prescription`‖SI‖En‖{U+211E}‖prescription take
+*C1OZ‖telephone`‖SI‖En‖{U+2121}‖telephone sign
+*C1OZ‖fax`‖SI‖En‖{U+213B}‖facsimile sign
+
+*C1OZ‖hyphen`‖SI‖En‖{U+2010}‖hyphen
+*C1OZ‖doublehyphen`‖SI‖En‖{U+2E17}‖double oblique hyphen
+*C1OZ‖nonbreakinghyphen`‖SI‖En‖{U+2011}‖non-breaking hyphen
+*C1OZ‖hardhyphen`‖SI‖En‖{U+2011}‖non-breaking hyphen
+*C1OZ‖softhyphen`‖SI‖En‖{U+00AD}‖soft hyphen
+*C1OZ‖dash`‖SI‖En‖{U+2013}‖en dash
+*C1OZ‖swungdash`‖SI‖En‖{U+2053}‖swung dash
+*C1OZ‖endash`‖SI‖En‖{U+2013}‖en dash
+*C1OZ‖emdash`‖SI‖En‖{U+2014}‖em dash
+*C1OZ‖figuredash`‖SI‖En‖{U+2012}‖figure dash
+*C1OZ‖twoemdash`‖SI‖En‖{U+2E3A}‖two-em dash
+*C1OZ‖threeemdash`‖SI‖En‖{U+2E3B}‖three-em dash
+*C1OZ‖threeemdash2`‖SI‖En‖{U+2E3B}{U+2E3B}‖three-em dash × 2
+*C1OZ‖threeemdash3`‖SI‖En‖{U+2E3B}{U+2E3B}{U+2E3B}‖three-em dash × 3
+
+*C1OZ‖ditto`‖SI‖En‖{U+3003}‖ditto mark
+*C1OZ‖dittomark`‖SI‖En‖{U+3003}‖ditto mark
+
+*C1OZ‖micro`‖SI‖En‖{U+00B5}‖micro sign
+*C1OZ‖microsign`‖SI‖En‖{U+00B5}‖micro sign
+*C1OZ‖ohm`‖SI‖En‖{U+2126}‖ohm sign
+*C1OZ‖invertedohm`‖SI‖En‖{U+2127}‖inverted ohm sign
+
+*C1OZ‖checkmark`‖SI‖En‖{U+2713}‖check mark
+*C1OZ‖notcheckmark`‖SI‖En‖{U+237B}‖not check mark
+*C1OZ‖xmark`‖SI‖En‖{U+2717}‖ballot x
+*C1OZ‖ballotx`‖SI‖En‖{U+2717}‖ballot x
+*C1OZ‖ballotmark`‖SI‖En‖{U+2717}‖ballot x
+
+*C1OZ‖masculineordinal`‖SI‖En‖{U+00BA}‖masculine ordinal indicator
+*C1OZ‖feminineordinal`‖SI‖En‖{U+00AA}‖feminine ordinal indicator
+
+*C1OZ‖smoothbreathing`‖SI‖En‖{U+1FBF}‖greek psili
+
+*C1OZ‖bullet`‖SI‖En‖{U+2022}‖bullet
+*C1OZ‖hyphenbullet`‖SI‖En‖{U+2043}‖hyphen bullet
+*C1OZ‖triangularbullet`‖SI‖En‖{U+2023}‖triangular bullet
+
+*C1OZ‖arrow`‖SI‖En‖{U+2192}‖rightwards arrow
+*C1OZ‖leftarrow`‖SI‖En‖{U+2190}‖leftwards arrow
+*C1OZ‖uparrow`‖SI‖En‖{U+2191}‖upwards arrow
+*C1OZ‖rightarrow`‖SI‖En‖{U+2192}‖rightwards arrow
+*C1OZ‖downarrow`‖SI‖En‖{U+2193}‖downwards arrow
+*C1OZ‖longarrow`‖SI‖En‖{U+27F6}‖long rightwards arrow
+*C1OZ‖longleftarrow`‖SI‖En‖{U+27F5}‖long leftwards arrow
+*C1OZ‖longrightarrow`‖SI‖En‖{U+27F6}‖long rightwards arrow
+*C1OZ‖northwestarrow`‖SI‖En‖{U+2B66}‖north west triangle-headed arrow
+*C1OZ‖northeastarrow`‖SI‖En‖{U+2B67}‖north east triangle-headed arrow
+*C1OZ‖southeastarrow`‖SI‖En‖{U+2B68}‖south east triangle-headed arrow
+*C1OZ‖southwestarrow`‖SI‖En‖{U+2B69}‖south west triangle-headed arrow
+
+*C1OZ‖careof`‖SI‖En‖{U+2105}‖care of
+*C1OZ‖cadauna`‖SI‖En‖{U+2106}‖cada una
+
+*C1OZ‖numero`‖SI‖En‖{U+2116}‖numero sign
+*C1OZ‖numerosign`‖SI‖En‖{U+2116}‖numero sign
+
+*C1OZ‖tie`‖SI‖En‖{U+2040}‖character tie
+*C1OZ‖undertie`‖SI‖En‖{U+203F}‖undertie
+*C1OZ‖invertedundertie`‖SI‖En‖{U+2054}‖inverted undertie
+
+*C1OZ‖dottedcircle`‖SI‖En‖{U+25CC}‖dotted circle
+*C1OZ‖dottedsquare`‖SI‖En‖{U+2B1A}‖dotted square
+
+*C1OZ‖uncertaintysign`‖SI‖En‖{U+2BD1}‖uncertainty sign
+
+*C1OZ‖referencemark`‖SI‖En‖{U+203B}‖reference mark
+*C1OZ‖dottedcross`‖SI‖En‖{U+205C}‖dotted cross
+
+*C1OZ‖currencysign`‖SI‖En‖{U+203B}‖currency sign
+
+*C1OZ‖blanksymbol`‖SI‖En‖{U+2422}‖blank symbol
+
+*C1OZ‖triangularcolon`‖SI‖En‖{U+02D0}‖modifier letter triangular colon
+‍*C1OZ‖halftriangularcolon`‖SI‖En‖{U+02D1}‖modifier letter half triangular colon
+*C1OZ‖tricolon`‖SI‖En‖{U+205D}‖tricolon
+*C1OZ‖triplecolon`‖SI‖En‖{U+205D}‖tricolon
+*C1OZ‖quadruplecolon`‖SI‖En‖{U+205E}‖vertical four dots
+*C1OZ‖verticalfourdots`‖SI‖En‖{U+205E}‖vertical four dots
+*C1OZ‖sextuplecolon`‖SI‖En‖{U+2E3D}‖vertical six dots
+*C1OZ‖verticalsixdots`‖SI‖En‖{U+2E3D}‖vertical six dots
+*C1OZ‖sixcolon`‖SI‖En‖{U+2E3D}‖vertical six dots
+
+*C1OZ‖midlineellipsis`‖SI‖En‖{U+22EF}‖midline horizontal ellipsis
+*C1OZ‖raisedellipsis`‖SI‖En‖{U+22EF}‖midline horizontal ellipsis
+*C1OZ‖verticalellipsis`‖SI‖En‖{U+22EE}‖vertical ellipsis
+
+*C1OZ‖threedotpunctuation`‖SI‖En‖{U+2056}‖three dot punctuation
+*C1OZ‖fourdotpunctuation`‖SI‖En‖{U+2058}‖four dot punctuation
+*C1OZ‖diamondcolon`‖SI‖En‖{U+2058}‖four dot punctuation
+*C1OZ‖fivedotpunctuation`‖SI‖En‖{U+2059}‖five dot punctuation
+*C1OZ‖fivedotmark`‖SI‖En‖{U+2E2D}‖five dot mark
+
+*C1OZ‖muchgreaterthan`‖SI‖En‖{U+226B}‖much greater-than
+*C1OZ‖muchlessthan`‖SI‖En‖{U+226A}‖much less-than
+
+*C1OZ‖interrobang`‖SI‖En‖{U+203D}‖interrobang
+*C1OZ‖interabang`‖SI‖En‖{U+203D}‖interrobang
+
+*C1OZ‖invertedquestion`‖SI‖En‖{U+00BF}‖inverted question mark
+*C1OZ‖invertedquestionmark`‖SI‖En‖{U+00BF}‖inverted question mark
+*C1OZ‖invertedexclamation`‖SI‖En‖{U+00A1}‖inverted exclamation mark
+*C1OZ‖invertedexclamationmark`‖SI‖En‖{U+00A1}‖inverted exclamation mark
+*C1OZ‖invertedinterrobang`‖SI‖En‖{U+2E18}‖inverted interrobang
+*C1OZ‖gnaborretni`‖SI‖En‖{U+2E18}‖inverted interrobang
+
+*C1OZ‖spanishquestion`‖SI‖En‖¿?{left 1}‖question marks (open-close)
+*C1OZ‖spanishquestionmarks`‖SI‖En‖¿?{left 1}‖question marks (open-close)
+*C1OZ‖spanishexclamation`‖SI‖En‖{U+00A1}{U+0021}{left 1}‖exclamation marks (open-close)
+*C1OZ‖spanishexclamationmarks`‖SI‖En‖{U+00A1}{U+0021}{left 1}‖exclamation marks (open-close)
+*C1OZ‖spanishinterrobang`‖SI‖En‖{U+2E18}{U+203D}{left 1}‖interrobangs (open-close)
+*C1OZ‖spanishinterrobangs`‖SI‖En‖{U+2E18}{U+203D}{left 1}‖interrobangs (open-close)
+
+*C1OZ‖quotationmarks`‖SI‖En‖“”{left 1}‖quotation marks (open-close)
+*C1OZ‖singlequotationmarks`‖SI‖En‖‘’{left 1}‖single quotation marks (open-close)
+
+*C1OZ‖lowhighquotationmarks`‖SI‖En‖„“{left 1}‖low-high quotation marks (open-close)
+*C1OZ‖russianquotationmarks`‖SI‖En‖„“{left 1}‖low-high quotation marks (open-close)
+*C1OZ‖singlerussianquotationmarks`‖SI‖En‖‚‘{left 1}‖single low-high quotation marks (open-close)
+*C1OZ‖singlelowhighquotationmarks`‖SI‖En‖‚‘{left 1}‖single low-high quotation marks (open-close)
+
+
+;; ORTHOGRAPHICAL (RIGHT-TO-LEFT)
+;;====================
+*C1OZ‖rtlapostrophe`‖SI‖En‖{U+2018}‖left single quotation mark
+*C1OZ‖rtlcomma`‖SI‖En‖{U+2E41}‖reversed comma
+*C1OZ‖reversedcomma`‖SI‖En‖{U+2E41}‖reversed comma
+*C1OZ‖arabiccomma`‖SI‖En‖{U+060C}‖arabic comma
+*C1OZ‖rtlsemicolon`‖SI‖En‖{U+204F}‖reversed semicolon
+*C1OZ‖reversedsemicolon`‖SI‖En‖{U+204F}‖reversed semicolon
+*C1OZ‖rtlmanicule`‖SI‖En‖{U+261C}‖white left pointing index
+*C1OZ‖rtlmaniculeblack`‖SI‖En‖{U+261A}‖black left pointing index
+*C1OZ‖arabicquestionmark`‖SI‖En‖{U+061F}‖arabic question mark
+*C1OZ‖reversedquestionmark`‖SI‖En‖{U+2E2E}‖reversed question mark
+*C1OZ‖reversedquestion`‖SI‖En‖{U+2E2E}‖reversed question mark
+*C1OZ‖rtlquestion`‖SI‖En‖{U+2E2E}‖reversed question mark
+
+
+;; ROMAN NUMERALS (Roman Numerals as encoded in Unicode separately from Latin letters.)
+;;====================
+*C1OZ‖romannumeral1`‖SI‖En‖{U+2160}‖roman numeral one
+*C1OZ‖romannumeral2`‖SI‖En‖{U+2161}‖roman numeral two
+*C1OZ‖romannumeral3`‖SI‖En‖{U+2162}‖roman numeral three
+*C1OZ‖romannumeral4`‖SI‖En‖{U+2163}‖roman numeral four
+*C1OZ‖romannumeral5`‖SI‖En‖{U+2164}‖roman numeral five
+*C1OZ‖romannumeral6`‖SI‖En‖{U+2165}‖roman numeral six
+*C1OZ‖romannumeral7`‖SI‖En‖{U+2166}‖roman numeral seven
+*C1OZ‖romannumeral8`‖SI‖En‖{U+2167}‖roman numeral eight
+*C1OZ‖romannumeral9`‖SI‖En‖{U+2168}‖roman numeral nine
+*C1OZ‖romannumeral10`‖SI‖En‖{U+2169}‖roman numeral ten
+*C1OZ‖romannumeral11`‖SI‖En‖{U+216A}‖roman numeral eleven
+*C1OZ‖romannumeral12`‖SI‖En‖{U+216B}‖roman numeral twelve
+*C1OZ‖romannumeral13`‖SI‖En‖{U+2169}{U+2162}‖roman numeral thirteen
+*C1OZ‖romannumeral14`‖SI‖En‖{U+2169}{U+2163}‖roman numeral fourteen
+*C1OZ‖romannumeral15`‖SI‖En‖{U+2169}{U+2164}‖roman numeral fifteen
+*C1OZ‖romannumeral16`‖SI‖En‖{U+2169}{U+2165}‖roman numeral sixteen
+*C1OZ‖romannumeral17`‖SI‖En‖{U+2169}{U+2166}‖roman numeral seventeen
+*C1OZ‖romannumeral18`‖SI‖En‖{U+2169}{U+2167}‖roman numeral eighteen
+*C1OZ‖romannumeral19`‖SI‖En‖{U+2169}{U+2168}‖roman numeral nineteen
+*C1OZ‖romannumeral20`‖SI‖En‖{U+2169}{U+2169}‖roman numeral twenty
+*C1OZ‖romannumeralone`‖SI‖En‖{U+2160}‖roman numeral one
+*C1OZ‖romannumeraltwo`‖SI‖En‖{U+2161}‖roman numeral two
+*C1OZ‖romannumeralthree`‖SI‖En‖{U+2162}‖roman numeral three
+*C1OZ‖romannumeralfour`‖SI‖En‖{U+2163}‖roman numeral four
+*C1OZ‖romannumeralfive`‖SI‖En‖{U+2164}‖roman numeral five
+*C1OZ‖romannumeralsix`‖SI‖En‖{U+2165}‖roman numeral six
+*C1OZ‖romannumeralseven`‖SI‖En‖{U+2166}‖roman numeral seven
+*C1OZ‖romannumeraleight`‖SI‖En‖{U+2167}‖roman numeral eight
+*C1OZ‖romannumeralnine`‖SI‖En‖{U+2168}‖roman numeral nine
+*C1OZ‖romannumeralten`‖SI‖En‖{U+2169}‖roman numeral ten
+*C1OZ‖romannumeraleleven`‖SI‖En‖{U+216A}‖roman numeral eleven
+*C1OZ‖romannumeraltwelve`‖SI‖En‖{U+216B}‖roman numeral twelve
+*C1OZ‖romannumeralthirteen`‖SI‖En‖{U+2169}{U+2162}‖roman numeral thirteen
+*C1OZ‖romannumeralfourteen`‖SI‖En‖{U+2169}{U+2163}‖roman numeral fourteen
+*C1OZ‖romannumeralfifteen`‖SI‖En‖{U+2169}{U+2164}‖roman numeral fifteen
+*C1OZ‖romannumeralsixteen`‖SI‖En‖{U+2169}{U+2165}‖roman numeral sixteen
+*C1OZ‖romannumeralseventeen`‖SI‖En‖{U+2169}{U+2166}‖roman numeral seventeen
+*C1OZ‖romannumeraleighteen`‖SI‖En‖{U+2169}{U+2167}‖roman numeral eighteen
+*C1OZ‖romannumeralnineteen`‖SI‖En‖{U+2169}{U+2168}‖roman numeral nineteen
+*C1OZ‖romannumeraltwenty`‖SI‖En‖{U+2169}{U+2169}‖roman numeral twenty
+
+*C1OZ‖romannumeral50`‖SI‖En‖{U+216C}‖roman numeral fifty
+*C1OZ‖romannumeral100`‖SI‖En‖{U+216D}‖roman numeral one hundred
+*C1OZ‖romannumeral500`‖SI‖En‖{U+216E}‖roman numeral five hundred
+*C1OZ‖romannumeral1000`‖SI‖En‖{U+216F}‖roman numeral one thousand
+*C1OZ‖romannumeralfifty`‖SI‖En‖{U+216C}‖roman numeral fifty
+*C1OZ‖romannumeralhundred`‖SI‖En‖{U+216D}‖roman numeral one hundred
+*C1OZ‖romannumeralonehundred`‖SI‖En‖{U+216D}‖roman numeral one hundred
+*C1OZ‖romannumeralfivehundred`‖SI‖En‖{U+216E}‖roman numeral five hundred
+*C1OZ‖romannumeralthousand`‖SI‖En‖{U+216F}‖roman numeral one thousand
+*C1OZ‖romannumeralonethousand`‖SI‖En‖{U+216F}‖roman numeral one thousand
+
+*C1OZ‖smallromannumeral1`‖SI‖En‖{U+2170}‖small roman numeral one
+*C1OZ‖smallromannumeral2`‖SI‖En‖{U+2171}‖small roman numeral two
+*C1OZ‖smallromannumeral3`‖SI‖En‖{U+2172}‖small roman numeral three
+*C1OZ‖smallromannumeral4`‖SI‖En‖{U+2173}‖small roman numeral four
+*C1OZ‖smallromannumeral5`‖SI‖En‖{U+2174}‖small roman numeral five
+*C1OZ‖smallromannumeral6`‖SI‖En‖{U+2175}‖small roman numeral six
+*C1OZ‖smallromannumeral7`‖SI‖En‖{U+2176}‖small roman numeral seven
+*C1OZ‖smallromannumeral8`‖SI‖En‖{U+2177}‖small roman numeral eight
+*C1OZ‖smallromannumeral9`‖SI‖En‖{U+2178}‖small roman numeral nine
+*C1OZ‖smallromannumeral10`‖SI‖En‖{U+2179}‖small roman numeral ten
+*C1OZ‖smallromannumeral11`‖SI‖En‖{U+217A}‖small roman numeral eleven
+*C1OZ‖smallromannumeral12`‖SI‖En‖{U+217B}‖small roman numeral twelve
+*C1OZ‖smallromannumeral13`‖SI‖En‖{U+2179}{U+2172}‖small roman numeral thirteen
+*C1OZ‖smallromannumeral14`‖SI‖En‖{U+2179}{U+2173}‖small roman numeral fourteen
+*C1OZ‖smallromannumeral15`‖SI‖En‖{U+2179}{U+2174}‖small roman numeral fifteen
+*C1OZ‖smallromannumeral16`‖SI‖En‖{U+2179}{U+2175}‖small roman numeral sixteen
+*C1OZ‖smallromannumeral17`‖SI‖En‖{U+2179}{U+2176}‖small roman numeral seventeen
+*C1OZ‖smallromannumeral18`‖SI‖En‖{U+2179}{U+2177}‖small roman numeral eighteen
+*C1OZ‖smallromannumeral19`‖SI‖En‖{U+2179}{U+2178}‖small roman numeral nineteen
+*C1OZ‖smallromannumeral20`‖SI‖En‖{U+2179}{U+2179}‖small roman twenty
+*C1OZ‖smallromannumeralone`‖SI‖En‖{U+2170}‖small roman numeral one
+*C1OZ‖smallromannumeraltwo`‖SI‖En‖{U+2171}‖small roman numeral two
+*C1OZ‖smallromannumeralthree`‖SI‖En‖{U+2172}‖small roman numeral three
+*C1OZ‖smallromannumeralfour`‖SI‖En‖{U+2173}‖small roman numeral four
+*C1OZ‖smallromannumeralfive`‖SI‖En‖{U+2174}‖small roman numeral five
+*C1OZ‖smallromannumeralsix`‖SI‖En‖{U+2175}‖small roman numeral six
+*C1OZ‖smallromannumeralseven`‖SI‖En‖{U+2176}‖small roman numeral seven
+*C1OZ‖smallromannumeraleight`‖SI‖En‖{U+2177}‖small roman numeral eight
+*C1OZ‖smallromannumeralnine`‖SI‖En‖{U+2178}‖small roman numeral nine
+*C1OZ‖smallromannumeralten`‖SI‖En‖{U+2179}‖small roman numeral ten
+*C1OZ‖smallromannumeraleleven`‖SI‖En‖{U+217A}‖small roman numeral eleven
+*C1OZ‖smallromannumeraltwelve`‖SI‖En‖{U+217B}‖small roman numeral twelve
+*C1OZ‖smallromannumeralthirteen`‖SI‖En‖{U+2179}{U+2172}‖small roman numeral thirteen
+*C1OZ‖smallromannumeralfourteen`‖SI‖En‖{U+2179}{U+2173}‖small roman numeral fourteen
+*C1OZ‖smallromannumeralfifteen`‖SI‖En‖{U+2179}{U+2174}‖small roman numeral fifteen
+*C1OZ‖smallromannumeralsixteen`‖SI‖En‖{U+2179}{U+2175}‖small roman numeral sixteen
+*C1OZ‖smallromannumeralseventeen`‖SI‖En‖{U+2179}{U+2176}‖small roman numeral seventeen
+*C1OZ‖smallromannumeraleighteen`‖SI‖En‖{U+2179}{U+2177}‖small roman numeral eighteen
+*C1OZ‖smallromannumeralnineteen`‖SI‖En‖{U+2179}{U+2178}‖small roman numeral nineteen
+*C1OZ‖smallromannumeraltwenty`‖SI‖En‖{U+2179}{U+2179}‖small roman twenty
+
+*C1OZ‖smallromannumeral50`‖SI‖En‖{U+217C}‖small roman numeral fifty
+*C1OZ‖smallromannumeral100`‖SI‖En‖{U+217D}‖small roman numeral one hundred
+*C1OZ‖smallromannumeral500`‖SI‖En‖{U+217E}‖small roman numeral five hundred
+*C1OZ‖smallromannumeral1000`‖SI‖En‖{U+217F}‖small roman numeral one thousand
+*C1OZ‖smallromannumeralfifty`‖SI‖En‖{U+217C}‖small roman numeral fifty
+*C1OZ‖smallromannumeralhundred`‖SI‖En‖{U+217D}‖small roman numeral one hundred
+*C1OZ‖smallromannumeralonehundred`‖SI‖En‖{U+217D}‖small roman numeral one hundred
+*C1OZ‖smallromannumeralfivehundred`‖SI‖En‖{U+217E}‖small roman numeral five hundred
+*C1OZ‖smallromannumeralthousand`‖SI‖En‖{U+217F}‖small roman numeral one thousand
+*C1OZ‖smallromannumeralonethousand`‖SI‖En‖{U+217F}‖small roman numeral one thousand
+
+
+;; SPACING
+;;====================
+*C1OZ‖nnbsp`‖SI‖En‖{U+202F}‖narrow no-break space
+*C1OZ‖narrownobreakspace`‖SI‖En‖{U+202F}‖narrow no-break space
+*C1OZ‖narrownonbreakingspace`‖SI‖En‖{U+202F}‖narrow no-break space
+
+*C1OZ‖nbsp`‖SI‖En‖{U+00A0}‖no-break space
+*C1OZ‖nobreakspace`‖SI‖En‖{U+00A0}‖no-break space
+*C1OZ‖nonbreakingspace`‖SI‖En‖{U+00A0}‖no-break space
+
+*C1OZ‖hairspace`‖SI‖En‖{U+200A}‖hair space
+*C1OZ‖thinspace`‖SI‖En‖{U+2009}‖thin space
+*C1OZ‖figurespace`‖SI‖En‖{U+2007}‖figure space
+*C1OZ‖enspace`‖SI‖En‖{U+2002}‖en space
+*C1OZ‖emspace`‖SI‖En‖{U+2003}‖em space
+
+*C1OZ‖zwnbsp`‖SI‖En‖{U+FEFF}‖zero width no-break space
+*C1OZ‖zerowidthnobreakspace`‖SI‖En‖{U+FEFF}‖zero width no-break space
+*C1OZ‖zerowidthnonbreakingspace`‖SI‖En‖{U+2002}‖zero width no-break space
+
+*C1OZ‖zwsp`‖SI‖En‖{U+200B}‖zero width space
+*C1OZ‖zerowidthspace`‖SI‖En‖{U+200B}‖zero width space
+
+
+;; ASTRONOMICAL
+;;====================
+*C1OZ‖sun`‖SI‖En‖{U+2609}‖sun
+*C1OZ‖sun2`‖SI‖En‖{U+263C}‖white sun with rays
+*C1OZ‖mercury`‖SI‖En‖{U+263F}‖mercury
+*C1OZ‖venus`‖SI‖En‖{U+2640}‖female sign
+*C1OZ‖earth`‖SI‖En‖{U+2641}‖earth
+*C1OZ‖earth2`‖SI‖En‖{U+2295}‖circled plus
+*C1OZ‖moon`‖SI‖En‖{U+263E}‖last quarter moon
+*C1OZ‖mars`‖SI‖En‖{U+2642}‖male sign
+*C1OZ‖jupiter`‖SI‖En‖{U+2643}‖jupiter
+*C1OZ‖saturn`‖SI‖En‖{U+2644}‖saturn
+*C1OZ‖uranus`‖SI‖En‖{U+26E2}‖astronomical symbol for uranus
+*C1OZ‖uranus2`‖SI‖En‖{U+2645}‖uranus
+*C1OZ‖neptune`‖SI‖En‖{U+2646}‖neptune
+*C1OZ‖pluto`‖SI‖En‖{U+2647}‖pluto
+*C1OZ‖pluto2`‖SI‖En‖{U+2BD3}‖pluto form two
+
+*C1OZ‖astraea`‖SI‖En‖{U+2BD9}‖astraea
+*C1OZ‖ceres`‖SI‖En‖{U+26B3}‖ceres
+*C1OZ‖chiron`‖SI‖En‖{U+26B7}‖chiron
+*C1OZ‖eris2`‖SI‖En‖{U+2BF1}‖eris form two
+*C1OZ‖eris`‖SI‖En‖{U+2BF0}‖eris form one
+*C1OZ‖gonggong`‖SI‖En‖{U+1F77D}‖gonggong
+*C1OZ‖haumea`‖SI‖En‖{U+1F77B}‖haumea
+*C1OZ‖hygiea`‖SI‖En‖{U+2BDA}‖hygiea
+*C1OZ‖juno`‖SI‖En‖{U+26B5}‖juno
+*C1OZ‖makemake`‖SI‖En‖{U+1F77C}‖makemake
+*C1OZ‖orcus`‖SI‖En‖{U+1F77F}‖orcus
+*C1OZ‖pallas`‖SI‖En‖{U+26B4}‖pallas (https://en.wikipedia.org/wiki/2_Pallas)
+*C1OZ‖pholus`‖SI‖En‖{U+2BDB}‖pholus (https://en.wikipedia.org/wiki/5145_Pholus)
+*C1OZ‖nessus`‖SI‖En‖{U+2BDC}‖nessus (https://en.wikipedia.org/wiki/7066_Nessus)
+*C1OZ‖quaoar`‖SI‖En‖{U+1F77E}‖quaoar
+*C1OZ‖sedna`‖SI‖En‖{U+2BF2}‖sedna
+*C1OZ‖vesta`‖SI‖En‖{U+26B6}‖vesta
+
+
+;; RELIGIOUS & POLITICAL
+;;====================
+*C1OZ‖allah`‖SI‖En‖{U+FDF2}‖arabic ligature allah isolated form
+*C1OZ‖ankh`‖SI‖En‖{U+2625}‖ankh
+*C1OZ‖bahaifaith`‖SI‖En‖{U+1F7D9}‖nine pointed white star
+*C1OZ‖buddhism`‖SI‖En‖{U+2638}‖wheel of dharma
+*C1OZ‖celticcross`‖SI‖En‖{U+1F548‖celtic cross
+*C1OZ‖chiro`‖SI‖En‖{U+2627}‖chi rho
+*C1OZ‖christianity`‖SI‖En‖{U+271D}‖latin cross
+*C1OZ‖communism`‖SI‖En‖{U+262D}‖hammer and sickle
+*C1OZ‖cross`‖SI‖En‖{U+271D}‖latin cross
+*C1OZ‖crossofjerusalem`‖SI‖En‖{U+2629}‖cross of jerusalem
+*C1OZ‖crossoflorraine`‖SI‖En‖{U+2628}‖cross of lorraine
+*C1OZ‖eastsyriaccross`‖SI‖En‖{U+2671}‖east syriac cross
+*C1OZ‖ekonkar`‖SI‖En‖{U+A8FD}‖gurmukhi ek onkar
+*C1OZ‖ikonkar`‖SI‖En‖{U+A8FD}‖gurmukhi ek onkar
+*C1OZ‖farsisymbol`‖SI‖En‖{U+262B}‖farsi symbol
+*C1OZ‖fleurdelis`‖SI‖En‖{U+269C}‖fleur-de-lis
+*C1OZ‖fleurdelys`‖SI‖En‖{U+269C}‖fleur-de-lis
+*C1OZ‖hammerandsickle`‖SI‖En‖{U+262D}‖hammer and sickle
+*C1OZ‖hinduism`‖SI‖En‖{U+0950}‖devanagari om
+*C1OZ‖islam`‖SI‖En‖{U+262A}‖star and crescent
+*C1OZ‖jainism`‖SI‖En‖{U+A8FD}‖devanagari jain om
+*C1OZ‖judaism`‖SI‖En‖{U+2721}‖star of david
+*C1OZ‖khanda`‖SI‖En‖{U+262C}‖adi shakti
+*C1OZ‖latincross`‖SI‖En‖{U+271D}‖latin cross
+*C1OZ‖mohammad`‖SI‖En‖{U+FDF4}‖arabic ligature mohammad isolated form
+*C1OZ‖muhammad`‖SI‖En‖{U+FDF4}‖arabic ligature mohammad isolated form
+*C1OZ‖peacebeuponhim`‖SI‖En‖{U+FDFA}‖arabic ligature sallallahou alayhe wasallam
+*C1OZ‖jallajalaluhu`‖SI‖En‖{U+FDFB}‖arabic ligature jallajalalouhou
+*C1OZ‖om`‖SI‖En‖{U+0950}‖devanagari om
+*C1OZ‖orthodoxcross`‖SI‖En‖{U+2626}‖orthodox cross
+*C1OZ‖peace`‖SI‖En‖{U+262E}‖peace symbol
+*C1OZ‖peacesymbol`‖SI‖En‖{U+262E}‖peace symbol
+*C1OZ‖pentagram`‖SI‖En‖{U+2721}‖pentagram
+*C1OZ‖shinto`‖SI‖En‖{U+26E9}‖shinto shrine
+*C1OZ‖sikhism`‖SI‖En‖{U+262C}‖adi shakti
+*C1OZ‖starandcrescent`‖SI‖En‖{U+262A}‖star and crescent
+*C1OZ‖starofdavid`‖SI‖En‖{U+2721}‖star of david
+*C1OZ‖svastika`‖SI‖En‖{U+5350}‖CJK unified ideograph
+*C1OZ‖swastika`‖SI‖En‖{U+5350}‖CJK unified ideograph
+*C1OZ‖taoism`‖SI‖En‖{U+262F}‖yin yang
+*C1OZ‖westsyriaccross`‖SI‖En‖{U+2670}‖west syriac cross
+*C1OZ‖wheelofdharma`‖SI‖En‖{U+2638}‖wheel of dharma
+*C1OZ‖wicca`‖SI‖En‖{U+2721}‖pentagram
+*C1OZ‖yinyang`‖SI‖En‖{U+262F}‖yin yang
+
+
+;; SYMBOLS
+;;====================
+*C1OZ‖atom`‖SI‖En‖{U+269B}‖atom symbol
+*C1OZ‖biohazard`‖SI‖En‖{U+2623}‖biohazard sign
+*C1OZ‖caduceus`‖SI‖En‖{U+2624}‖caduceus
+*C1OZ‖caution`‖SI‖En‖{U+2621}‖caution sign
+*C1OZ‖email`‖SI‖En‖{U+2709}‖envelope
+*C1OZ‖envelope`‖SI‖En‖{U+2709}‖envelope
+*C1OZ‖female`‖SI‖En‖{U+2640}‖female sign
+*C1OZ‖frowningface`‖SI‖En‖{U+2639}‖white frowning face
+*C1OZ‖headphones`‖SI‖En‖{U+260A}‖ascending node
+*C1OZ‖mail`‖SI‖En‖{U+2709}‖envelope
+*C1OZ‖male`‖SI‖En‖{U+2642}‖male sign
+*C1OZ‖marriage`‖SI‖En‖{U+26AD}‖marriage symbol
+*C1OZ‖music`‖SI‖En‖{U+266A}‖eighth note
+*C1OZ‖radioactive`‖SI‖En‖{U+2622}‖radioactive sign
+*C1OZ‖sadface`‖SI‖En‖{U+2639}‖white frowning face
+*C1OZ‖science`‖SI‖En‖{U+269B}‖atom symbol
+*C1OZ‖shamrock`‖SI‖En‖{U+2618}‖shamrock
+*C1OZ‖smiley`‖SI‖En‖{U+263A}‖white smiling face
+*C1OZ‖staffofhermes`‖SI‖En‖{U+269A}‖staff of hermes
+*C1OZ‖star`‖SI‖En‖{U+2606}‖white star
+*C1OZ‖warning`‖SI‖En‖{U+26A0}‖warning sign
