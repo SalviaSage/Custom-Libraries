@@ -1,0 +1,459 @@
+﻿;; Spanish Diacritic Helper (diaeresis-precomposed)
+
+;; https://gchq.github.io/CyberChef/#recipe=Remove_Diacritics() (Diacritic Remover)
+;; https://www.somacon.com/p568.php (Duplicate Line Counter)
+
+;; Does not correct spelling mistakes.
+;; Trigger accentuation by pressing the TAB key after typing the word.
+
+;; Immediate Execute (*) has to be used for triggers.
+;; Reset Recognizer (Z) has to be used for proper differentiation between words.
+;; Has to be case insensitive. That is, the syntaxes (C) or (C1) must not be used.
+;; The spelling of the word has to match on the left and the right sides of "‖SI‖En‖".
+
+;; Language Specific information and To Do List:
+;; Adjectives have to be in 2 separate forms as masculine ending in (-o), and feminine ending in (-a).
+;; They have 4 forms if we also add the plural variations.
+
+;; Correct way to add words that are separate words capitalised and uncapitalised is to;
+;; make a separate entry for the capitalised word that starts with the *COZ syntax;
+;; and another entry that starts with the *OZ syntax for the word that is not capitalised.
+
+;; Words that I think should be accented, or my own prescriptivisms are marked with **
+
+;; ü
+
+;; 371 Entries
+
+
+;; VERBS
+;;====================
+*OZ‖aguerar`‖SI‖En‖agüerar‖
+*OZ‖aguitarse`‖SI‖En‖agüitarse‖
+*OZ‖apirguinarse`‖SI‖En‖apirgüinarse‖
+*OZ‖arguendear`‖SI‖En‖argüendear‖
+*OZ‖arguir`‖SI‖En‖argüir‖
+*OZ‖empiguelar`‖SI‖En‖empigüelar‖
+*OZ‖enchaguitarse`‖SI‖En‖enchagüitarse‖
+*OZ‖enguerar`‖SI‖En‖engüerar‖
+*OZ‖lenguear`‖SI‖En‖lengüear‖
+*OZ‖lenguetear`‖SI‖En‖lengüetear‖
+*OZ‖melenguelear`‖SI‖En‖melengüelear‖
+*OZ‖rearguir`‖SI‖En‖reargüir‖
+*OZ‖redarguir`‖SI‖En‖redargüir‖
+
+*OZ‖averiguar`‖SI‖En‖averigüar{ ** }‖
+*OZ‖desaguar`‖SI‖En‖desagüar{ ** }‖
+*OZ‖enjaguar`‖SI‖En‖enjagüar{ ** }‖
+*OZ‖guardar`‖SI‖En‖güardar{ ** }‖
+
+;; WORDS(PRESCRIPTIVISMS)
+;;====================
+*OZ‖agua`‖SI‖En‖agüa{ ** }‖
+*OZ‖aguas`‖SI‖En‖agüas{ ** }‖
+*OZ‖damajagua`‖SI‖En‖damajagüa{ ** }‖
+*OZ‖damajaguas`‖SI‖En‖damajagüas{ ** }‖
+*OZ‖exigua`‖SI‖En‖exigüa{ ** }‖
+*OZ‖exiguas`‖SI‖En‖exigüas{ ** }‖
+*OZ‖exiguo`‖SI‖En‖exigüo{ ** }‖
+*OZ‖exiguos`‖SI‖En‖exigüos{ ** }‖
+*OZ‖jaguar`‖SI‖En‖jagüar{ ** }‖
+*OZ‖jaguares`‖SI‖En‖jagüares{ ** }‖
+*OZ‖legua`‖SI‖En‖legüa{ ** }‖
+*OZ‖leguas`‖SI‖En‖legüas{ ** }‖
+*OZ‖lengua`‖SI‖En‖lengüa{ ** }‖
+*OZ‖lenguaje`‖SI‖En‖lengüaje{ ** }‖
+*OZ‖lenguajes`‖SI‖En‖lengüajes{ ** }‖
+*OZ‖lenguas`‖SI‖En‖lengüas{ ** }‖
+*OZ‖majagua`‖SI‖En‖majagüa{ ** }‖
+*OZ‖majaguas`‖SI‖En‖majagüas{ ** }‖
+*OZ‖manigua`‖SI‖En‖manigüa{ ** }‖
+*OZ‖maniguas`‖SI‖En‖manigüas{ ** }‖
+*OZ‖paraguas`‖SI‖En‖paragüas{ ** }‖
+*OZ‖paragueria`‖SI‖En‖paragüería{ ** }‖
+*OZ‖paraguerias`‖SI‖En‖paragüerías{ ** }‖
+*OZ‖yegua`‖SI‖En‖yegüa{ ** }‖ mare, female horse
+*OZ‖yeguas`‖SI‖En‖yegüas{ ** }‖ mare, female horse
+*OZ‖yeguera`‖SI‖En‖yegüera‖
+*OZ‖yegueras`‖SI‖En‖yegüeras‖
+*OZ‖yegueriza`‖SI‖En‖yegüeriza‖
+*OZ‖yeguerizas`‖SI‖En‖yegüerizas‖
+*OZ‖yeguerizo`‖SI‖En‖yegüerizo‖
+*OZ‖yeguerizos`‖SI‖En‖yegüerizos‖
+*OZ‖yeguero`‖SI‖En‖yegüero‖
+*OZ‖yegueros`‖SI‖En‖yegüeros‖
+
+*OZ‖quincuagesima`‖SI‖En‖qüincuagésima{ ** }‖
+*OZ‖quincuagesimo`‖SI‖En‖qüincuagésimo{ ** }‖
+*OZ‖quindecillon`‖SI‖En‖qüindecillón{ ** }‖
+*OZ‖quindecillonesima`‖SI‖En‖qüindecillonésima{** }‖
+*OZ‖quindecillonesimo`‖SI‖En‖qüindecillonésimo{ ** }‖
+*OZ‖quingentesima`‖SI‖En‖qüingentésima{ ** }‖
+*OZ‖quingentesimo`‖SI‖En‖qüingentésimo{ ** }‖
+*OZ‖quintillon`‖SI‖En‖qüintillón{ ** }‖
+*OZ‖quintillonesima`‖SI‖En‖qüintillonésima{ ** }‖
+*OZ‖quintillonesimo`‖SI‖En‖qüintillonésimo{ ** }‖
+
+
+;; PROPER NOUNS
+;;====================
+*OZ‖Aconcagua`‖SI‖En‖Aconcagüa{ ** }‖
+*OZ‖Antigua`‖SI‖En‖Antigüa{ ** }‖
+*OZ‖Aragua`‖SI‖En‖Aragüa{ ** }‖
+*OZ‖Aregua`‖SI‖En‖Aregüá{ ** }‖‖
+*OZ‖Arguelles`‖SI‖En‖Argüelles‖
+*OZ‖Caguas`‖SI‖En‖Cagüas{ ** }‖
+*OZ‖Camaguey`‖SI‖En‖Camagüey‖
+*OZ‖Colchagua`‖SI‖En‖Colchagüa{ ** }‖
+*OZ‖Comayagua`‖SI‖En‖Comayagüa{ ** }‖
+*OZ‖Gueldres`‖SI‖En‖Güeldres‖
+*OZ‖Higuey`‖SI‖En‖Higüey‖
+*OZ‖Lilongue`‖SI‖En‖Lilongüe‖
+*OZ‖Managua`‖SI‖En‖Managüa{ ** }‖
+*OZ‖Mayaguez`‖SI‖En‖Mayagüez‖
+*OZ‖Nagua`‖SI‖En‖Nagüa{ ** }‖
+*OZ‖Paraguay`‖SI‖En‖Paragüay{ ** }‖
+*OZ‖Rancagua`‖SI‖En‖Rancagüa{ ** }‖
+*OZ‖Sanguesa`‖SI‖En‖Sangüesa‖
+*OZ‖Uruguay`‖SI‖En‖Urugüay{ ** }‖
+*OZ‖Veraguas`‖SI‖En‖Veragüas{ ** }‖
+
+;;====================
+;; WORDS
+;;====================
+*OZ‖aconcaguino`‖SI‖En‖aconcagüino‖
+*OZ‖aconcaguinos`‖SI‖En‖aconcagüinos‖
+*OZ‖aconcaguina`‖SI‖En‖aconcagüina‖
+*OZ‖aconcaguinas`‖SI‖En‖aconcagüinas‖
+*OZ‖aguero`‖SI‖En‖agüero‖
+*OZ‖agueros`‖SI‖En‖agüeros‖
+*OZ‖aguita`‖SI‖En‖agüita‖
+*OZ‖aguitas`‖SI‖En‖agüitas‖
+*OZ‖ambiguedad`‖SI‖En‖ambigüedad‖
+*OZ‖ambiguedades`‖SI‖En‖ambigüedades‖
+*OZ‖antiguedad`‖SI‖En‖antigüedad‖
+*OZ‖antiguedades`‖SI‖En‖antigüedades‖
+*OZ‖antigueña`‖SI‖En‖antigüeña‖
+*OZ‖antigueñas`‖SI‖En‖antigüeñas‖
+*OZ‖antigueño`‖SI‖En‖antigüeño‖
+*OZ‖antigueños`‖SI‖En‖antigüeños‖
+*OZ‖araguira`‖SI‖En‖aragüirá‖ Pájaro de la Argentina, de lomo rojizo y pecho y copete de color rojo.
+*OZ‖araguiras`‖SI‖En‖aragüirás‖ Pájaro de la Argentina, de lomo rojizo y pecho y copete de color rojo.
+*OZ‖aregueña`‖SI‖En‖aregüeña‖
+*OZ‖aregueñas`‖SI‖En‖aregüeñas‖
+*OZ‖aregueño`‖SI‖En‖aregüeño‖
+*OZ‖aregueños`‖SI‖En‖aregüeños‖
+*OZ‖arguende`‖SI‖En‖argüende‖
+*OZ‖arguendera`‖SI‖En‖argüendera‖
+*OZ‖arguenderas`‖SI‖En‖argüenderas‖
+*OZ‖arguendero`‖SI‖En‖argüendero‖
+*OZ‖arguenderos`‖SI‖En‖argüenderos‖
+*OZ‖arguendes`‖SI‖En‖argüendes‖
+*OZ‖arguidor`‖SI‖En‖argüidor‖
+*OZ‖arguidora`‖SI‖En‖argüidora‖
+*OZ‖arguidoras`‖SI‖En‖argüidoras‖
+*OZ‖arguidores`‖SI‖En‖argüidores‖
+*OZ‖arguitiva`‖SI‖En‖argüitiva‖
+*OZ‖arguitivas`‖SI‖En‖argüitivas‖
+*OZ‖arguitivo`‖SI‖En‖argüitivo‖
+*OZ‖arguitivos`‖SI‖En‖argüitivos‖
+*OZ‖bilingue`‖SI‖En‖bilingüe‖
+*OZ‖bilingues`‖SI‖En‖bilingües‖
+*OZ‖bilinguismo`‖SI‖En‖bilingüismo‖
+*OZ‖cagueña`‖SI‖En‖cagüeña‖
+*OZ‖cagueñas`‖SI‖En‖cagüeñas‖
+*OZ‖cagueño`‖SI‖En‖cagüeño‖
+*OZ‖cagueños`‖SI‖En‖cagüeños‖
+*OZ‖camagua`‖SI‖En‖camagüa{ * }‖
+*OZ‖camaguas`‖SI‖En‖camagüas{ * }‖
+*OZ‖camague`‖SI‖En‖camagüe‖
+*OZ‖camagues`‖SI‖En‖camagües‖
+*OZ‖camagueyana`‖SI‖En‖camagüeyana‖
+*OZ‖camagueyanas`‖SI‖En‖camagüeyanas‖
+*OZ‖camagueyano`‖SI‖En‖camagüeyano‖
+*OZ‖camagueyanos`‖SI‖En‖camagüeyanos‖
+*OZ‖camaguira`‖SI‖En‖camagüira‖
+*OZ‖camaguiras`‖SI‖En‖camagüiras‖
+*OZ‖cangueso`‖SI‖En‖cangüeso‖
+*OZ‖canguesos`‖SI‖En‖cangüesos‖
+*OZ‖chaguis`‖SI‖En‖chagüís‖
+*OZ‖chaguital`‖SI‖En‖chagüital‖
+*OZ‖chaguitales`‖SI‖En‖chagüitales‖
+*OZ‖chaguite`‖SI‖En‖chagüite‖
+*OZ‖chaguites`‖SI‖En‖chagüites‖
+*OZ‖changui`‖SI‖En‖changüí‖
+*OZ‖chiguin`‖SI‖En‖chigüín‖
+*OZ‖chiguina`‖SI‖En‖chigüina‖
+*OZ‖chiguinada`‖SI‖En‖chigüinada‖
+*OZ‖chiguinadas`‖SI‖En‖chigüinadas‖
+*OZ‖chiguinas`‖SI‖En‖chigüinas‖
+*OZ‖chiguines`‖SI‖En‖chigüines‖
+*OZ‖chiguire`‖SI‖En‖chigüire‖
+*OZ‖chiguires`‖SI‖En‖chigüires‖
+*OZ‖chirigue`‖SI‖En‖chirigüe‖
+*OZ‖chirigues`‖SI‖En‖chirigües‖
+*OZ‖ciguete`‖SI‖En‖cigüete‖ de "uva ciguete"
+*OZ‖ciguetes`‖SI‖En‖cigüetes‖  de "uva ciguetes"
+*OZ‖cigueña`‖SI‖En‖cigüeña‖
+*OZ‖cigueñal`‖SI‖En‖cigüeñal‖
+*OZ‖cigueñales`‖SI‖En‖cigüeñales‖
+*OZ‖cigueñas`‖SI‖En‖cigüeñas‖
+*OZ‖cigueñato`‖SI‖En‖cigüeñato‖
+*OZ‖cigueño`‖SI‖En‖cigüeño‖
+*OZ‖cigueños`‖SI‖En‖cigüeños‖
+*OZ‖cigueñuela`‖SI‖En‖cigüeñuela‖
+*OZ‖cigueñuelas`‖SI‖En‖cigüeñuelas‖
+*OZ‖coguelmo`‖SI‖En‖cogüelmo‖
+*OZ‖coguelmos`‖SI‖En‖cogüelmos‖
+*OZ‖colchaguina`‖SI‖En‖colchagüina‖
+*OZ‖colchaguinas`‖SI‖En‖colchagüinas‖
+*OZ‖colchaguino`‖SI‖En‖colchagüino‖
+*OZ‖colchaguinos`‖SI‖En‖colchagüinos‖
+*OZ‖cologuina`‖SI‖En‖cologüina‖
+*OZ‖cologuinas`‖SI‖En‖cologüinas‖
+*OZ‖comayaguense`‖SI‖En‖comayagüense‖
+*OZ‖comayaguenses`‖SI‖En‖comayagüenses‖
+*OZ‖contiguidad`‖SI‖En‖contigüidad‖
+*OZ‖contiguidades`‖SI‖En‖contigüidades‖
+*OZ‖correguela`‖SI‖En‖corregüela‖
+*OZ‖correguelas`‖SI‖En‖corregüelas‖
+*OZ‖cuatrilingue`‖SI‖En‖cuatrilingüe‖
+*OZ‖cuatrilingues`‖SI‖En‖cuatrilingües‖
+*OZ‖cuatrilinguismo`‖SI‖En‖cuatrilingüismo‖
+*OZ‖curamaguey`‖SI‖En‖curamagüey‖
+*OZ‖curamagueyes`‖SI‖En‖curamagüeyes‖
+*OZ‖deguello`‖SI‖En‖degüello‖
+*OZ‖deguellos`‖SI‖En‖degüellos‖
+*OZ‖desague`‖MSI‖En‖desagüe{noun}¦desagüé{verb}‖
+*OZ‖desagues`‖SI‖En‖desagües‖
+*OZ‖desverguenza`‖SI‖En‖desvergüenza‖
+*OZ‖desverguenzas`‖SI‖En‖desvergüenzas‖
+*OZ‖enaguetas`‖SI‖En‖enagüetas‖ PLURAL ONLY
+*OZ‖enaguillas`‖SI‖En‖enagüillas‖ PLURAL ONLY
+*OZ‖etnolinguistica`‖SI‖En‖etnolingüística‖
+*OZ‖etnolinguisticas`‖SI‖En‖etnolingüísticas‖
+*OZ‖etnolinguistico`‖SI‖En‖etnolingüístico‖
+*OZ‖etnolinguisticos`‖SI‖En‖etnolingüísticos‖
+*OZ‖exangue`‖SI‖En‖exangüe‖
+*OZ‖exangues`‖SI‖En‖exangües‖
+*OZ‖exiguidad`‖SI‖En‖exigüidad‖
+*OZ‖exiguidades`‖SI‖En‖exigüidades‖
+*OZ‖extralinguistico`‖SI‖En‖extralingüístico‖
+*OZ‖extralinguisticos`‖SI‖En‖extralingüísticos‖
+*OZ‖extralinguistica`‖SI‖En‖extralingüística‖
+*OZ‖extralinguisticas`‖SI‖En‖extralingüísticas‖
+*OZ‖fagueño`‖SI‖En‖fagüeño‖
+*OZ‖fagueños`‖SI‖En‖fagüeños‖
+*OZ‖falagueña`‖SI‖En‖falagüeña‖
+*OZ‖falagueñas`‖SI‖En‖falagüeñas‖
+*OZ‖falagueño`‖SI‖En‖falagüeño‖
+*OZ‖falagueños`‖SI‖En‖falagüeños‖
+*OZ‖garguero`‖SI‖En‖gargüero‖
+*OZ‖gargueros`‖SI‖En‖gargüeros‖
+*OZ‖greguescos`‖SI‖En‖gregüescos‖ PLURAL ONLY
+*OZ‖guardian`‖SI‖En‖güardián‖
+*OZ‖guardianes`‖SI‖En‖güardianes‖
+*OZ‖guardiana`‖SI‖En‖güardiana‖
+*OZ‖guardianas`‖SI‖En‖güardianas‖
+*OZ‖guarguero`‖SI‖En‖güargüero‖
+*OZ‖guargueros`‖SI‖En‖güargüeros‖
+*OZ‖guelfo`‖SI‖En‖güelfo‖
+*OZ‖guelfos`‖SI‖En‖güelfos‖
+*OZ‖guelfa`‖SI‖En‖güelfa‖
+*OZ‖guelfas`‖SI‖En‖güelfas‖
+*OZ‖guera`‖SI‖En‖güera‖
+*OZ‖gueras`‖SI‖En‖güeras‖
+*OZ‖guero`‖SI‖En‖güero‖
+*OZ‖gueros`‖SI‖En‖güeros‖
+*OZ‖guey`‖SI‖En‖güey‖
+*OZ‖gueyes`‖SI‖En‖güeyes‖
+*OZ‖guila`‖SI‖En‖guila‖
+*OZ‖guilas`‖SI‖En‖guilas‖
+*OZ‖guilo`‖SI‖En‖guilo‖
+*OZ‖guilos`‖SI‖En‖guilos‖
+*OZ‖guipipia`‖SI‖En‖güipipía‖
+*OZ‖guira`‖SI‖En‖güira‖
+*OZ‖guiras`‖SI‖En‖güiras‖
+*OZ‖guirila`‖SI‖En‖güirila‖
+*OZ‖guirilas`‖SI‖En‖güirilas‖
+*OZ‖guiro`‖SI‖En‖güiro‖
+*OZ‖guiros`‖SI‖En‖güiros‖
+*OZ‖guisqueria`‖SI‖En‖güisquería‖
+*OZ‖guisquerias`‖SI‖En‖güisquerías‖
+*OZ‖guisquil`‖SI‖En‖güisquil‖
+*OZ‖guisquiles`‖SI‖En‖güisquiles‖
+*OZ‖halagueña`‖SI‖En‖halagüeña‖
+*OZ‖halagueñas`‖SI‖En‖halagüeñas‖
+*OZ‖halagueño`‖SI‖En‖halagüeño‖
+*OZ‖halagueños`‖SI‖En‖halagüeños‖
+*OZ‖higuela`‖SI‖En‖higüela‖
+*OZ‖higuelas`‖SI‖En‖higüelas‖
+*OZ‖higuero`‖SI‖En‖higüero‖
+*OZ‖higueros`‖SI‖En‖higüeros‖
+*OZ‖higueyana`‖SI‖En‖higüeyana‖
+*OZ‖higueyanas`‖SI‖En‖higüeyanas‖
+*OZ‖higueyano`‖SI‖En‖higüeyano‖
+*OZ‖higueyanos`‖SI‖En‖higüeyanos‖
+*OZ‖iguedo`‖SI‖En‖igüedo‖
+*OZ‖iguedos`‖SI‖En‖igüedos‖
+*OZ‖ipegue`‖SI‖En‖ipegüe‖
+*OZ‖ipegues`‖SI‖En‖ipegües‖
+*OZ‖jaguel`‖SI‖En‖jagüel‖ tambien "jaguey"
+*OZ‖jagueles`‖SI‖En‖jagüeles‖
+*OZ‖jaguey`‖SI‖En‖jagüey‖ tambien "jaguel"
+*OZ‖jagueyes`‖SI‖En‖jagüeyes‖
+*OZ‖lenguarada`‖SI‖En‖lengüarada‖
+*OZ‖lenguaradas`‖SI‖En‖lengüaradas‖
+*OZ‖lenguaton`‖SI‖En‖lengüatón‖
+*OZ‖lengueta`‖SI‖En‖lengüeta‖
+*OZ‖lenguetas`‖SI‖En‖lengüetas‖
+*OZ‖lenguetazo`‖SI‖En‖lengüetazo‖
+*OZ‖lenguetazos`‖SI‖En‖lengüetazos‖
+*OZ‖lengueteada`‖SI‖En‖lengüeteada‖
+*OZ‖lengueteadas`‖SI‖En‖lengüeteadas‖
+*OZ‖lenguetada`‖SI‖En‖lengüetada‖
+*OZ‖lengueteados`‖SI‖En‖lengüeteados‖
+*OZ‖lenguetado`‖SI‖En‖lengüetado‖
+*OZ‖lenguetadas`‖SI‖En‖lengüetadas‖
+*OZ‖lenguicorta`‖SI‖En‖lengüicorta‖
+*OZ‖lenguicortas`‖SI‖En‖lengüicortas‖
+*OZ‖lenguicorto`‖SI‖En‖lengüicorto‖
+*OZ‖lenguicortos`‖SI‖En‖lengüicortos‖
+*OZ‖lenguilarga`‖SI‖En‖lengüilarga‖
+*OZ‖lenguilargas`‖SI‖En‖lengüilargas‖
+*OZ‖lenguilargo`‖SI‖En‖lengüilargo‖
+*OZ‖lenguilargos`‖SI‖En‖lengüilargos‖
+*OZ‖linguista`‖SI‖En‖lingüísta‖
+*OZ‖linguistas`‖SI‖En‖lingüístas‖
+*OZ‖linguistica`‖SI‖En‖lingüística‖
+*OZ‖linguisticamente`‖SI‖En‖lingüísticamente‖
+*OZ‖linguisticas`‖SI‖En‖lingüísticas‖
+*OZ‖linguistico`‖SI‖En‖lingüístico‖
+*OZ‖linguisticos`‖SI‖En‖lingüísticos‖
+*OZ‖macaguita`‖SI‖En‖macagüita‖
+*OZ‖macaguitas`‖SI‖En‖macagüitas‖
+*OZ‖machigue`‖SI‖En‖machigüe‖
+*OZ‖magueta`‖SI‖En‖magüeta‖
+*OZ‖maguetas`‖SI‖En‖magüetas‖
+*OZ‖magueto`‖SI‖En‖magüeto‖
+*OZ‖maguetos`‖SI‖En‖magüetos‖
+*OZ‖managuense`‖SI‖En‖managüense‖
+*OZ‖managuenses`‖SI‖En‖managüenses‖
+*OZ‖maniguero`‖SI‖En‖manigüero‖
+*OZ‖manigueros`‖SI‖En‖manigüeros‖
+*OZ‖maniguera`‖SI‖En‖manigüera‖
+*OZ‖manigueras`‖SI‖En‖manigüeras‖
+*OZ‖mayaguezana`‖SI‖En‖mayagüezana‖
+*OZ‖mayaguezanas`‖SI‖En‖mayagüezanas‖
+*OZ‖mayaguezano`‖SI‖En‖mayagüezano‖
+*OZ‖mayaguezanos`‖SI‖En‖mayagüezanos‖
+*OZ‖metalinguisticamente`‖SI‖En‖metalingüísticamente‖
+*OZ‖metalinguistico`‖SI‖En‖metalingüístico‖
+*OZ‖metalinguisticos`‖SI‖En‖metalingüísticos‖
+*OZ‖metalinguistica`‖SI‖En‖metalingüística‖
+*OZ‖metalinguisticas`‖SI‖En‖metalingüísticas‖
+*OZ‖monolingue`‖SI‖En‖monolingüe‖
+*OZ‖monolingues`‖SI‖En‖monolingües‖
+*OZ‖monolinguismo`‖SI‖En‖monolingüismo‖
+*OZ‖monolinguismos`‖SI‖En‖monolingüismos‖
+*OZ‖multilingue`‖SI‖En‖multilingüe‖
+*OZ‖multilingues`‖SI‖En‖multilingües‖
+*OZ‖multilinguismo`‖SI‖En‖multilingüismo‖
+*OZ‖multilinguismos`‖SI‖En‖multilingüismos‖
+*OZ‖nacarigue`‖SI‖En‖nacarigüe‖
+*OZ‖naguela`‖SI‖En‖nagüela‖ "cabaña"
+*OZ‖naguera`‖SI‖En‖nagüera‖
+*OZ‖nagueras`‖SI‖En‖nagüeras‖
+*OZ‖naguero`‖SI‖En‖nagüero‖
+*OZ‖nagueros`‖SI‖En‖nagüeros‖
+*OZ‖nicaraguenismo`‖SI‖En‖nicaragüenismo‖
+*OZ‖nicaraguense`‖SI‖En‖nicaragüense‖
+*OZ‖nicaraguenses`‖SI‖En‖nicaragüenses‖
+*OZ‖nicaraguensismo`‖SI‖En‖nicaragüensismo‖
+*OZ‖nicaragueño`‖SI‖En‖nicaragüeño‖
+*OZ‖paraguero`‖SI‖En‖paragüero‖
+*OZ‖paragueros`‖SI‖En‖paragüeros‖
+*OZ‖pataguino`‖SI‖En‖patagüino‖
+*OZ‖pedigueña`‖SI‖En‖pedigüeña‖
+*OZ‖pedigueñas`‖SI‖En‖pedigüeñas‖
+*OZ‖pedigueñeria`‖SI‖En‖pedigüeñería‖
+*OZ‖pedigueño`‖SI‖En‖pedigüeño‖
+*OZ‖pedigueños`‖SI‖En‖pedigüeños‖
+*OZ‖pichaguero`‖SI‖En‖pichagüero‖
+*OZ‖pichagueros`‖SI‖En‖pichagüeros‖
+*OZ‖pingue`‖SI‖En‖pingüe‖
+*OZ‖pinguedinosa`‖SI‖En‖pingüedinosa‖
+*OZ‖pinguedinosas`‖SI‖En‖pingüedinosas‖
+*OZ‖pinguedinoso`‖SI‖En‖pingüedinoso‖
+*OZ‖pinguedinosos`‖SI‖En‖pingüedinosos‖
+*OZ‖pingues`‖SI‖En‖pingües‖
+*OZ‖pinguina`‖SI‖En‖pingüina‖
+*OZ‖pinguinas`‖SI‖En‖pingüinas‖
+*OZ‖pinguinera`‖SI‖En‖pingüinera‖
+*OZ‖pinguineras`‖SI‖En‖pingüineras‖
+*OZ‖pinguino`‖SI‖En‖pingüino‖
+*OZ‖pinguinos`‖SI‖En‖pingüinos‖
+*OZ‖piragua`‖SI‖En‖piragüa‖
+*OZ‖piraguas`‖SI‖En‖piragüas‖
+*OZ‖piraguera`‖SI‖En‖piragüera‖
+*OZ‖piragueras`‖SI‖En‖piragüeras‖
+*OZ‖piraguero`‖SI‖En‖piragüero‖
+*OZ‖piragueros`‖SI‖En‖piragüeros‖
+*OZ‖piraguismo`‖SI‖En‖piragüismo‖
+*OZ‖piraguista`‖SI‖En‖piragüista‖
+*OZ‖piraguistas`‖SI‖En‖piragüistas‖
+*OZ‖plurilingue`‖SI‖En‖plurilingüe‖
+*OZ‖plurilingues`‖SI‖En‖plurilingües‖
+*OZ‖plurilinguismo`‖SI‖En‖plurilingüismo‖
+*OZ‖plurilinguismos`‖SI‖En‖plurilingüismos‖
+*OZ‖psicolinguistica`‖SI‖En‖psicolingüística‖
+*OZ‖psicolinguisticas`‖SI‖En‖psicolingüísticas‖
+*OZ‖psicolinguistico`‖SI‖En‖psicolingüístico‖
+*OZ‖psicolinguisticos`‖SI‖En‖psicolingüísticos‖
+*OZ‖quinquelingue`‖MSI‖En‖quinquelingüe¦qüinqüelingüe‖
+*OZ‖quinquelingues`‖MSI‖En‖quinquelingües¦qüinqüelingües‖
+*OZ‖rancaguina`‖SI‖En‖rancagüina‖ from the Chilean city of Rancagua
+*OZ‖rancaguinas`‖SI‖En‖rancagüinas‖ from the Chilean city of Rancagua
+*OZ‖rancaguino`‖SI‖En‖rancagüino‖ from the Chilean city of Rancagua
+*OZ‖rancaguinos`‖SI‖En‖rancagüinos‖ from the Chilean city of Rancagua
+*OZ‖regueldo`‖SI‖En‖regüeldo‖
+*OZ‖regueldos`‖SI‖En‖regüeldos‖
+*OZ‖rigua`‖SI‖En‖rigüa‖ tortilla de elote, también se llama "rigue"
+*OZ‖rigue`‖SI‖En‖rigüe‖ tortilla de elote, también se llama "rigua"
+*OZ‖rompezaraguelles`‖SI‖En‖rompezaragüelles‖
+*OZ‖sangueño`‖SI‖En‖sangüeño‖
+*OZ‖sangueños`‖SI‖En‖sangüeños‖
+*OZ‖saraguete`‖SI‖En‖saragüete‖
+*OZ‖saraguetes`‖SI‖En‖saragüetes‖
+*OZ‖sinverguenceria`‖SI‖En‖sinvergüencería‖
+*OZ‖sinverguencerias`‖SI‖En‖sinvergüencerías‖
+*OZ‖sinverguenza`‖SI‖En‖sinvergüenza‖
+*OZ‖sinverguenzas`‖SI‖En‖sinvergüenzas‖
+*OZ‖sinverguenzada`‖SI‖En‖sinvergüenzada‖
+*OZ‖sinverguenzon`‖SI‖En‖sinvergüenzón‖
+*OZ‖sinverguenzura`‖SI‖En‖sinvergüenzura‖
+*OZ‖sociolinguistica`‖SI‖En‖sociolingüística‖
+*OZ‖sociolinguistico`‖SI‖En‖sociolingüístico‖
+*OZ‖subiguela`‖SI‖En‖subigüela‖
+*OZ‖subiguelas`‖SI‖En‖subigüelas‖
+*OZ‖teriguela`‖SI‖En‖terigüela‖
+*OZ‖teriguelas`‖SI‖En‖terigüelas‖
+*OZ‖tesguino`‖SI‖En‖tesgüino‖
+*OZ‖tesguinos`‖SI‖En‖tesgüinos‖
+*OZ‖tiguilote`‖SI‖En‖tigüilote‖
+*OZ‖tiguilotes`‖SI‖En‖tigüilotes‖
+*OZ‖trilingue`‖SI‖En‖trilingüe‖
+*OZ‖trilingues`‖SI‖En‖trilingües‖
+*OZ‖trilinguismo`‖SI‖En‖trilingüismo‖
+*OZ‖trilinguismos`‖SI‖En‖trilingüismos‖
+*OZ‖unguento`‖SI‖En‖ungüento‖
+*OZ‖unguentos`‖SI‖En‖ungüentos‖
+*OZ‖ungüentario`‖SI‖En‖ungüentario‖
+*OZ‖ungüentarios`‖SI‖En‖ungüentarios‖
+*OZ‖veraguense`‖SI‖En‖veragüense‖
+*OZ‖veraguenses`‖SI‖En‖veragüenses‖
+*OZ‖verguenza`‖SI‖En‖vergüenza‖
+*OZ‖verguenzas`‖SI‖En‖vergüenzas‖
+*OZ‖zaraguelles`‖SI‖En‖zaragüelles‖
+*OZ‖zarigueya`‖SI‖En‖zarigüeya‖
+*OZ‖zarigueyas`‖SI‖En‖zarigüeyas‖
