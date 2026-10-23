@@ -1,0 +1,39 @@
+﻿;; Hindi (Devanagari) Precomposed Character Replacer
+
+;; Write the letter, press backtick (`), this library will delete it and replace it with a single Unicode letter.
+;; This also reduces the filesize of the letters from 3 to 2 bytes per letter.
+
+;; It has to have the (?) syntax, which will allow it to trigger within words.
+
+;; क
+*?OZ‖क`‖SI‖En‖{U+0958}‖क -> क़
+
+;; ख
+*?OZ‖ख`‖SI‖En‖{U+0959}‖ख -> ख़
+
+;; फ
+*?OZ‖फ`‖SI‖En‖{U+095E}‖फ -> फ़
+
+;; ग
+*?OZ‖ग`‖SI‖En‖{U+095A}‖ग -> ग़
+
+;; ज
+*?OZ‖ज`‖SI‖En‖{U+095B}‖ज -> ज़
+
+;; ड
+*?OZ‖ड`‖SI‖En‖{U+095C}‖ड -> ड़
+
+;; ढ
+*?OZ‖ढ`‖SI‖En‖{U+095D}‖ढ -> ढ़
+
+;; न
+*?OZ‖न`‖SI‖En‖{U+0929}‖न -> ऩ
+
+;; र
+*?OZ‖र`‖SI‖En‖{U+0931}‖र -> ऱ
+
+;; य
+*?OZ‖य`‖SI‖En‖{U+095F}‖य -> य़
+
+;; ळ
+*?OZ‖ळ`‖SI‖En‖{U+0934}‖ळ -> ऴ
