@@ -1,0 +1,871 @@
+﻿;; Unit Symbols Replacer
+;; http://www.accelware.com/Unit_Conversion_Tool/unitslist.html
+;; https://en.wikipedia.org/wiki/Metric_prefix
+
+;; Type the name of the unit without spaces and press backtick (`).
+;; It will convert the name to the units symbol.
+;; For example, type pounds` get lbs.
+
+;; To be listed in orders of magnitude, from the smallest to the biggest.
+;; Metric units listed first, followed by imperial units.
+
+;; The entries have to have separate plural entries, and American and British spellings.
+
+;------------------------------;
+; ACCELERATION
+; ANGLE
+; AREA
+; DATA
+; DATA TRANSFER RATE
+; DENSITY & CONCENTRATION
+; DIAMETER AND FITTINGS
+; ELECTRICITY
+; ENERGY
+; FLOW
+; FORCE
+; FREQUENCY
+; ILLUMINANCE
+; LENGTH
+; PIXEL DENSITY
+; POWER
+; PRESSURE
+; RADIATION
+; SOUND
+; SPEED
+; TEMPERATURE
+; TIME
+; VOLUME
+; WAVE NUMBER
+; WEIGHT AND MASS
+; OTHER UNITS
+;------------------------------;
+
+; ACCELERATION
+*C1OZ‖meterpersecondsquared`‖SI‖En‖m/s²‖meter per second squared - Manual Replace
+*C1OZ‖meterspersecondsquared`‖SI‖En‖m/s²‖meters per second squared - Manual Replace
+*C1OZ‖metrepersecondsquared`‖SI‖En‖m/s²‖metre per second squared - Manual Replace
+*C1OZ‖metrespersecondsquared`‖SI‖En‖m/s²‖metres per second squared - Manual Replace
+
+*C1OZ‖centimeterpersecondsquared`‖SI‖En‖cm/s²‖centimeter per second squared - Manual Replace
+*C1OZ‖centimeterspersecondsquared`‖SI‖En‖cm/s²‖centimeters per second squared - Manual Replace
+*C1OZ‖centimetrepersecondsquared`‖SI‖En‖cm/s²‖centimetre per second squared - Manual Replace
+*C1OZ‖centimetrespersecondsquared`‖SI‖En‖cm/s²‖centimetres per second squared - Manual Replace
+
+*C1OZ‖milligalileo`‖SI‖En‖mGal‖galileo - Manual Replace
+*C1OZ‖milligalileos`‖SI‖En‖mGal‖galileos - Manual Replace
+*C1OZ‖gal`‖SI‖En‖Gal‖gal - Manual Replace
+*C1OZ‖gals`‖SI‖En‖Gal‖gals - Manual Replace
+*C1OZ‖galileo`‖SI‖En‖Gal‖galileo - Manual Replace
+*C1OZ‖galileos`‖SI‖En‖Gal‖galileos - Manual Replace
+
+*C1OZ‖footpersecondsquared`‖SI‖En‖ft/s²‖foot per second squared - Manual Replace
+*C1OZ‖feetpersecondsquared`‖SI‖En‖ft/s²‖feet per second squared - Manual Replace
+
+
+; ANGLE
+*C1OZ‖degree`‖MSI‖En‖°¦deg‖degree - Manual Replace
+*C1OZ‖degrees`‖MSI‖En‖°¦deg‖degrees - Manual Replace
+
+*C1OZ‖gradian`‖SI‖En‖grad‖gradian - Manual Replace
+*C1OZ‖gradians`‖SI‖En‖grad‖gradians - Manual Replace
+*C1OZ‖gon`‖SI‖En‖grad‖gon - Manual Replace
+*C1OZ‖gons`‖SI‖En‖grad‖gons - Manual Replace
+
+*C1OZ‖milliradian`‖SI‖En‖mrad‖milliradian - Manual Replace
+*C1OZ‖milliradians`‖SI‖En‖mrad‖milliradians - Manual Replace
+*C1OZ‖radian`‖SI‖En‖rad‖radian - Manual Replace
+*C1OZ‖radians`‖SI‖En‖rad‖radians - Manual Replace
+
+*C1OZ‖steradian`‖SI‖En‖sr‖steradian - Manual Replace
+*C1OZ‖steradians`‖SI‖En‖sr‖steradians - Manual Replace
+*C1OZ‖squareradian`‖SI‖En‖sr‖square radian - Manual Replace
+*C1OZ‖squareradians`‖SI‖En‖sr‖square radians - Manual Replace
+
+*C1OZ‖revolution`‖SI‖En‖rev‖revolution - Manual Replace
+*C1OZ‖revolutions`‖SI‖En‖rev‖revolutions - Manual Replace
+
+*C1OZ‖turn`‖SI‖En‖tr‖turn - Manual Replace
+*C1OZ‖turns`‖SI‖En‖tr‖turns - Manual Replace
+
+*C1OZ‖cycle`‖SI‖En‖cyc‖cycle - Manual Replace
+*C1OZ‖cycles`‖SI‖En‖cyc‖cycles - Manual Replace
+
+*C1OZ‖arcminute`‖MSI‖En‖′¦am‖arcminute - Manual Replace
+*C1OZ‖arcminutes`‖MSI‖En‖′¦am‖arcminutes - Manual Replace
+*C1OZ‖arcsecond`‖MSI‖En‖″¦as‖arcsecond - Manual Replace
+*C1OZ‖arcseconds`‖MSI‖En‖″¦as‖arcseconds - Manual Replace
+*C1OZ‖milliarcsecond`‖MSI‖En‖‴¦mas‖milliarcsecond - Manual Replace
+*C1OZ‖milliarcseconds`‖MSI‖En‖‴¦mas‖milliarcseconds - Manual Replace
+*C1OZ‖microarcsecond`‖MSI‖En‖⁗¦μas‖microarcsecond - Manual Replace
+*C1OZ‖microarcseconds`‖MSI‖En‖⁗¦μas‖microarcseconds - Manual Replace
+
+
+; AREA
+*C1OZ‖milliare`‖SI‖En‖ma‖milliare - Manual Replace
+*C1OZ‖milliares`‖SI‖En‖ma‖milliares - Manual Replace
+*C1OZ‖centiare`‖SI‖En‖ca‖centiare - Manual Replace
+*C1OZ‖centiares`‖SI‖En‖ca‖centiares - Manual Replace
+*C1OZ‖deciare`‖SI‖En‖da‖deciare - Manual Replace
+*C1OZ‖deciares`‖SI‖En‖da‖deciares - Manual Replace
+*C1OZ‖are`‖SI‖En‖a‖are - Manual Replace
+*C1OZ‖ares`‖SI‖En‖a‖ares - Manual Replace
+*C1OZ‖decare`‖SI‖En‖daa‖decare - Manual Replace
+*C1OZ‖decares`‖SI‖En‖daa‖decares - Manual Replace
+*C1OZ‖dekare`‖SI‖En‖daa‖dekare - Manual Replace
+*C1OZ‖dekares`‖SI‖En‖daa‖dekares - Manual Replace
+*C1OZ‖hectare`‖SI‖En‖ha‖hectare - Manual Replace
+*C1OZ‖hectares`‖SI‖En‖ha‖hectares - Manual Replace
+*C1OZ‖gigahectare`‖SI‖En‖Gha‖gigahectare - Manual Replace
+*C1OZ‖gigahectares`‖SI‖En‖Gha‖gigahectares - Manual Replace
+
+*C1OZ‖kilometersquare`‖SI‖En‖km²‖kilometer square - Manual Replace
+*C1OZ‖kilometersquares`‖SI‖En‖km²‖kilometer squares - Manual Replace
+*C1OZ‖kilometresquare`‖SI‖En‖km²‖kilometre square - Manual Replace
+*C1OZ‖kilometresquares`‖SI‖En‖km²‖kilometre squares - Manual Replace
+*C1OZ‖squarekilometer`‖SI‖En‖km²‖square kilometer - Manual Replace
+*C1OZ‖squarekilometers`‖SI‖En‖km²‖square kilometers - Manual Replace
+*C1OZ‖squarekilometre`‖SI‖En‖km²‖square kilometre - Manual Replace
+*C1OZ‖squarekilometres`‖SI‖En‖km²‖square kilometres - Manual Replace
+
+*C1OZ‖metersquare`‖SI‖En‖m²‖meter square - Manual Replace
+*C1OZ‖metersquares`‖SI‖En‖m²‖meter squares - Manual Replace
+*C1OZ‖metresquare`‖SI‖En‖m²‖metre square - Manual Replace
+*C1OZ‖metresquares`‖SI‖En‖m²‖metre squares - Manual Replace
+*C1OZ‖squaremeter`‖SI‖En‖m²‖square meter - Manual Replace
+*C1OZ‖squaremeters`‖SI‖En‖m²‖square meters - Manual Replace
+*C1OZ‖squaremetre`‖SI‖En‖m²‖square metre - Manual Replace
+*C1OZ‖squaremetres`‖SI‖En‖m²‖square metres - Manual Replace
+
+*C1OZ‖acre`‖SI‖En‖ac‖acre - Manual Replace
+
+*C1OZ‖squareinch`‖MSI‖En‖in²¦sq in‖square inch - Manual Replace
+*C1OZ‖squareinches`‖MSI‖En‖in²¦sq in‖square inches - Manual Replace
+
+*C1OZ‖squarefoot`‖MSI‖En‖ft²¦sq ft‖square foot - Manual Replace
+*C1OZ‖squarefeet`‖MSI‖En‖ft²¦sq ft‖square feet - Manual Replace
+
+*C1OZ‖squareyard`‖MSI‖En‖yd²¦sq yd‖square yard - Manual Replace
+*C1OZ‖squareyards`‖MSI‖En‖yd²¦sq yd‖square yards - Manual Replace
+
+*C1OZ‖squaremile`‖MSI‖En‖mi²¦sq mi‖square mile - Manual Replace
+*C1OZ‖squaremiles`‖MSI‖En‖mi²¦sq mi‖square miles - Manual Replace
+
+
+; DATA
+*C1OZ‖bit`‖MSI‖En‖b¦bit‖bit - Manual Replace
+*C1OZ‖bits`‖MSI‖En‖b¦bit‖bits - Manual Replace
+*C1OZ‖kilobit`‖MSI‖En‖kb¦kbit‖kilobit - Manual Replace
+*C1OZ‖kilobits`‖MSI‖En‖kb¦kbit‖kilobits - Manual Replace
+*C1OZ‖megabit`‖MSI‖En‖Mb¦Mbit‖megabit - Manual Replace
+*C1OZ‖megabits`‖MSI‖En‖Mb¦Mbit‖megabits - Manual Replace
+*C1OZ‖gigabit`‖MSI‖En‖Gb¦Gbit‖gigabit - Manual Replace
+*C1OZ‖gigabits`‖MSI‖En‖Gb¦Gbit‖gigabits - Manual Replace
+*C1OZ‖terabit`‖MSI‖En‖Tb¦Tbit‖terabit - Manual Replace
+*C1OZ‖terabits`‖MSI‖En‖Tb¦Tbit‖terabits - Manual Replace
+*C1OZ‖petabit`‖MSI‖En‖Pb¦Pbit‖petabit - Manual Replace
+*C1OZ‖petabits`‖MSI‖En‖Pb¦Pbit‖petabits - Manual Replace
+*C1OZ‖exabit`‖MSI‖En‖Eb¦Ebit‖exabit - Manual Replace
+*C1OZ‖exabits`‖MSI‖En‖Eb¦Ebit‖exabits - Manual Replace
+*C1OZ‖zettabit`‖MSI‖En‖Zb¦Zbit‖zettabit - Manual Replace
+*C1OZ‖zettabits`‖MSI‖En‖Zb¦Zbit‖zettabits - Manual Replace
+*C1OZ‖yottabit`‖MSI‖En‖Yb¦Ybit‖yottabit - Manual Replace
+*C1OZ‖yottabits`‖MSI‖En‖Yb¦Ybit‖yottabits - Manual Replace
+*C1OZ‖ronnabit`‖MSI‖En‖Rb¦Rbit‖ronnabit - Manual Replace
+*C1OZ‖ronnabits`‖MSI‖En‖Rb¦Rbit‖ronnabits - Manual Replace
+*C1OZ‖quettabit`‖MSI‖En‖Qb¦Qbit‖quettabit - Manual Replace
+*C1OZ‖quettabits`‖MSI‖En‖Qb¦Qbit‖quettabits - Manual Replace
+
+*C1OZ‖kibibit`‖SI‖En‖Kib‖kibibit - Manual Replace
+*C1OZ‖kibibits`‖SI‖En‖Kib‖kibibits - Manual Replace
+*C1OZ‖mebibit`‖SI‖En‖Mib‖mebibit - Manual Replace
+*C1OZ‖mebibits`‖SI‖En‖Mib‖mebibits - Manual Replace
+*C1OZ‖gibibit`‖SI‖En‖Gib‖gibibit - Manual Replace
+*C1OZ‖gibibits`‖SI‖En‖Gib‖gibibits - Manual Replace
+*C1OZ‖tebibit`‖SI‖En‖Tib‖tebibit - Manual Replace
+*C1OZ‖tebibits`‖SI‖En‖Tib‖tebibits - Manual Replace
+*C1OZ‖pebibit`‖SI‖En‖Pib‖pebibit - Manual Replace
+*C1OZ‖pebibits`‖SI‖En‖Pib‖pebibits - Manual Replace
+*C1OZ‖exbibit`‖SI‖En‖Eib‖exbibit - Manual Replace
+*C1OZ‖exbibits`‖SI‖En‖Eib‖exbibits - Manual Replace
+*C1OZ‖zebibit`‖SI‖En‖Zib‖zebibit - Manual Replace
+*C1OZ‖zebibits`‖SI‖En‖Zib‖zebibits - Manual Replace
+*C1OZ‖yobibit`‖SI‖En‖Yib‖yobibit - Manual Replace
+*C1OZ‖yobibits`‖SI‖En‖Yib‖yobibits - Manual Replace
+*C1OZ‖robibit`‖SI‖En‖Rib‖robibit - Manual Replace
+*C1OZ‖robibits`‖SI‖En‖Rib‖robibits - Manual Replace
+*C1OZ‖quebibit`‖SI‖En‖Qib‖quebibit - Manual Replace
+*C1OZ‖quebibits`‖SI‖En‖Qib‖quebibits - Manual Replace
+
+*C1OZ‖byte`‖SI‖En‖B‖byte - Manual Replace
+*C1OZ‖bytes`‖SI‖En‖B‖bytes - Manual Replace
+*C1OZ‖kilobyte`‖SI‖En‖kB‖kilobyte - Manual Replace
+*C1OZ‖kilobytes`‖SI‖En‖kB‖kilobytes - Manual Replace
+*C1OZ‖megabyte`‖SI‖En‖MB‖megabyte - Manual Replace
+*C1OZ‖megabytes`‖SI‖En‖MB‖megabytes - Manual Replace
+*C1OZ‖gigabyte`‖SI‖En‖GB‖gigabyte - Manual Replace
+*C1OZ‖gigabytes`‖SI‖En‖GB‖gigabytes - Manual Replace
+*C1OZ‖terabyte`‖SI‖En‖TB‖terabyte - Manual Replace
+*C1OZ‖terabytes`‖SI‖En‖TB‖terabytes - Manual Replace
+*C1OZ‖petabyte`‖SI‖En‖PB‖petabyte - Manual Replace
+*C1OZ‖petabytes`‖SI‖En‖PB‖petabytes - Manual Replace
+*C1OZ‖exabyte`‖SI‖En‖EB‖exabyte - Manual Replace
+*C1OZ‖exabytes`‖SI‖En‖EB‖exabytes - Manual Replace
+*C1OZ‖zettabyte`‖SI‖En‖ZB‖zettabyte - Manual Replace
+*C1OZ‖zettabytes`‖SI‖En‖ZB‖zettabytes - Manual Replace
+*C1OZ‖yottabyte`‖SI‖En‖YB‖yottabyte - Manual Replace
+*C1OZ‖yottabytes`‖SI‖En‖YB‖yottabytes - Manual Replace
+*C1OZ‖ronnabyte`‖SI‖En‖RB‖ronnabyte - Manual Replace
+*C1OZ‖ronnabytes`‖SI‖En‖RB‖ronnabytes - Manual Replace
+*C1OZ‖quettabyte`‖SI‖En‖QB‖quettabyte - Manual Replace
+*C1OZ‖quettabytes`‖SI‖En‖QB‖quettabytes - Manual Replace
+
+*C1OZ‖kibibyte`‖SI‖En‖KiB‖kibibyte - Manual Replace
+*C1OZ‖kibibytes`‖SI‖En‖KiB‖kibibytes - Manual Replace
+*C1OZ‖mebibyte`‖SI‖En‖MiB‖mebibyte - Manual Replace
+*C1OZ‖mebibytes`‖SI‖En‖MiB‖mebibytes - Manual Replace
+*C1OZ‖gibibyte`‖SI‖En‖GiB‖gibibyte - Manual Replace
+*C1OZ‖gibibytes`‖SI‖En‖GiB‖gibibytes - Manual Replace
+*C1OZ‖tebibyte`‖SI‖En‖TiB‖tebibyte - Manual Replace
+*C1OZ‖tebibytes`‖SI‖En‖TiB‖tebibytes - Manual Replace
+*C1OZ‖pebibyte`‖SI‖En‖PiB‖pebibyte - Manual Replace
+*C1OZ‖pebibytes`‖SI‖En‖PiB‖pebibytes - Manual Replace
+*C1OZ‖exbibyte`‖SI‖En‖EiB‖exbibyte - Manual Replace
+*C1OZ‖exbibytes`‖SI‖En‖EiB‖exbibytes - Manual Replace
+*C1OZ‖zebibyte`‖SI‖En‖ZiB‖zebibyte - Manual Replace
+*C1OZ‖zebibytes`‖SI‖En‖ZiB‖zebibytes - Manual Replace
+*C1OZ‖yobibyte`‖SI‖En‖YiB‖yobibyte - Manual Replace
+*C1OZ‖yobibytes`‖SI‖En‖YiB‖yobibytes - Manual Replace
+*C1OZ‖robibyte`‖SI‖En‖RiB‖robibyte - Manual Replace
+*C1OZ‖robibytes`‖SI‖En‖RiB‖robibytes - Manual Replace
+*C1OZ‖quebibyte`‖SI‖En‖QiB‖quebibyte - Manual Replace
+*C1OZ‖quebibytes`‖SI‖En‖QiB‖quebibytes - Manual Replace
+
+
+; DATA TRANSFER RATE (https://en.wikipedia.org/wiki/Data-rate_units)
+*C1OZ‖bitpersecond`‖SI‖En‖b/s‖bit per second - Manual Replace
+*C1OZ‖bitspersecond`‖SI‖En‖b/s‖bits per second - Manual Replace
+*C1OZ‖kilobitpersecond`‖MSI‖En‖kb/s¦kbps‖kilobit per second - Manual Replace
+*C1OZ‖kilobitspersecond`‖MSI‖En‖kb/s¦kbps‖kilobits per second - Manual Replace
+*C1OZ‖megabitpersecond`‖MSI‖En‖Mb/s¦Mbps‖megabit per second - Manual Replace
+*C1OZ‖megabitspersecond`‖MSI‖En‖Mb/s¦Mbps‖megabits per second - Manual Replace
+*C1OZ‖gigabitpersecond`‖MSI‖En‖Gb/s¦Gbps‖gigabit per second - Manual Replace
+*C1OZ‖gigabitspersecond`‖MSI‖En‖Gb/s¦Gbps‖gigabits per second - Manual Replace
+*C1OZ‖terabitpersecond`‖MSI‖En‖Tb/s¦Tbps‖terabit per second - Manual Replace
+*C1OZ‖terabitspersecond`‖MSI‖En‖Tb/s¦Tbps‖terabits per second - Manual Replace
+*C1OZ‖petabitpersecond`‖MSI‖En‖Pb/s¦Pbps‖petabit per second - Manual Replace
+*C1OZ‖petabitspersecond`‖MSI‖En‖Pb/s¦Pbps‖petabits per second - Manual Replace
+
+*C1OZ‖kibibitpersecond`‖SI‖En‖Kib/s‖kibibit per second - Manual Replace
+*C1OZ‖kibibitspersecond`‖SI‖En‖Kib/s‖kibibits per second - Manual Replace
+*C1OZ‖mebibitpersecond`‖SI‖En‖Mib/s‖mebibit per second - Manual Replace
+*C1OZ‖mebibitspersecond`‖SI‖En‖Mib/s‖mebibits per second - Manual Replace
+*C1OZ‖gibibitpersecond`‖SI‖En‖Gib/s‖gibibit per second - Manual Replace
+*C1OZ‖gibibitspersecond`‖SI‖En‖Gib/s‖gibibits per second - Manual Replace
+*C1OZ‖tebibitpersecond`‖SI‖En‖Tib/s‖tebibit per second - Manual Replace
+*C1OZ‖tebibitspersecond`‖SI‖En‖Tib/s‖tebibits per second - Manual Replace
+*C1OZ‖pebibitpersecond`‖SI‖En‖Pib/s‖pebibit per second - Manual Replace
+*C1OZ‖pebibitspersecond`‖SI‖En‖Pib/s‖pebibits per second - Manual Replace
+
+*C1OZ‖bytepersecond`‖SI‖En‖B/s‖byte per second - Manual Replace
+*C1OZ‖bytespersecond`‖SI‖En‖B/s‖bytes per second - Manual Replace
+*C1OZ‖kilobytepersecond`‖MSI‖En‖kB/s¦kBps‖kilobyte per second - Manual Replace
+*C1OZ‖kilobytespersecond`‖MSI‖En‖kB/s¦kBps‖kilobytes per second - Manual Replace
+*C1OZ‖megabytepersecond`‖MSI‖En‖MB/s¦MBps‖megabyte per second - Manual Replace
+*C1OZ‖megabytespersecond`‖MSI‖En‖MB/s¦MBps‖megabytes per second - Manual Replace
+*C1OZ‖gigabytepersecond`‖MSI‖En‖GB/s¦GBps‖gigabyte per second - Manual Replace
+*C1OZ‖gigabytespersecond`‖MSI‖En‖GB/s¦GBps‖gigabytes per second - Manual Replace
+*C1OZ‖terabytepersecond`‖MSI‖En‖TB/s¦TBps‖terabyte per second - Manual Replace
+*C1OZ‖terabytespersecond`‖MSI‖En‖TB/s¦TBps‖terabytes per second - Manual Replace
+*C1OZ‖petabytepersecond`‖MSI‖En‖PB/s¦PBps‖petabyte per second - Manual Replace
+*C1OZ‖petabytespersecond`‖MSI‖En‖PB/s¦PBps‖petabytes per second - Manual Replace
+
+*C1OZ‖kibibytepersecond`‖SI‖En‖KiB/s‖kibibyte per second - Manual Replace
+*C1OZ‖kibibytespersecond`‖SI‖En‖KiB/s‖kibibytes per second - Manual Replace
+*C1OZ‖mebibytepersecond`‖SI‖En‖MiB/s‖mebibyte per second - Manual Replace
+*C1OZ‖mebibytespersecond`‖SI‖En‖MiB/s‖mebibytes per second - Manual Replace
+*C1OZ‖gibibytepersecond`‖SI‖En‖GiB/s‖gibibyte per second - Manual Replace
+*C1OZ‖gibibytespersecond`‖SI‖En‖GiB/s‖gibibytes per second - Manual Replace
+*C1OZ‖tebibytepersecond`‖SI‖En‖TiB/s‖tebibyte per second - Manual Replace
+*C1OZ‖tebibytespersecond`‖SI‖En‖TiB/s‖tebibytes per second - Manual Replace
+
+
+; DENSITY & CONCENTRATION
+*C1OZ‖grampermilliliter`‖SI‖En‖g/mL‖gram per milliliter - Manual Replace
+*C1OZ‖grampermillilitre`‖SI‖En‖g/mL‖gram per millilitre - Manual Replace
+*C1OZ‖gramspermilliliter`‖SI‖En‖g/mL‖grams per milliliter - Manual Replace
+*C1OZ‖gramspermillilitre`‖SI‖En‖g/mL‖grams per millilitre - Manual Replace
+
+*C1OZ‖kilogramperliter`‖SI‖En‖kg/L‖kilogram per liter - Manual Replace
+*C1OZ‖kilogramsperliter`‖SI‖En‖kg/L‖kilograms per liter - Manual Replace
+*C1OZ‖kilogramperlitre`‖SI‖En‖kg/L‖kilogram per litre - Manual Replace
+*C1OZ‖kilogramsperlitre`‖SI‖En‖kg/L‖kilograms per litre - Manual Replace
+
+*C1OZ‖moleperliter`‖SI‖En‖mol/L‖mole per liter - Manual Replace
+*C1OZ‖molesperliter`‖SI‖En‖mol/L‖moles per liter - Manual Replace
+*C1OZ‖moleperlitre`‖SI‖En‖mol/L‖mole per litre - Manual Replace
+*C1OZ‖molesperlitre`‖SI‖En‖mol/L‖moles per litre - Manual Replace
+
+*C1OZ‖grampercubiccentimetre`‖SI‖En‖g/cm³‖gram per cubic centimetre - Manual Replace
+*C1OZ‖grampercubiccentimeter`‖SI‖En‖g/cm³‖gram per cubic centimeter - Manual Replace
+*C1OZ‖gramspercubiccentimetre`‖SI‖En‖g/cm³‖grams per cubic centimetre - Manual Replace
+*C1OZ‖gramspercubiccentimeter`‖SI‖En‖g/cm³‖grams per cubic centimeter - Manual Replace
+*C1OZ‖grampercc`‖SI‖En‖g/cm³‖gram per cc - Manual Replace
+*C1OZ‖gramspercc`‖SI‖En‖g/cm³‖grams per cc - Manual Replace
+
+*C1OZ‖grampermetersquare`‖SI‖En‖g/m²‖gram per meter square - Manual Replace
+*C1OZ‖grampermetresquare`‖SI‖En‖g/m²‖gram per metre square - Manual Replace
+*C1OZ‖gramspermetersquare`‖SI‖En‖g/m²‖grams per meter square - Manual Replace
+*C1OZ‖gramspermetresquare`‖SI‖En‖g/m²‖grams per metre square - Manual Replace
+*C1OZ‖grampersquaremeter`‖SI‖En‖g/m²‖gram per square meter - Manual Replace
+*C1OZ‖grampersquaremetre`‖SI‖En‖g/m²‖gram per square metre - Manual Replace
+*C1OZ‖gramspersquaremeter`‖SI‖En‖g/m²‖grams per square meter - Manual Replace
+*C1OZ‖gramspersquaremetre`‖SI‖En‖g/m²‖grams per square metre - Manual Replace
+
+
+; DIAMETER AND FITTINGS
+*C1OZ‖caliber`‖SI‖En‖cal‖caliber - Manual Replace
+*C1OZ‖calibers`‖SI‖En‖cal‖calibers - Manual Replace
+*C1OZ‖calibre`‖SI‖En‖cal‖calibre - Manual Replace
+*C1OZ‖calibres`‖SI‖En‖cal‖calibres - Manual Replace
+*C1OZ‖gauge`‖SI‖En‖ga‖gauge - Manual Replace
+*C1OZ‖gauges`‖SI‖En‖ga‖gauges - Manual Replace
+
+
+; ELECTRICITY
+*C1OZ‖amp`‖SI‖En‖A‖amp - Manual Replace
+*C1OZ‖amps`‖SI‖En‖A‖amps - Manual Replace
+*C1OZ‖ampere`‖SI‖En‖A‖ampere - Manual Replace
+*C1OZ‖amperes`‖SI‖En‖A‖amperes - Manual Replace
+
+*C1OZ‖coulomb`‖SI‖En‖C‖coulomb - Manual Replace
+*C1OZ‖coulombs`‖SI‖En‖C‖coulombs - Manual Replace
+
+*C1OZ‖voltofdirectcurrent`‖SI‖En‖VDC‖volt of direct current - Manual Replace
+*C1OZ‖voltsofdirectcurrent`‖SI‖En‖VDC‖volts of direct current - Manual Replace
+*C1OZ‖voltdirectcurrent`‖SI‖En‖VDC‖volt direct current - Manual Replace
+*C1OZ‖voltsdirectcurrent`‖SI‖En‖VDC‖volts direct current - Manual Replace
+*C1OZ‖voltofalternatingcurrent`‖SI‖En‖VAC‖volt of alternating current - Manual Replace
+*C1OZ‖voltsofalternatingcurrent`‖SI‖En‖VAC‖volts of alternating current - Manual Replace
+*C1OZ‖voltalternatingcurrent`‖SI‖En‖VAC‖volt alternating current - Manual Replace
+*C1OZ‖voltsalternatingcurrent`‖SI‖En‖VAC‖volts alternating current - Manual Replace
+
+*C1OZ‖siemen`‖SI‖En‖S‖siemen - Manual Replace
+*C1OZ‖siemens`‖SI‖En‖S‖siemens - Manual Replace
+*C1OZ‖microsiemen`‖SI‖En‖μS‖microsiemen - Manual Replace
+*C1OZ‖microsiemens`‖SI‖En‖μS‖microsiemens - Manual Replace
+
+*C1OZ‖farad`‖SI‖En‖F‖farad - Manual Replace
+*C1OZ‖farads`‖SI‖En‖F‖farads - Manual Replace
+
+*C1OZ‖henry`‖SI‖En‖H‖henry - Manual Replace
+*C1OZ‖henries`‖SI‖En‖H‖henries - Manual Replace
+
+*C1OZ‖tesla`‖SI‖En‖T‖tesla - Manual Replace
+*C1OZ‖teslas`‖SI‖En‖T‖teslas - Manual Replace
+
+*C1OZ‖weber`‖SI‖En‖Wb‖weber - Manual Replace
+*C1OZ‖webers`‖SI‖En‖Wb‖webers - Manual Replace
+
+*C1OZ‖ohm`‖SI‖En‖Ω‖ohm - Manual Replace
+*C1OZ‖ohms`‖SI‖En‖Ω‖ohms - Manual Replace
+
+*C1OZ‖volt`‖SI‖En‖V‖volt - Manual Replace
+*C1OZ‖volts`‖SI‖En‖V‖volts - Manual Replace
+
+*C1OZ‖watt`‖SI‖En‖W‖watt - Manual Replace
+*C1OZ‖watts`‖SI‖En‖W‖watts - Manual Replace
+*C1OZ‖kilowatt`‖SI‖En‖kW‖kilowatt - Manual Replace
+*C1OZ‖kilowatts`‖SI‖En‖kW‖kilowatts - Manual Replace
+*C1OZ‖megawatt`‖SI‖En‖MW‖megawatt - Manual Replace
+*C1OZ‖megawatts`‖SI‖En‖MW‖megawatts - Manual Replace
+*C1OZ‖gigawatt`‖SI‖En‖GW‖gigawatt - Manual Replace
+*C1OZ‖gigawatts`‖SI‖En‖GW‖gigawatts - Manual Replace
+*C1OZ‖terawatt`‖SI‖En‖TW‖terawatt - Manual Replace
+*C1OZ‖terawatts`‖SI‖En‖TW‖terawatts - Manual Replace
+*C1OZ‖petawatt`‖SI‖En‖PW‖petawatt - Manual Replace
+*C1OZ‖petawatts`‖SI‖En‖PW‖petawatts - Manual Replace
+
+
+; ENERGY
+*C1OZ‖calorie`‖SI‖En‖cal‖calorie - Manual Replace
+*C1OZ‖calories`‖SI‖En‖cal‖calories - Manual Replace
+*C1OZ‖kilocalorie`‖SI‖En‖kcal‖kilocalorie - Manual Replace
+*C1OZ‖kilocalories`‖SI‖En‖kcal‖kilocalories - Manual Replace
+*C1OZ‖gigacalorie`‖SI‖En‖Gcal‖gigacalorie - Manual Replace
+*C1OZ‖gigacalories`‖SI‖En‖Gcal‖gigacalories - Manual Replace
+*C1OZ‖britishthermalunit`‖SI‖En‖BTU‖british thermal unit - Manual Replace
+*C1OZ‖britishthermalunits`‖SI‖En‖BTUs‖british thermal units - Manual Replace
+*C1OZ‖joule`‖SI‖En‖J‖joule - Manual Replace
+*C1OZ‖joules`‖SI‖En‖J‖joules - Manual Replace
+*C1OZ‖kilojoule`‖SI‖En‖kJ‖kilojoule - Manual Replace
+*C1OZ‖kilojoules`‖SI‖En‖kJ‖kilojoules - Manual Replace
+*C1OZ‖erg`‖SI‖En‖erg‖erg - Manual Replace
+*C1OZ‖ergs`‖SI‖En‖erg‖ergs - Manual Replace
+*C1OZ‖electronvolt`‖SI‖En‖eV‖electronvolt - Manual Replace
+*C1OZ‖electronvolts`‖SI‖En‖eV‖electronvolts - Manual Replace
+*C1OZ‖electron-volt`‖SI‖En‖eV‖electron-volt - Manual Replace
+*C1OZ‖electron-volts`‖SI‖En‖eV‖electron-volts - Manual Replace
+*C1OZ‖kilowatt-hour`‖SI‖En‖kWh‖kilowatt-hour - Manual Replace
+*C1OZ‖kilowatt-hours`‖SI‖En‖kWh‖kilowatt-hours - Manual Replace
+
+*C1OZ‖horsepower`‖SI‖En‖hp‖horsepower - Manual Replace
+*C1OZ‖horsepowers`‖SI‖En‖hp‖horsepowers - Manual Replace
+
+*C1OZ‖footpound`‖SI‖En‖ft·lbf‖foot pound - Manual Replace
+*C1OZ‖footpounds`‖SI‖En‖ft·lbf‖foot pounds - Manual Replace
+*C1OZ‖foot-pound`‖SI‖En‖ft·lbf‖foot-pound - Manual Replace
+*C1OZ‖foot-pounds`‖SI‖En‖ft·lbf‖foot-pounds - Manual Replace
+*C1OZ‖footpoundforce`‖SI‖En‖ft·lbf‖foot pound force - Manual Replace
+*C1OZ‖foot-poundforce`‖SI‖En‖ft·lbf‖foot-pound force - Manual Replace
+
+
+; FLOW
+*C1OZ‖literpersecond`‖SI‖En‖L/s‖liter per second - Manual Replace
+*C1OZ‖literspersecond`‖SI‖En‖L/s‖liters per second - Manual Replace
+*C1OZ‖litrepersecond`‖SI‖En‖L/s‖litre per second - Manual Replace
+*C1OZ‖litrespersecond`‖SI‖En‖L/s‖litres per second - Manual Replace
+
+*C1OZ‖literperminute`‖SI‖En‖L/min‖liter per minute - Manual Replace
+*C1OZ‖litersperminute`‖SI‖En‖L/min‖liters per minute - Manual Replace
+*C1OZ‖litreperminute`‖SI‖En‖L/min‖litre per minute - Manual Replace
+*C1OZ‖litresperminute`‖SI‖En‖L/min‖litres per minute - Manual Replace
+
+*C1OZ‖literperhour`‖SI‖En‖L/h‖liter per hour - Manual Replace
+*C1OZ‖litersperhour`‖SI‖En‖L/h‖liters per hour - Manual Replace
+*C1OZ‖litreperhour`‖SI‖En‖L/h‖litre per hour - Manual Replace
+*C1OZ‖litresperhour`‖SI‖En‖L/h‖litres per hour - Manual Replace
+
+*C1OZ‖gallonperminute`‖SI‖En‖gal/min‖gallon per minute - Manual Replace
+*C1OZ‖gallonsperminute`‖SI‖En‖gal/min‖gallons per minute - Manual Replace
+
+*C1OZ‖gallonperhour`‖SI‖En‖gal/h‖gallon per hour - Manual Replace
+*C1OZ‖gallonsperhour`‖SI‖En‖gal/h‖gallons per hour - Manual Replace
+
+*C1OZ‖cubicmeterpersecond`‖SI‖En‖m³/s‖cubic meter per second - Manual Replace
+*C1OZ‖cubicmeterspersecond`‖SI‖En‖m³/s‖cubic meters per second - Manual Replace
+*C1OZ‖cubicmetrepersecond`‖SI‖En‖m³/s‖cubic metre per second - Manual Replace
+*C1OZ‖cubicmetresspersecond`‖SI‖En‖m³/s‖cubic metres per second - Manual Replace
+
+
+; FORCE
+*C1OZ‖microdyne`‖SI‖En‖μdyn‖microdyne - Manual Replace
+*C1OZ‖microdynes`‖SI‖En‖μdyn‖microdynes - Manual Replace
+*C1OZ‖millidyne`‖SI‖En‖mdyn‖millidyne - Manual Replace
+*C1OZ‖millidynes`‖SI‖En‖mdyn‖millidynes - Manual Replace
+*C1OZ‖dyne`‖SI‖En‖dyn‖dyne - Manual Replace
+*C1OZ‖dynes`‖SI‖En‖dyn‖dynes - Manual Replace
+*C1OZ‖kilodyne`‖SI‖En‖kdyn‖kilodyne - Manual Replace
+*C1OZ‖kilodynes`‖SI‖En‖kdyn‖kilodynes - Manual Replace
+*C1OZ‖megadyne`‖SI‖En‖Mdyn‖megadyne - Manual Replace
+*C1OZ‖megadynes`‖SI‖En‖Mdyn‖megadynes - Manual Replace
+
+*C1OZ‖poundal`‖SI‖En‖pdl‖poundal - Manual Replace
+*C1OZ‖poundals`‖SI‖En‖pdl‖poundals - Manual Replace
+
+*C1OZ‖newton`‖SI‖En‖N‖newton - Manual Replace
+*C1OZ‖newtons`‖SI‖En‖N‖newtons - Manual Replace
+
+*C1OZ‖poundforce`‖SI‖En‖lbf‖pound force - Manual Replace
+*C1OZ‖pound-force`‖SI‖En‖lbf‖pound-force - Manual Replace
+*C1OZ‖poundofforce`‖SI‖En‖lbf‖pound of force - Manual Replace
+
+
+; FREQUENCY
+*C1OZ‖hertz`‖SI‖En‖Hz‖hertz - Manual Replace
+*C1OZ‖kilohertz`‖SI‖En‖kHz‖kilohertz - Manual Replace
+*C1OZ‖megahertz`‖SI‖En‖MHz‖megahertz - Manual Replace
+*C1OZ‖gigahertz`‖SI‖En‖GHz‖gigahertz - Manual Replace
+*C1OZ‖terahertz`‖SI‖En‖THz‖terahertz - Manual Replace
+
+
+; ILLUMINANCE
+*C1OZ‖candlepower`‖SI‖En‖cp‖candlepower - Manual Replace
+*C1OZ‖candela`‖SI‖En‖cd‖candela - Manual Replace
+*C1OZ‖candelas`‖SI‖En‖cd‖candelas - Manual Replace
+*C1OZ‖lux`‖SI‖En‖lx‖lux - Manual Replace
+*C1OZ‖lumen`‖SI‖En‖lm‖lumen - Manual Replace
+*C1OZ‖lumens`‖SI‖En‖lm‖lumens - Manual Replace
+
+
+; LENGTH
+*C1OZ‖nauticalmile`‖SI‖En‖nmi‖nautical mile - Manual Replace
+*C1OZ‖nauticalmiles`‖SI‖En‖nmi‖nautical miles - Manual Replace
+*C1OZ‖inch`‖MSI‖En‖in¦″‖inch - Manual Replace
+*C1OZ‖inches`‖MSI‖En‖in¦″‖inches - Manual Replace
+*C1OZ‖foot`‖MSI‖En‖ft¦′‖foot - Manual Replace
+*C1OZ‖feet`‖MSI‖En‖ft¦′‖feet - Manual Replace
+*C1OZ‖yard`‖SI‖En‖yd‖yard - Manual Replace
+*C1OZ‖yards`‖SI‖En‖yd‖yards - Manual Replace
+*C1OZ‖furlong`‖SI‖En‖fur‖furlong - Manual Replace
+*C1OZ‖furlongs`‖SI‖En‖fur‖furlongs - Manual Replace
+*C1OZ‖mile`‖SI‖En‖mi‖mile - Manual Replace
+*C1OZ‖miles`‖SI‖En‖mi‖miles - Manual Replace
+
+*C1OZ‖micrometre`‖SI‖En‖μm‖micrometre - Manual Replace
+*C1OZ‖micrometres`‖SI‖En‖μm‖micrometres - Manual Replace
+*C1OZ‖micrometer`‖SI‖En‖μm‖micrometer - Manual Replace
+*C1OZ‖micrometers`‖SI‖En‖μm‖micrometers - Manual Replace
+*C1OZ‖micron`‖SI‖En‖μm‖micron - Manual Replace
+*C1OZ‖microns`‖SI‖En‖μm‖microns - Manual Replace
+*C1OZ‖millimetre`‖SI‖En‖mm‖millimetre - Manual Replace
+*C1OZ‖millimetres`‖SI‖En‖mm‖millimetres - Manual Replace
+*C1OZ‖millimeter`‖SI‖En‖mm‖millimeter - Manual Replace
+*C1OZ‖millimeters`‖SI‖En‖mm‖millimeters - Manual Replace
+*C1OZ‖centimetre`‖SI‖En‖cm‖centimetre - Manual Replace
+*C1OZ‖centimetres`‖SI‖En‖cm‖centimetres - Manual Replace
+*C1OZ‖centimeter`‖SI‖En‖cm‖centimeter - Manual Replace
+*C1OZ‖centimeters`‖SI‖En‖cm‖centimeters - Manual Replace
+*C1OZ‖decimetre`‖SI‖En‖dm‖decimetre - Manual Replace
+*C1OZ‖decimetres`‖SI‖En‖dm‖decimetres - Manual Replace
+*C1OZ‖decimeter`‖SI‖En‖dm‖decimeter - Manual Replace
+*C1OZ‖decimeters`‖SI‖En‖dm‖decimeters - Manual Replace
+*C1OZ‖metre`‖SI‖En‖m‖metre - Manual Replace
+*C1OZ‖metres`‖SI‖En‖m‖metres - Manual Replace
+*C1OZ‖meter`‖SI‖En‖m‖meter - Manual Replace
+*C1OZ‖meters`‖SI‖En‖m‖meters - Manual Replace
+*C1OZ‖kilometre`‖SI‖En‖km‖kilometre - Manual Replace
+*C1OZ‖kilometres`‖SI‖En‖km‖kilometres - Manual Replace
+*C1OZ‖kilometer`‖SI‖En‖km‖kilometer - Manual Replace
+*C1OZ‖kilometers`‖SI‖En‖km‖kilometers - Manual Replace
+
+*C1OZ‖parsec`‖SI‖En‖pc‖parsec - Manual Replace
+*C1OZ‖parsecs`‖SI‖En‖pc‖parsecs - Manual Replace
+*C1OZ‖astronomicalunit`‖SI‖En‖au‖astronomical unit - Manual Replace
+*C1OZ‖astronomicalunits`‖SI‖En‖au‖astronomical units - Manual Replace
+
+
+; PIXEL DENSITY
+*C1OZ‖dotsperinch`‖SI‖En‖dpi‖dots per inch - Manual Replace
+*C1OZ‖dotspermillimetre`‖SI‖En‖dpmm‖dots per millimetre - Manual Replace
+*C1OZ‖dotspermillimeter`‖SI‖En‖dpmm‖dots per millimeter - Manual Replace
+*C1OZ‖dotspercentimetre`‖SI‖En‖dpmm‖dots per centimetre - Manual Replace
+*C1OZ‖dotspercentimeter`‖SI‖En‖dpmm‖dots per centimeter - Manual Replace
+*C1OZ‖pixelsperinch`‖SI‖En‖dpi‖pixels per inch - Manual Replace
+*C1OZ‖pixelspermillimetre`‖SI‖En‖dpmm‖pixels per millimetre - Manual Replace
+*C1OZ‖pixelspermillimeter`‖SI‖En‖dpmm‖pixels per millimeter - Manual Replace
+*C1OZ‖pixelspercentimetre`‖SI‖En‖dpmm‖pixels per centimetre - Manual Replace
+*C1OZ‖pixelspercentimeter`‖SI‖En‖dpmm‖pixels per centimeter - Manual Replace
+*C1OZ‖countsperinch`‖SI‖En‖cpi‖counts per inch - Manual Replace
+
+
+; POWER
+*C1OZ‖milliwatt`‖SI‖En‖mW‖milliwatt - Manual Replace
+*C1OZ‖milliwatts`‖SI‖En‖mW‖milliwatts - Manual Replace
+*C1OZ‖microwatt`‖SI‖En‖μW‖microwatt - Manual Replace
+*C1OZ‖microwatts`‖SI‖En‖μW‖microwatts - Manual Replace
+*C1OZ‖nanowatt`‖SI‖En‖nW‖nanowatt - Manual Replace
+*C1OZ‖nanowatts`‖SI‖En‖nW‖nanowatts - Manual Replace
+*C1OZ‖picowatt`‖SI‖En‖pW‖picowatt - Manual Replace
+*C1OZ‖picowatts`‖SI‖En‖pW‖picowatts - Manual Replace
+*C1OZ‖femtowatt`‖SI‖En‖fW‖femtowatt - Manual Replace
+*C1OZ‖femtowatts`‖SI‖En‖fW‖femtowatts - Manual Replace
+
+
+; RADIATION
+*C1OZ‖rad`‖SI‖En‖rad‖rad - Manual Replace
+*C1OZ‖rads`‖SI‖En‖rad‖rads - Manual Replace
+
+*C1OZ‖gray`‖SI‖En‖Gy‖gray - Manual Replace
+*C1OZ‖grays`‖SI‖En‖Gy‖grays - Manual Replace
+
+*C1OZ‖ergpergram`‖SI‖En‖erg/g‖erg per gram - Manual Replace
+*C1OZ‖ergspergram`‖SI‖En‖erg/g‖ergs per gram - Manual Replace
+
+*C1OZ‖sievert`‖SI‖En‖Sv‖sievert - Manual Replace
+*C1OZ‖sieverts`‖SI‖En‖Sv‖sieverts - Manual Replace
+
+*C1OZ‖röntgen`‖SI‖En‖R‖röntgen - Manual Replace
+*C1OZ‖röntgens`‖SI‖En‖R‖röntgens - Manual Replace
+*C1OZ‖roentgen`‖SI‖En‖R‖roentgen - Manual Replace
+*C1OZ‖roentgens`‖SI‖En‖R‖roentgens - Manual Replace
+
+*C1OZ‖rutherford`‖SI‖En‖Rd‖rutherford - Manual Replace
+*C1OZ‖rutherfords`‖SI‖En‖Rd‖rutherfords - Manual Replace
+
+*C1OZ‖curie`‖SI‖En‖Ci‖curie - Manual Replace
+*C1OZ‖curies`‖SI‖En‖Ci‖curies - Manual Replace
+
+*C1OZ‖becquerel`‖SI‖En‖Bq‖becquerel - Manual Replace
+*C1OZ‖becquerels`‖SI‖En‖Bq‖becquerels - Manual Replace
+
+*C1OZ‖rontgenequivalentman`‖SI‖En‖rem‖rontgen equivalent man - Manual Replace
+*C1OZ‖rontgensequivalentman`‖SI‖En‖rem‖rontgens equivalent man - Manual Replace
+*C1OZ‖röntgenequivalentman`‖SI‖En‖rem‖röntgen equivalent man - Manual Replace
+*C1OZ‖röntgensequivalentman`‖SI‖En‖rem‖röntgens equivalent man - Manual Replace
+
+
+; SOUND
+*C1OZ‖millibel`‖SI‖En‖mB‖decibel - Manual Replace
+*C1OZ‖millibels`‖SI‖En‖mB‖decibels - Manual Replace
+*C1OZ‖decibel`‖SI‖En‖dB‖decibel - Manual Replace
+*C1OZ‖decibels`‖SI‖En‖dB‖decibels - Manual Replace
+*C1OZ‖bel`‖SI‖En‖B‖bel - Manual Replace
+*C1OZ‖bels`‖SI‖En‖B‖bels - Manual Replace
+
+
+; SPEED
+*C1OZ‖actionpersecond`‖SI‖En‖APM‖action per second - Manual Replace
+*C1OZ‖actionspersecond`‖SI‖En‖APM‖actions per second - Manual Replace
+
+*C1OZ‖footpersecond`‖SI‖En‖ft/s‖foot per second - Manual Replace
+*C1OZ‖feetpersecond`‖SI‖En‖ft/s‖feet per second - Manual Replace
+*C1OZ‖mileperhour`‖MSI‖En‖mph¦mi/h‖miles per hour - Manual Replace
+*C1OZ‖milesperhour`‖MSI‖En‖mph¦mi/h‖miles per hour - Manual Replace
+
+*C1OZ‖kilometerperhour`‖MSI‖En‖kph¦km/h‖kilometer per hour - Manual Replace
+*C1OZ‖kilometersperhour`‖MSI‖En‖kph¦km/h‖kilometers per hour - Manual Replace
+*C1OZ‖kilometreperhour`‖MSI‖En‖kph¦km/h‖kilometre per hour - Manual Replace
+*C1OZ‖kilometresperhour`‖MSI‖En‖kph¦km/h‖kilometres per hour - Manual Replace
+*C1OZ‖knot`‖MSI‖En‖kn{maritime}¦kt{aviation}‖knot - Manual Replace
+*C1OZ‖knots`‖MSI‖En‖kn{maritime}¦kt{aviation}‖knot - Manual Replace
+*C1OZ‖meterpersecond`‖SI‖En‖m/s‖meter per second - Manual Replace
+*C1OZ‖meterspersecond`‖SI‖En‖m/s‖meters per second - Manual Replace
+*C1OZ‖metrepersecond`‖SI‖En‖m/s‖metre per second - Manual Replace
+*C1OZ‖metrespersecond`‖SI‖En‖m/s‖metres per second - Manual Replace
+
+
+; PRESSURE
+*C1OZ‖poundpersquareinch`‖SI‖En‖psi‖pound per square inch - Manual Replace
+*C1OZ‖poundspersquareinch`‖SI‖En‖psi‖pounds per square inch - Manual Replace
+*C1OZ‖poundsquareinch`‖SI‖En‖psi‖pound square inch - Manual Replace
+*C1OZ‖poundforcepersquareinch`‖SI‖En‖lbf/in²‖pound force per square inch - Manual Replace
+*C1OZ‖pound-forcepersquareinch`‖SI‖En‖lbf/in²‖pound-force per square inch - Manual Replace
+
+*C1OZ‖microbar`‖SI‖En‖μbar‖microbar - Manual Replace
+*C1OZ‖microbars`‖SI‖En‖μbar‖microbars - Manual Replace
+*C1OZ‖millibar`‖SI‖En‖mbar‖millibar - Manual Replace
+*C1OZ‖millibars`‖SI‖En‖mbar‖millibars - Manual Replace
+*C1OZ‖bar`‖SI‖En‖bar‖bar - Manual Replace
+*C1OZ‖bars`‖SI‖En‖bar‖bars - Manual Replace
+*C1OZ‖kilobar`‖SI‖En‖kbar‖kilobar - Manual Replace
+*C1OZ‖kilobars`‖SI‖En‖kbar‖kilobars - Manual Replace
+*C1OZ‖megabar`‖SI‖En‖Mbar‖megabar - Manual Replace
+*C1OZ‖megabars`‖SI‖En‖Mbar‖megabars - Manual Replace
+
+*C1OZ‖pascal`‖SI‖En‖Pa‖pascal - Manual Replace
+*C1OZ‖pascals`‖SI‖En‖Pa‖pascals - Manual Replace
+*C1OZ‖kilopascal`‖SI‖En‖kPa‖kilopascal - Manual Replace
+*C1OZ‖kilopascals`‖SI‖En‖kPa‖kilopascals - Manual Replace
+*C1OZ‖megapascal`‖SI‖En‖MPa‖megapascal - Manual Replace
+*C1OZ‖megapascals`‖SI‖En‖MPa‖megapascals - Manual Replace
+
+*C1OZ‖atmosphere`‖SI‖En‖atm‖atmosphere - Manual Replace
+*C1OZ‖atmospheres`‖SI‖En‖atm‖atmospheres - Manual Replace
+
+*C1OZ‖barye`‖SI‖En‖Ba‖barye - Manual Replace
+*C1OZ‖baryes`‖SI‖En‖Ba‖baryes - Manual Replace
+
+*C1OZ‖kilogramforcepersquarecentimetre`‖SI‖En‖kgf/cm²‖kilogram force per square centimetre - Manual Replace
+*C1OZ‖kilogramforcepersquarecentimeter`‖SI‖En‖kgf/cm²‖kilogram force per square centimeter - Manual Replace
+*C1OZ‖kilogram-forcepersquarecentimetre`‖SI‖En‖kgf/cm²‖kilogram-force per square centimetre - Manual Replace
+*C1OZ‖kilogram-forcepersquarecentimeter`‖SI‖En‖kgf/cm²‖kilogram-force per square centimeter - Manual Replace
+*C1OZ‖technicalatmosphere`‖MSI‖En‖kgf/cm²¦at‖technical atmosphere - Manual Replace
+*C1OZ‖technicalatmospheres`‖MSI‖En‖kgf/cm²¦at‖technical atmospheres - Manual Replace
+
+*C1OZ‖kilogrampersquarecentimetre`‖SI‖En‖kg/cm²‖kilogram per square centimetre - Manual Replace
+*C1OZ‖kilogramspersquarecentimetre`‖SI‖En‖kg/cm²‖kilograms per square centimetre - Manual Replace
+*C1OZ‖kilogrampersquarecentimeter`‖SI‖En‖kg/cm²‖kilogram per square centimeter - Manual Replace
+*C1OZ‖kilogramspersquarecentimeter`‖SI‖En‖kg/cm²‖kilograms per square centimeter - Manual Replace
+*C1OZ‖kilopondpersquarecentimetre`‖SI‖En‖kp/cm²‖kilopond per square centimetre - Manual Replace
+*C1OZ‖kilopondspersquarecentimetre`‖SI‖En‖kp/cm²‖kiloponds per square centimetre - Manual Replace
+*C1OZ‖kilopondpersquarecentimeter`‖SI‖En‖kp/cm²‖kilopond per square centimeter - Manual Replace
+*C1OZ‖kilopondspersquarecentimeter`‖SI‖En‖kp/cm²‖kiloponds per square centimeter - Manual Replace
+
+*C1OZ‖torr`‖SI‖En‖Torr‖torr - Manual Replace
+*C1OZ‖torrs`‖SI‖En‖Torr‖torrs - Manual Replace
+
+*C1OZ‖mmmercury`‖SI‖En‖mmHg‖millimetre of mercury - Manual Replace
+*C1OZ‖millimetreofmercury`‖SI‖En‖mmHg‖millimetre of mercury - Manual Replace
+*C1OZ‖millimetresofmercury`‖SI‖En‖mmHg‖millimetres of mercury - Manual Replace
+*C1OZ‖millimeterofmercury`‖SI‖En‖mmHg‖millimeter of mercury - Manual Replace
+*C1OZ‖millimetersofmercury`‖SI‖En‖mmHg‖millimeters of mercury - Manual Replace
+
+*C1OZ‖inchofmercury`‖SI‖En‖inHg‖inch of mercury - Manual Replace
+*C1OZ‖inchesofmercury`‖SI‖En‖inHg‖inches of mercury - Manual Replace
+
+
+; TEMPERATURE
+*C1OZ‖Celsius`‖SI‖En‖°C‖Celsius - Manual Replace
+*C1OZ‖centigrade`‖SI‖En‖°C‖centigrade - Manual Replace
+*C1OZ‖Fahrenheit`‖SI‖En‖°F‖Fahrenheit - Manual Replace
+*C1OZ‖Kelvin`‖SI‖En‖K‖Kelvin - Manual Replace
+*C1OZ‖Rankine`‖MSI‖En‖°R¦°Ra‖Rankine - Manual Replace
+
+
+; TIME
+*C1OZ‖decisecond`‖SI‖En‖ds‖decisecond - Manual Replace
+*C1OZ‖deciseconds`‖SI‖En‖ds‖deciseconds - Manual Replace
+*C1OZ‖centisecond`‖SI‖En‖cs‖centisecond - Manual Replace
+*C1OZ‖centiseconds`‖SI‖En‖cs‖centiseconds - Manual Replace
+*C1OZ‖millisecond`‖SI‖En‖cs‖millisecond - Manual Replace
+*C1OZ‖milliseconds`‖SI‖En‖cs‖milliseconds - Manual Replace
+
+*C1OZ‖second`‖SI‖En‖s‖second - Manual Replace
+*C1OZ‖seconds`‖SI‖En‖s‖seconds - Manual Replace
+*C1OZ‖minute`‖SI‖En‖min‖minute - Manual Replace
+*C1OZ‖minutes`‖SI‖En‖min‖minutes - Manual Replace
+*C1OZ‖hour`‖MSI‖En‖h¦hr‖hour - Manual Replace
+*C1OZ‖hours`‖MSI‖En‖h¦hr‖hours - Manual Replace
+*C1OZ‖year`‖MSI‖En‖y¦yr‖year - Manual Replace
+*C1OZ‖years`‖MSI‖En‖y¦yr‖years - Manual Replace
+
+
+; TORQUE
+*C1OZ‖poundfoot`‖SI‖En‖lbf·ft‖pound foot - Manual Replace
+*C1OZ‖pound-foot`‖SI‖En‖lbf·ft‖pound-foot - Manual Replace
+*C1OZ‖poundforcefoot`‖SI‖En‖lbf·ft‖pound force foot - Manual Replace
+*C1OZ‖pound-forcefoot`‖SI‖En‖lbf·ft‖pound-force foot - Manual Replace
+
+
+; TYPOGRAPHY
+*C1OZ‖point`‖SI‖En‖pt‖point - Manual Replace
+*C1OZ‖points`‖SI‖En‖pt‖points - Manual Replace
+
+*C1OZ‖pica`‖SI‖En‖pc‖pica - Manual Replace
+*C1OZ‖picas`‖SI‖En‖pc‖picas - Manual Replace
+
+
+; VOLUME
+*C1OZ‖tablespoon`‖SI‖En‖tbsp‖tablespoon - Manual Replace
+*C1OZ‖tablespoons`‖SI‖En‖tbsp‖tablespoons - Manual Replace
+*C1OZ‖teaspoon`‖SI‖En‖tsp‖teaspoon - Manual Replace
+*C1OZ‖teaspoons`‖SI‖En‖tsp‖teaspoons - Manual Replace
+*C1OZ‖dessertspoon`‖SI‖En‖dsp‖dessert spoon - Manual Replace
+*C1OZ‖dessertspoons`‖SI‖En‖dsp‖dessert spoons - Manual Replace
+
+*C1OZ‖millilitre`‖SI‖En‖mL‖millilitre - Manual Replace
+*C1OZ‖millilitres`‖SI‖En‖mL‖millilitres - Manual Replace
+*C1OZ‖milliliter`‖SI‖En‖mL‖milliliter - Manual Replace
+*C1OZ‖milliliters`‖SI‖En‖mL‖milliliters - Manual Replace
+*C1OZ‖litre`‖SI‖En‖L‖litre - Manual Replace
+*C1OZ‖liter`‖SI‖En‖L‖liter - Manual Replace
+*C1OZ‖litres`‖SI‖En‖L‖litres - Manual Replace
+*C1OZ‖liters`‖SI‖En‖L‖liters - Manual Replace
+
+*C1OZ‖pint`‖SI‖En‖pt‖pint - Manual Replace
+*C1OZ‖pints`‖SI‖En‖pt‖pints - Manual Replace
+
+*C1OZ‖bushel`‖MSI‖En‖bu¦bsh‖bushel - Manual Replace
+*C1OZ‖bushels`‖MSI‖En‖bu¦bsh‖bushels - Manual Replace
+
+*C1OZ‖barrel`‖SI‖En‖bbl‖barrel - Manual Replace
+*C1OZ‖barrels`‖SI‖En‖bbl‖barrels - Manual Replace
+
+*C1OZ‖fluidounce`‖SI‖En‖fl oz‖fluid ounce - Manual Replace
+*C1OZ‖fluidounces`‖SI‖En‖fl oz‖fluid ounces - Manual Replace
+*C1OZ‖gallon`‖SI‖En‖gal‖gallon - Manual Replace
+*C1OZ‖gallons`‖SI‖En‖gal‖gallons - Manual Replace
+*C1OZ‖quart`‖SI‖En‖qt‖quart - Manual Replace
+*C1OZ‖quarts`‖SI‖En‖qt‖quarts - Manual Replace
+*C1OZ‖cup`‖SI‖En‖cup‖cup - Manual Replace
+*C1OZ‖cups`‖SI‖En‖cup‖cups - Manual Replace
+
+*C1OZ‖imperialgallon`‖SI‖En‖imp gal‖imperial gallon - Manual Replace
+*C1OZ‖imperialgallons`‖SI‖En‖imp gal‖imperial gallons - Manual Replace
+*C1OZ‖usgallon`‖SI‖En‖US gal‖US gallon - Manual Replace
+*C1OZ‖usgallons`‖SI‖En‖US gal‖US gallons - Manual Replace
+
+*C1OZ‖cubiccentimetre`‖MSI‖En‖cm³¦cc¦ccm‖cubic centimetre - Manual Replace
+*C1OZ‖cubiccentimeter`‖MSI‖En‖cm³¦cc¦ccm‖cubic centimeter - Manual Replace
+*C1OZ‖cubiccentimetres`‖MSI‖En‖cm³¦cc¦ccm‖cubic centimetres - Manual Replace
+*C1OZ‖cubiccentimeters`‖MSI‖En‖cm³¦cc¦ccm‖cubic centimeters - Manual Replace
+*C1OZ‖cubicmetre`‖SI‖En‖m³‖cubic metre - Manual Replace
+*C1OZ‖cubicmeter`‖SI‖En‖m³‖cubic meter - Manual Replace
+*C1OZ‖cubicmetres`‖SI‖En‖m³‖cubic metres - Manual Replace
+*C1OZ‖cubicmeters`‖SI‖En‖m³‖cubic meters - Manual Replace
+
+*C1OZ‖cubicinch`‖MSI‖En‖in³¦cu in‖cubic inch - Manual Replace
+*C1OZ‖cubicinches`‖MSI‖En‖in³¦cu in‖cubic inches - Manual Replace
+
+*C1OZ‖cubicfoot`‖MSI‖En‖ft³¦cu ft‖cubic foot - Manual Replace
+*C1OZ‖cubicfeet`‖MSI‖En‖ft³¦cu ft‖cubic feet - Manual Replace
+
+*C1OZ‖cubicyard`‖MSI‖En‖yd³¦cu yd‖cubic yard - Manual Replace
+*C1OZ‖cubicyards`‖MSI‖En‖yd³¦cu yd‖cubic yards - Manual Replace
+
+
+; WAVE NUMBER
+*C1OZ‖kayser`‖MSI‖En‖K¦Ky‖kayser - Manual Replace
+*C1OZ‖kaysers`‖MSI‖En‖K¦Ky‖kaysers - Manual Replace
+
+
+; WEIGHT AND MASS
+*C1OZ‖pound`‖SI‖En‖lb‖pound - Manual Replace
+*C1OZ‖pounds`‖SI‖En‖lb‖pounds - Manual Replace
+*C1OZ‖ounce`‖SI‖En‖oz‖ounce - Manual Replace
+*C1OZ‖ounces`‖SI‖En‖oz‖ounces - Manual Replace
+*C1OZ‖slug`‖SI‖En‖slug‖slug - Manual Replace
+*C1OZ‖slugs`‖SI‖En‖slug‖slugs - Manual Replace
+*C1OZ‖geepound`‖SI‖En‖slug‖geepound - Manual Replace
+*C1OZ‖geepounds`‖SI‖En‖slug‖geepounds - Manual Replace
+*C1OZ‖stone`‖SI‖En‖st‖stone - Manual Replace
+*C1OZ‖stones`‖SI‖En‖st‖stones - Manual Replace
+
+*C1OZ‖carat`‖MSI‖En‖c¦ct‖carat - Manual Replace
+*C1OZ‖carats`‖MSI‖En‖c¦ct‖carats - Manual Replace
+*C1OZ‖karat`‖MSI‖En‖k¦kt‖karat - Manual Replace
+*C1OZ‖karats`‖MSI‖En‖k¦kt‖karats - Manual Replace
+
+*C1OZ‖grain`‖SI‖En‖gr‖grain - Manual Replace
+*C1OZ‖grains`‖SI‖En‖gr‖grains - Manual Replace
+
+*C1OZ‖scruple`‖SI‖En‖℈‖scruple - Manual Replace
+*C1OZ‖scruples`‖SI‖En‖℈‖scruples - Manual Replace
+*C1OZ‖fluidscruple`‖SI‖En‖fl ℈‖fluid scruple - Manual Replace
+*C1OZ‖fluidscruples`‖SI‖En‖fl ℈‖fluid scruples - Manual Replace
+
+*C1OZ‖dram`‖SI‖En‖dr‖dram - Manual Replace
+*C1OZ‖drachm`‖SI‖En‖dr‖drachm - Manual Replace
+*C1OZ‖fluiddram`‖SI‖En‖fl dr‖fluid dram - Manual Replace
+*C1OZ‖fluiddrachm`‖SI‖En‖fl dr‖fluid drachm - Manual Replace
+
+*C1OZ‖minim`‖SI‖En‖min‖minim - Manual Replace
+*C1OZ‖minims`‖SI‖En‖min‖minims - Manual Replace
+
+*C1OZ‖picogram`‖SI‖En‖pg‖picogram - Manual Replace
+*C1OZ‖picogramme`‖SI‖En‖pg‖picogramme - Manual Replace
+*C1OZ‖picograms`‖SI‖En‖pg‖picograms - Manual Replace
+*C1OZ‖picogrammes`‖SI‖En‖pg‖picogrammes - Manual Replace
+*C1OZ‖nanogram`‖SI‖En‖ng‖nanogram - Manual Replace
+*C1OZ‖nanogramme`‖SI‖En‖ng‖nanogramme - Manual Replace
+*C1OZ‖nanograms`‖SI‖En‖ng‖nanograms - Manual Replace
+*C1OZ‖nanogrammes`‖SI‖En‖ng‖nanogrammes - Manual Replace
+*C1OZ‖microgram`‖SI‖En‖μg‖microgram - Manual Replace
+*C1OZ‖microgramme`‖SI‖En‖μg‖microgramme - Manual Replace
+*C1OZ‖micrograms`‖SI‖En‖μg‖micrograms - Manual Replace
+*C1OZ‖microgrammes`‖SI‖En‖μg‖microgrammes - Manual Replace
+*C1OZ‖milligram`‖SI‖En‖mg‖milligram - Manual Replace
+*C1OZ‖milligramme`‖SI‖En‖mg‖milligramme - Manual Replace
+*C1OZ‖milligrams`‖SI‖En‖mg‖milligrams - Manual Replace
+*C1OZ‖milligrammes`‖SI‖En‖mg‖milligrammes - Manual Replace
+*C1OZ‖gram`‖SI‖En‖g‖gram - Manual Replace
+*C1OZ‖grams`‖SI‖En‖g‖grams - Manual Replace
+*C1OZ‖gramme`‖SI‖En‖g‖gramme - Manual Replace
+*C1OZ‖grammes`‖SI‖En‖g‖grammes - Manual Replace
+*C1OZ‖kilogram`‖SI‖En‖kg‖kilogram - Manual Replace
+*C1OZ‖kilogramme`‖SI‖En‖kg‖kilogramme - Manual Replace
+*C1OZ‖kilograms`‖SI‖En‖kg‖kilograms - Manual Replace
+*C1OZ‖kilogrammes`‖SI‖En‖kg‖kilogrammes - Manual Replace
+
+*C1OZ‖pennyweight`‖SI‖En‖dwt‖pennyweight - Manual Replace
+*C1OZ‖pennyweights`‖SI‖En‖dwt‖pennyweights - Manual Replace
+
+*C1OZ‖troyounce`‖SI‖En‖oz t‖troy ounce - Manual Replace
+*C1OZ‖troyounces`‖SI‖En‖oz t‖troy ounces - Manual Replace
+
+*C1OZ‖troypound`‖SI‖En‖lb t‖troy pound - Manual Replace
+*C1OZ‖troypounds`‖SI‖En‖lb t‖troy pounds - Manual Replace
+
+; OTHER UNITS
+*C1OZ‖neper`‖SI‖En‖Np‖Neper - Manual Replace
+*C1OZ‖nepers`‖SI‖En‖Np‖Nepers - Manual Replace
+
+*C1OZ‖katal`‖SI‖En‖kat‖katal - Manual Replace
+*C1OZ‖katals`‖SI‖En‖kat‖katals - Manual Replace
+
+*C1OZ‖acidity`‖SI‖En‖pH‖acidity - Manual Replace
+
+*C1OZ‖dioptre`‖SI‖En‖dpt‖dioptre - Manual Replace
+*C1OZ‖diopter`‖SI‖En‖dpt‖diopter - Manual Replace
+*C1OZ‖dioptres`‖SI‖En‖dpt‖dioptres - Manual Replace
+*C1OZ‖diopters`‖SI‖En‖dpt‖diopters - Manual Replace
