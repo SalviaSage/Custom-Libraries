@@ -1,0 +1,128 @@
+﻿;; ASCII to Unicode Replacer
+
+;; Type the ASCII characters, press backtick (`).
+;; It will convert some of the characters to what they substitute from in Unicode.
+;; For example, type ->` to get →
+
+*C1OZ‖(TM)`‖SI‖En‖™‖trade mark sign - Manual Replace
+*C1OZ‖(C)`‖SI‖En‖©‖copyright sign - Manual Replace
+*C1OZ‖(R)`‖SI‖En‖®‖registered sign - Manual Replace
+
+*C1OZ‖->`‖SI‖En‖→‖rightwards arrow - Manual Replace
+*C1OZ‖<-`‖SI‖En‖←‖leftwards arrow - Manual Replace
+*C1OZ‖<->`‖SI‖En‖↔‖left right arrow - Manual Replace
+
+*C1OZ‖<3`‖SI‖En‖♡‖white heart suit - Manual Replace
+*C1OZ‖:)`‖SI‖En‖☺‖white smiling face - Manual Replace
+
+*C1OZ‖'`‖SI‖En‖′‖prime - Manual Replace
+
+*C1OZ‖...`‖SI‖En‖…‖horizontal ellipsis - Manual Replace
+*C1OZ‖||`‖SI‖En‖{U+2016}‖double vertical line - Manual Replace
+*C1OZ‖--`‖SI‖En‖{U+2014}‖em dash - Manual Replace
+
+*C1OZ‖>=`‖SI‖En‖⋝‖equal to or greater-than - Manual Replace
+*C1OZ‖=>`‖SI‖En‖⋝‖equal to or greater-than - Manual Replace
+*C1OZ‖=<`‖SI‖En‖⋜‖equal to or less-than - Manual Replace
+*C1OZ‖<=`‖SI‖En‖⋜‖equal to or less-than - Manual Replace
+
+*C1OZ‖-1`‖SI‖En‖−1‖negative one - Manual Replace
+*C1OZ‖-2`‖SI‖En‖−2‖negative two - Manual Replace
+*C1OZ‖-3`‖SI‖En‖−3‖negative three - Manual Replace
+*C1OZ‖-4`‖SI‖En‖−4‖negative four - Manual Replace
+*C1OZ‖-5`‖SI‖En‖−5‖negative five - Manual Replace
+*C1OZ‖-6`‖SI‖En‖−6‖negative six - Manual Replace
+*C1OZ‖-7`‖SI‖En‖−7‖negative seven - Manual Replace
+*C1OZ‖-8`‖SI‖En‖−8‖negative eight - Manual Replace
+*C1OZ‖-9`‖SI‖En‖−9‖negative nine - Manual Replace
+*C1OZ‖-10`‖SI‖En‖−10‖negative ten - Manual Replace
+*C1OZ‖-11`‖SI‖En‖−11‖negative eleven - Manual Replace
+*C1OZ‖-12`‖SI‖En‖−12‖negative twelve - Manual Replace
+*C1OZ‖-13`‖SI‖En‖−13‖negative thirteen - Manual Replace
+*C1OZ‖-14`‖SI‖En‖−14‖negative fourteen - Manual Replace
+*C1OZ‖-15`‖SI‖En‖−15‖negative fifteen - Manual Replace
+*C1OZ‖-16`‖SI‖En‖−16‖negative sixteen - Manual Replace
+*C1OZ‖-17`‖SI‖En‖−17‖negative seventeen - Manual Replace
+*C1OZ‖-18`‖SI‖En‖−18‖negative eighteen - Manual Replace
+*C1OZ‖-19`‖SI‖En‖−19‖negative nineteen - Manual Replace
+*C1OZ‖-20`‖SI‖En‖−20‖negative twenty - Manual Replace
+*C1OZ‖-21`‖SI‖En‖−21‖negative twenty one - Manual Replace
+*C1OZ‖-22`‖SI‖En‖−22‖negative twenty two - Manual Replace
+*C1OZ‖-23`‖SI‖En‖−23‖negative twenty three - Manual Replace
+*C1OZ‖-24`‖SI‖En‖−24‖negative twenty four - Manual Replace
+*C1OZ‖-25`‖SI‖En‖−25‖negative twenty five - Manual Replace
+*C1OZ‖-26`‖SI‖En‖−26‖negative twenty six - Manual Replace
+*C1OZ‖-27`‖SI‖En‖−27‖negative twenty seven - Manual Replace
+*C1OZ‖-28`‖SI‖En‖−28‖negative twenty eight - Manual Replace
+*C1OZ‖-29`‖SI‖En‖−29‖negative twenty nine - Manual Replace
+*C1OZ‖-30`‖SI‖En‖−30‖negative thirty - Manual Replace
+*C1OZ‖-31`‖SI‖En‖−31‖negative thirty one - Manual Replace
+*C1OZ‖-32`‖SI‖En‖−32‖negative thirty two - Manual Replace
+*C1OZ‖-33`‖SI‖En‖−33‖negative thirty three - Manual Replace
+*C1OZ‖-34`‖SI‖En‖−34‖negative thirty four - Manual Replace
+*C1OZ‖-35`‖SI‖En‖−35‖negative thirty five - Manual Replace
+*C1OZ‖-36`‖SI‖En‖−36‖negative thirty six - Manual Replace
+*C1OZ‖-37`‖SI‖En‖−37‖negative thirty seven - Manual Replace
+*C1OZ‖-38`‖SI‖En‖−38‖negative thirty eight - Manual Replace
+*C1OZ‖-39`‖SI‖En‖−39‖negative thirty nine - Manual Replace
+*C1OZ‖-40`‖SI‖En‖−40‖negative forty - Manual Replace
+*C1OZ‖-41`‖SI‖En‖−41‖negative forty one - Manual Replace
+*C1OZ‖-42`‖SI‖En‖−42‖negative forty two - Manual Replace
+*C1OZ‖-43`‖SI‖En‖−43‖negative forty three - Manual Replace
+*C1OZ‖-44`‖SI‖En‖−44‖negative forty four - Manual Replace
+*C1OZ‖-45`‖SI‖En‖−45‖negative forty five - Manual Replace
+*C1OZ‖-46`‖SI‖En‖−46‖negative forty six - Manual Replace
+*C1OZ‖-47`‖SI‖En‖−47‖negative forty seven - Manual Replace
+*C1OZ‖-48`‖SI‖En‖−48‖negative forty eight - Manual Replace
+*C1OZ‖-49`‖SI‖En‖−49‖negative forty nine - Manual Replace
+*C1OZ‖-50`‖SI‖En‖−50‖negative fifty - Manual Replace
+*C1OZ‖-51`‖SI‖En‖−51‖negative fifty one - Manual Replace
+*C1OZ‖-52`‖SI‖En‖−52‖negative fifty two - Manual Replace
+*C1OZ‖-53`‖SI‖En‖−53‖negative fifty three - Manual Replace
+*C1OZ‖-54`‖SI‖En‖−54‖negative fifty four - Manual Replace
+*C1OZ‖-55`‖SI‖En‖−55‖negative fifty five - Manual Replace
+*C1OZ‖-56`‖SI‖En‖−56‖negative fifty six - Manual Replace
+*C1OZ‖-57`‖SI‖En‖−57‖negative fifty seven - Manual Replace
+*C1OZ‖-58`‖SI‖En‖−58‖negative fifty eight - Manual Replace
+*C1OZ‖-59`‖SI‖En‖−59‖negative fifty nine - Manual Replace
+*C1OZ‖-60`‖SI‖En‖−60‖negative sixty - Manual Replace
+*C1OZ‖-61`‖SI‖En‖−61‖negative sixty one  - Manual Replace
+*C1OZ‖-62`‖SI‖En‖−62‖negative sixty two  - Manual Replace
+*C1OZ‖-63`‖SI‖En‖−63‖negative sixty three  - Manual Replace
+*C1OZ‖-64`‖SI‖En‖−64‖negative sixty four  - Manual Replace
+*C1OZ‖-65`‖SI‖En‖−65‖negative sixty five  - Manual Replace
+*C1OZ‖-66`‖SI‖En‖−66‖negative sixty six  - Manual Replace
+*C1OZ‖-67`‖SI‖En‖−67‖negative sixty seven  - Manual Replace
+*C1OZ‖-68`‖SI‖En‖−68‖negative sixty eight - Manual Replace
+*C1OZ‖-69`‖SI‖En‖−69‖negative sixty nine - Manual Replace
+*C1OZ‖-70`‖SI‖En‖−70‖negative seventy - Manual Replace
+*C1OZ‖-71`‖SI‖En‖−71‖negative seventy one - Manual Replace
+*C1OZ‖-72`‖SI‖En‖−72‖negative seventy two - Manual Replace
+*C1OZ‖-73`‖SI‖En‖−73‖negative seventy three - Manual Replace
+*C1OZ‖-74`‖SI‖En‖−74‖negative seventy four - Manual Replace
+*C1OZ‖-75`‖SI‖En‖−75‖negative seventy five - Manual Replace
+*C1OZ‖-76`‖SI‖En‖−76‖negative seventy six - Manual Replace
+*C1OZ‖-77`‖SI‖En‖−77‖negative seventy seven - Manual Replace
+*C1OZ‖-78`‖SI‖En‖−78‖negative seventy eight - Manual Replace
+*C1OZ‖-79`‖SI‖En‖−79‖negative seventy nine - Manual Replace
+*C1OZ‖-80`‖SI‖En‖−80‖negative eighty - Manual Replace
+*C1OZ‖-81`‖SI‖En‖−81‖negative eighty one - Manual Replace
+*C1OZ‖-82`‖SI‖En‖−82‖negative eighty two - Manual Replace
+*C1OZ‖-83`‖SI‖En‖−83‖negative eighty three - Manual Replace
+*C1OZ‖-84`‖SI‖En‖−84‖negative eighty four - Manual Replace
+*C1OZ‖-85`‖SI‖En‖−85‖negative eighty five - Manual Replace
+*C1OZ‖-86`‖SI‖En‖−86‖negative eighty six - Manual Replace
+*C1OZ‖-87`‖SI‖En‖−87‖negative eighty seven - Manual Replace
+*C1OZ‖-88`‖SI‖En‖−88‖negative eighty eight - Manual Replace
+*C1OZ‖-89`‖SI‖En‖−89‖negative eighty nine - Manual Replace
+*C1OZ‖-90`‖SI‖En‖−90‖negative ninety - Manual Replace
+*C1OZ‖-91`‖SI‖En‖−91‖negative ninety one - Manual Replace
+*C1OZ‖-92`‖SI‖En‖−92‖negative ninety two - Manual Replace
+*C1OZ‖-93`‖SI‖En‖−93‖negative ninety three - Manual Replace
+*C1OZ‖-94`‖SI‖En‖−94‖negative ninety four - Manual Replace
+*C1OZ‖-95`‖SI‖En‖−95‖negative ninety five - Manual Replace
+*C1OZ‖-96`‖SI‖En‖−96‖negative ninety six - Manual Replace
+*C1OZ‖-97`‖SI‖En‖−97‖negative ninety seven - Manual Replace
+*C1OZ‖-98`‖SI‖En‖−98‖negative ninety eight - Manual Replace
+*C1OZ‖-99`‖SI‖En‖−99‖negative ninety nine - Manual Replace
+*C1OZ‖-100`‖SI‖En‖−100‖negative one hundred - Manual Replace
