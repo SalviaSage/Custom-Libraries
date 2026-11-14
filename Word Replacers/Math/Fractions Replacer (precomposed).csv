@@ -1,0 +1,27 @@
+﻿;; Fractions Replacer (precomposed)
+
+;; Type fractions using the slash or the fraction slash character and press backtick (`).
+;; It will convert the numbers to a single Unicode fraction character (vulgar fractions).
+;; This is the only correct way of writing fractions in Unicode so that they look like ½ instead of 1⁄2.
+;; For example 4⅝ is the write way of writing fractions in Unicode.
+
+;; Vulgar Fractions
+*?OZ‖1/4`‖SI‖En‖{U+00BC}‖vulgar fraction one quarter - Manual Replace
+*?OZ‖1/2`‖SI‖En‖{U+00BD}‖vulgar fraction one half - Manual Replace
+*?OZ‖3/4`‖SI‖En‖{U+00BE}‖vulgar fraction three quarters - Manual Replace
+*?OZ‖1/3`‖SI‖En‖{U+2153}‖vulgar fraction one third - Manual Replace
+*?OZ‖2/3`‖SI‖En‖{U+2154}‖vulgar fraction two thirds - Manual Replace
+*?OZ‖1/5`‖SI‖En‖{U+2155}‖vulgar fraction one fifth - Manual Replace
+*?OZ‖2/5`‖SI‖En‖{U+2156}‖vulgar fraction two fifths - Manual Replace
+*?OZ‖3/5`‖SI‖En‖{U+2157}‖vulgar fraction three fifths - Manual Replace
+*?OZ‖4/5`‖SI‖En‖{U+2158}‖vulgar fraction four fifths - Manual Replace
+*?OZ‖1/6`‖SI‖En‖{U+2159}‖vulgar fraction one sixth - Manual Replace
+*?OZ‖5/6`‖SI‖En‖{U+215A}‖vulgar fraction five sixths - Manual Replace
+*?OZ‖1/8`‖SI‖En‖{U+215B}‖vulgar fraction one eighth - Manual Replace
+*?OZ‖3/8`‖SI‖En‖{U+215C}‖vulgar fraction three eighths - Manual Replace
+*?OZ‖5/8`‖SI‖En‖{U+215D}‖vulgar fraction five eighths - Manual Replace
+*?OZ‖7/8`‖SI‖En‖{U+215E}‖vulgar fraction seven eighths - Manual Replace
+*?OZ‖1/7`‖SI‖En‖{U+2150}‖vulgar fraction one seventh - Manual Replace
+*?OZ‖1/9`‖SI‖En‖{U+2151}‖vulgar fraction one ninth - Manual Replace
+*?OZ‖1/10`‖SI‖En‖{U+2152}‖vulgar fraction one tenth - Manual Replace
+*?OZ‖0/3`‖SI‖En‖{U+2189}‖vulgar fraction zero thirds - Manual Replace
