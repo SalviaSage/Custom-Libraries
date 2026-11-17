@@ -6,7 +6,7 @@ https://github.com/mslonik/Hotstrings
 
 What they do is that they are "helper" files that are supposed to be used alongside the keyboard layout programs that I make as well as independent libraries that can be used on their own.
 
-For example, if you write dollarsign`, you will get `$`.
+For example, if you write dollarsign`, you will get $.
 There are also "typer helpers" that automatically fix certain typing mistakes and other automatic corrections.
 All made possible by this computer program.
 
