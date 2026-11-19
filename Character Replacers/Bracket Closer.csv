@@ -1,0 +1,9 @@
+﻿;; Bracket Closer
+
+*?Z‖¿‖SI‖En‖{U+003F}‖spanish style question marks - Automatic Replace
+*?Z‖¡‖SI‖En‖{U+0021}‖spanish style exclamation marks - Automatic Replace
+*?Z‖⸘‖SI‖En‖{U+203D}‖spanish style interrobangs - Automatic Replace
+
+*?Z‖"‖SI‖En‖{U+0022}{Left}‖quotation marks - Automatic Replace
+
+*?Z‖(‖SI‖En‖{U+0029}{Left}‖parentheses - Automatic Replace
