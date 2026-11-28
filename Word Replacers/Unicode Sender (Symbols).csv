@@ -1,0 +1,166 @@
+﻿;; Unicode Sender (Symbols) (NEEDS IMPROVEMENT)
+;; Type the symbol you want to send in Unicode and press backtick (`), it will be sent.
+;; C1 for characters where case is not relevant. C for characters where case is relevant.
+
+;; ? definitions.
+
+;; If we type (atom`), we get (om`). How to deal with this issue;
+;; Remove the '?' syntax out for things that should not be a part of a word, such as symbols.
+;; Keep the '?' syntax for letters and diacritics.
+
+;; https://www.somacon.com/p568.php (Duplicate Line Counter)
+
+;; LIST
+;;====================
+;; ASTRONOMICAL
+;; ASTROLOGICAL
+;; RELIGIOUS & POLITICAL
+;; SYMBOLS
+
+;; OTHER SYMBOLS
+
+
+;; ASTRONOMICAL
+;;====================
+*C1OZ‖moon`‖SI‖En‖{U+263E}‖last quarter moon
+*C1OZ‖sun`‖SI‖En‖{U+263C}‖white sun with rays
+*C1OZ‖sun2`‖SI‖En‖{U+2609}‖sun
+*C1OZ‖mercury`‖SI‖En‖{U+263F}‖mercury
+*C1OZ‖venus`‖SI‖En‖{U+2640}{U+FE0E}‖female sign
+*C1OZ‖earth`‖SI‖En‖{U+2641}‖earth
+*C1OZ‖earth2`‖SI‖En‖{U+2295}‖circled plus
+*C1OZ‖mars`‖SI‖En‖{U+2642}{U+FE0E}‖male sign
+*C1OZ‖jupiter`‖SI‖En‖{U+2643}‖jupiter
+*C1OZ‖saturn`‖SI‖En‖{U+2644}‖saturn
+*C1OZ‖uranus`‖SI‖En‖{U+26E2}‖astronomical symbol for uranus
+*C1OZ‖uranus2`‖SI‖En‖{U+2645}‖uranus
+*C1OZ‖neptune`‖SI‖En‖{U+2646}‖neptune
+*C1OZ‖pluto`‖SI‖En‖{U+2647}‖pluto
+*C1OZ‖pluto2`‖SI‖En‖{U+2BD3}‖pluto form two
+
+*C1OZ‖astraea`‖SI‖En‖{U+2BD9}‖astraea
+*C1OZ‖ceres`‖SI‖En‖{U+26B3}‖ceres
+*C1OZ‖chiron`‖SI‖En‖{U+26B7}‖chiron
+*C1OZ‖eris2`‖SI‖En‖{U+2BF1}‖eris form two
+*C1OZ‖eris`‖SI‖En‖{U+2BF0}‖eris form one
+*C1OZ‖gonggong`‖SI‖En‖{U+1F77D}‖gonggong
+*C1OZ‖haumea`‖SI‖En‖{U+1F77B}‖haumea
+*C1OZ‖hygiea`‖SI‖En‖{U+2BDA}‖hygiea
+*C1OZ‖juno`‖SI‖En‖{U+26B5}‖juno
+*C1OZ‖makemake`‖SI‖En‖{U+1F77C}‖makemake
+*C1OZ‖orcus`‖SI‖En‖{U+1F77F}‖orcus
+*C1OZ‖pallas`‖SI‖En‖{U+26B4}‖pallas (https://en.wikipedia.org/wiki/2_Pallas)
+*C1OZ‖pholus`‖SI‖En‖{U+2BDB}‖pholus (https://en.wikipedia.org/wiki/5145_Pholus)
+*C1OZ‖nessus`‖SI‖En‖{U+2BDC}‖nessus (https://en.wikipedia.org/wiki/7066_Nessus)
+*C1OZ‖quaoar`‖SI‖En‖{U+1F77E}‖quaoar
+*C1OZ‖sedna`‖SI‖En‖{U+2BF2}‖sedna
+*C1OZ‖vesta`‖SI‖En‖{U+26B6}‖vesta
+
+
+;; ASTROLOGICAL
+;;====================
+*C1OZ‖aries`‖SI‖En‖{U+2648}{U+FE0E}‖aries
+*C1OZ‖taurus`‖SI‖En‖{U+2649}{U+FE0E}‖taurus
+*C1OZ‖gemini`‖SI‖En‖{U+264A}{U+FE0E}‖gemini
+*C1OZ‖cancer`‖SI‖En‖{U+264B}{U+FE0E}‖cancer
+*C1OZ‖leo`‖SI‖En‖{U+264C}{U+FE0E}‖leo
+*C1OZ‖virgo`‖SI‖En‖{U+264D}{U+FE0E}‖virgo
+*C1OZ‖libra`‖SI‖En‖{U+264E}{U+FE0E}‖libra
+*C1OZ‖scorpio`‖SI‖En‖{U+264F}{U+FE0E}‖scorpio
+*C1OZ‖scorpius`‖SI‖En‖{U+264F}{U+FE0E}‖scorpio
+*C1OZ‖sagittarius`‖SI‖En‖{U+2650}{U+FE0E}‖sagittarius
+*C1OZ‖capricorn`‖SI‖En‖{U+2651}{U+FE0E}‖capricorn
+*C1OZ‖aquarius`‖SI‖En‖{U+2652}{U+FE0E}‖aquarius
+*C1OZ‖pisces`‖SI‖En‖{U+2653}{U+FE0E}‖pisces
+
+
+;; RELIGIOUS & POLITICAL
+;;====================
+*C1OZ‖allah`‖SI‖En‖{U+FDF2}‖arabic ligature allah isolated form
+*C1OZ‖ankh`‖SI‖En‖{U+2625}‖ankh
+*C1OZ‖atheism`‖SI‖En‖{U+269B}{U+FE0E}‖atom symbol
+*C1OZ‖bahaifaith`‖SI‖En‖{U+1F7D9}‖nine pointed white star
+*C1OZ‖bahaism`‖SI‖En‖{U+1F7D9}‖nine pointed white star
+*C1OZ‖buddhism`‖SI‖En‖{U+2638}‖wheel of dharma
+*C1OZ‖celticcross`‖SI‖En‖{U+1F548}‖celtic cross
+*C1OZ‖chiro`‖SI‖En‖{U+2627}‖chi rho
+*C1OZ‖christianity`‖SI‖En‖{U+271D}‖latin cross
+*C1OZ‖communism`‖SI‖En‖{U+262D}‖hammer and sickle
+*C1OZ‖cross`‖SI‖En‖{U+271D}‖latin cross
+*C1OZ‖crossofjerusalem`‖SI‖En‖{U+2629}‖cross of jerusalem
+*C1OZ‖crossoflorraine`‖SI‖En‖{U+2628}‖cross of lorraine
+*C1OZ‖eastsyriaccross`‖SI‖En‖{U+2671}‖east syriac cross
+*C1OZ‖ekonkar`‖SI‖En‖{U+0A74}‖gurmukhi ek onkar
+*C1OZ‖ikonkar`‖SI‖En‖{U+0A74}‖gurmukhi ek onkar
+*C1OZ‖farsisymbol`‖SI‖En‖{U+262B}‖farsi symbol
+*C1OZ‖fleurdelis`‖SI‖En‖{U+269C}‖fleur-de-lis
+*C1OZ‖fleurdelys`‖SI‖En‖{U+269C}‖fleur-de-lis
+*C1OZ‖hammerandsickle`‖SI‖En‖{U+262D}‖hammer and sickle
+*C1OZ‖hinduism`‖SI‖En‖{U+0950}‖devanagari om
+*C1OZ‖islam`‖SI‖En‖{U+262A}‖star and crescent
+*C1OZ‖jainism`‖SI‖En‖{U+A8FD}‖devanagari jain om
+*C1OZ‖jallajalaluhu`‖SI‖En‖{U+FDFB}‖arabic ligature jallajalalouhou
+*C1OZ‖judaism`‖SI‖En‖{U+2721}‖star of david
+*C1OZ‖khanda`‖SI‖En‖{U+262C}‖adi shakti
+*C1OZ‖latincross`‖SI‖En‖{U+271D}‖latin cross
+*C1OZ‖mohammad`‖SI‖En‖{U+FDF4}‖arabic ligature mohammad isolated form
+*C1OZ‖muhammad`‖SI‖En‖{U+FDF4}‖arabic ligature mohammad isolated form
+*C1OZ‖om`‖SI‖En‖{U+0950}‖devanagari om
+*C1OZ‖orthodoxcross`‖SI‖En‖{U+2626}‖orthodox cross
+*C1OZ‖peace`‖SI‖En‖{U+262E}‖peace symbol
+*C1OZ‖peacebeuponhim`‖SI‖En‖{U+FDFA}‖arabic ligature sallallahou alayhe wasallam
+*C1OZ‖peacesymbol`‖SI‖En‖{U+262E}‖peace symbol
+*C1OZ‖pentagram`‖SI‖En‖{U+2721}‖pentagram
+*C1OZ‖shinto`‖SI‖En‖{U+26E9}‖shinto shrine
+*C1OZ‖sikhism`‖SI‖En‖{U+262C}‖adi shakti
+*C1OZ‖starandcrescent`‖SI‖En‖{U+262A}‖star and crescent
+*C1OZ‖starofdavid`‖SI‖En‖{U+2721}‖star of david
+*C1OZ‖svastika`‖SI‖En‖{U+5350}‖CJK unified ideograph
+*C1OZ‖swastika`‖SI‖En‖{U+5350}‖CJK unified ideograph
+*C1OZ‖taoism`‖SI‖En‖{U+262F}‖yin yang
+*C1OZ‖westsyriaccross`‖SI‖En‖{U+2670}‖west syriac cross
+*C1OZ‖wheelofdharma`‖SI‖En‖{U+2638}‖wheel of dharma
+*C1OZ‖wicca`‖SI‖En‖{U+2721}‖pentagram
+*C1OZ‖yinyang`‖SI‖En‖{U+262F}‖yin yang
+
+
+;; SYMBOLS
+;;====================
+*C1OZ‖atom`‖SI‖En‖{U+269B}{U+FE0E}‖atom symbol
+*C1OZ‖biohazard`‖SI‖En‖{U+2623}{U+FE0E}‖biohazard sign
+*C1OZ‖caduceus`‖SI‖En‖{U+2624}‖caduceus
+*C1OZ‖staffofaesculapius`‖SI‖En‖{U+2695}{U+FE0E}‖staff of aesculapius
+*C1OZ‖caution`‖SI‖En‖{U+2621}‖caution sign
+*C1OZ‖club`‖SI‖En‖{U+2667}‖white club suit
+*C1OZ‖diamond`‖SI‖En‖{U+2662}‖white diamond suit
+*C1OZ‖email`‖SI‖En‖{U+2709}‖envelope
+*C1OZ‖envelope`‖SI‖En‖{U+2709}‖envelope
+*C1OZ‖female`‖SI‖En‖{U+2640}‖female sign
+*C1OZ‖frowningface`‖SI‖En‖{U+2639}‖white frowning face
+*C1OZ‖happyface`‖SI‖En‖{U+263A}‖white smiling face
+*C1OZ‖headphones`‖SI‖En‖{U+260A}‖ascending node
+*C1OZ‖heart`‖SI‖En‖{U+2661}‖white heart suit
+*C1OZ‖mail`‖SI‖En‖{U+2709}‖envelope
+*C1OZ‖male`‖SI‖En‖{U+2642}‖male sign
+*C1OZ‖marriage`‖SI‖En‖{U+26AD}‖marriage symbol
+*C1OZ‖music`‖SI‖En‖{U+266A}‖eighth note
+*C1OZ‖radioactive`‖SI‖En‖{U+2622}‖radioactive sign
+*C1OZ‖sadface`‖SI‖En‖{U+2639}‖white frowning face
+*C1OZ‖science`‖SI‖En‖{U+269B}{U+FE0E}‖atom symbol
+*C1OZ‖shamrock`‖SI‖En‖{U+2618}{U+FE0E}‖shamrock
+*C1OZ‖smiley`‖SI‖En‖{U+263A}‖white smiling face
+*C1OZ‖spade`‖SI‖En‖{U+2664}‖white spade suit
+*C1OZ‖staffofhermes`‖SI‖En‖{U+269A}‖staff of hermes
+*C1OZ‖star`‖SI‖En‖{U+2606}‖white star
+*C1OZ‖warning`‖SI‖En‖{U+26A0}‖warning sign
+
+*C1OZ‖lebensrune`‖SI‖En‖{U+16C9}‖lifesrune
+*C1OZ‖lifesrune`‖SI‖En‖{U+16C9}‖lifesrune
+*C1OZ‖liferune`‖SI‖En‖{U+16C9}‖lifesrune
+*C1OZ‖todesrune`‖SI‖En‖{U+16E6}‖deathsrune
+*C1OZ‖deathsrune`‖SI‖En‖{U+16E6}‖deathsrune
+*C1OZ‖deathrune`‖SI‖En‖{U+16E6}‖deathsrune
+
+
+;; OTHER SYMBOLS
+;;====================
